@@ -1,0 +1,1638 @@
+{
+  "nodes": [
+    {
+      "id": "agent-native-economy",
+      "title": "Agent-Native Economy",
+      "type": "concept",
+      "status": "stub",
+      "exists": true,
+      "degree": 6
+    },
+    {
+      "id": "five-types-of-wealth",
+      "title": "五種財富（Five Types of Wealth）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 10
+    },
+    {
+      "id": "claude-code-config-primitives",
+      "title": "Claude Code 設定原語 (Config Primitives)",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 12
+    },
+    {
+      "id": "cognitive-bias",
+      "title": "認知偏誤 (Cognitive Bias)",
+      "type": "concept",
+      "status": "stub",
+      "exists": true,
+      "degree": 3
+    },
+    {
+      "id": "agentic-engineering",
+      "title": "Agentic Engineering",
+      "type": "concept",
+      "status": "stub",
+      "exists": true,
+      "degree": 20
+    },
+    {
+      "id": "karpathy-llm-wiki",
+      "title": "Karpathy LLM Wiki 方法論",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 10
+    },
+    {
+      "id": "jevons-paradox",
+      "title": "傑文斯悖論（Jevons Paradox）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 8
+    },
+    {
+      "id": "credit-as-future-resource",
+      "title": "信用即動員未來資源的能力",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 8
+    },
+    {
+      "id": "context-window-management",
+      "title": "上下文視窗管理 (Context Window Management)",
+      "type": "concept",
+      "status": "stub",
+      "exists": true,
+      "degree": 11
+    },
+    {
+      "id": "deterministic-vs-foundation-model",
+      "title": "確定性演算法 vs. 基礎模型泛化推理",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 9
+    },
+    {
+      "id": "leadership-wishing-others-success",
+      "title": "領導者價值觀：希望他人成功",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 7
+    },
+    {
+      "id": "software-1-2-3",
+      "title": "Software 1.0 / 2.0 / 3.0",
+      "type": "concept",
+      "status": "stub",
+      "exists": true,
+      "degree": 6
+    },
+    {
+      "id": "executive-burnout",
+      "title": "高階經理人倦勤（Executive Career Burnout）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 6
+    },
+    {
+      "id": "train-vs-ocean-american-dream",
+      "title": "火車 vs 海洋：當代美國夢",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 8
+    },
+    {
+      "id": "tree-sitter-llm-hybrid-analysis",
+      "title": "Tree-sitter + LLM 混合分析",
+      "type": "concept",
+      "status": "stub",
+      "exists": true,
+      "degree": 4
+    },
+    {
+      "id": "harness-five-subsystems",
+      "title": "Harness 五子系統模型",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 8
+    },
+    {
+      "id": "context-degradation",
+      "title": "Context Degradation（脈絡退化）",
+      "type": "concept",
+      "status": "stub",
+      "exists": true,
+      "degree": 7
+    },
+    {
+      "id": "retrieval-plus-orchestration",
+      "title": "Retrieval-plus-Orchestration",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 11
+    },
+    {
+      "id": "second-opinion-cheatsheet",
+      "title": "第二意見速查卡 (Second Opinion Cheat Sheet)",
+      "type": "concept",
+      "status": "stable",
+      "exists": true,
+      "degree": 5
+    },
+    {
+      "id": "task-vs-job",
+      "title": "任務 vs 工作（Task vs Job）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 15
+    },
+    {
+      "id": "llm-jaggedness",
+      "title": "LLM Jaggedness（鋸齒狀能力）",
+      "type": "concept",
+      "status": "stub",
+      "exists": true,
+      "degree": 7
+    },
+    {
+      "id": "agent-memory",
+      "title": "Agent Memory（代理記憶）",
+      "type": "concept",
+      "status": "stub",
+      "exists": true,
+      "degree": 14
+    },
+    {
+      "id": "context-engineering",
+      "title": "Context Engineering",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 10
+    },
+    {
+      "id": "agent-harness",
+      "title": "Agent Harness",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 18
+    },
+    {
+      "id": "affaan-m",
+      "title": "Affaan Mustafa",
+      "type": "entity",
+      "status": "stub",
+      "exists": true,
+      "degree": 4
+    },
+    {
+      "id": "adam-rodman",
+      "title": "Adam Rodman",
+      "type": "entity",
+      "status": "stub",
+      "exists": true,
+      "degree": 4
+    },
+    {
+      "id": "anthropic",
+      "title": "Anthropic",
+      "type": "entity",
+      "status": "stub",
+      "exists": true,
+      "degree": 5
+    },
+    {
+      "id": "claude-code",
+      "title": "Claude Code",
+      "type": "entity",
+      "status": "stub",
+      "exists": true,
+      "degree": 14
+    },
+    {
+      "id": "wang-poda",
+      "title": "王伯達 (Po Wang)",
+      "type": "entity",
+      "status": "stub",
+      "exists": true,
+      "degree": 4
+    },
+    {
+      "id": "evolvemem",
+      "title": "EvolveMem",
+      "type": "entity",
+      "status": "draft",
+      "exists": true,
+      "degree": 7
+    },
+    {
+      "id": "harvard-llm-clinical-reasoning-study",
+      "title": "哈佛 LLM 臨床推理研究 (Science, 2026)",
+      "type": "entity",
+      "status": "stub",
+      "exists": true,
+      "degree": 4
+    },
+    {
+      "id": "learn-harness-engineering",
+      "title": "Learn Harness Engineering（課程）",
+      "type": "entity",
+      "status": "draft",
+      "exists": true,
+      "degree": 8
+    },
+    {
+      "id": "jack-c-sung",
+      "title": "Jack C. Sung",
+      "type": "entity",
+      "status": "stub",
+      "exists": true,
+      "degree": 3
+    },
+    {
+      "id": "atomic-habits",
+      "title": "原子習慣（Atomic Habits）",
+      "type": "entity",
+      "status": "stub",
+      "exists": true,
+      "degree": 3
+    },
+    {
+      "id": "nathan-chiu",
+      "title": "Nathan Chiu",
+      "type": "entity",
+      "status": "stub",
+      "exists": true,
+      "degree": 3
+    },
+    {
+      "id": "jensen-huang",
+      "title": "黃仁勳 (Jensen Huang)",
+      "type": "entity",
+      "status": "stub",
+      "exists": true,
+      "degree": 4
+    },
+    {
+      "id": "boris-cherny",
+      "title": "Boris Cherny",
+      "type": "entity",
+      "status": "stub",
+      "exists": true,
+      "degree": 4
+    },
+    {
+      "id": "sahil-bloom",
+      "title": "Sahil Bloom",
+      "type": "entity",
+      "status": "stub",
+      "exists": true,
+      "degree": 4
+    },
+    {
+      "id": "muratcan-koylan",
+      "title": "Muratcan Koylan",
+      "type": "entity",
+      "status": "stub",
+      "exists": true,
+      "degree": 3
+    },
+    {
+      "id": "agent-skills-for-context-engineering",
+      "title": "Agent Skills for Context Engineering",
+      "type": "entity",
+      "status": "draft",
+      "exists": true,
+      "degree": 13
+    },
+    {
+      "id": "timesfm",
+      "title": "TimesFM",
+      "type": "entity",
+      "status": "stub",
+      "exists": true,
+      "degree": 3
+    },
+    {
+      "id": "is-grep-all-you-need",
+      "title": "\"Is Grep All You Need?（PwC, 2026）\"",
+      "type": "entity",
+      "status": "draft",
+      "exists": true,
+      "degree": 10
+    },
+    {
+      "id": "benedict-evans",
+      "title": "Benedict Evans",
+      "type": "entity",
+      "status": "stub",
+      "exists": true,
+      "degree": 4
+    },
+    {
+      "id": "everything-claude-code",
+      "title": "Everything Claude Code (ECC)",
+      "type": "entity",
+      "status": "draft",
+      "exists": true,
+      "degree": 10
+    },
+    {
+      "id": "wisely-chen",
+      "title": "Wisely Chen",
+      "type": "entity",
+      "status": "stub",
+      "exists": true,
+      "degree": 3
+    },
+    {
+      "id": "understand-anything",
+      "title": "Understand Anything",
+      "type": "entity",
+      "status": "draft",
+      "exists": true,
+      "degree": 8
+    },
+    {
+      "id": "vincent-cw-yu",
+      "title": "Vincent Cheng-Wen Yu",
+      "type": "entity",
+      "status": "stub",
+      "exists": true,
+      "degree": 3
+    },
+    {
+      "id": "lum1104",
+      "title": "Lum1104",
+      "type": "entity",
+      "status": "stub",
+      "exists": true,
+      "degree": 2
+    },
+    {
+      "id": "code-as-agent-harness",
+      "title": "Code as Agent Harness (survey)",
+      "type": "entity",
+      "status": "draft",
+      "exists": true,
+      "degree": 14
+    },
+    {
+      "id": "gemma-4",
+      "title": "Gemma 4",
+      "type": "entity",
+      "status": "draft",
+      "exists": true,
+      "degree": 6
+    },
+    {
+      "id": "andrej-karpathy",
+      "title": "Andrej Karpathy",
+      "type": "entity",
+      "status": "stub",
+      "exists": true,
+      "degree": 6
+    },
+    {
+      "id": "harness-engineering",
+      "title": "Harness Engineering（主題綜合）",
+      "type": "topic",
+      "status": "draft",
+      "exists": true,
+      "degree": 20
+    },
+    {
+      "id": "career-wealth-and-motivation",
+      "title": "AI 時代的職涯、財富與動力（主題綜合）",
+      "type": "topic",
+      "status": "draft",
+      "exists": true,
+      "degree": 19
+    },
+    {
+      "id": "ai-agent-saas-disruption",
+      "title": "AI Agent 對 SaaS 護城河的衝擊",
+      "type": "topic",
+      "status": "draft",
+      "exists": true,
+      "degree": 13
+    },
+    {
+      "id": "ai-second-opinion",
+      "title": "AI 作為決策「第二意見」",
+      "type": "topic",
+      "status": "draft",
+      "exists": true,
+      "degree": 6
+    },
+    {
+      "id": "cs-education-ai-agents",
+      "title": "AI Agent 時代的資工教育",
+      "type": "topic",
+      "status": "draft",
+      "exists": true,
+      "degree": 7
+    },
+    {
+      "id": "source:karpathy-sequoia-ascent-2026",
+      "title": "karpathy-sequoia-ascent-2026",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 8
+    },
+    {
+      "id": "source:wang-poda-five-types-wealth",
+      "title": "wang-poda-five-types-wealth",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 3
+    },
+    {
+      "id": "source:everything-claude-code-readme",
+      "title": "everything-claude-code-readme",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 4
+    },
+    {
+      "id": "source:ai-second-opinion-prompt",
+      "title": "ai-second-opinion-prompt",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 5
+    },
+    {
+      "id": "source:nathan-chiu-cs-education-ai",
+      "title": "nathan-chiu-cs-education-ai",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 3
+    },
+    {
+      "id": "source:understand-anything-readme",
+      "title": "understand-anything-readme",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 4
+    },
+    {
+      "id": "source:jevons-coding-task-vs-job",
+      "title": "jevons-coding-task-vs-job",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 3
+    },
+    {
+      "id": "source:vincent-yu-credit-future-resources",
+      "title": "vincent-yu-credit-future-resources",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 2
+    },
+    {
+      "id": "source:aiase-deterministic-vs-foundation-model",
+      "title": "aiase-deterministic-vs-foundation-model",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 2
+    },
+    {
+      "id": "source:ktchuang-genai-course-reflection",
+      "title": "ktchuang-genai-course-reflection",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 9
+    },
+    {
+      "id": "source:jensen-huang-leadership-summit",
+      "title": "jensen-huang-leadership-summit",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 2
+    },
+    {
+      "id": "source:executive-career-burnout",
+      "title": "executive-career-burnout",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 2
+    },
+    {
+      "id": "source:jack-sung-american-dream",
+      "title": "jack-sung-american-dream",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 2
+    },
+    {
+      "id": "source:learn-harness-engineering",
+      "title": "learn-harness-engineering",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 2
+    },
+    {
+      "id": "source:agent-skills-for-context-engineering",
+      "title": "agent-skills-for-context-engineering",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 4
+    },
+    {
+      "id": "source:wiselychen-is-grep-all-you-need",
+      "title": "wiselychen-is-grep-all-you-need",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 3
+    },
+    {
+      "id": "source:evolvemem",
+      "title": "evolvemem",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 2
+    },
+    {
+      "id": "source:code-as-agent-harness",
+      "title": "code-as-agent-harness",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 3
+    },
+    {
+      "id": "source:boris-cherny-ai-agent-saas",
+      "title": "boris-cherny-ai-agent-saas",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 4
+    },
+    {
+      "id": "source:rar-gemma-4",
+      "title": "rar-gemma-4",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 1
+    }
+  ],
+  "edges": [
+    {
+      "from": "agent-native-economy",
+      "to": "andrej-karpathy"
+    },
+    {
+      "from": "agent-native-economy",
+      "to": "software-1-2-3"
+    },
+    {
+      "from": "agent-native-economy",
+      "to": "agentic-engineering"
+    },
+    {
+      "from": "agent-native-economy",
+      "to": "karpathy-llm-wiki"
+    },
+    {
+      "from": "agent-native-economy",
+      "to": "understand-anything"
+    },
+    {
+      "from": "agent-native-economy",
+      "to": "source:karpathy-sequoia-ascent-2026"
+    },
+    {
+      "from": "five-types-of-wealth",
+      "to": "sahil-bloom"
+    },
+    {
+      "from": "five-types-of-wealth",
+      "to": "wang-poda"
+    },
+    {
+      "from": "five-types-of-wealth",
+      "to": "source:wang-poda-five-types-wealth"
+    },
+    {
+      "from": "five-types-of-wealth",
+      "to": "credit-as-future-resource"
+    },
+    {
+      "from": "five-types-of-wealth",
+      "to": "train-vs-ocean-american-dream"
+    },
+    {
+      "from": "five-types-of-wealth",
+      "to": "task-vs-job"
+    },
+    {
+      "from": "five-types-of-wealth",
+      "to": "jevons-paradox"
+    },
+    {
+      "from": "five-types-of-wealth",
+      "to": "career-wealth-and-motivation"
+    },
+    {
+      "from": "five-types-of-wealth",
+      "to": "executive-burnout"
+    },
+    {
+      "from": "claude-code-config-primitives",
+      "to": "claude-code"
+    },
+    {
+      "from": "claude-code-config-primitives",
+      "to": "everything-claude-code"
+    },
+    {
+      "from": "claude-code-config-primitives",
+      "to": "context-window-management"
+    },
+    {
+      "from": "claude-code-config-primitives",
+      "to": "agentic-engineering"
+    },
+    {
+      "from": "claude-code-config-primitives",
+      "to": "agent-harness"
+    },
+    {
+      "from": "claude-code-config-primitives",
+      "to": "harness-five-subsystems"
+    },
+    {
+      "from": "claude-code-config-primitives",
+      "to": "source:everything-claude-code-readme"
+    },
+    {
+      "from": "cognitive-bias",
+      "to": "ai-second-opinion"
+    },
+    {
+      "from": "cognitive-bias",
+      "to": "source:ai-second-opinion-prompt"
+    },
+    {
+      "from": "agentic-engineering",
+      "to": "claude-code"
+    },
+    {
+      "from": "agentic-engineering",
+      "to": "ai-agent-saas-disruption"
+    },
+    {
+      "from": "agentic-engineering",
+      "to": "nathan-chiu"
+    },
+    {
+      "from": "agentic-engineering",
+      "to": "cs-education-ai-agents"
+    },
+    {
+      "from": "agentic-engineering",
+      "to": "andrej-karpathy"
+    },
+    {
+      "from": "agentic-engineering",
+      "to": "source:karpathy-sequoia-ascent-2026"
+    },
+    {
+      "from": "agentic-engineering",
+      "to": "agent-harness"
+    },
+    {
+      "from": "agentic-engineering",
+      "to": "task-vs-job"
+    },
+    {
+      "from": "agentic-engineering",
+      "to": "jevons-paradox"
+    },
+    {
+      "from": "agentic-engineering",
+      "to": "source:nathan-chiu-cs-education-ai"
+    },
+    {
+      "from": "karpathy-llm-wiki",
+      "to": "andrej-karpathy"
+    },
+    {
+      "from": "karpathy-llm-wiki",
+      "to": "source:karpathy-sequoia-ascent-2026"
+    },
+    {
+      "from": "karpathy-llm-wiki",
+      "to": "understand-anything"
+    },
+    {
+      "from": "karpathy-llm-wiki",
+      "to": "agent-skills-for-context-engineering"
+    },
+    {
+      "from": "karpathy-llm-wiki",
+      "to": "context-engineering"
+    },
+    {
+      "from": "karpathy-llm-wiki",
+      "to": "tree-sitter-llm-hybrid-analysis"
+    },
+    {
+      "from": "karpathy-llm-wiki",
+      "to": "source:understand-anything-readme"
+    },
+    {
+      "from": "jevons-paradox",
+      "to": "benedict-evans"
+    },
+    {
+      "from": "jevons-paradox",
+      "to": "source:jevons-coding-task-vs-job"
+    },
+    {
+      "from": "jevons-paradox",
+      "to": "task-vs-job"
+    },
+    {
+      "from": "jevons-paradox",
+      "to": "ai-agent-saas-disruption"
+    },
+    {
+      "from": "jevons-paradox",
+      "to": "source:karpathy-sequoia-ascent-2026"
+    },
+    {
+      "from": "credit-as-future-resource",
+      "to": "vincent-cw-yu"
+    },
+    {
+      "from": "credit-as-future-resource",
+      "to": "source:vincent-yu-credit-future-resources"
+    },
+    {
+      "from": "credit-as-future-resource",
+      "to": "llm-jaggedness"
+    },
+    {
+      "from": "credit-as-future-resource",
+      "to": "deterministic-vs-foundation-model"
+    },
+    {
+      "from": "credit-as-future-resource",
+      "to": "career-wealth-and-motivation"
+    },
+    {
+      "from": "credit-as-future-resource",
+      "to": "train-vs-ocean-american-dream"
+    },
+    {
+      "from": "context-window-management",
+      "to": "claude-code"
+    },
+    {
+      "from": "context-window-management",
+      "to": "everything-claude-code"
+    },
+    {
+      "from": "context-window-management",
+      "to": "context-engineering"
+    },
+    {
+      "from": "context-window-management",
+      "to": "context-degradation"
+    },
+    {
+      "from": "context-window-management",
+      "to": "source:everything-claude-code-readme"
+    },
+    {
+      "from": "deterministic-vs-foundation-model",
+      "to": "source:aiase-deterministic-vs-foundation-model"
+    },
+    {
+      "from": "deterministic-vs-foundation-model",
+      "to": "timesfm"
+    },
+    {
+      "from": "deterministic-vs-foundation-model",
+      "to": "source:ktchuang-genai-course-reflection"
+    },
+    {
+      "from": "deterministic-vs-foundation-model",
+      "to": "software-1-2-3"
+    },
+    {
+      "from": "deterministic-vs-foundation-model",
+      "to": "claude-code"
+    },
+    {
+      "from": "deterministic-vs-foundation-model",
+      "to": "agentic-engineering"
+    },
+    {
+      "from": "deterministic-vs-foundation-model",
+      "to": "llm-jaggedness"
+    },
+    {
+      "from": "deterministic-vs-foundation-model",
+      "to": "gemma-4"
+    },
+    {
+      "from": "leadership-wishing-others-success",
+      "to": "jensen-huang"
+    },
+    {
+      "from": "leadership-wishing-others-success",
+      "to": "source:jensen-huang-leadership-summit"
+    },
+    {
+      "from": "leadership-wishing-others-success",
+      "to": "executive-burnout"
+    },
+    {
+      "from": "leadership-wishing-others-success",
+      "to": "five-types-of-wealth"
+    },
+    {
+      "from": "leadership-wishing-others-success",
+      "to": "ai-agent-saas-disruption"
+    },
+    {
+      "from": "leadership-wishing-others-success",
+      "to": "task-vs-job"
+    },
+    {
+      "from": "leadership-wishing-others-success",
+      "to": "career-wealth-and-motivation"
+    },
+    {
+      "from": "software-1-2-3",
+      "to": "andrej-karpathy"
+    },
+    {
+      "from": "software-1-2-3",
+      "to": "source:karpathy-sequoia-ascent-2026"
+    },
+    {
+      "from": "software-1-2-3",
+      "to": "source:ktchuang-genai-course-reflection"
+    },
+    {
+      "from": "software-1-2-3",
+      "to": "agentic-engineering"
+    },
+    {
+      "from": "executive-burnout",
+      "to": "source:executive-career-burnout"
+    },
+    {
+      "from": "executive-burnout",
+      "to": "task-vs-job"
+    },
+    {
+      "from": "executive-burnout",
+      "to": "atomic-habits"
+    },
+    {
+      "from": "executive-burnout",
+      "to": "career-wealth-and-motivation"
+    },
+    {
+      "from": "train-vs-ocean-american-dream",
+      "to": "jack-c-sung"
+    },
+    {
+      "from": "train-vs-ocean-american-dream",
+      "to": "source:jack-sung-american-dream"
+    },
+    {
+      "from": "train-vs-ocean-american-dream",
+      "to": "ai-agent-saas-disruption"
+    },
+    {
+      "from": "train-vs-ocean-american-dream",
+      "to": "agentic-engineering"
+    },
+    {
+      "from": "train-vs-ocean-american-dream",
+      "to": "task-vs-job"
+    },
+    {
+      "from": "tree-sitter-llm-hybrid-analysis",
+      "to": "understand-anything"
+    },
+    {
+      "from": "tree-sitter-llm-hybrid-analysis",
+      "to": "ai-second-opinion"
+    },
+    {
+      "from": "tree-sitter-llm-hybrid-analysis",
+      "to": "source:understand-anything-readme"
+    },
+    {
+      "from": "harness-five-subsystems",
+      "to": "learn-harness-engineering"
+    },
+    {
+      "from": "harness-five-subsystems",
+      "to": "agent-harness"
+    },
+    {
+      "from": "harness-five-subsystems",
+      "to": "code-as-agent-harness"
+    },
+    {
+      "from": "harness-five-subsystems",
+      "to": "agent-memory"
+    },
+    {
+      "from": "harness-five-subsystems",
+      "to": "harness-engineering"
+    },
+    {
+      "from": "harness-five-subsystems",
+      "to": "source:learn-harness-engineering"
+    },
+    {
+      "from": "context-degradation",
+      "to": "context-engineering"
+    },
+    {
+      "from": "context-degradation",
+      "to": "agent-skills-for-context-engineering"
+    },
+    {
+      "from": "context-degradation",
+      "to": "retrieval-plus-orchestration"
+    },
+    {
+      "from": "context-degradation",
+      "to": "agent-memory"
+    },
+    {
+      "from": "context-degradation",
+      "to": "source:agent-skills-for-context-engineering"
+    },
+    {
+      "from": "retrieval-plus-orchestration",
+      "to": "is-grep-all-you-need"
+    },
+    {
+      "from": "retrieval-plus-orchestration",
+      "to": "code-as-agent-harness"
+    },
+    {
+      "from": "retrieval-plus-orchestration",
+      "to": "harness-five-subsystems"
+    },
+    {
+      "from": "retrieval-plus-orchestration",
+      "to": "context-window-management"
+    },
+    {
+      "from": "retrieval-plus-orchestration",
+      "to": "agent-memory"
+    },
+    {
+      "from": "retrieval-plus-orchestration",
+      "to": "harness-engineering"
+    },
+    {
+      "from": "retrieval-plus-orchestration",
+      "to": "agent-harness"
+    },
+    {
+      "from": "retrieval-plus-orchestration",
+      "to": "source:wiselychen-is-grep-all-you-need"
+    },
+    {
+      "from": "second-opinion-cheatsheet",
+      "to": "ai-second-opinion"
+    },
+    {
+      "from": "second-opinion-cheatsheet",
+      "to": "harvard-llm-clinical-reasoning-study"
+    },
+    {
+      "from": "second-opinion-cheatsheet",
+      "to": "cognitive-bias"
+    },
+    {
+      "from": "second-opinion-cheatsheet",
+      "to": "adam-rodman"
+    },
+    {
+      "from": "second-opinion-cheatsheet",
+      "to": "source:ai-second-opinion-prompt"
+    },
+    {
+      "from": "task-vs-job",
+      "to": "benedict-evans"
+    },
+    {
+      "from": "task-vs-job",
+      "to": "source:jevons-coding-task-vs-job"
+    },
+    {
+      "from": "task-vs-job",
+      "to": "cs-education-ai-agents"
+    },
+    {
+      "from": "task-vs-job",
+      "to": "source:ktchuang-genai-course-reflection"
+    },
+    {
+      "from": "task-vs-job",
+      "to": "ai-agent-saas-disruption"
+    },
+    {
+      "from": "task-vs-job",
+      "to": "credit-as-future-resource"
+    },
+    {
+      "from": "task-vs-job",
+      "to": "llm-jaggedness"
+    },
+    {
+      "from": "task-vs-job",
+      "to": "agent-harness"
+    },
+    {
+      "from": "task-vs-job",
+      "to": "career-wealth-and-motivation"
+    },
+    {
+      "from": "llm-jaggedness",
+      "to": "andrej-karpathy"
+    },
+    {
+      "from": "llm-jaggedness",
+      "to": "source:ktchuang-genai-course-reflection"
+    },
+    {
+      "from": "llm-jaggedness",
+      "to": "agent-harness"
+    },
+    {
+      "from": "llm-jaggedness",
+      "to": "source:karpathy-sequoia-ascent-2026"
+    },
+    {
+      "from": "agent-memory",
+      "to": "code-as-agent-harness"
+    },
+    {
+      "from": "agent-memory",
+      "to": "evolvemem"
+    },
+    {
+      "from": "agent-memory",
+      "to": "everything-claude-code"
+    },
+    {
+      "from": "agent-memory",
+      "to": "context-window-management"
+    },
+    {
+      "from": "agent-memory",
+      "to": "is-grep-all-you-need"
+    },
+    {
+      "from": "agent-memory",
+      "to": "agent-harness"
+    },
+    {
+      "from": "agent-memory",
+      "to": "agent-skills-for-context-engineering"
+    },
+    {
+      "from": "agent-memory",
+      "to": "context-engineering"
+    },
+    {
+      "from": "agent-memory",
+      "to": "source:evolvemem"
+    },
+    {
+      "from": "agent-memory",
+      "to": "source:code-as-agent-harness"
+    },
+    {
+      "from": "context-engineering",
+      "to": "agent-skills-for-context-engineering"
+    },
+    {
+      "from": "context-engineering",
+      "to": "agent-harness"
+    },
+    {
+      "from": "context-engineering",
+      "to": "harness-engineering"
+    },
+    {
+      "from": "context-engineering",
+      "to": "retrieval-plus-orchestration"
+    },
+    {
+      "from": "context-engineering",
+      "to": "source:agent-skills-for-context-engineering"
+    },
+    {
+      "from": "agent-harness",
+      "to": "code-as-agent-harness"
+    },
+    {
+      "from": "agent-harness",
+      "to": "source:ktchuang-genai-course-reflection"
+    },
+    {
+      "from": "agent-harness",
+      "to": "learn-harness-engineering"
+    },
+    {
+      "from": "agent-harness",
+      "to": "harness-engineering"
+    },
+    {
+      "from": "agent-harness",
+      "to": "context-window-management"
+    },
+    {
+      "from": "agent-harness",
+      "to": "evolvemem"
+    },
+    {
+      "from": "agent-harness",
+      "to": "source:code-as-agent-harness"
+    },
+    {
+      "from": "affaan-m",
+      "to": "everything-claude-code"
+    },
+    {
+      "from": "affaan-m",
+      "to": "claude-code"
+    },
+    {
+      "from": "affaan-m",
+      "to": "anthropic"
+    },
+    {
+      "from": "affaan-m",
+      "to": "source:everything-claude-code-readme"
+    },
+    {
+      "from": "adam-rodman",
+      "to": "harvard-llm-clinical-reasoning-study"
+    },
+    {
+      "from": "adam-rodman",
+      "to": "ai-second-opinion"
+    },
+    {
+      "from": "adam-rodman",
+      "to": "source:ai-second-opinion-prompt"
+    },
+    {
+      "from": "anthropic",
+      "to": "claude-code"
+    },
+    {
+      "from": "anthropic",
+      "to": "boris-cherny"
+    },
+    {
+      "from": "anthropic",
+      "to": "ai-agent-saas-disruption"
+    },
+    {
+      "from": "anthropic",
+      "to": "source:boris-cherny-ai-agent-saas"
+    },
+    {
+      "from": "claude-code",
+      "to": "boris-cherny"
+    },
+    {
+      "from": "claude-code",
+      "to": "ai-agent-saas-disruption"
+    },
+    {
+      "from": "claude-code",
+      "to": "cs-education-ai-agents"
+    },
+    {
+      "from": "claude-code",
+      "to": "everything-claude-code"
+    },
+    {
+      "from": "claude-code",
+      "to": "understand-anything"
+    },
+    {
+      "from": "claude-code",
+      "to": "source:boris-cherny-ai-agent-saas"
+    },
+    {
+      "from": "wang-poda",
+      "to": "sahil-bloom"
+    },
+    {
+      "from": "wang-poda",
+      "to": "source:wang-poda-five-types-wealth"
+    },
+    {
+      "from": "evolvemem",
+      "to": "code-as-agent-harness"
+    },
+    {
+      "from": "evolvemem",
+      "to": "source:ktchuang-genai-course-reflection"
+    },
+    {
+      "from": "evolvemem",
+      "to": "harness-engineering"
+    },
+    {
+      "from": "evolvemem",
+      "to": "source:evolvemem"
+    },
+    {
+      "from": "harvard-llm-clinical-reasoning-study",
+      "to": "ai-second-opinion"
+    },
+    {
+      "from": "harvard-llm-clinical-reasoning-study",
+      "to": "source:ai-second-opinion-prompt"
+    },
+    {
+      "from": "learn-harness-engineering",
+      "to": "code-as-agent-harness"
+    },
+    {
+      "from": "learn-harness-engineering",
+      "to": "claude-code-config-primitives"
+    },
+    {
+      "from": "learn-harness-engineering",
+      "to": "karpathy-llm-wiki"
+    },
+    {
+      "from": "learn-harness-engineering",
+      "to": "harness-engineering"
+    },
+    {
+      "from": "learn-harness-engineering",
+      "to": "source:learn-harness-engineering"
+    },
+    {
+      "from": "jack-c-sung",
+      "to": "source:jack-sung-american-dream"
+    },
+    {
+      "from": "atomic-habits",
+      "to": "source:executive-career-burnout"
+    },
+    {
+      "from": "nathan-chiu",
+      "to": "cs-education-ai-agents"
+    },
+    {
+      "from": "nathan-chiu",
+      "to": "source:nathan-chiu-cs-education-ai"
+    },
+    {
+      "from": "jensen-huang",
+      "to": "source:jensen-huang-leadership-summit"
+    },
+    {
+      "from": "jensen-huang",
+      "to": "ai-agent-saas-disruption"
+    },
+    {
+      "from": "boris-cherny",
+      "to": "ai-agent-saas-disruption"
+    },
+    {
+      "from": "boris-cherny",
+      "to": "source:boris-cherny-ai-agent-saas"
+    },
+    {
+      "from": "sahil-bloom",
+      "to": "source:wang-poda-five-types-wealth"
+    },
+    {
+      "from": "muratcan-koylan",
+      "to": "agent-skills-for-context-engineering"
+    },
+    {
+      "from": "muratcan-koylan",
+      "to": "context-engineering"
+    },
+    {
+      "from": "muratcan-koylan",
+      "to": "source:agent-skills-for-context-engineering"
+    },
+    {
+      "from": "agent-skills-for-context-engineering",
+      "to": "agent-harness"
+    },
+    {
+      "from": "agent-skills-for-context-engineering",
+      "to": "claude-code-config-primitives"
+    },
+    {
+      "from": "agent-skills-for-context-engineering",
+      "to": "everything-claude-code"
+    },
+    {
+      "from": "agent-skills-for-context-engineering",
+      "to": "learn-harness-engineering"
+    },
+    {
+      "from": "agent-skills-for-context-engineering",
+      "to": "harness-engineering"
+    },
+    {
+      "from": "agent-skills-for-context-engineering",
+      "to": "code-as-agent-harness"
+    },
+    {
+      "from": "agent-skills-for-context-engineering",
+      "to": "source:agent-skills-for-context-engineering"
+    },
+    {
+      "from": "timesfm",
+      "to": "gemma-4"
+    },
+    {
+      "from": "timesfm",
+      "to": "source:aiase-deterministic-vs-foundation-model"
+    },
+    {
+      "from": "is-grep-all-you-need",
+      "to": "claude-code"
+    },
+    {
+      "from": "is-grep-all-you-need",
+      "to": "wisely-chen"
+    },
+    {
+      "from": "is-grep-all-you-need",
+      "to": "source:wiselychen-is-grep-all-you-need"
+    },
+    {
+      "from": "is-grep-all-you-need",
+      "to": "code-as-agent-harness"
+    },
+    {
+      "from": "is-grep-all-you-need",
+      "to": "evolvemem"
+    },
+    {
+      "from": "is-grep-all-you-need",
+      "to": "context-window-management"
+    },
+    {
+      "from": "is-grep-all-you-need",
+      "to": "agent-harness"
+    },
+    {
+      "from": "benedict-evans",
+      "to": "source:jevons-coding-task-vs-job"
+    },
+    {
+      "from": "everything-claude-code",
+      "to": "agentic-engineering"
+    },
+    {
+      "from": "everything-claude-code",
+      "to": "understand-anything"
+    },
+    {
+      "from": "everything-claude-code",
+      "to": "source:everything-claude-code-readme"
+    },
+    {
+      "from": "wisely-chen",
+      "to": "retrieval-plus-orchestration"
+    },
+    {
+      "from": "wisely-chen",
+      "to": "source:wiselychen-is-grep-all-you-need"
+    },
+    {
+      "from": "understand-anything",
+      "to": "lum1104"
+    },
+    {
+      "from": "understand-anything",
+      "to": "claude-code-config-primitives"
+    },
+    {
+      "from": "understand-anything",
+      "to": "source:understand-anything-readme"
+    },
+    {
+      "from": "vincent-cw-yu",
+      "to": "source:vincent-yu-credit-future-resources"
+    },
+    {
+      "from": "lum1104",
+      "to": "source:understand-anything-readme"
+    },
+    {
+      "from": "code-as-agent-harness",
+      "to": "source:ktchuang-genai-course-reflection"
+    },
+    {
+      "from": "code-as-agent-harness",
+      "to": "agentic-engineering"
+    },
+    {
+      "from": "code-as-agent-harness",
+      "to": "claude-code"
+    },
+    {
+      "from": "code-as-agent-harness",
+      "to": "claude-code-config-primitives"
+    },
+    {
+      "from": "code-as-agent-harness",
+      "to": "harness-engineering"
+    },
+    {
+      "from": "code-as-agent-harness",
+      "to": "source:code-as-agent-harness"
+    },
+    {
+      "from": "gemma-4",
+      "to": "agentic-engineering"
+    },
+    {
+      "from": "gemma-4",
+      "to": "agent-harness"
+    },
+    {
+      "from": "gemma-4",
+      "to": "agent-skills-for-context-engineering"
+    },
+    {
+      "from": "gemma-4",
+      "to": "source:rar-gemma-4"
+    },
+    {
+      "from": "andrej-karpathy",
+      "to": "source:karpathy-sequoia-ascent-2026"
+    },
+    {
+      "from": "harness-engineering",
+      "to": "source:ktchuang-genai-course-reflection"
+    },
+    {
+      "from": "harness-engineering",
+      "to": "claude-code-config-primitives"
+    },
+    {
+      "from": "harness-engineering",
+      "to": "everything-claude-code"
+    },
+    {
+      "from": "harness-engineering",
+      "to": "is-grep-all-you-need"
+    },
+    {
+      "from": "harness-engineering",
+      "to": "agent-memory"
+    },
+    {
+      "from": "harness-engineering",
+      "to": "context-degradation"
+    },
+    {
+      "from": "harness-engineering",
+      "to": "agentic-engineering"
+    },
+    {
+      "from": "harness-engineering",
+      "to": "source:karpathy-sequoia-ascent-2026"
+    },
+    {
+      "from": "harness-engineering",
+      "to": "karpathy-llm-wiki"
+    },
+    {
+      "from": "harness-engineering",
+      "to": "context-window-management"
+    },
+    {
+      "from": "harness-engineering",
+      "to": "ai-agent-saas-disruption"
+    },
+    {
+      "from": "career-wealth-and-motivation",
+      "to": "harness-engineering"
+    },
+    {
+      "from": "career-wealth-and-motivation",
+      "to": "jevons-paradox"
+    },
+    {
+      "from": "career-wealth-and-motivation",
+      "to": "train-vs-ocean-american-dream"
+    },
+    {
+      "from": "career-wealth-and-motivation",
+      "to": "jack-c-sung"
+    },
+    {
+      "from": "career-wealth-and-motivation",
+      "to": "vincent-cw-yu"
+    },
+    {
+      "from": "career-wealth-and-motivation",
+      "to": "sahil-bloom"
+    },
+    {
+      "from": "career-wealth-and-motivation",
+      "to": "wang-poda"
+    },
+    {
+      "from": "career-wealth-and-motivation",
+      "to": "jensen-huang"
+    },
+    {
+      "from": "career-wealth-and-motivation",
+      "to": "agentic-engineering"
+    },
+    {
+      "from": "career-wealth-and-motivation",
+      "to": "ai-agent-saas-disruption"
+    },
+    {
+      "from": "career-wealth-and-motivation",
+      "to": "cs-education-ai-agents"
+    },
+    {
+      "from": "career-wealth-and-motivation",
+      "to": "source:ktchuang-genai-course-reflection"
+    },
+    {
+      "from": "career-wealth-and-motivation",
+      "to": "benedict-evans"
+    },
+    {
+      "from": "career-wealth-and-motivation",
+      "to": "atomic-habits"
+    },
+    {
+      "from": "ai-agent-saas-disruption",
+      "to": "cs-education-ai-agents"
+    },
+    {
+      "from": "ai-agent-saas-disruption",
+      "to": "source:boris-cherny-ai-agent-saas"
+    },
+    {
+      "from": "ai-second-opinion",
+      "to": "source:ai-second-opinion-prompt"
+    },
+    {
+      "from": "cs-education-ai-agents",
+      "to": "source:nathan-chiu-cs-education-ai"
+    }
+  ]
+}
