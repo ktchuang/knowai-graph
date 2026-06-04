@@ -38,7 +38,7 @@
       "type": "concept",
       "status": "stub",
       "exists": true,
-      "degree": 20
+      "degree": 21
     },
     {
       "id": "karpathy-llm-wiki",
@@ -86,7 +86,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "software-1-2-3",
@@ -137,6 +137,14 @@
       "degree": 7
     },
     {
+      "id": "run-towards-hardest-problems",
+      "title": "迎向最難的問題 × 工程師直覺 × 創造運氣",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 10
+    },
+    {
       "id": "retrieval-plus-orchestration",
       "title": "Retrieval-plus-Orchestration",
       "type": "concept",
@@ -158,7 +166,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 15
+      "degree": 17
     },
     {
       "id": "llm-jaggedness",
@@ -246,7 +254,7 @@
       "type": "entity",
       "status": "stub",
       "exists": true,
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "learn-harness-engineering",
@@ -286,7 +294,7 @@
       "type": "entity",
       "status": "stub",
       "exists": true,
-      "degree": 4
+      "degree": 6
     },
     {
       "id": "boris-cherny",
@@ -393,6 +401,14 @@
       "degree": 14
     },
     {
+      "id": "lisa-su",
+      "title": "蘇姿丰 (Lisa Su)",
+      "type": "entity",
+      "status": "stub",
+      "exists": true,
+      "degree": 5
+    },
+    {
       "id": "gemma-4",
       "title": "Gemma 4",
       "type": "entity",
@@ -422,7 +438,7 @@
       "type": "topic",
       "status": "draft",
       "exists": true,
-      "degree": 19
+      "degree": 21
     },
     {
       "id": "ai-agent-saas-disruption",
@@ -438,7 +454,7 @@
       "type": "topic",
       "status": "draft",
       "exists": true,
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "cs-education-ai-agents",
@@ -526,7 +542,7 @@
       "type": "source",
       "status": "",
       "exists": true,
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "source:jensen-huang-leadership-summit",
@@ -567,6 +583,14 @@
       "status": "",
       "exists": true,
       "degree": 4
+    },
+    {
+      "id": "source:lisa-su-mit-commencement-2026",
+      "title": "lisa-su-mit-commencement-2026",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 2
     },
     {
       "id": "source:wiselychen-is-grep-all-you-need",
@@ -1005,6 +1029,46 @@
     {
       "from": "context-degradation",
       "to": "source:agent-skills-for-context-engineering"
+    },
+    {
+      "from": "run-towards-hardest-problems",
+      "to": "lisa-su"
+    },
+    {
+      "from": "run-towards-hardest-problems",
+      "to": "source:lisa-su-mit-commencement-2026"
+    },
+    {
+      "from": "run-towards-hardest-problems",
+      "to": "task-vs-job"
+    },
+    {
+      "from": "run-towards-hardest-problems",
+      "to": "source:ktchuang-genai-course-reflection"
+    },
+    {
+      "from": "run-towards-hardest-problems",
+      "to": "leadership-wishing-others-success"
+    },
+    {
+      "from": "run-towards-hardest-problems",
+      "to": "jensen-huang"
+    },
+    {
+      "from": "run-towards-hardest-problems",
+      "to": "harvard-llm-clinical-reasoning-study"
+    },
+    {
+      "from": "run-towards-hardest-problems",
+      "to": "ai-second-opinion"
+    },
+    {
+      "from": "run-towards-hardest-problems",
+      "to": "agentic-engineering"
+    },
+    {
+      "from": "run-towards-hardest-problems",
+      "to": "career-wealth-and-motivation"
     },
     {
       "from": "retrieval-plus-orchestration",
@@ -1499,6 +1563,18 @@
       "to": "source:code-as-agent-harness"
     },
     {
+      "from": "lisa-su",
+      "to": "source:lisa-su-mit-commencement-2026"
+    },
+    {
+      "from": "lisa-su",
+      "to": "task-vs-job"
+    },
+    {
+      "from": "lisa-su",
+      "to": "jensen-huang"
+    },
+    {
       "from": "gemma-4",
       "to": "agentic-engineering"
     },
@@ -1593,6 +1669,10 @@
     {
       "from": "career-wealth-and-motivation",
       "to": "jensen-huang"
+    },
+    {
+      "from": "career-wealth-and-motivation",
+      "to": "lisa-su"
     },
     {
       "from": "career-wealth-and-motivation",
