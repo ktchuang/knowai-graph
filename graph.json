@@ -14,7 +14,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "claude-code-config-primitives",
@@ -22,7 +22,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 12
+      "degree": 17
     },
     {
       "id": "cognitive-bias",
@@ -33,18 +33,42 @@
       "degree": 3
     },
     {
+      "id": "ai-operating-leverage",
+      "title": "AI 經營槓桿（AI Operating Leverage）",
+      "type": "concept",
+      "status": "stub",
+      "exists": true,
+      "degree": 7
+    },
+    {
       "id": "agentic-engineering",
       "title": "Agentic Engineering",
       "type": "concept",
       "status": "stub",
       "exists": true,
-      "degree": 21
+      "degree": 27
+    },
+    {
+      "id": "ai-job-ladder-collapse",
+      "title": "AI 職涯階梯斷裂（初階白領崩塌）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 12
     },
     {
       "id": "karpathy-llm-wiki",
       "title": "Karpathy LLM Wiki 方法論",
       "type": "concept",
       "status": "draft",
+      "exists": true,
+      "degree": 11
+    },
+    {
+      "id": "mcp",
+      "title": "MCP（Model Context Protocol）",
+      "type": "concept",
+      "status": "stub",
       "exists": true,
       "degree": 10
     },
@@ -54,7 +78,15 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 8
+      "degree": 13
+    },
+    {
+      "id": "a2a-protocol",
+      "title": "A2A Protocol（Agent-to-Agent）",
+      "type": "concept",
+      "status": "stub",
+      "exists": true,
+      "degree": 4
     },
     {
       "id": "credit-as-future-resource",
@@ -62,7 +94,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "context-window-management",
@@ -70,7 +102,55 @@
       "type": "concept",
       "status": "stub",
       "exists": true,
+      "degree": 14
+    },
+    {
+      "id": "automation-vs-augmentation",
+      "title": "Automation vs Augmentation（代筆 vs 陪練）",
+      "type": "concept",
+      "status": "stub",
+      "exists": true,
+      "degree": 10
+    },
+    {
+      "id": "verifiability-mindset",
+      "title": "Verifiability Mindset（可驗證性心態）",
+      "type": "concept",
+      "status": "stub",
+      "exists": true,
+      "degree": 15
+    },
+    {
+      "id": "spec-driven-development",
+      "title": "SDD（Spec-Driven Development，規格驅動開發）",
+      "type": "concept",
+      "status": "stub",
+      "exists": true,
       "degree": 11
+    },
+    {
+      "id": "tacit-knowledge",
+      "title": "隱性知識與 Polanyi's Paradox",
+      "type": "concept",
+      "status": "stub",
+      "exists": true,
+      "degree": 9
+    },
+    {
+      "id": "token-economics",
+      "title": "Token 經濟學與成本失控（AI Tax）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 25
+    },
+    {
+      "id": "pc-dual-track",
+      "title": "PC 雙軌制（ARM 整合 vs X86 固守）",
+      "type": "concept",
+      "status": "stub",
+      "exists": true,
+      "degree": 6
     },
     {
       "id": "deterministic-vs-foundation-model",
@@ -78,7 +158,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 9
+      "degree": 12
     },
     {
       "id": "leadership-wishing-others-success",
@@ -86,7 +166,23 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 8
+      "degree": 9
+    },
+    {
+      "id": "llm-routing",
+      "title": "LLM Routing（模型間分流）",
+      "type": "concept",
+      "status": "stub",
+      "exists": true,
+      "degree": 7
+    },
+    {
+      "id": "skill-vs-subagent",
+      "title": "Skill vs Sub-Agent（為什麼 Skill 通常更好）",
+      "type": "concept",
+      "status": "stub",
+      "exists": true,
+      "degree": 13
     },
     {
       "id": "software-1-2-3",
@@ -102,7 +198,39 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 6
+      "degree": 7
+    },
+    {
+      "id": "multi-agent-cost",
+      "title": "Multi-Agent 成本爆炸（何時值得）",
+      "type": "concept",
+      "status": "stub",
+      "exists": true,
+      "degree": 10
+    },
+    {
+      "id": "ai-dependence-skill-erosion",
+      "title": "AI 依賴與基礎能力空心化（Skill Erosion）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 12
+    },
+    {
+      "id": "structured-cot",
+      "title": "Structured CoT（Grammar 約束推理壓縮）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 8
+    },
+    {
+      "id": "eval-driven-development",
+      "title": "Eval-Driven Development（評測驅動開發）",
+      "type": "concept",
+      "status": "stub",
+      "exists": true,
+      "degree": 10
     },
     {
       "id": "train-vs-ocean-american-dream",
@@ -126,7 +254,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "context-degradation",
@@ -142,7 +270,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 10
+      "degree": 14
     },
     {
       "id": "retrieval-plus-orchestration",
@@ -150,7 +278,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 11
+      "degree": 13
     },
     {
       "id": "second-opinion-cheatsheet",
@@ -161,12 +289,28 @@
       "degree": 5
     },
     {
+      "id": "cost-stack",
+      "title": "Cost Stack（6 層 × 12 機制的 token 成本框架）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 15
+    },
+    {
       "id": "task-vs-job",
       "title": "任務 vs 工作（Task vs Job）",
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 17
+      "degree": 25
+    },
+    {
+      "id": "thinking-depth-over-speed",
+      "title": "思考的厚度 > 速度（當實作趨近免費）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 13
     },
     {
       "id": "llm-jaggedness",
@@ -190,7 +334,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 10
+      "degree": 15
     },
     {
       "id": "agent-harness",
@@ -198,7 +342,15 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 18
+      "degree": 23
+    },
+    {
+      "id": "mechanism-over-prompt",
+      "title": "機制 > 提示（Prompt 是建議，機制才是規則）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 13
     },
     {
       "id": "affaan-m",
@@ -222,7 +374,7 @@
       "type": "entity",
       "status": "stub",
       "exists": true,
-      "degree": 5
+      "degree": 10
     },
     {
       "id": "claude-code",
@@ -230,7 +382,7 @@
       "type": "entity",
       "status": "stub",
       "exists": true,
-      "degree": 14
+      "degree": 21
     },
     {
       "id": "wang-poda",
@@ -273,6 +425,38 @@
       "degree": 3
     },
     {
+      "id": "amd",
+      "title": "AMD（超微）",
+      "type": "entity",
+      "status": "stub",
+      "exists": true,
+      "degree": 6
+    },
+    {
+      "id": "gstack",
+      "title": "gstack（Garry Tan）",
+      "type": "entity",
+      "status": "stub",
+      "exists": true,
+      "degree": 7
+    },
+    {
+      "id": "pi-framework",
+      "title": "Pi Framework（Mario Zechner）",
+      "type": "entity",
+      "status": "draft",
+      "exists": true,
+      "degree": 9
+    },
+    {
+      "id": "stanford-sdel-canaries",
+      "title": "Canaries in the Coal Mine?（Stanford SDEL）",
+      "type": "entity",
+      "status": "stub",
+      "exists": true,
+      "degree": 6
+    },
+    {
       "id": "atomic-habits",
       "title": "原子習慣（Atomic Habits）",
       "type": "entity",
@@ -286,7 +470,7 @@
       "type": "entity",
       "status": "stub",
       "exists": true,
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "jensen-huang",
@@ -294,7 +478,7 @@
       "type": "entity",
       "status": "stub",
       "exists": true,
-      "degree": 6
+      "degree": 9
     },
     {
       "id": "boris-cherny",
@@ -342,7 +526,15 @@
       "type": "entity",
       "status": "draft",
       "exists": true,
-      "degree": 10
+      "degree": 13
+    },
+    {
+      "id": "mustafa-suleyman",
+      "title": "Mustafa Suleyman",
+      "type": "entity",
+      "status": "stub",
+      "exists": true,
+      "degree": 4
     },
     {
       "id": "benedict-evans",
@@ -366,7 +558,31 @@
       "type": "entity",
       "status": "stub",
       "exists": true,
-      "degree": 3
+      "degree": 6
+    },
+    {
+      "id": "microsoft",
+      "title": "Microsoft（微軟）",
+      "type": "entity",
+      "status": "stub",
+      "exists": true,
+      "degree": 4
+    },
+    {
+      "id": "nvidia",
+      "title": "NVIDIA（輝達）",
+      "type": "entity",
+      "status": "stub",
+      "exists": true,
+      "degree": 6
+    },
+    {
+      "id": "charlie-warren",
+      "title": "Charlie Warren（YC）",
+      "type": "entity",
+      "status": "stub",
+      "exists": true,
+      "degree": 4
     },
     {
       "id": "understand-anything",
@@ -375,6 +591,30 @@
       "status": "draft",
       "exists": true,
       "degree": 8
+    },
+    {
+      "id": "dan-garcia",
+      "title": "Dan Garcia",
+      "type": "entity",
+      "status": "stub",
+      "exists": true,
+      "degree": 3
+    },
+    {
+      "id": "agentopt",
+      "title": "AgentOpt（Columbia DAPLab）",
+      "type": "entity",
+      "status": "draft",
+      "exists": true,
+      "degree": 9
+    },
+    {
+      "id": "ben-mann",
+      "title": "Ben Mann",
+      "type": "entity",
+      "status": "stub",
+      "exists": true,
+      "degree": 6
     },
     {
       "id": "vincent-cw-yu",
@@ -406,7 +646,15 @@
       "type": "entity",
       "status": "stub",
       "exists": true,
-      "degree": 5
+      "degree": 9
+    },
+    {
+      "id": "autoresearch",
+      "title": "autoresearch（karpathy）",
+      "type": "entity",
+      "status": "stub",
+      "exists": true,
+      "degree": 8
     },
     {
       "id": "gemma-4",
@@ -414,7 +662,7 @@
       "type": "entity",
       "status": "draft",
       "exists": true,
-      "degree": 6
+      "degree": 9
     },
     {
       "id": "andrej-karpathy",
@@ -422,7 +670,7 @@
       "type": "entity",
       "status": "stub",
       "exists": true,
-      "degree": 6
+      "degree": 9
     },
     {
       "id": "harness-engineering",
@@ -430,7 +678,7 @@
       "type": "topic",
       "status": "draft",
       "exists": true,
-      "degree": 20
+      "degree": 34
     },
     {
       "id": "career-wealth-and-motivation",
@@ -438,7 +686,7 @@
       "type": "topic",
       "status": "draft",
       "exists": true,
-      "degree": 21
+      "degree": 27
     },
     {
       "id": "ai-agent-saas-disruption",
@@ -446,7 +694,15 @@
       "type": "topic",
       "status": "draft",
       "exists": true,
-      "degree": 13
+      "degree": 21
+    },
+    {
+      "id": "computex-2026-nvidia-amd",
+      "title": "Computex 2026 — Nvidia vs AMD（主題綜合）",
+      "type": "topic",
+      "status": "draft",
+      "exists": true,
+      "degree": 10
     },
     {
       "id": "ai-second-opinion",
@@ -462,7 +718,23 @@
       "type": "topic",
       "status": "draft",
       "exists": true,
-      "degree": 7
+      "degree": 10
+    },
+    {
+      "id": "agentic-stack",
+      "title": "Agentic Stack（用 OS 觀點拆解 Skill/MCP/A2A/CLI）",
+      "type": "topic",
+      "status": "draft",
+      "exists": true,
+      "degree": 20
+    },
+    {
+      "id": "ai-native-service-companies",
+      "title": "AI 原生服務公司（賣結果不賣工具）",
+      "type": "topic",
+      "status": "draft",
+      "exists": true,
+      "degree": 9
     },
     {
       "id": "source:karpathy-sequoia-ascent-2026",
@@ -497,6 +769,22 @@
       "degree": 5
     },
     {
+      "id": "source:yc-ai-native-services-playbook",
+      "title": "yc-ai-native-services-playbook",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 4
+    },
+    {
+      "id": "source:aiase-2026-w7-agentic-stack",
+      "title": "aiase-2026-w7-agentic-stack",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 14
+    },
+    {
       "id": "source:nathan-chiu-cs-education-ai",
       "title": "nathan-chiu-cs-education-ai",
       "type": "source",
@@ -518,7 +806,7 @@
       "type": "source",
       "status": "",
       "exists": true,
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "source:vincent-yu-credit-future-resources",
@@ -527,6 +815,30 @@
       "status": "",
       "exists": true,
       "degree": 2
+    },
+    {
+      "id": "source:aiase-2026-w8-token-economy",
+      "title": "aiase-2026-w8-token-economy",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 11
+    },
+    {
+      "id": "source:microsoft-suleyman-anthropic-too-expensive",
+      "title": "microsoft-suleyman-anthropic-too-expensive",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 4
+    },
+    {
+      "id": "source:computex-2026-nvidia-amd",
+      "title": "computex-2026-nvidia-amd",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 6
     },
     {
       "id": "source:aiase-deterministic-vs-foundation-model",
@@ -550,7 +862,7 @@
       "type": "source",
       "status": "",
       "exists": true,
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "source:executive-career-burnout",
@@ -559,6 +871,14 @@
       "status": "",
       "exists": true,
       "degree": 2
+    },
+    {
+      "id": "source:berkeley-cs-ai-failing-grades",
+      "title": "berkeley-cs-ai-failing-grades",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 3
     },
     {
       "id": "source:jack-sung-american-dream",
@@ -590,11 +910,19 @@
       "type": "source",
       "status": "",
       "exists": true,
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "source:wiselychen-is-grep-all-you-need",
       "title": "wiselychen-is-grep-all-you-need",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 3
+    },
+    {
+      "id": "source:taiwan-ai-academy-dev-day-reflection",
+      "title": "taiwan-ai-academy-dev-day-reflection",
       "type": "source",
       "status": "",
       "exists": true,
@@ -615,6 +943,14 @@
       "status": "",
       "exists": true,
       "degree": 3
+    },
+    {
+      "id": "source:wiselychen-mechanism-not-prompt",
+      "title": "wiselychen-mechanism-not-prompt",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 2
     },
     {
       "id": "source:boris-cherny-ai-agent-saas",
@@ -708,6 +1044,22 @@
     },
     {
       "from": "claude-code-config-primitives",
+      "to": "agentic-stack"
+    },
+    {
+      "from": "claude-code-config-primitives",
+      "to": "skill-vs-subagent"
+    },
+    {
+      "from": "claude-code-config-primitives",
+      "to": "mcp"
+    },
+    {
+      "from": "claude-code-config-primitives",
+      "to": "gstack"
+    },
+    {
+      "from": "claude-code-config-primitives",
       "to": "agentic-engineering"
     },
     {
@@ -729,6 +1081,30 @@
     {
       "from": "cognitive-bias",
       "to": "source:ai-second-opinion-prompt"
+    },
+    {
+      "from": "ai-operating-leverage",
+      "to": "charlie-warren"
+    },
+    {
+      "from": "ai-operating-leverage",
+      "to": "ai-native-service-companies"
+    },
+    {
+      "from": "ai-operating-leverage",
+      "to": "source:yc-ai-native-services-playbook"
+    },
+    {
+      "from": "ai-operating-leverage",
+      "to": "token-economics"
+    },
+    {
+      "from": "ai-operating-leverage",
+      "to": "cost-stack"
+    },
+    {
+      "from": "ai-operating-leverage",
+      "to": "jevons-paradox"
     },
     {
       "from": "agentic-engineering",
@@ -756,6 +1132,14 @@
     },
     {
       "from": "agentic-engineering",
+      "to": "source:aiase-2026-w7-agentic-stack"
+    },
+    {
+      "from": "agentic-engineering",
+      "to": "agentic-stack"
+    },
+    {
+      "from": "agentic-engineering",
       "to": "agent-harness"
     },
     {
@@ -769,6 +1153,46 @@
     {
       "from": "agentic-engineering",
       "to": "source:nathan-chiu-cs-education-ai"
+    },
+    {
+      "from": "ai-job-ladder-collapse",
+      "to": "source:aiase-2026-w7-agentic-stack"
+    },
+    {
+      "from": "ai-job-ladder-collapse",
+      "to": "career-wealth-and-motivation"
+    },
+    {
+      "from": "ai-job-ladder-collapse",
+      "to": "stanford-sdel-canaries"
+    },
+    {
+      "from": "ai-job-ladder-collapse",
+      "to": "tacit-knowledge"
+    },
+    {
+      "from": "ai-job-ladder-collapse",
+      "to": "task-vs-job"
+    },
+    {
+      "from": "ai-job-ladder-collapse",
+      "to": "automation-vs-augmentation"
+    },
+    {
+      "from": "ai-job-ladder-collapse",
+      "to": "ai-dependence-skill-erosion"
+    },
+    {
+      "from": "ai-job-ladder-collapse",
+      "to": "harness-engineering"
+    },
+    {
+      "from": "ai-job-ladder-collapse",
+      "to": "jevons-paradox"
+    },
+    {
+      "from": "ai-job-ladder-collapse",
+      "to": "executive-burnout"
     },
     {
       "from": "karpathy-llm-wiki",
@@ -799,6 +1223,34 @@
       "to": "source:understand-anything-readme"
     },
     {
+      "from": "mcp",
+      "to": "agentic-stack"
+    },
+    {
+      "from": "mcp",
+      "to": "source:aiase-2026-w7-agentic-stack"
+    },
+    {
+      "from": "mcp",
+      "to": "a2a-protocol"
+    },
+    {
+      "from": "mcp",
+      "to": "token-economics"
+    },
+    {
+      "from": "mcp",
+      "to": "cost-stack"
+    },
+    {
+      "from": "mcp",
+      "to": "skill-vs-subagent"
+    },
+    {
+      "from": "mcp",
+      "to": "context-window-management"
+    },
+    {
       "from": "jevons-paradox",
       "to": "benedict-evans"
     },
@@ -817,6 +1269,18 @@
     {
       "from": "jevons-paradox",
       "to": "source:karpathy-sequoia-ascent-2026"
+    },
+    {
+      "from": "a2a-protocol",
+      "to": "agentic-stack"
+    },
+    {
+      "from": "a2a-protocol",
+      "to": "source:aiase-2026-w7-agentic-stack"
+    },
+    {
+      "from": "a2a-protocol",
+      "to": "skill-vs-subagent"
     },
     {
       "from": "credit-as-future-resource",
@@ -861,6 +1325,218 @@
     {
       "from": "context-window-management",
       "to": "source:everything-claude-code-readme"
+    },
+    {
+      "from": "automation-vs-augmentation",
+      "to": "source:aiase-2026-w7-agentic-stack"
+    },
+    {
+      "from": "automation-vs-augmentation",
+      "to": "tacit-knowledge"
+    },
+    {
+      "from": "automation-vs-augmentation",
+      "to": "spec-driven-development"
+    },
+    {
+      "from": "automation-vs-augmentation",
+      "to": "ai-dependence-skill-erosion"
+    },
+    {
+      "from": "automation-vs-augmentation",
+      "to": "task-vs-job"
+    },
+    {
+      "from": "automation-vs-augmentation",
+      "to": "career-wealth-and-motivation"
+    },
+    {
+      "from": "verifiability-mindset",
+      "to": "source:aiase-2026-w8-token-economy"
+    },
+    {
+      "from": "verifiability-mindset",
+      "to": "token-economics"
+    },
+    {
+      "from": "verifiability-mindset",
+      "to": "structured-cot"
+    },
+    {
+      "from": "verifiability-mindset",
+      "to": "llm-routing"
+    },
+    {
+      "from": "verifiability-mindset",
+      "to": "is-grep-all-you-need"
+    },
+    {
+      "from": "verifiability-mindset",
+      "to": "eval-driven-development"
+    },
+    {
+      "from": "verifiability-mindset",
+      "to": "deterministic-vs-foundation-model"
+    },
+    {
+      "from": "verifiability-mindset",
+      "to": "cost-stack"
+    },
+    {
+      "from": "verifiability-mindset",
+      "to": "spec-driven-development"
+    },
+    {
+      "from": "verifiability-mindset",
+      "to": "harness-engineering"
+    },
+    {
+      "from": "spec-driven-development",
+      "to": "source:aiase-2026-w8-token-economy"
+    },
+    {
+      "from": "spec-driven-development",
+      "to": "token-economics"
+    },
+    {
+      "from": "spec-driven-development",
+      "to": "structured-cot"
+    },
+    {
+      "from": "spec-driven-development",
+      "to": "cost-stack"
+    },
+    {
+      "from": "spec-driven-development",
+      "to": "eval-driven-development"
+    },
+    {
+      "from": "spec-driven-development",
+      "to": "harness-engineering"
+    },
+    {
+      "from": "tacit-knowledge",
+      "to": "source:aiase-2026-w7-agentic-stack"
+    },
+    {
+      "from": "tacit-knowledge",
+      "to": "task-vs-job"
+    },
+    {
+      "from": "tacit-knowledge",
+      "to": "credit-as-future-resource"
+    },
+    {
+      "from": "tacit-knowledge",
+      "to": "five-types-of-wealth"
+    },
+    {
+      "from": "tacit-knowledge",
+      "to": "run-towards-hardest-problems"
+    },
+    {
+      "from": "tacit-knowledge",
+      "to": "career-wealth-and-motivation"
+    },
+    {
+      "from": "token-economics",
+      "to": "source:aiase-2026-w8-token-economy"
+    },
+    {
+      "from": "token-economics",
+      "to": "source:microsoft-suleyman-anthropic-too-expensive"
+    },
+    {
+      "from": "token-economics",
+      "to": "microsoft"
+    },
+    {
+      "from": "token-economics",
+      "to": "mustafa-suleyman"
+    },
+    {
+      "from": "token-economics",
+      "to": "anthropic"
+    },
+    {
+      "from": "token-economics",
+      "to": "cost-stack"
+    },
+    {
+      "from": "token-economics",
+      "to": "structured-cot"
+    },
+    {
+      "from": "token-economics",
+      "to": "llm-routing"
+    },
+    {
+      "from": "token-economics",
+      "to": "multi-agent-cost"
+    },
+    {
+      "from": "token-economics",
+      "to": "jevons-paradox"
+    },
+    {
+      "from": "token-economics",
+      "to": "context-engineering"
+    },
+    {
+      "from": "token-economics",
+      "to": "context-window-management"
+    },
+    {
+      "from": "token-economics",
+      "to": "retrieval-plus-orchestration"
+    },
+    {
+      "from": "token-economics",
+      "to": "is-grep-all-you-need"
+    },
+    {
+      "from": "token-economics",
+      "to": "task-vs-job"
+    },
+    {
+      "from": "token-economics",
+      "to": "ai-native-service-companies"
+    },
+    {
+      "from": "token-economics",
+      "to": "agentopt"
+    },
+    {
+      "from": "token-economics",
+      "to": "eval-driven-development"
+    },
+    {
+      "from": "token-economics",
+      "to": "harness-engineering"
+    },
+    {
+      "from": "pc-dual-track",
+      "to": "source:computex-2026-nvidia-amd"
+    },
+    {
+      "from": "pc-dual-track",
+      "to": "nvidia"
+    },
+    {
+      "from": "pc-dual-track",
+      "to": "amd"
+    },
+    {
+      "from": "pc-dual-track",
+      "to": "agentic-engineering"
+    },
+    {
+      "from": "pc-dual-track",
+      "to": "deterministic-vs-foundation-model"
+    },
+    {
+      "from": "pc-dual-track",
+      "to": "computex-2026-nvidia-amd"
     },
     {
       "from": "deterministic-vs-foundation-model",
@@ -923,6 +1599,62 @@
       "to": "career-wealth-and-motivation"
     },
     {
+      "from": "llm-routing",
+      "to": "cost-stack"
+    },
+    {
+      "from": "llm-routing",
+      "to": "source:aiase-2026-w8-token-economy"
+    },
+    {
+      "from": "llm-routing",
+      "to": "agentopt"
+    },
+    {
+      "from": "llm-routing",
+      "to": "multi-agent-cost"
+    },
+    {
+      "from": "llm-routing",
+      "to": "harness-engineering"
+    },
+    {
+      "from": "skill-vs-subagent",
+      "to": "source:aiase-2026-w7-agentic-stack"
+    },
+    {
+      "from": "skill-vs-subagent",
+      "to": "source:aiase-2026-w8-token-economy"
+    },
+    {
+      "from": "skill-vs-subagent",
+      "to": "agentic-stack"
+    },
+    {
+      "from": "skill-vs-subagent",
+      "to": "spec-driven-development"
+    },
+    {
+      "from": "skill-vs-subagent",
+      "to": "gstack"
+    },
+    {
+      "from": "skill-vs-subagent",
+      "to": "multi-agent-cost"
+    },
+    {
+      "from": "skill-vs-subagent",
+      "to": "token-economics"
+    },
+    {
+      "from": "skill-vs-subagent",
+      "to": "karpathy-llm-wiki"
+    },
+    {
+      "from": "skill-vs-subagent",
+      "to": "pi-framework"
+    },
+    {
       "from": "software-1-2-3",
       "to": "andrej-karpathy"
     },
@@ -953,6 +1685,102 @@
     {
       "from": "executive-burnout",
       "to": "career-wealth-and-motivation"
+    },
+    {
+      "from": "multi-agent-cost",
+      "to": "cost-stack"
+    },
+    {
+      "from": "multi-agent-cost",
+      "to": "source:aiase-2026-w8-token-economy"
+    },
+    {
+      "from": "multi-agent-cost",
+      "to": "claude-code"
+    },
+    {
+      "from": "multi-agent-cost",
+      "to": "agentopt"
+    },
+    {
+      "from": "multi-agent-cost",
+      "to": "agent-harness"
+    },
+    {
+      "from": "multi-agent-cost",
+      "to": "agentic-engineering"
+    },
+    {
+      "from": "multi-agent-cost",
+      "to": "harness-engineering"
+    },
+    {
+      "from": "ai-dependence-skill-erosion",
+      "to": "source:berkeley-cs-ai-failing-grades"
+    },
+    {
+      "from": "ai-dependence-skill-erosion",
+      "to": "dan-garcia"
+    },
+    {
+      "from": "ai-dependence-skill-erosion",
+      "to": "run-towards-hardest-problems"
+    },
+    {
+      "from": "ai-dependence-skill-erosion",
+      "to": "lisa-su"
+    },
+    {
+      "from": "ai-dependence-skill-erosion",
+      "to": "cs-education-ai-agents"
+    },
+    {
+      "from": "ai-dependence-skill-erosion",
+      "to": "nathan-chiu"
+    },
+    {
+      "from": "ai-dependence-skill-erosion",
+      "to": "task-vs-job"
+    },
+    {
+      "from": "ai-dependence-skill-erosion",
+      "to": "source:jevons-coding-task-vs-job"
+    },
+    {
+      "from": "ai-dependence-skill-erosion",
+      "to": "agentic-engineering"
+    },
+    {
+      "from": "structured-cot",
+      "to": "cost-stack"
+    },
+    {
+      "from": "structured-cot",
+      "to": "source:aiase-2026-w8-token-economy"
+    },
+    {
+      "from": "structured-cot",
+      "to": "harness-engineering"
+    },
+    {
+      "from": "eval-driven-development",
+      "to": "source:aiase-2026-w8-token-economy"
+    },
+    {
+      "from": "eval-driven-development",
+      "to": "structured-cot"
+    },
+    {
+      "from": "eval-driven-development",
+      "to": "agentopt"
+    },
+    {
+      "from": "eval-driven-development",
+      "to": "cost-stack"
+    },
+    {
+      "from": "eval-driven-development",
+      "to": "harness-engineering"
     },
     {
       "from": "train-vs-ocean-american-dream",
@@ -1123,6 +1951,30 @@
       "to": "source:ai-second-opinion-prompt"
     },
     {
+      "from": "cost-stack",
+      "to": "source:aiase-2026-w8-token-economy"
+    },
+    {
+      "from": "cost-stack",
+      "to": "agentopt"
+    },
+    {
+      "from": "cost-stack",
+      "to": "harness-engineering"
+    },
+    {
+      "from": "cost-stack",
+      "to": "context-engineering"
+    },
+    {
+      "from": "cost-stack",
+      "to": "context-window-management"
+    },
+    {
+      "from": "cost-stack",
+      "to": "retrieval-plus-orchestration"
+    },
+    {
       "from": "task-vs-job",
       "to": "benedict-evans"
     },
@@ -1156,6 +2008,58 @@
     },
     {
       "from": "task-vs-job",
+      "to": "career-wealth-and-motivation"
+    },
+    {
+      "from": "task-vs-job",
+      "to": "thinking-depth-over-speed"
+    },
+    {
+      "from": "task-vs-job",
+      "to": "ai-native-service-companies"
+    },
+    {
+      "from": "thinking-depth-over-speed",
+      "to": "source:taiwan-ai-academy-dev-day-reflection"
+    },
+    {
+      "from": "thinking-depth-over-speed",
+      "to": "claude-code"
+    },
+    {
+      "from": "thinking-depth-over-speed",
+      "to": "mcp"
+    },
+    {
+      "from": "thinking-depth-over-speed",
+      "to": "jevons-paradox"
+    },
+    {
+      "from": "thinking-depth-over-speed",
+      "to": "run-towards-hardest-problems"
+    },
+    {
+      "from": "thinking-depth-over-speed",
+      "to": "ai-agent-saas-disruption"
+    },
+    {
+      "from": "thinking-depth-over-speed",
+      "to": "ai-job-ladder-collapse"
+    },
+    {
+      "from": "thinking-depth-over-speed",
+      "to": "automation-vs-augmentation"
+    },
+    {
+      "from": "thinking-depth-over-speed",
+      "to": "ai-dependence-skill-erosion"
+    },
+    {
+      "from": "thinking-depth-over-speed",
+      "to": "ben-mann"
+    },
+    {
+      "from": "thinking-depth-over-speed",
       "to": "career-wealth-and-motivation"
     },
     {
@@ -1263,6 +2167,58 @@
       "to": "source:code-as-agent-harness"
     },
     {
+      "from": "mechanism-over-prompt",
+      "to": "source:wiselychen-mechanism-not-prompt"
+    },
+    {
+      "from": "mechanism-over-prompt",
+      "to": "agent-harness"
+    },
+    {
+      "from": "mechanism-over-prompt",
+      "to": "harness-five-subsystems"
+    },
+    {
+      "from": "mechanism-over-prompt",
+      "to": "claude-code-config-primitives"
+    },
+    {
+      "from": "mechanism-over-prompt",
+      "to": "harness-engineering"
+    },
+    {
+      "from": "mechanism-over-prompt",
+      "to": "is-grep-all-you-need"
+    },
+    {
+      "from": "mechanism-over-prompt",
+      "to": "verifiability-mindset"
+    },
+    {
+      "from": "mechanism-over-prompt",
+      "to": "skill-vs-subagent"
+    },
+    {
+      "from": "mechanism-over-prompt",
+      "to": "agentic-stack"
+    },
+    {
+      "from": "mechanism-over-prompt",
+      "to": "pi-framework"
+    },
+    {
+      "from": "mechanism-over-prompt",
+      "to": "token-economics"
+    },
+    {
+      "from": "mechanism-over-prompt",
+      "to": "structured-cot"
+    },
+    {
+      "from": "mechanism-over-prompt",
+      "to": "wisely-chen"
+    },
+    {
       "from": "affaan-m",
       "to": "everything-claude-code"
     },
@@ -1293,6 +2249,22 @@
     {
       "from": "anthropic",
       "to": "claude-code"
+    },
+    {
+      "from": "anthropic",
+      "to": "ben-mann"
+    },
+    {
+      "from": "anthropic",
+      "to": "source:microsoft-suleyman-anthropic-too-expensive"
+    },
+    {
+      "from": "anthropic",
+      "to": "microsoft"
+    },
+    {
+      "from": "anthropic",
+      "to": "mustafa-suleyman"
     },
     {
       "from": "anthropic",
@@ -1387,6 +2359,94 @@
       "to": "source:jack-sung-american-dream"
     },
     {
+      "from": "amd",
+      "to": "lisa-su"
+    },
+    {
+      "from": "amd",
+      "to": "source:computex-2026-nvidia-amd"
+    },
+    {
+      "from": "amd",
+      "to": "nvidia"
+    },
+    {
+      "from": "amd",
+      "to": "computex-2026-nvidia-amd"
+    },
+    {
+      "from": "amd",
+      "to": "source:lisa-su-mit-commencement-2026"
+    },
+    {
+      "from": "gstack",
+      "to": "claude-code"
+    },
+    {
+      "from": "gstack",
+      "to": "source:aiase-2026-w7-agentic-stack"
+    },
+    {
+      "from": "gstack",
+      "to": "autoresearch"
+    },
+    {
+      "from": "gstack",
+      "to": "agentic-stack"
+    },
+    {
+      "from": "gstack",
+      "to": "context-engineering"
+    },
+    {
+      "from": "pi-framework",
+      "to": "source:aiase-2026-w7-agentic-stack"
+    },
+    {
+      "from": "pi-framework",
+      "to": "context-engineering"
+    },
+    {
+      "from": "pi-framework",
+      "to": "claude-code"
+    },
+    {
+      "from": "pi-framework",
+      "to": "agentic-stack"
+    },
+    {
+      "from": "pi-framework",
+      "to": "verifiability-mindset"
+    },
+    {
+      "from": "pi-framework",
+      "to": "gemma-4"
+    },
+    {
+      "from": "pi-framework",
+      "to": "agent-harness"
+    },
+    {
+      "from": "stanford-sdel-canaries",
+      "to": "source:aiase-2026-w7-agentic-stack"
+    },
+    {
+      "from": "stanford-sdel-canaries",
+      "to": "tacit-knowledge"
+    },
+    {
+      "from": "stanford-sdel-canaries",
+      "to": "automation-vs-augmentation"
+    },
+    {
+      "from": "stanford-sdel-canaries",
+      "to": "career-wealth-and-motivation"
+    },
+    {
+      "from": "stanford-sdel-canaries",
+      "to": "task-vs-job"
+    },
+    {
       "from": "atomic-habits",
       "to": "source:executive-career-burnout"
     },
@@ -1400,11 +2460,27 @@
     },
     {
       "from": "jensen-huang",
+      "to": "nvidia"
+    },
+    {
+      "from": "jensen-huang",
       "to": "source:jensen-huang-leadership-summit"
     },
     {
       "from": "jensen-huang",
+      "to": "source:computex-2026-nvidia-amd"
+    },
+    {
+      "from": "jensen-huang",
+      "to": "lisa-su"
+    },
+    {
+      "from": "jensen-huang",
       "to": "ai-agent-saas-disruption"
+    },
+    {
+      "from": "jensen-huang",
+      "to": "computex-2026-nvidia-amd"
     },
     {
       "from": "boris-cherny",
@@ -1495,6 +2571,14 @@
       "to": "agent-harness"
     },
     {
+      "from": "mustafa-suleyman",
+      "to": "microsoft"
+    },
+    {
+      "from": "mustafa-suleyman",
+      "to": "source:microsoft-suleyman-anthropic-too-expensive"
+    },
+    {
       "from": "benedict-evans",
       "to": "source:jevons-coding-task-vs-job"
     },
@@ -1519,6 +2603,42 @@
       "to": "source:wiselychen-is-grep-all-you-need"
     },
     {
+      "from": "wisely-chen",
+      "to": "source:wiselychen-mechanism-not-prompt"
+    },
+    {
+      "from": "wisely-chen",
+      "to": "harness-engineering"
+    },
+    {
+      "from": "microsoft",
+      "to": "source:microsoft-suleyman-anthropic-too-expensive"
+    },
+    {
+      "from": "nvidia",
+      "to": "source:computex-2026-nvidia-amd"
+    },
+    {
+      "from": "nvidia",
+      "to": "source:jensen-huang-leadership-summit"
+    },
+    {
+      "from": "nvidia",
+      "to": "computex-2026-nvidia-amd"
+    },
+    {
+      "from": "charlie-warren",
+      "to": "ai-native-service-companies"
+    },
+    {
+      "from": "charlie-warren",
+      "to": "source:yc-ai-native-services-playbook"
+    },
+    {
+      "from": "charlie-warren",
+      "to": "ai-agent-saas-disruption"
+    },
+    {
       "from": "understand-anything",
       "to": "lum1104"
     },
@@ -1529,6 +2649,42 @@
     {
       "from": "understand-anything",
       "to": "source:understand-anything-readme"
+    },
+    {
+      "from": "dan-garcia",
+      "to": "source:berkeley-cs-ai-failing-grades"
+    },
+    {
+      "from": "dan-garcia",
+      "to": "cs-education-ai-agents"
+    },
+    {
+      "from": "agentopt",
+      "to": "source:aiase-2026-w8-token-economy"
+    },
+    {
+      "from": "agentopt",
+      "to": "verifiability-mindset"
+    },
+    {
+      "from": "agentopt",
+      "to": "harness-engineering"
+    },
+    {
+      "from": "agentopt",
+      "to": "claude-code"
+    },
+    {
+      "from": "ben-mann",
+      "to": "source:taiwan-ai-academy-dev-day-reflection"
+    },
+    {
+      "from": "ben-mann",
+      "to": "ai-job-ladder-collapse"
+    },
+    {
+      "from": "ben-mann",
+      "to": "claude-code"
     },
     {
       "from": "vincent-cw-yu",
@@ -1568,11 +2724,43 @@
     },
     {
       "from": "lisa-su",
+      "to": "source:computex-2026-nvidia-amd"
+    },
+    {
+      "from": "lisa-su",
       "to": "task-vs-job"
     },
     {
       "from": "lisa-su",
-      "to": "jensen-huang"
+      "to": "computex-2026-nvidia-amd"
+    },
+    {
+      "from": "autoresearch",
+      "to": "andrej-karpathy"
+    },
+    {
+      "from": "autoresearch",
+      "to": "source:aiase-2026-w7-agentic-stack"
+    },
+    {
+      "from": "autoresearch",
+      "to": "agent-harness"
+    },
+    {
+      "from": "autoresearch",
+      "to": "spec-driven-development"
+    },
+    {
+      "from": "autoresearch",
+      "to": "verifiability-mindset"
+    },
+    {
+      "from": "autoresearch",
+      "to": "agentic-stack"
+    },
+    {
+      "from": "autoresearch",
+      "to": "eval-driven-development"
     },
     {
       "from": "gemma-4",
@@ -1588,11 +2776,27 @@
     },
     {
       "from": "gemma-4",
+      "to": "source:aiase-2026-w7-agentic-stack"
+    },
+    {
+      "from": "gemma-4",
+      "to": "agentic-stack"
+    },
+    {
+      "from": "gemma-4",
       "to": "source:rar-gemma-4"
     },
     {
       "from": "andrej-karpathy",
       "to": "source:karpathy-sequoia-ascent-2026"
+    },
+    {
+      "from": "andrej-karpathy",
+      "to": "source:aiase-2026-w7-agentic-stack"
+    },
+    {
+      "from": "andrej-karpathy",
+      "to": "agentic-stack"
     },
     {
       "from": "harness-engineering",
@@ -1629,6 +2833,10 @@
     {
       "from": "harness-engineering",
       "to": "karpathy-llm-wiki"
+    },
+    {
+      "from": "harness-engineering",
+      "to": "source:aiase-2026-w8-token-economy"
     },
     {
       "from": "harness-engineering",
@@ -1699,12 +2907,60 @@
       "to": "atomic-habits"
     },
     {
+      "from": "career-wealth-and-motivation",
+      "to": "agentic-stack"
+    },
+    {
+      "from": "ai-agent-saas-disruption",
+      "to": "source:taiwan-ai-academy-dev-day-reflection"
+    },
+    {
+      "from": "ai-agent-saas-disruption",
+      "to": "mcp"
+    },
+    {
+      "from": "ai-agent-saas-disruption",
+      "to": "ai-native-service-companies"
+    },
+    {
+      "from": "ai-agent-saas-disruption",
+      "to": "ai-operating-leverage"
+    },
+    {
       "from": "ai-agent-saas-disruption",
       "to": "cs-education-ai-agents"
     },
     {
       "from": "ai-agent-saas-disruption",
+      "to": "ben-mann"
+    },
+    {
+      "from": "ai-agent-saas-disruption",
       "to": "source:boris-cherny-ai-agent-saas"
+    },
+    {
+      "from": "ai-agent-saas-disruption",
+      "to": "source:yc-ai-native-services-playbook"
+    },
+    {
+      "from": "computex-2026-nvidia-amd",
+      "to": "source:computex-2026-nvidia-amd"
+    },
+    {
+      "from": "computex-2026-nvidia-amd",
+      "to": "agentic-engineering"
+    },
+    {
+      "from": "computex-2026-nvidia-amd",
+      "to": "deterministic-vs-foundation-model"
+    },
+    {
+      "from": "computex-2026-nvidia-amd",
+      "to": "leadership-wishing-others-success"
+    },
+    {
+      "from": "computex-2026-nvidia-amd",
+      "to": "run-towards-hardest-problems"
     },
     {
       "from": "ai-second-opinion",
@@ -1712,7 +2968,59 @@
     },
     {
       "from": "cs-education-ai-agents",
+      "to": "source:berkeley-cs-ai-failing-grades"
+    },
+    {
+      "from": "cs-education-ai-agents",
       "to": "source:nathan-chiu-cs-education-ai"
+    },
+    {
+      "from": "agentic-stack",
+      "to": "source:aiase-2026-w7-agentic-stack"
+    },
+    {
+      "from": "agentic-stack",
+      "to": "harness-engineering"
+    },
+    {
+      "from": "agentic-stack",
+      "to": "context-engineering"
+    },
+    {
+      "from": "agentic-stack",
+      "to": "agent-harness"
+    },
+    {
+      "from": "agentic-stack",
+      "to": "verifiability-mindset"
+    },
+    {
+      "from": "agentic-stack",
+      "to": "claude-code"
+    },
+    {
+      "from": "agentic-stack",
+      "to": "spec-driven-development"
+    },
+    {
+      "from": "agentic-stack",
+      "to": "eval-driven-development"
+    },
+    {
+      "from": "ai-native-service-companies",
+      "to": "source:yc-ai-native-services-playbook"
+    },
+    {
+      "from": "ai-native-service-companies",
+      "to": "automation-vs-augmentation"
+    },
+    {
+      "from": "ai-native-service-companies",
+      "to": "thinking-depth-over-speed"
+    },
+    {
+      "from": "ai-native-service-companies",
+      "to": "jevons-paradox"
     }
   ]
 }
