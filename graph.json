@@ -1,6 +1,38 @@
 {
   "nodes": [
     {
+      "id": "prepared-for-upheaval",
+      "title": "做好準備就不怕動盪（All-in 自我改造）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 16
+    },
+    {
+      "id": "team-of-excellence",
+      "title": "Team of Excellence（工作流程壓縮與多能人才）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 24
+    },
+    {
+      "id": "strategy-over-tactics",
+      "title": "戰略 > 戰術（別用勤奮掩蓋戰略懶惰）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 9
+    },
+    {
+      "id": "trust-and-eq",
+      "title": "情商與被信任（AI 時代的保護傘）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 18
+    },
+    {
       "id": "agent-native-economy",
       "title": "Agent-Native Economy",
       "type": "concept",
@@ -33,12 +65,20 @@
       "degree": 3
     },
     {
+      "id": "agentic-web-traffic",
+      "title": "Agentic 網路流量超越人類（agentic age 已來）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 11
+    },
+    {
       "id": "ai-operating-leverage",
       "title": "AI 經營槓桿（AI Operating Leverage）",
       "type": "concept",
       "status": "stub",
       "exists": true,
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "agentic-engineering",
@@ -46,7 +86,7 @@
       "type": "concept",
       "status": "stub",
       "exists": true,
-      "degree": 29
+      "degree": 32
     },
     {
       "id": "mass-production-vs-inheritance",
@@ -54,7 +94,15 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 13
+      "degree": 18
+    },
+    {
+      "id": "learning-to-learn",
+      "title": "怎麼學 > 學什麼（百倍速時代的終極武器）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 18
     },
     {
       "id": "ai-job-ladder-collapse",
@@ -62,7 +110,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 22
+      "degree": 28
     },
     {
       "id": "karpathy-llm-wiki",
@@ -70,7 +118,23 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 11
+      "degree": 12
+    },
+    {
+      "id": "adaptability-restlessness",
+      "title": "適應力與不安分（新貨幣 / 熱愛才是根）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 9
+    },
+    {
+      "id": "directing-ai-not-executing",
+      "title": "指導 AI > 執行（問對問題、語言是終極編程語言）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 13
     },
     {
       "id": "from-code-to-human-problems",
@@ -78,7 +142,15 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 13
+      "degree": 17
+    },
+    {
+      "id": "composable-task-decomposition",
+      "title": "快速化 × 可組裝的任務拆解（數位價值核心）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 10
     },
     {
       "id": "mcp",
@@ -86,7 +158,23 @@
       "type": "concept",
       "status": "stub",
       "exists": true,
-      "degree": 10
+      "degree": 11
+    },
+    {
+      "id": "taking-on-responsibility",
+      "title": "承擔（社會資本的核心：肩膀硬度）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 23
+    },
+    {
+      "id": "think-big-frontier-problems",
+      "title": "Think Big（剩下的都是大題目）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 14
     },
     {
       "id": "worth-nurturing",
@@ -94,7 +182,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 15
+      "degree": 27
     },
     {
       "id": "jevons-paradox",
@@ -102,7 +190,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "a2a-protocol",
@@ -113,12 +201,28 @@
       "degree": 4
     },
     {
+      "id": "compute-as-throttle",
+      "title": "算力即油門（台灣 CoWoS 的籌碼）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 12
+    },
+    {
+      "id": "research-meeting-communication",
+      "title": "跟教授開會的心法（咪挺＝同步思考）",
+      "type": "concept",
+      "status": "stub",
+      "exists": true,
+      "degree": 6
+    },
+    {
       "id": "credit-as-future-resource",
       "title": "信用即動員未來資源的能力",
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 14
+      "degree": 24
     },
     {
       "id": "context-window-management",
@@ -134,7 +238,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 15
+      "degree": 26
     },
     {
       "id": "automation-vs-augmentation",
@@ -142,7 +246,15 @@
       "type": "concept",
       "status": "stub",
       "exists": true,
-      "degree": 12
+      "degree": 13
+    },
+    {
+      "id": "transactional-mindset",
+      "title": "對價關係思維（算計 vs 初心）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 24
     },
     {
       "id": "ai-amplifier-effect",
@@ -150,7 +262,15 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 17
+      "degree": 23
+    },
+    {
+      "id": "positional-ai-leverage",
+      "title": "AI 槓桿是「位置」的問題（主管 vs 打工人）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 19
     },
     {
       "id": "verifiability-mindset",
@@ -158,7 +278,15 @@
       "type": "concept",
       "status": "stub",
       "exists": true,
-      "degree": 15
+      "degree": 18
+    },
+    {
+      "id": "pursuit-of-excellence",
+      "title": "追求卓越的傳承（60 分生存 vs 100 分卓越）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 14
     },
     {
       "id": "spec-driven-development",
@@ -166,7 +294,7 @@
       "type": "concept",
       "status": "stub",
       "exists": true,
-      "degree": 11
+      "degree": 13
     },
     {
       "id": "tacit-knowledge",
@@ -182,7 +310,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 28
+      "degree": 34
     },
     {
       "id": "pc-dual-track",
@@ -190,7 +318,7 @@
       "type": "concept",
       "status": "stub",
       "exists": true,
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "deterministic-vs-foundation-model",
@@ -198,7 +326,15 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 12
+      "degree": 13
+    },
+    {
+      "id": "value-flow-window",
+      "title": "工頭 vs 工人（成為價值流動的窗口）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 14
     },
     {
       "id": "explorer-vs-follower",
@@ -206,7 +342,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 27
+      "degree": 37
     },
     {
       "id": "leadership-wishing-others-success",
@@ -214,7 +350,15 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 12
+      "degree": 14
+    },
+    {
+      "id": "value-transfer-vs-value-creation",
+      "title": "價值轉移 vs 價值創造（璞玉千里馬與伯樂）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 20
     },
     {
       "id": "llm-routing",
@@ -225,12 +369,28 @@
       "degree": 9
     },
     {
+      "id": "ai-layoff-trap",
+      "title": "AI 裁員陷阱（過度自動化的賽局）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 19
+    },
+    {
+      "id": "ai-era-product-development",
+      "title": "AI 時代的產品開發（6 個月 → 1 天）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 17
+    },
+    {
       "id": "skill-vs-subagent",
       "title": "Skill vs Sub-Agent（為什麼 Skill 通常更好）",
       "type": "concept",
       "status": "stub",
       "exists": true,
-      "degree": 13
+      "degree": 14
     },
     {
       "id": "software-1-2-3",
@@ -254,7 +414,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 10
+      "degree": 12
     },
     {
       "id": "multi-agent-cost",
@@ -265,12 +425,36 @@
       "degree": 10
     },
     {
+      "id": "how-you-work-not-what-you-can-do",
+      "title": "怎麼做事 > 會做什麼",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 15
+    },
+    {
       "id": "ai-dependence-skill-erosion",
       "title": "AI 依賴與基礎能力空心化（Skill Erosion）",
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 17
+      "degree": 18
+    },
+    {
+      "id": "recursive-self-improvement",
+      "title": "遞迴自我改進（RSI：AI 開始自己寫自己）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 22
+    },
+    {
+      "id": "shallow-trendy-trap",
+      "title": "挑軟柿子的陷阱（淺碟跟風 AI）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 8
     },
     {
       "id": "high-win-rate-people",
@@ -278,7 +462,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 15
+      "degree": 24
     },
     {
       "id": "ai-native-org-structure",
@@ -286,7 +470,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 16
+      "degree": 19
     },
     {
       "id": "structured-cot",
@@ -302,7 +486,15 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 24
+      "degree": 33
+    },
+    {
+      "id": "opportunity-adhesion",
+      "title": "機會黏著 vs 機會搶佔（成為發光體）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 12
     },
     {
       "id": "eval-driven-development",
@@ -310,7 +502,7 @@
       "type": "concept",
       "status": "stub",
       "exists": true,
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "train-vs-ocean-american-dream",
@@ -321,12 +513,20 @@
       "degree": 9
     },
     {
+      "id": "software-valuation-reset",
+      "title": "軟體估值修正（門檻是商業價值，不是軟體）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 15
+    },
+    {
       "id": "coding-as-proxy-for-thinking",
       "title": "「會寫 code」作為「會思考」的代理指標（已失效）",
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "tree-sitter-llm-hybrid-analysis",
@@ -342,7 +542,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 9
+      "degree": 21
     },
     {
       "id": "harness-five-subsystems",
@@ -366,7 +566,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 18
+      "degree": 21
     },
     {
       "id": "retrieval-plus-orchestration",
@@ -390,7 +590,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 15
+      "degree": 17
     },
     {
       "id": "task-vs-job",
@@ -398,7 +598,15 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 36
+      "degree": 44
+    },
+    {
+      "id": "ownership-and-autonomy",
+      "title": "主控力與選擇權（全權負責換自由）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 12
     },
     {
       "id": "thinking-depth-over-speed",
@@ -406,7 +614,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 20
+      "degree": 24
     },
     {
       "id": "llm-jaggedness",
@@ -430,7 +638,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 18
+      "degree": 20
     },
     {
       "id": "agent-memory",
@@ -446,7 +654,15 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 10
+      "degree": 17
+    },
+    {
+      "id": "employer-absolute-market",
+      "title": "絕對資方市場（只付給夠格的 10%）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 17
     },
     {
       "id": "context-engineering",
@@ -457,12 +673,28 @@
       "degree": 15
     },
     {
+      "id": "trial-and-error-velocity",
+      "title": "試誤速度與容錯力（效率×30 ＝ 失敗速度×30）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 20
+    },
+    {
+      "id": "improve-human-tasks-not-faster-code",
+      "title": "軟體價值＝改善人類任務（別只捲寫 code 更快）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 12
+    },
+    {
       "id": "combination-scarcity",
       "title": "組合稀缺性（樣樣通、精通幾門）",
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 12
+      "degree": 16
     },
     {
       "id": "agent-harness",
@@ -478,7 +710,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 15
+      "degree": 19
     },
     {
       "id": "affaan-m",
@@ -502,7 +734,7 @@
       "type": "entity",
       "status": "stub",
       "exists": true,
-      "degree": 13
+      "degree": 18
     },
     {
       "id": "claude-code",
@@ -510,7 +742,7 @@
       "type": "entity",
       "status": "stub",
       "exists": true,
-      "degree": 21
+      "degree": 24
     },
     {
       "id": "wang-poda",
@@ -558,7 +790,7 @@
       "type": "entity",
       "status": "stub",
       "exists": true,
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "gstack",
@@ -606,7 +838,7 @@
       "type": "entity",
       "status": "stub",
       "exists": true,
-      "degree": 11
+      "degree": 14
     },
     {
       "id": "boris-cherny",
@@ -614,7 +846,7 @@
       "type": "entity",
       "status": "stub",
       "exists": true,
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "sahil-bloom",
@@ -638,7 +870,7 @@
       "type": "entity",
       "status": "stub",
       "exists": true,
-      "degree": 7
+      "degree": 13
     },
     {
       "id": "agent-skills-for-context-engineering",
@@ -694,7 +926,7 @@
       "type": "entity",
       "status": "stub",
       "exists": true,
-      "degree": 8
+      "degree": 10
     },
     {
       "id": "microsoft",
@@ -702,7 +934,7 @@
       "type": "entity",
       "status": "stub",
       "exists": true,
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "nvidia",
@@ -710,7 +942,7 @@
       "type": "entity",
       "status": "stub",
       "exists": true,
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "charlie-warren",
@@ -719,6 +951,22 @@
       "status": "stub",
       "exists": true,
       "degree": 5
+    },
+    {
+      "id": "cloudflare",
+      "title": "Cloudflare",
+      "type": "entity",
+      "status": "stub",
+      "exists": true,
+      "degree": 7
+    },
+    {
+      "id": "cat-wu",
+      "title": "Cat Wu",
+      "type": "entity",
+      "status": "stub",
+      "exists": true,
+      "degree": 7
     },
     {
       "id": "understand-anything",
@@ -790,7 +1038,7 @@
       "type": "entity",
       "status": "stub",
       "exists": true,
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "gemma-4",
@@ -822,7 +1070,7 @@
       "type": "topic",
       "status": "draft",
       "exists": true,
-      "degree": 43
+      "degree": 54
     },
     {
       "id": "ai-agent-saas-disruption",
@@ -830,7 +1078,7 @@
       "type": "topic",
       "status": "draft",
       "exists": true,
-      "degree": 27
+      "degree": 35
     },
     {
       "id": "ai-era-student-playbook",
@@ -838,7 +1086,7 @@
       "type": "topic",
       "status": "draft",
       "exists": true,
-      "degree": 33
+      "degree": 58
     },
     {
       "id": "computex-2026-nvidia-amd",
@@ -870,7 +1118,7 @@
       "type": "topic",
       "status": "draft",
       "exists": true,
-      "degree": 21
+      "degree": 22
     },
     {
       "id": "ai-native-service-companies",
@@ -878,7 +1126,39 @@
       "type": "topic",
       "status": "draft",
       "exists": true,
-      "degree": 16
+      "degree": 21
+    },
+    {
+      "id": "source:ktchuang-prepared-for-upheaval",
+      "title": "ktchuang-prepared-for-upheaval",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 1
+    },
+    {
+      "id": "source:ktchuang-team-of-excellence",
+      "title": "ktchuang-team-of-excellence",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 1
+    },
+    {
+      "id": "source:ktchuang-strategy-over-tactics",
+      "title": "ktchuang-strategy-over-tactics",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 1
+    },
+    {
+      "id": "source:ktchuang-eq-and-trust",
+      "title": "ktchuang-eq-and-trust",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 1
     },
     {
       "id": "source:karpathy-sequoia-ascent-2026",
@@ -911,6 +1191,14 @@
       "status": "",
       "exists": true,
       "degree": 5
+    },
+    {
+      "id": "source:cloudflare-bots-surpass-humans",
+      "title": "cloudflare-bots-surpass-humans",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 3
     },
     {
       "id": "source:yc-ai-native-services-playbook",
@@ -953,6 +1241,14 @@
       "degree": 5
     },
     {
+      "id": "source:ktchuang-learning-to-learn-100x",
+      "title": "ktchuang-learning-to-learn-100x",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 1
+    },
+    {
       "id": "source:ikala-sega-ai-agent-era-2026",
       "title": "ikala-sega-ai-agent-era-2026",
       "type": "source",
@@ -977,6 +1273,22 @@
       "degree": 4
     },
     {
+      "id": "source:ktchuang-adaptability-restlessness-1",
+      "title": "ktchuang-adaptability-restlessness-1",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 1
+    },
+    {
+      "id": "source:ktchuang-directing-ai-language",
+      "title": "ktchuang-directing-ai-language",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 1
+    },
+    {
       "id": "source:ktchuang-ship-and-share",
       "title": "ktchuang-ship-and-share",
       "type": "source",
@@ -991,6 +1303,30 @@
       "status": "",
       "exists": true,
       "degree": 11
+    },
+    {
+      "id": "source:ktchuang-composable-task-decomposition",
+      "title": "ktchuang-composable-task-decomposition",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 1
+    },
+    {
+      "id": "source:ktchuang-taking-on-responsibility",
+      "title": "ktchuang-taking-on-responsibility",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 1
+    },
+    {
+      "id": "source:ktchuang-think-big-service-as-software",
+      "title": "ktchuang-think-big-service-as-software",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 2
     },
     {
       "id": "source:ktchuang-worth-nurturing-lin-che",
@@ -1017,6 +1353,30 @@
       "degree": 4
     },
     {
+      "id": "source:sega-cheng-rsi-ai-writes-itself",
+      "title": "sega-cheng-rsi-ai-writes-itself",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 3
+    },
+    {
+      "id": "source:computex-2026-nvidia-amd",
+      "title": "computex-2026-nvidia-amd",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 7
+    },
+    {
+      "id": "source:ktchuang-advisor-meeting",
+      "title": "ktchuang-advisor-meeting",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 1
+    },
+    {
       "id": "source:vincent-yu-credit-future-resources",
       "title": "vincent-yu-credit-future-resources",
       "type": "source",
@@ -1025,8 +1385,32 @@
       "degree": 2
     },
     {
+      "id": "source:ktchuang-commitment-and-trust",
+      "title": "ktchuang-commitment-and-trust",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 1
+    },
+    {
       "id": "source:ktchuang-rocket-launcher-win-rate",
       "title": "ktchuang-rocket-launcher-win-rate",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 2
+    },
+    {
+      "id": "source:ktchuang-transactional-mindset",
+      "title": "ktchuang-transactional-mindset",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 2
+    },
+    {
+      "id": "source:wiselychen-ai-worker-position",
+      "title": "wiselychen-ai-worker-position",
       "type": "source",
       "status": "",
       "exists": true,
@@ -1038,7 +1422,15 @@
       "type": "source",
       "status": "",
       "exists": true,
-      "degree": 11
+      "degree": 12
+    },
+    {
+      "id": "source:ktchuang-pursuit-of-excellence",
+      "title": "ktchuang-pursuit-of-excellence",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 1
     },
     {
       "id": "source:microsoft-suleyman-anthropic-too-expensive",
@@ -1049,14 +1441,6 @@
       "degree": 4
     },
     {
-      "id": "source:computex-2026-nvidia-amd",
-      "title": "computex-2026-nvidia-amd",
-      "type": "source",
-      "status": "",
-      "exists": true,
-      "degree": 6
-    },
-    {
       "id": "source:aiase-deterministic-vs-foundation-model",
       "title": "aiase-deterministic-vs-foundation-model",
       "type": "source",
@@ -1065,12 +1449,60 @@
       "degree": 2
     },
     {
+      "id": "source:ktchuang-value-flow-window",
+      "title": "ktchuang-value-flow-window",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 1
+    },
+    {
       "id": "source:jensen-huang-leadership-summit",
       "title": "jensen-huang-leadership-summit",
       "type": "source",
       "status": "",
       "exists": true,
       "degree": 3
+    },
+    {
+      "id": "source:ktchuang-value-transfer-vs-creation",
+      "title": "ktchuang-value-transfer-vs-creation",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 1
+    },
+    {
+      "id": "source:wanweigang-scarce-abilities",
+      "title": "wanweigang-scarce-abilities",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 1
+    },
+    {
+      "id": "source:ai-layoff-trap-paper",
+      "title": "ai-layoff-trap-paper",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 1
+    },
+    {
+      "id": "source:ktchuang-snap-ai-layoff-confession",
+      "title": "ktchuang-snap-ai-layoff-confession",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 1
+    },
+    {
+      "id": "source:catwu-claude-code-pm-9-truths",
+      "title": "catwu-claude-code-pm-9-truths",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 2
     },
     {
       "id": "source:executive-career-burnout",
@@ -1083,6 +1515,14 @@
     {
       "id": "source:ktchuang-zero-to-one-talent",
       "title": "ktchuang-zero-to-one-talent",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 1
+    },
+    {
+      "id": "source:ktchuang-how-you-work-water-amd",
+      "title": "ktchuang-how-you-work-water-amd",
       "type": "source",
       "status": "",
       "exists": true,
@@ -1103,6 +1543,22 @@
       "status": "",
       "exists": true,
       "degree": 3
+    },
+    {
+      "id": "source:ktchuang-ai-compiler-of-compiler",
+      "title": "ktchuang-ai-compiler-of-compiler",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 1
+    },
+    {
+      "id": "source:ktchuang-shallow-trendy-trap",
+      "title": "ktchuang-shallow-trendy-trap",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 1
     },
     {
       "id": "source:ktchuang-do-what-moves-you",
@@ -1129,8 +1585,32 @@
       "degree": 2
     },
     {
+      "id": "source:ktchuang-software-valuation-reset",
+      "title": "ktchuang-software-valuation-reset",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 1
+    },
+    {
+      "id": "source:ktchuang-ben-thompson-saas",
+      "title": "ktchuang-ben-thompson-saas",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 1
+    },
+    {
       "id": "source:ktchuang-find-your-benefactor",
       "title": "ktchuang-find-your-benefactor",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 1
+    },
+    {
+      "id": "source:ktchuang-wang-wenhan-be-ready",
+      "title": "ktchuang-wang-wenhan-be-ready",
       "type": "source",
       "status": "",
       "exists": true,
@@ -1167,6 +1647,14 @@
       "status": "",
       "exists": true,
       "degree": 3
+    },
+    {
+      "id": "source:ktchuang-ownership-and-autonomy",
+      "title": "ktchuang-ownership-and-autonomy",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 1
     },
     {
       "id": "source:taiwan-ai-academy-dev-day-reflection",
@@ -1217,6 +1705,30 @@
       "degree": 1
     },
     {
+      "id": "source:ktchuang-employer-absolute-market",
+      "title": "ktchuang-employer-absolute-market",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 1
+    },
+    {
+      "id": "source:ktchuang-trial-and-error-velocity",
+      "title": "ktchuang-trial-and-error-velocity",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 1
+    },
+    {
+      "id": "source:ktchuang-software-value-japan-manufacturing",
+      "title": "ktchuang-software-value-japan-manufacturing",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 1
+    },
+    {
       "id": "source:wiselychen-jack-of-all-trades",
       "title": "wiselychen-jack-of-all-trades",
       "type": "source",
@@ -1250,6 +1762,194 @@
     }
   ],
   "edges": [
+    {
+      "from": "prepared-for-upheaval",
+      "to": "source:ktchuang-prepared-for-upheaval"
+    },
+    {
+      "from": "prepared-for-upheaval",
+      "to": "pursuit-of-excellence"
+    },
+    {
+      "from": "prepared-for-upheaval",
+      "to": "transactional-mindset"
+    },
+    {
+      "from": "prepared-for-upheaval",
+      "to": "trial-and-error-velocity"
+    },
+    {
+      "from": "prepared-for-upheaval",
+      "to": "learning-to-learn"
+    },
+    {
+      "from": "prepared-for-upheaval",
+      "to": "team-of-excellence"
+    },
+    {
+      "from": "prepared-for-upheaval",
+      "to": "ai-native-service-companies"
+    },
+    {
+      "from": "prepared-for-upheaval",
+      "to": "anthropic"
+    },
+    {
+      "from": "prepared-for-upheaval",
+      "to": "ai-job-ladder-collapse"
+    },
+    {
+      "from": "prepared-for-upheaval",
+      "to": "ai-agent-saas-disruption"
+    },
+    {
+      "from": "prepared-for-upheaval",
+      "to": "gun-to-rocket-launcher"
+    },
+    {
+      "from": "prepared-for-upheaval",
+      "to": "token-economics"
+    },
+    {
+      "from": "prepared-for-upheaval",
+      "to": "meta-skill"
+    },
+    {
+      "from": "prepared-for-upheaval",
+      "to": "taking-on-responsibility"
+    },
+    {
+      "from": "prepared-for-upheaval",
+      "to": "ai-era-student-playbook"
+    },
+    {
+      "from": "team-of-excellence",
+      "to": "source:ktchuang-team-of-excellence"
+    },
+    {
+      "from": "team-of-excellence",
+      "to": "token-economics"
+    },
+    {
+      "from": "team-of-excellence",
+      "to": "ai-native-service-companies"
+    },
+    {
+      "from": "team-of-excellence",
+      "to": "combination-scarcity"
+    },
+    {
+      "from": "team-of-excellence",
+      "to": "taking-on-responsibility"
+    },
+    {
+      "from": "team-of-excellence",
+      "to": "trust-and-eq"
+    },
+    {
+      "from": "team-of-excellence",
+      "to": "zero-to-one-vs-one-to-hundred"
+    },
+    {
+      "from": "team-of-excellence",
+      "to": "ai-native-org-structure"
+    },
+    {
+      "from": "team-of-excellence",
+      "to": "ai-amplifier-effect"
+    },
+    {
+      "from": "team-of-excellence",
+      "to": "explorer-vs-follower"
+    },
+    {
+      "from": "team-of-excellence",
+      "to": "ai-era-student-playbook"
+    },
+    {
+      "from": "team-of-excellence",
+      "to": "career-wealth-and-motivation"
+    },
+    {
+      "from": "strategy-over-tactics",
+      "to": "source:ktchuang-strategy-over-tactics"
+    },
+    {
+      "from": "strategy-over-tactics",
+      "to": "deterministic-vs-foundation-model"
+    },
+    {
+      "from": "strategy-over-tactics",
+      "to": "taking-on-responsibility"
+    },
+    {
+      "from": "strategy-over-tactics",
+      "to": "trial-and-error-velocity"
+    },
+    {
+      "from": "strategy-over-tactics",
+      "to": "think-big-frontier-problems"
+    },
+    {
+      "from": "strategy-over-tactics",
+      "to": "meta-skill"
+    },
+    {
+      "from": "strategy-over-tactics",
+      "to": "learning-to-learn"
+    },
+    {
+      "from": "strategy-over-tactics",
+      "to": "transactional-mindset"
+    },
+    {
+      "from": "strategy-over-tactics",
+      "to": "ai-era-student-playbook"
+    },
+    {
+      "from": "trust-and-eq",
+      "to": "source:ktchuang-eq-and-trust"
+    },
+    {
+      "from": "trust-and-eq",
+      "to": "zero-to-one-vs-one-to-hundred"
+    },
+    {
+      "from": "trust-and-eq",
+      "to": "meta-skill"
+    },
+    {
+      "from": "trust-and-eq",
+      "to": "positive-cycle"
+    },
+    {
+      "from": "trust-and-eq",
+      "to": "service-before-leadership"
+    },
+    {
+      "from": "trust-and-eq",
+      "to": "worth-nurturing"
+    },
+    {
+      "from": "trust-and-eq",
+      "to": "ai-native-org-structure"
+    },
+    {
+      "from": "trust-and-eq",
+      "to": "high-win-rate-people"
+    },
+    {
+      "from": "trust-and-eq",
+      "to": "find-your-benefactor"
+    },
+    {
+      "from": "trust-and-eq",
+      "to": "ai-era-student-playbook"
+    },
+    {
+      "from": "trust-and-eq",
+      "to": "career-wealth-and-motivation"
+    },
     {
       "from": "agent-native-economy",
       "to": "andrej-karpathy"
@@ -1363,6 +2063,50 @@
       "to": "source:ai-second-opinion-prompt"
     },
     {
+      "from": "agentic-web-traffic",
+      "to": "source:cloudflare-bots-surpass-humans"
+    },
+    {
+      "from": "agentic-web-traffic",
+      "to": "cloudflare"
+    },
+    {
+      "from": "agentic-web-traffic",
+      "to": "ai-amplifier-effect"
+    },
+    {
+      "from": "agentic-web-traffic",
+      "to": "agentic-engineering"
+    },
+    {
+      "from": "agentic-web-traffic",
+      "to": "ai-agent-saas-disruption"
+    },
+    {
+      "from": "agentic-web-traffic",
+      "to": "sega-cheng"
+    },
+    {
+      "from": "agentic-web-traffic",
+      "to": "cost-stack"
+    },
+    {
+      "from": "agentic-web-traffic",
+      "to": "token-economics"
+    },
+    {
+      "from": "agentic-web-traffic",
+      "to": "recursive-self-improvement"
+    },
+    {
+      "from": "agentic-web-traffic",
+      "to": "compute-as-throttle"
+    },
+    {
+      "from": "agentic-web-traffic",
+      "to": "mcp"
+    },
+    {
       "from": "ai-operating-leverage",
       "to": "charlie-warren"
     },
@@ -1468,10 +2212,62 @@
     },
     {
       "from": "mass-production-vs-inheritance",
+      "to": "pursuit-of-excellence"
+    },
+    {
+      "from": "mass-production-vs-inheritance",
       "to": "ai-dependence-skill-erosion"
     },
     {
       "from": "mass-production-vs-inheritance",
+      "to": "career-wealth-and-motivation"
+    },
+    {
+      "from": "learning-to-learn",
+      "to": "source:ktchuang-learning-to-learn-100x"
+    },
+    {
+      "from": "learning-to-learn",
+      "to": "mass-production-vs-inheritance"
+    },
+    {
+      "from": "learning-to-learn",
+      "to": "gun-to-rocket-launcher"
+    },
+    {
+      "from": "learning-to-learn",
+      "to": "meta-skill"
+    },
+    {
+      "from": "learning-to-learn",
+      "to": "combination-scarcity"
+    },
+    {
+      "from": "learning-to-learn",
+      "to": "explorer-vs-follower"
+    },
+    {
+      "from": "learning-to-learn",
+      "to": "from-code-to-human-problems"
+    },
+    {
+      "from": "learning-to-learn",
+      "to": "high-win-rate-people"
+    },
+    {
+      "from": "learning-to-learn",
+      "to": "worth-nurturing"
+    },
+    {
+      "from": "learning-to-learn",
+      "to": "find-your-benefactor"
+    },
+    {
+      "from": "learning-to-learn",
+      "to": "ai-era-student-playbook"
+    },
+    {
+      "from": "learning-to-learn",
       "to": "career-wealth-and-motivation"
     },
     {
@@ -1485,6 +2281,10 @@
     {
       "from": "ai-job-ladder-collapse",
       "to": "stanford-sdel-canaries"
+    },
+    {
+      "from": "ai-job-ladder-collapse",
+      "to": "ai-layoff-trap"
     },
     {
       "from": "ai-job-ladder-collapse",
@@ -1567,6 +2367,86 @@
       "to": "source:understand-anything-readme"
     },
     {
+      "from": "adaptability-restlessness",
+      "to": "source:ktchuang-adaptability-restlessness-1"
+    },
+    {
+      "from": "adaptability-restlessness",
+      "to": "meta-skill"
+    },
+    {
+      "from": "adaptability-restlessness",
+      "to": "mass-production-vs-inheritance"
+    },
+    {
+      "from": "adaptability-restlessness",
+      "to": "explorer-vs-follower"
+    },
+    {
+      "from": "adaptability-restlessness",
+      "to": "trial-and-error-velocity"
+    },
+    {
+      "from": "adaptability-restlessness",
+      "to": "learning-to-learn"
+    },
+    {
+      "from": "adaptability-restlessness",
+      "to": "worth-nurturing"
+    },
+    {
+      "from": "adaptability-restlessness",
+      "to": "transactional-mindset"
+    },
+    {
+      "from": "adaptability-restlessness",
+      "to": "ai-era-student-playbook"
+    },
+    {
+      "from": "directing-ai-not-executing",
+      "to": "source:ktchuang-directing-ai-language"
+    },
+    {
+      "from": "directing-ai-not-executing",
+      "to": "ai-era-product-development"
+    },
+    {
+      "from": "directing-ai-not-executing",
+      "to": "verifiability-mindset"
+    },
+    {
+      "from": "directing-ai-not-executing",
+      "to": "task-vs-job"
+    },
+    {
+      "from": "directing-ai-not-executing",
+      "to": "recursive-self-improvement"
+    },
+    {
+      "from": "directing-ai-not-executing",
+      "to": "mechanism-over-prompt"
+    },
+    {
+      "from": "directing-ai-not-executing",
+      "to": "team-of-excellence"
+    },
+    {
+      "from": "directing-ai-not-executing",
+      "to": "ai-job-ladder-collapse"
+    },
+    {
+      "from": "directing-ai-not-executing",
+      "to": "positional-ai-leverage"
+    },
+    {
+      "from": "directing-ai-not-executing",
+      "to": "jensen-huang"
+    },
+    {
+      "from": "directing-ai-not-executing",
+      "to": "ai-era-student-playbook"
+    },
+    {
       "from": "from-code-to-human-problems",
       "to": "source:ktchuang-ship-and-share"
     },
@@ -1607,6 +2487,46 @@
       "to": "source:ktchuang-service-before-leadership"
     },
     {
+      "from": "composable-task-decomposition",
+      "to": "source:ktchuang-composable-task-decomposition"
+    },
+    {
+      "from": "composable-task-decomposition",
+      "to": "improve-human-tasks-not-faster-code"
+    },
+    {
+      "from": "composable-task-decomposition",
+      "to": "directing-ai-not-executing"
+    },
+    {
+      "from": "composable-task-decomposition",
+      "to": "ai-era-product-development"
+    },
+    {
+      "from": "composable-task-decomposition",
+      "to": "task-vs-job"
+    },
+    {
+      "from": "composable-task-decomposition",
+      "to": "value-flow-window"
+    },
+    {
+      "from": "composable-task-decomposition",
+      "to": "team-of-excellence"
+    },
+    {
+      "from": "composable-task-decomposition",
+      "to": "skill-vs-subagent"
+    },
+    {
+      "from": "composable-task-decomposition",
+      "to": "agentic-stack"
+    },
+    {
+      "from": "composable-task-decomposition",
+      "to": "ai-era-student-playbook"
+    },
+    {
       "from": "mcp",
       "to": "agentic-stack"
     },
@@ -1633,6 +2553,118 @@
     {
       "from": "mcp",
       "to": "context-window-management"
+    },
+    {
+      "from": "taking-on-responsibility",
+      "to": "source:ktchuang-taking-on-responsibility"
+    },
+    {
+      "from": "taking-on-responsibility",
+      "to": "ai-job-ladder-collapse"
+    },
+    {
+      "from": "taking-on-responsibility",
+      "to": "gun-to-rocket-launcher"
+    },
+    {
+      "from": "taking-on-responsibility",
+      "to": "worth-nurturing"
+    },
+    {
+      "from": "taking-on-responsibility",
+      "to": "meta-skill"
+    },
+    {
+      "from": "taking-on-responsibility",
+      "to": "trust-and-eq"
+    },
+    {
+      "from": "taking-on-responsibility",
+      "to": "find-your-benefactor"
+    },
+    {
+      "from": "taking-on-responsibility",
+      "to": "high-win-rate-people"
+    },
+    {
+      "from": "taking-on-responsibility",
+      "to": "credit-as-future-resource"
+    },
+    {
+      "from": "taking-on-responsibility",
+      "to": "positive-cycle"
+    },
+    {
+      "from": "taking-on-responsibility",
+      "to": "ai-era-student-playbook"
+    },
+    {
+      "from": "taking-on-responsibility",
+      "to": "career-wealth-and-motivation"
+    },
+    {
+      "from": "taking-on-responsibility",
+      "to": "ownership-and-autonomy"
+    },
+    {
+      "from": "taking-on-responsibility",
+      "to": "leadership-wishing-others-success"
+    },
+    {
+      "from": "taking-on-responsibility",
+      "to": "jensen-huang"
+    },
+    {
+      "from": "think-big-frontier-problems",
+      "to": "source:ktchuang-think-big-service-as-software"
+    },
+    {
+      "from": "think-big-frontier-problems",
+      "to": "run-towards-hardest-problems"
+    },
+    {
+      "from": "think-big-frontier-problems",
+      "to": "thinking-depth-over-speed"
+    },
+    {
+      "from": "think-big-frontier-problems",
+      "to": "explorer-vs-follower"
+    },
+    {
+      "from": "think-big-frontier-problems",
+      "to": "prepared-for-upheaval"
+    },
+    {
+      "from": "think-big-frontier-problems",
+      "to": "autoresearch"
+    },
+    {
+      "from": "think-big-frontier-problems",
+      "to": "trial-and-error-velocity"
+    },
+    {
+      "from": "think-big-frontier-problems",
+      "to": "ai-amplifier-effect"
+    },
+    {
+      "from": "think-big-frontier-problems",
+      "to": "karpathy-llm-wiki"
+    },
+    {
+      "from": "think-big-frontier-problems",
+      "to": "ai-native-service-companies"
+    },
+    {
+      "from": "think-big-frontier-problems",
+      "to": "ai-agent-saas-disruption"
+    },
+    {
+      "from": "think-big-frontier-problems",
+      "to": "compute-as-throttle"
+    },
+    {
+      "from": "think-big-frontier-problems",
+      "to": "ai-era-student-playbook"
     },
     {
       "from": "worth-nurturing",
@@ -1680,6 +2712,14 @@
     },
     {
       "from": "worth-nurturing",
+      "to": "opportunity-adhesion"
+    },
+    {
+      "from": "worth-nurturing",
+      "to": "transactional-mindset"
+    },
+    {
+      "from": "worth-nurturing",
       "to": "career-wealth-and-motivation"
     },
     {
@@ -1723,12 +2763,80 @@
       "to": "skill-vs-subagent"
     },
     {
+      "from": "compute-as-throttle",
+      "to": "sega-cheng"
+    },
+    {
+      "from": "compute-as-throttle",
+      "to": "source:sega-cheng-rsi-ai-writes-itself"
+    },
+    {
+      "from": "compute-as-throttle",
+      "to": "recursive-self-improvement"
+    },
+    {
+      "from": "compute-as-throttle",
+      "to": "nvidia"
+    },
+    {
+      "from": "compute-as-throttle",
+      "to": "amd"
+    },
+    {
+      "from": "compute-as-throttle",
+      "to": "pc-dual-track"
+    },
+    {
+      "from": "compute-as-throttle",
+      "to": "source:computex-2026-nvidia-amd"
+    },
+    {
+      "from": "compute-as-throttle",
+      "to": "token-economics"
+    },
+    {
+      "from": "research-meeting-communication",
+      "to": "source:ktchuang-advisor-meeting"
+    },
+    {
+      "from": "research-meeting-communication",
+      "to": "learning-to-learn"
+    },
+    {
+      "from": "research-meeting-communication",
+      "to": "high-win-rate-people"
+    },
+    {
+      "from": "research-meeting-communication",
+      "to": "find-your-benefactor"
+    },
+    {
+      "from": "research-meeting-communication",
+      "to": "trust-and-eq"
+    },
+    {
+      "from": "research-meeting-communication",
+      "to": "ai-era-student-playbook"
+    },
+    {
       "from": "credit-as-future-resource",
       "to": "vincent-cw-yu"
     },
     {
       "from": "credit-as-future-resource",
       "to": "source:vincent-yu-credit-future-resources"
+    },
+    {
+      "from": "credit-as-future-resource",
+      "to": "source:ktchuang-commitment-and-trust"
+    },
+    {
+      "from": "credit-as-future-resource",
+      "to": "transactional-mindset"
+    },
+    {
+      "from": "credit-as-future-resource",
+      "to": "positive-cycle"
     },
     {
       "from": "credit-as-future-resource",
@@ -1741,6 +2849,14 @@
     {
       "from": "credit-as-future-resource",
       "to": "career-wealth-and-motivation"
+    },
+    {
+      "from": "credit-as-future-resource",
+      "to": "ai-era-student-playbook"
+    },
+    {
+      "from": "credit-as-future-resource",
+      "to": "trust-and-eq"
     },
     {
       "from": "credit-as-future-resource",
@@ -1840,7 +2956,55 @@
     },
     {
       "from": "automation-vs-augmentation",
+      "to": "ai-layoff-trap"
+    },
+    {
+      "from": "automation-vs-augmentation",
       "to": "career-wealth-and-motivation"
+    },
+    {
+      "from": "transactional-mindset",
+      "to": "source:ktchuang-transactional-mindset"
+    },
+    {
+      "from": "transactional-mindset",
+      "to": "taking-on-responsibility"
+    },
+    {
+      "from": "transactional-mindset",
+      "to": "positive-cycle"
+    },
+    {
+      "from": "transactional-mindset",
+      "to": "explorer-vs-follower"
+    },
+    {
+      "from": "transactional-mindset",
+      "to": "from-code-to-human-problems"
+    },
+    {
+      "from": "transactional-mindset",
+      "to": "team-of-excellence"
+    },
+    {
+      "from": "transactional-mindset",
+      "to": "ai-job-ladder-collapse"
+    },
+    {
+      "from": "transactional-mindset",
+      "to": "meta-skill"
+    },
+    {
+      "from": "transactional-mindset",
+      "to": "opportunity-adhesion"
+    },
+    {
+      "from": "transactional-mindset",
+      "to": "find-your-benefactor"
+    },
+    {
+      "from": "transactional-mindset",
+      "to": "ai-era-student-playbook"
     },
     {
       "from": "ai-amplifier-effect",
@@ -1891,6 +3055,62 @@
       "to": "agentic-engineering"
     },
     {
+      "from": "positional-ai-leverage",
+      "to": "wisely-chen"
+    },
+    {
+      "from": "positional-ai-leverage",
+      "to": "source:wiselychen-ai-worker-position"
+    },
+    {
+      "from": "positional-ai-leverage",
+      "to": "ai-layoff-trap"
+    },
+    {
+      "from": "positional-ai-leverage",
+      "to": "transactional-mindset"
+    },
+    {
+      "from": "positional-ai-leverage",
+      "to": "explorer-vs-follower"
+    },
+    {
+      "from": "positional-ai-leverage",
+      "to": "trial-and-error-velocity"
+    },
+    {
+      "from": "positional-ai-leverage",
+      "to": "ownership-and-autonomy"
+    },
+    {
+      "from": "positional-ai-leverage",
+      "to": "recursive-self-improvement"
+    },
+    {
+      "from": "positional-ai-leverage",
+      "to": "ai-era-product-development"
+    },
+    {
+      "from": "positional-ai-leverage",
+      "to": "credit-as-future-resource"
+    },
+    {
+      "from": "positional-ai-leverage",
+      "to": "team-of-excellence"
+    },
+    {
+      "from": "positional-ai-leverage",
+      "to": "task-vs-job"
+    },
+    {
+      "from": "positional-ai-leverage",
+      "to": "career-wealth-and-motivation"
+    },
+    {
+      "from": "positional-ai-leverage",
+      "to": "ai-era-student-playbook"
+    },
+    {
       "from": "verifiability-mindset",
       "to": "source:aiase-2026-w8-token-economy"
     },
@@ -1929,6 +3149,50 @@
     {
       "from": "verifiability-mindset",
       "to": "harness-engineering"
+    },
+    {
+      "from": "pursuit-of-excellence",
+      "to": "source:ktchuang-pursuit-of-excellence"
+    },
+    {
+      "from": "pursuit-of-excellence",
+      "to": "combination-scarcity"
+    },
+    {
+      "from": "pursuit-of-excellence",
+      "to": "find-your-benefactor"
+    },
+    {
+      "from": "pursuit-of-excellence",
+      "to": "leadership-wishing-others-success"
+    },
+    {
+      "from": "pursuit-of-excellence",
+      "to": "taking-on-responsibility"
+    },
+    {
+      "from": "pursuit-of-excellence",
+      "to": "worth-nurturing"
+    },
+    {
+      "from": "pursuit-of-excellence",
+      "to": "positive-cycle"
+    },
+    {
+      "from": "pursuit-of-excellence",
+      "to": "ai-dependence-skill-erosion"
+    },
+    {
+      "from": "pursuit-of-excellence",
+      "to": "ai-era-student-playbook"
+    },
+    {
+      "from": "pursuit-of-excellence",
+      "to": "career-wealth-and-motivation"
+    },
+    {
+      "from": "pursuit-of-excellence",
+      "to": "jensen-huang"
     },
     {
       "from": "spec-driven-development",
@@ -2111,6 +3375,50 @@
       "to": "gemma-4"
     },
     {
+      "from": "value-flow-window",
+      "to": "source:ktchuang-value-flow-window"
+    },
+    {
+      "from": "value-flow-window",
+      "to": "recursive-self-improvement"
+    },
+    {
+      "from": "value-flow-window",
+      "to": "ai-layoff-trap"
+    },
+    {
+      "from": "value-flow-window",
+      "to": "find-your-benefactor"
+    },
+    {
+      "from": "value-flow-window",
+      "to": "high-win-rate-people"
+    },
+    {
+      "from": "value-flow-window",
+      "to": "positional-ai-leverage"
+    },
+    {
+      "from": "value-flow-window",
+      "to": "team-of-excellence"
+    },
+    {
+      "from": "value-flow-window",
+      "to": "employer-absolute-market"
+    },
+    {
+      "from": "value-flow-window",
+      "to": "transactional-mindset"
+    },
+    {
+      "from": "value-flow-window",
+      "to": "opportunity-adhesion"
+    },
+    {
+      "from": "value-flow-window",
+      "to": "ai-era-student-playbook"
+    },
+    {
       "from": "explorer-vs-follower",
       "to": "source:ktchuang-explorer-vs-follower"
     },
@@ -2157,6 +3465,14 @@
     {
       "from": "explorer-vs-follower",
       "to": "high-win-rate-people"
+    },
+    {
+      "from": "explorer-vs-follower",
+      "to": "trial-and-error-velocity"
+    },
+    {
+      "from": "explorer-vs-follower",
+      "to": "ownership-and-autonomy"
     },
     {
       "from": "explorer-vs-follower",
@@ -2211,6 +3527,86 @@
       "to": "career-wealth-and-motivation"
     },
     {
+      "from": "value-transfer-vs-value-creation",
+      "to": "source:ktchuang-value-transfer-vs-creation"
+    },
+    {
+      "from": "value-transfer-vs-value-creation",
+      "to": "sega-cheng"
+    },
+    {
+      "from": "value-transfer-vs-value-creation",
+      "to": "find-your-benefactor"
+    },
+    {
+      "from": "value-transfer-vs-value-creation",
+      "to": "worth-nurturing"
+    },
+    {
+      "from": "value-transfer-vs-value-creation",
+      "to": "opportunity-adhesion"
+    },
+    {
+      "from": "value-transfer-vs-value-creation",
+      "to": "service-before-leadership"
+    },
+    {
+      "from": "value-transfer-vs-value-creation",
+      "to": "positive-cycle"
+    },
+    {
+      "from": "value-transfer-vs-value-creation",
+      "to": "trial-and-error-velocity"
+    },
+    {
+      "from": "value-transfer-vs-value-creation",
+      "to": "value-flow-window"
+    },
+    {
+      "from": "value-transfer-vs-value-creation",
+      "to": "transactional-mindset"
+    },
+    {
+      "from": "value-transfer-vs-value-creation",
+      "to": "source:wanweigang-scarce-abilities"
+    },
+    {
+      "from": "value-transfer-vs-value-creation",
+      "to": "taking-on-responsibility"
+    },
+    {
+      "from": "value-transfer-vs-value-creation",
+      "to": "directing-ai-not-executing"
+    },
+    {
+      "from": "value-transfer-vs-value-creation",
+      "to": "task-vs-job"
+    },
+    {
+      "from": "value-transfer-vs-value-creation",
+      "to": "explorer-vs-follower"
+    },
+    {
+      "from": "value-transfer-vs-value-creation",
+      "to": "how-you-work-not-what-you-can-do"
+    },
+    {
+      "from": "value-transfer-vs-value-creation",
+      "to": "credit-as-future-resource"
+    },
+    {
+      "from": "value-transfer-vs-value-creation",
+      "to": "recursive-self-improvement"
+    },
+    {
+      "from": "value-transfer-vs-value-creation",
+      "to": "career-wealth-and-motivation"
+    },
+    {
+      "from": "value-transfer-vs-value-creation",
+      "to": "ai-era-student-playbook"
+    },
+    {
       "from": "llm-routing",
       "to": "cost-stack"
     },
@@ -2229,6 +3625,114 @@
     {
       "from": "llm-routing",
       "to": "harness-engineering"
+    },
+    {
+      "from": "ai-layoff-trap",
+      "to": "source:ai-layoff-trap-paper"
+    },
+    {
+      "from": "ai-layoff-trap",
+      "to": "source:ktchuang-snap-ai-layoff-confession"
+    },
+    {
+      "from": "ai-layoff-trap",
+      "to": "team-of-excellence"
+    },
+    {
+      "from": "ai-layoff-trap",
+      "to": "recursive-self-improvement"
+    },
+    {
+      "from": "ai-layoff-trap",
+      "to": "gun-to-rocket-launcher"
+    },
+    {
+      "from": "ai-layoff-trap",
+      "to": "credit-as-future-resource"
+    },
+    {
+      "from": "ai-layoff-trap",
+      "to": "ai-native-org-structure"
+    },
+    {
+      "from": "ai-layoff-trap",
+      "to": "jevons-paradox"
+    },
+    {
+      "from": "ai-layoff-trap",
+      "to": "ai-amplifier-effect"
+    },
+    {
+      "from": "ai-layoff-trap",
+      "to": "task-vs-job"
+    },
+    {
+      "from": "ai-layoff-trap",
+      "to": "ai-agent-saas-disruption"
+    },
+    {
+      "from": "ai-layoff-trap",
+      "to": "employer-absolute-market"
+    },
+    {
+      "from": "ai-layoff-trap",
+      "to": "career-wealth-and-motivation"
+    },
+    {
+      "from": "ai-era-product-development",
+      "to": "cat-wu"
+    },
+    {
+      "from": "ai-era-product-development",
+      "to": "claude-code"
+    },
+    {
+      "from": "ai-era-product-development",
+      "to": "source:catwu-claude-code-pm-9-truths"
+    },
+    {
+      "from": "ai-era-product-development",
+      "to": "mechanism-over-prompt"
+    },
+    {
+      "from": "ai-era-product-development",
+      "to": "recursive-self-improvement"
+    },
+    {
+      "from": "ai-era-product-development",
+      "to": "verifiability-mindset"
+    },
+    {
+      "from": "ai-era-product-development",
+      "to": "eval-driven-development"
+    },
+    {
+      "from": "ai-era-product-development",
+      "to": "task-vs-job"
+    },
+    {
+      "from": "ai-era-product-development",
+      "to": "thinking-depth-over-speed"
+    },
+    {
+      "from": "ai-era-product-development",
+      "to": "gun-to-rocket-launcher"
+    },
+    {
+      "from": "ai-era-product-development",
+      "to": "spec-driven-development"
+    },
+    {
+      "from": "ai-era-product-development",
+      "to": "team-of-excellence"
+    },
+    {
+      "from": "ai-era-product-development",
+      "to": "transactional-mindset"
+    },
+    {
+      "from": "ai-era-product-development",
+      "to": "anthropic"
     },
     {
       "from": "skill-vs-subagent",
@@ -2363,6 +3867,62 @@
       "to": "harness-engineering"
     },
     {
+      "from": "how-you-work-not-what-you-can-do",
+      "to": "source:ktchuang-how-you-work-water-amd"
+    },
+    {
+      "from": "how-you-work-not-what-you-can-do",
+      "to": "team-of-excellence"
+    },
+    {
+      "from": "how-you-work-not-what-you-can-do",
+      "to": "gun-to-rocket-launcher"
+    },
+    {
+      "from": "how-you-work-not-what-you-can-do",
+      "to": "recursive-self-improvement"
+    },
+    {
+      "from": "how-you-work-not-what-you-can-do",
+      "to": "credit-as-future-resource"
+    },
+    {
+      "from": "how-you-work-not-what-you-can-do",
+      "to": "positional-ai-leverage"
+    },
+    {
+      "from": "how-you-work-not-what-you-can-do",
+      "to": "mass-production-vs-inheritance"
+    },
+    {
+      "from": "how-you-work-not-what-you-can-do",
+      "to": "worth-nurturing"
+    },
+    {
+      "from": "how-you-work-not-what-you-can-do",
+      "to": "learning-to-learn"
+    },
+    {
+      "from": "how-you-work-not-what-you-can-do",
+      "to": "high-win-rate-people"
+    },
+    {
+      "from": "how-you-work-not-what-you-can-do",
+      "to": "find-your-benefactor"
+    },
+    {
+      "from": "how-you-work-not-what-you-can-do",
+      "to": "taking-on-responsibility"
+    },
+    {
+      "from": "how-you-work-not-what-you-can-do",
+      "to": "trial-and-error-velocity"
+    },
+    {
+      "from": "how-you-work-not-what-you-can-do",
+      "to": "ai-era-student-playbook"
+    },
+    {
       "from": "ai-dependence-skill-erosion",
       "to": "source:berkeley-cs-ai-failing-grades"
     },
@@ -2405,6 +3965,90 @@
     {
       "from": "ai-dependence-skill-erosion",
       "to": "agentic-engineering"
+    },
+    {
+      "from": "recursive-self-improvement",
+      "to": "anthropic"
+    },
+    {
+      "from": "recursive-self-improvement",
+      "to": "sega-cheng"
+    },
+    {
+      "from": "recursive-self-improvement",
+      "to": "source:sega-cheng-rsi-ai-writes-itself"
+    },
+    {
+      "from": "recursive-self-improvement",
+      "to": "ai-agent-saas-disruption"
+    },
+    {
+      "from": "recursive-self-improvement",
+      "to": "claude-code"
+    },
+    {
+      "from": "recursive-self-improvement",
+      "to": "task-vs-job"
+    },
+    {
+      "from": "recursive-self-improvement",
+      "to": "thinking-depth-over-speed"
+    },
+    {
+      "from": "recursive-self-improvement",
+      "to": "run-towards-hardest-problems"
+    },
+    {
+      "from": "recursive-self-improvement",
+      "to": "gun-to-rocket-launcher"
+    },
+    {
+      "from": "recursive-self-improvement",
+      "to": "mechanism-over-prompt"
+    },
+    {
+      "from": "recursive-self-improvement",
+      "to": "verifiability-mindset"
+    },
+    {
+      "from": "recursive-self-improvement",
+      "to": "source:ktchuang-ai-compiler-of-compiler"
+    },
+    {
+      "from": "recursive-self-improvement",
+      "to": "agentic-engineering"
+    },
+    {
+      "from": "shallow-trendy-trap",
+      "to": "source:ktchuang-shallow-trendy-trap"
+    },
+    {
+      "from": "shallow-trendy-trap",
+      "to": "coding-as-proxy-for-thinking"
+    },
+    {
+      "from": "shallow-trendy-trap",
+      "to": "combination-scarcity"
+    },
+    {
+      "from": "shallow-trendy-trap",
+      "to": "pursuit-of-excellence"
+    },
+    {
+      "from": "shallow-trendy-trap",
+      "to": "transactional-mindset"
+    },
+    {
+      "from": "shallow-trendy-trap",
+      "to": "gun-to-rocket-launcher"
+    },
+    {
+      "from": "shallow-trendy-trap",
+      "to": "explorer-vs-follower"
+    },
+    {
+      "from": "shallow-trendy-trap",
+      "to": "ai-era-student-playbook"
     },
     {
       "from": "high-win-rate-people",
@@ -2531,6 +4175,30 @@
       "to": "career-wealth-and-motivation"
     },
     {
+      "from": "opportunity-adhesion",
+      "to": "source:ktchuang-transactional-mindset"
+    },
+    {
+      "from": "opportunity-adhesion",
+      "to": "high-win-rate-people"
+    },
+    {
+      "from": "opportunity-adhesion",
+      "to": "find-your-benefactor"
+    },
+    {
+      "from": "opportunity-adhesion",
+      "to": "positive-cycle"
+    },
+    {
+      "from": "opportunity-adhesion",
+      "to": "meta-skill"
+    },
+    {
+      "from": "opportunity-adhesion",
+      "to": "ai-era-student-playbook"
+    },
+    {
       "from": "eval-driven-development",
       "to": "source:aiase-2026-w8-token-economy"
     },
@@ -2569,6 +4237,66 @@
     {
       "from": "train-vs-ocean-american-dream",
       "to": "task-vs-job"
+    },
+    {
+      "from": "software-valuation-reset",
+      "to": "source:ktchuang-software-valuation-reset"
+    },
+    {
+      "from": "software-valuation-reset",
+      "to": "source:ktchuang-ben-thompson-saas"
+    },
+    {
+      "from": "software-valuation-reset",
+      "to": "ai-native-service-companies"
+    },
+    {
+      "from": "software-valuation-reset",
+      "to": "token-economics"
+    },
+    {
+      "from": "software-valuation-reset",
+      "to": "compute-as-throttle"
+    },
+    {
+      "from": "software-valuation-reset",
+      "to": "value-flow-window"
+    },
+    {
+      "from": "software-valuation-reset",
+      "to": "positional-ai-leverage"
+    },
+    {
+      "from": "software-valuation-reset",
+      "to": "employer-absolute-market"
+    },
+    {
+      "from": "software-valuation-reset",
+      "to": "transactional-mindset"
+    },
+    {
+      "from": "software-valuation-reset",
+      "to": "ai-agent-saas-disruption"
+    },
+    {
+      "from": "software-valuation-reset",
+      "to": "ai-operating-leverage"
+    },
+    {
+      "from": "software-valuation-reset",
+      "to": "ai-layoff-trap"
+    },
+    {
+      "from": "software-valuation-reset",
+      "to": "microsoft"
+    },
+    {
+      "from": "software-valuation-reset",
+      "to": "career-wealth-and-motivation"
+    },
+    {
+      "from": "software-valuation-reset",
+      "to": "ai-era-student-playbook"
     },
     {
       "from": "coding-as-proxy-for-thinking",
@@ -2621,6 +4349,10 @@
     {
       "from": "find-your-benefactor",
       "to": "mass-production-vs-inheritance"
+    },
+    {
+      "from": "find-your-benefactor",
+      "to": "source:ktchuang-wang-wenhan-be-ready"
     },
     {
       "from": "find-your-benefactor",
@@ -2772,6 +4504,10 @@
     },
     {
       "from": "cost-stack",
+      "to": "cloudflare"
+    },
+    {
+      "from": "cost-stack",
       "to": "agentopt"
     },
     {
@@ -2833,6 +4569,42 @@
     {
       "from": "task-vs-job",
       "to": "ai-native-service-companies"
+    },
+    {
+      "from": "ownership-and-autonomy",
+      "to": "source:ktchuang-ownership-and-autonomy"
+    },
+    {
+      "from": "ownership-and-autonomy",
+      "to": "meta-skill"
+    },
+    {
+      "from": "ownership-and-autonomy",
+      "to": "trust-and-eq"
+    },
+    {
+      "from": "ownership-and-autonomy",
+      "to": "team-of-excellence"
+    },
+    {
+      "from": "ownership-and-autonomy",
+      "to": "opportunity-adhesion"
+    },
+    {
+      "from": "ownership-and-autonomy",
+      "to": "worth-nurturing"
+    },
+    {
+      "from": "ownership-and-autonomy",
+      "to": "high-win-rate-people"
+    },
+    {
+      "from": "ownership-and-autonomy",
+      "to": "ai-era-student-playbook"
+    },
+    {
+      "from": "ownership-and-autonomy",
+      "to": "career-wealth-and-motivation"
     },
     {
       "from": "thinking-depth-over-speed",
@@ -3039,6 +4811,62 @@
       "to": "career-wealth-and-motivation"
     },
     {
+      "from": "employer-absolute-market",
+      "to": "source:ktchuang-employer-absolute-market"
+    },
+    {
+      "from": "employer-absolute-market",
+      "to": "ai-amplifier-effect"
+    },
+    {
+      "from": "employer-absolute-market",
+      "to": "gun-to-rocket-launcher"
+    },
+    {
+      "from": "employer-absolute-market",
+      "to": "team-of-excellence"
+    },
+    {
+      "from": "employer-absolute-market",
+      "to": "worth-nurturing"
+    },
+    {
+      "from": "employer-absolute-market",
+      "to": "high-win-rate-people"
+    },
+    {
+      "from": "employer-absolute-market",
+      "to": "opportunity-adhesion"
+    },
+    {
+      "from": "employer-absolute-market",
+      "to": "find-your-benefactor"
+    },
+    {
+      "from": "employer-absolute-market",
+      "to": "transactional-mindset"
+    },
+    {
+      "from": "employer-absolute-market",
+      "to": "taking-on-responsibility"
+    },
+    {
+      "from": "employer-absolute-market",
+      "to": "trial-and-error-velocity"
+    },
+    {
+      "from": "employer-absolute-market",
+      "to": "ai-job-ladder-collapse"
+    },
+    {
+      "from": "employer-absolute-market",
+      "to": "career-wealth-and-motivation"
+    },
+    {
+      "from": "employer-absolute-market",
+      "to": "ai-era-student-playbook"
+    },
+    {
       "from": "context-engineering",
       "to": "agent-skills-for-context-engineering"
     },
@@ -3057,6 +4885,94 @@
     {
       "from": "context-engineering",
       "to": "source:agent-skills-for-context-engineering"
+    },
+    {
+      "from": "trial-and-error-velocity",
+      "to": "source:ktchuang-trial-and-error-velocity"
+    },
+    {
+      "from": "trial-and-error-velocity",
+      "to": "trust-and-eq"
+    },
+    {
+      "from": "trial-and-error-velocity",
+      "to": "ai-amplifier-effect"
+    },
+    {
+      "from": "trial-and-error-velocity",
+      "to": "gun-to-rocket-launcher"
+    },
+    {
+      "from": "trial-and-error-velocity",
+      "to": "transactional-mindset"
+    },
+    {
+      "from": "trial-and-error-velocity",
+      "to": "run-towards-hardest-problems"
+    },
+    {
+      "from": "trial-and-error-velocity",
+      "to": "learning-to-learn"
+    },
+    {
+      "from": "trial-and-error-velocity",
+      "to": "from-code-to-human-problems"
+    },
+    {
+      "from": "trial-and-error-velocity",
+      "to": "thinking-depth-over-speed"
+    },
+    {
+      "from": "trial-and-error-velocity",
+      "to": "worth-nurturing"
+    },
+    {
+      "from": "trial-and-error-velocity",
+      "to": "ai-era-student-playbook"
+    },
+    {
+      "from": "improve-human-tasks-not-faster-code",
+      "to": "source:ktchuang-software-value-japan-manufacturing"
+    },
+    {
+      "from": "improve-human-tasks-not-faster-code",
+      "to": "task-vs-job"
+    },
+    {
+      "from": "improve-human-tasks-not-faster-code",
+      "to": "from-code-to-human-problems"
+    },
+    {
+      "from": "improve-human-tasks-not-faster-code",
+      "to": "positional-ai-leverage"
+    },
+    {
+      "from": "improve-human-tasks-not-faster-code",
+      "to": "gun-to-rocket-launcher"
+    },
+    {
+      "from": "improve-human-tasks-not-faster-code",
+      "to": "compute-as-throttle"
+    },
+    {
+      "from": "improve-human-tasks-not-faster-code",
+      "to": "ai-layoff-trap"
+    },
+    {
+      "from": "improve-human-tasks-not-faster-code",
+      "to": "team-of-excellence"
+    },
+    {
+      "from": "improve-human-tasks-not-faster-code",
+      "to": "trust-and-eq"
+    },
+    {
+      "from": "improve-human-tasks-not-faster-code",
+      "to": "mass-production-vs-inheritance"
+    },
+    {
+      "from": "improve-human-tasks-not-faster-code",
+      "to": "ai-era-student-playbook"
     },
     {
       "from": "combination-scarcity",
@@ -3217,6 +5133,10 @@
     {
       "from": "anthropic",
       "to": "ben-mann"
+    },
+    {
+      "from": "anthropic",
+      "to": "cat-wu"
     },
     {
       "from": "anthropic",
@@ -3488,7 +5408,15 @@
     },
     {
       "from": "sega-cheng",
+      "to": "source:sega-cheng-rsi-ai-writes-itself"
+    },
+    {
+      "from": "sega-cheng",
       "to": "task-vs-job"
+    },
+    {
+      "from": "sega-cheng",
+      "to": "anthropic"
     },
     {
       "from": "agent-skills-for-context-engineering",
@@ -3596,6 +5524,10 @@
     },
     {
       "from": "wisely-chen",
+      "to": "source:wiselychen-ai-worker-position"
+    },
+    {
+      "from": "wisely-chen",
       "to": "harness-engineering"
     },
     {
@@ -3625,6 +5557,46 @@
     {
       "from": "charlie-warren",
       "to": "ai-agent-saas-disruption"
+    },
+    {
+      "from": "cloudflare",
+      "to": "source:cloudflare-bots-surpass-humans"
+    },
+    {
+      "from": "cloudflare",
+      "to": "source:aiase-2026-w8-token-economy"
+    },
+    {
+      "from": "cloudflare",
+      "to": "token-economics"
+    },
+    {
+      "from": "cloudflare",
+      "to": "agentic-engineering"
+    },
+    {
+      "from": "cloudflare",
+      "to": "ai-agent-saas-disruption"
+    },
+    {
+      "from": "cat-wu",
+      "to": "claude-code"
+    },
+    {
+      "from": "cat-wu",
+      "to": "source:catwu-claude-code-pm-9-truths"
+    },
+    {
+      "from": "cat-wu",
+      "to": "spec-driven-development"
+    },
+    {
+      "from": "cat-wu",
+      "to": "mechanism-over-prompt"
+    },
+    {
+      "from": "cat-wu",
+      "to": "boris-cherny"
     },
     {
       "from": "understand-anything",
@@ -3940,6 +5912,10 @@
     },
     {
       "from": "ai-agent-saas-disruption",
+      "to": "source:cloudflare-bots-surpass-humans"
+    },
+    {
+      "from": "ai-agent-saas-disruption",
       "to": "source:ikala-sega-ai-agent-era-2026"
     },
     {
@@ -4173,6 +6149,10 @@
     {
       "from": "ai-native-service-companies",
       "to": "thinking-depth-over-speed"
+    },
+    {
+      "from": "ai-native-service-companies",
+      "to": "source:ktchuang-think-big-service-as-software"
     },
     {
       "from": "ai-native-service-companies",
