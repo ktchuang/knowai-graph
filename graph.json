@@ -22,7 +22,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "trust-and-eq",
@@ -78,7 +78,7 @@
       "type": "concept",
       "status": "stub",
       "exists": true,
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "agentic-engineering",
@@ -118,7 +118,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "adaptability-restlessness",
@@ -134,7 +134,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 13
+      "degree": 16
     },
     {
       "id": "from-code-to-human-problems",
@@ -142,7 +142,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 17
+      "degree": 18
     },
     {
       "id": "composable-task-decomposition",
@@ -225,6 +225,14 @@
       "degree": 24
     },
     {
+      "id": "credentialing-erosion",
+      "title": "認證權威的鬆動（大學被重新定價）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 13
+    },
+    {
       "id": "context-window-management",
       "title": "上下文視窗管理 (Context Window Management)",
       "type": "concept",
@@ -262,7 +270,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 23
+      "degree": 24
     },
     {
       "id": "positional-ai-leverage",
@@ -270,7 +278,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 19
+      "degree": 20
     },
     {
       "id": "verifiability-mindset",
@@ -278,7 +286,7 @@
       "type": "concept",
       "status": "stub",
       "exists": true,
-      "degree": 18
+      "degree": 19
     },
     {
       "id": "pursuit-of-excellence",
@@ -303,6 +311,14 @@
       "status": "stub",
       "exists": true,
       "degree": 17
+    },
+    {
+      "id": "educate-not-ban",
+      "title": "不是禁用 AI，而是重新教（AI 時代的教育解方）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 8
     },
     {
       "id": "token-economics",
@@ -358,7 +374,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 20
+      "degree": 21
     },
     {
       "id": "llm-routing",
@@ -367,6 +383,14 @@
       "status": "stub",
       "exists": true,
       "degree": 9
+    },
+    {
+      "id": "ai-operating-layer",
+      "title": "AI 作為 Operating Layer（個人 AI OS → 組織數位孿生）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 11
     },
     {
       "id": "ai-layoff-trap",
@@ -382,7 +406,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 17
+      "degree": 18
     },
     {
       "id": "skill-vs-subagent",
@@ -430,7 +454,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 15
+      "degree": 16
     },
     {
       "id": "ai-dependence-skill-erosion",
@@ -438,7 +462,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 18
+      "degree": 20
     },
     {
       "id": "recursive-self-improvement",
@@ -505,6 +529,14 @@
       "degree": 11
     },
     {
+      "id": "problem-first-not-tech-first",
+      "title": "問題導向 > 技術導向（別拿槌子找釘子）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 8
+    },
+    {
       "id": "train-vs-ocean-american-dream",
       "title": "火車 vs 海洋：當代美國夢",
       "type": "concept",
@@ -518,7 +550,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 15
+      "degree": 16
     },
     {
       "id": "coding-as-proxy-for-thinking",
@@ -526,7 +558,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "tree-sitter-llm-hybrid-analysis",
@@ -550,7 +582,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "context-degradation",
@@ -598,7 +630,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 44
+      "degree": 45
     },
     {
       "id": "ownership-and-autonomy",
@@ -646,7 +678,7 @@
       "type": "concept",
       "status": "stub",
       "exists": true,
-      "degree": 16
+      "degree": 17
     },
     {
       "id": "positive-cycle",
@@ -670,7 +702,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 15
+      "degree": 18
     },
     {
       "id": "trial-and-error-velocity",
@@ -686,7 +718,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "combination-scarcity",
@@ -694,7 +726,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 16
+      "degree": 17
     },
     {
       "id": "agent-harness",
@@ -710,7 +742,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 19
+      "degree": 20
     },
     {
       "id": "affaan-m",
@@ -982,7 +1014,7 @@
       "type": "entity",
       "status": "stub",
       "exists": true,
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "agentopt",
@@ -1062,7 +1094,7 @@
       "type": "topic",
       "status": "draft",
       "exists": true,
-      "degree": 35
+      "degree": 36
     },
     {
       "id": "career-wealth-and-motivation",
@@ -1070,7 +1102,7 @@
       "type": "topic",
       "status": "draft",
       "exists": true,
-      "degree": 54
+      "degree": 55
     },
     {
       "id": "ai-agent-saas-disruption",
@@ -1086,7 +1118,7 @@
       "type": "topic",
       "status": "draft",
       "exists": true,
-      "degree": 58
+      "degree": 62
     },
     {
       "id": "computex-2026-nvidia-amd",
@@ -1110,7 +1142,7 @@
       "type": "topic",
       "status": "draft",
       "exists": true,
-      "degree": 19
+      "degree": 21
     },
     {
       "id": "agentic-stack",
@@ -1393,6 +1425,22 @@
       "degree": 1
     },
     {
+      "id": "source:ktchuang-credentialing-erosion",
+      "title": "ktchuang-credentialing-erosion",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 1
+    },
+    {
+      "id": "source:berkeley-cs-ai-failing-grades",
+      "title": "berkeley-cs-ai-failing-grades",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 5
+    },
+    {
       "id": "source:ktchuang-rocket-launcher-win-rate",
       "title": "ktchuang-rocket-launcher-win-rate",
       "type": "source",
@@ -1427,6 +1475,14 @@
     {
       "id": "source:ktchuang-pursuit-of-excellence",
       "title": "ktchuang-pursuit-of-excellence",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 1
+    },
+    {
+      "id": "source:ktchuang-educate-not-ban",
+      "title": "ktchuang-educate-not-ban",
       "type": "source",
       "status": "",
       "exists": true,
@@ -1481,6 +1537,14 @@
       "degree": 1
     },
     {
+      "id": "source:kenny-su-ai-os",
+      "title": "kenny-su-ai-os",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 1
+    },
+    {
       "id": "source:ai-layoff-trap-paper",
       "title": "ai-layoff-trap-paper",
       "type": "source",
@@ -1529,14 +1593,6 @@
       "degree": 1
     },
     {
-      "id": "source:berkeley-cs-ai-failing-grades",
-      "title": "berkeley-cs-ai-failing-grades",
-      "type": "source",
-      "status": "",
-      "exists": true,
-      "degree": 3
-    },
-    {
       "id": "source:ktchuang-cs-education-all-in-ai",
       "title": "ktchuang-cs-education-all-in-ai",
       "type": "source",
@@ -1575,6 +1631,14 @@
       "status": "",
       "exists": true,
       "degree": 2
+    },
+    {
+      "id": "source:shenrobin-problem-first",
+      "title": "shenrobin-problem-first",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 1
     },
     {
       "id": "source:jack-sung-american-dream",
@@ -1707,6 +1771,14 @@
     {
       "id": "source:ktchuang-employer-absolute-market",
       "title": "ktchuang-employer-absolute-market",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 1
+    },
+    {
+      "id": "source:bnext-context-engineering",
+      "title": "bnext-context-engineering",
       "type": "source",
       "status": "",
       "exists": true,
@@ -2863,6 +2935,54 @@
       "to": "train-vs-ocean-american-dream"
     },
     {
+      "from": "credentialing-erosion",
+      "to": "source:ktchuang-credentialing-erosion"
+    },
+    {
+      "from": "credentialing-erosion",
+      "to": "combination-scarcity"
+    },
+    {
+      "from": "credentialing-erosion",
+      "to": "coding-as-proxy-for-thinking"
+    },
+    {
+      "from": "credentialing-erosion",
+      "to": "source:berkeley-cs-ai-failing-grades"
+    },
+    {
+      "from": "credentialing-erosion",
+      "to": "dan-garcia"
+    },
+    {
+      "from": "credentialing-erosion",
+      "to": "cs-education-ai-agents"
+    },
+    {
+      "from": "credentialing-erosion",
+      "to": "software-valuation-reset"
+    },
+    {
+      "from": "credentialing-erosion",
+      "to": "how-you-work-not-what-you-can-do"
+    },
+    {
+      "from": "credentialing-erosion",
+      "to": "value-transfer-vs-value-creation"
+    },
+    {
+      "from": "credentialing-erosion",
+      "to": "directing-ai-not-executing"
+    },
+    {
+      "from": "credentialing-erosion",
+      "to": "ai-dependence-skill-erosion"
+    },
+    {
+      "from": "credentialing-erosion",
+      "to": "ai-era-student-playbook"
+    },
+    {
       "from": "context-window-management",
       "to": "claude-code"
     },
@@ -3241,6 +3361,38 @@
     {
       "from": "tacit-knowledge",
       "to": "career-wealth-and-motivation"
+    },
+    {
+      "from": "educate-not-ban",
+      "to": "source:ktchuang-educate-not-ban"
+    },
+    {
+      "from": "educate-not-ban",
+      "to": "ai-dependence-skill-erosion"
+    },
+    {
+      "from": "educate-not-ban",
+      "to": "credentialing-erosion"
+    },
+    {
+      "from": "educate-not-ban",
+      "to": "source:berkeley-cs-ai-failing-grades"
+    },
+    {
+      "from": "educate-not-ban",
+      "to": "directing-ai-not-executing"
+    },
+    {
+      "from": "educate-not-ban",
+      "to": "verifiability-mindset"
+    },
+    {
+      "from": "educate-not-ban",
+      "to": "cs-education-ai-agents"
+    },
+    {
+      "from": "educate-not-ban",
+      "to": "ai-era-student-playbook"
     },
     {
       "from": "token-economics",
@@ -3625,6 +3777,50 @@
     {
       "from": "llm-routing",
       "to": "harness-engineering"
+    },
+    {
+      "from": "ai-operating-layer",
+      "to": "source:kenny-su-ai-os"
+    },
+    {
+      "from": "ai-operating-layer",
+      "to": "ai-operating-leverage"
+    },
+    {
+      "from": "ai-operating-layer",
+      "to": "ai-amplifier-effect"
+    },
+    {
+      "from": "ai-operating-layer",
+      "to": "positional-ai-leverage"
+    },
+    {
+      "from": "ai-operating-layer",
+      "to": "agent-memory"
+    },
+    {
+      "from": "ai-operating-layer",
+      "to": "context-engineering"
+    },
+    {
+      "from": "ai-operating-layer",
+      "to": "harness-five-subsystems"
+    },
+    {
+      "from": "ai-operating-layer",
+      "to": "directing-ai-not-executing"
+    },
+    {
+      "from": "ai-operating-layer",
+      "to": "karpathy-llm-wiki"
+    },
+    {
+      "from": "ai-operating-layer",
+      "to": "harness-engineering"
+    },
+    {
+      "from": "ai-operating-layer",
+      "to": "ai-era-student-playbook"
     },
     {
       "from": "ai-layoff-trap",
@@ -4217,6 +4413,38 @@
     {
       "from": "eval-driven-development",
       "to": "harness-engineering"
+    },
+    {
+      "from": "problem-first-not-tech-first",
+      "to": "source:shenrobin-problem-first"
+    },
+    {
+      "from": "problem-first-not-tech-first",
+      "to": "improve-human-tasks-not-faster-code"
+    },
+    {
+      "from": "problem-first-not-tech-first",
+      "to": "task-vs-job"
+    },
+    {
+      "from": "problem-first-not-tech-first",
+      "to": "strategy-over-tactics"
+    },
+    {
+      "from": "problem-first-not-tech-first",
+      "to": "from-code-to-human-problems"
+    },
+    {
+      "from": "problem-first-not-tech-first",
+      "to": "ai-era-product-development"
+    },
+    {
+      "from": "problem-first-not-tech-first",
+      "to": "career-wealth-and-motivation"
+    },
+    {
+      "from": "problem-first-not-tech-first",
+      "to": "ai-era-student-playbook"
     },
     {
       "from": "train-vs-ocean-american-dream",
@@ -4869,6 +5097,14 @@
     {
       "from": "context-engineering",
       "to": "agent-skills-for-context-engineering"
+    },
+    {
+      "from": "context-engineering",
+      "to": "source:bnext-context-engineering"
+    },
+    {
+      "from": "context-engineering",
+      "to": "mechanism-over-prompt"
     },
     {
       "from": "context-engineering",
