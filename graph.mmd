@@ -22,6 +22,8 @@ graph LR
   class n_ai_operating_leverage concept;
   n_agentic_engineering["Agentic Engineering"]
   class n_agentic_engineering concept;
+  n_agentic_software_delivery["Agentic 軟體交付（重構交付模式,不是點狀導入 AI）"]
+  class n_agentic_software_delivery concept;
   n_mass_production_vs_inheritance["量產 vs 傳承（人才培養與人格養成）"]
   class n_mass_production_vs_inheritance concept;
   n_learning_to_learn["怎麼學 > 學什麼（百倍速時代的終極武器）"]
@@ -52,6 +54,8 @@ graph LR
   class n_a2a_protocol concept;
   n_compute_as_throttle["算力即油門（台灣 CoWoS 的籌碼）"]
   class n_compute_as_throttle concept;
+  n_trustworthy_systems_with_agents["帶著 AI agents 做出可信系統（學生 5 種能力）"]
+  class n_trustworthy_systems_with_agents concept;
   n_research_meeting_communication["跟教授開會的心法（咪挺＝同步思考）"]
   class n_research_meeting_communication concept;
   n_credit_as_future_resource["信用即動員未來資源的能力"]
@@ -314,6 +318,8 @@ graph LR
   class n_source_aiase_2026_w7_agentic_stack source;
   n_source_nathan_chiu_cs_education_ai["nathan-chiu-cs-education-ai"]
   class n_source_nathan_chiu_cs_education_ai source;
+  n_source_mckinsey_agentic_software_delivery["mckinsey-agentic-software-delivery"]
+  class n_source_mckinsey_agentic_software_delivery source;
   n_source_ktchuang_mass_production_vs_inheritance["ktchuang-mass-production-vs-inheritance"]
   class n_source_ktchuang_mass_production_vs_inheritance source;
   n_source_ktchuang_service_before_leadership["ktchuang-service-before-leadership"]
@@ -350,6 +356,8 @@ graph LR
   class n_source_sega_cheng_rsi_ai_writes_itself source;
   n_source_computex_2026_nvidia_amd["computex-2026-nvidia-amd"]
   class n_source_computex_2026_nvidia_amd source;
+  n_source_ktchuang_five_abilities_agentic_era["ktchuang-five-abilities-agentic-era"]
+  class n_source_ktchuang_five_abilities_agentic_era source;
   n_source_ktchuang_advisor_meeting["ktchuang-advisor-meeting"]
   class n_source_ktchuang_advisor_meeting source;
   n_source_vincent_yu_credit_future_resources["vincent-yu-credit-future-resources"]
@@ -562,6 +570,21 @@ graph LR
   n_agentic_engineering --- n_task_vs_job
   n_agentic_engineering --- n_jevons_paradox
   n_agentic_engineering --- n_source_nathan_chiu_cs_education_ai
+  n_agentic_software_delivery --- n_source_mckinsey_agentic_software_delivery
+  n_agentic_software_delivery --- n_agent_harness
+  n_agentic_software_delivery --- n_verifiability_mindset
+  n_agentic_software_delivery --- n_karpathy_llm_wiki
+  n_agentic_software_delivery --- n_agent_memory
+  n_agentic_software_delivery --- n_is_grep_all_you_need
+  n_agentic_software_delivery --- n_ai_operating_layer
+  n_agentic_software_delivery --- n_ai_job_ladder_collapse
+  n_agentic_software_delivery --- n_employer_absolute_market
+  n_agentic_software_delivery --- n_team_of_excellence
+  n_agentic_software_delivery --- n_ai_amplifier_effect
+  n_agentic_software_delivery --- n_spec_driven_development
+  n_agentic_software_delivery --- n_agentic_engineering
+  n_agentic_software_delivery --- n_harness_engineering
+  n_agentic_software_delivery --- n_ai_era_student_playbook
   n_mass_production_vs_inheritance --- n_source_ktchuang_mass_production_vs_inheritance
   n_mass_production_vs_inheritance --- n_cs_education_ai_agents
   n_mass_production_vs_inheritance --- n_service_before_leadership
@@ -716,6 +739,20 @@ graph LR
   n_compute_as_throttle --- n_pc_dual_track
   n_compute_as_throttle --- n_source_computex_2026_nvidia_amd
   n_compute_as_throttle --- n_token_economics
+  n_trustworthy_systems_with_agents --- n_source_ktchuang_five_abilities_agentic_era
+  n_trustworthy_systems_with_agents --- n_agentic_software_delivery
+  n_trustworthy_systems_with_agents --- n_coding_as_proxy_for_thinking
+  n_trustworthy_systems_with_agents --- n_directing_ai_not_executing
+  n_trustworthy_systems_with_agents --- n_composable_task_decomposition
+  n_trustworthy_systems_with_agents --- n_verifiability_mindset
+  n_trustworthy_systems_with_agents --- n_agentic_engineering
+  n_trustworthy_systems_with_agents --- n_task_vs_job
+  n_trustworthy_systems_with_agents --- n_spec_driven_development
+  n_trustworthy_systems_with_agents --- n_problem_first_not_tech_first
+  n_trustworthy_systems_with_agents --- n_taking_on_responsibility
+  n_trustworthy_systems_with_agents --- n_educate_not_ban
+  n_trustworthy_systems_with_agents --- n_cs_education_ai_agents
+  n_trustworthy_systems_with_agents --- n_ai_era_student_playbook
   n_research_meeting_communication --- n_source_ktchuang_advisor_meeting
   n_research_meeting_communication --- n_learning_to_learn
   n_research_meeting_communication --- n_high_win_rate_people

@@ -14,7 +14,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 24
+      "degree": 25
     },
     {
       "id": "strategy-over-tactics",
@@ -86,7 +86,15 @@
       "type": "concept",
       "status": "stub",
       "exists": true,
-      "degree": 32
+      "degree": 34
+    },
+    {
+      "id": "agentic-software-delivery",
+      "title": "Agentic 軟體交付（重構交付模式,不是點狀導入 AI）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 16
     },
     {
       "id": "mass-production-vs-inheritance",
@@ -110,7 +118,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 28
+      "degree": 29
     },
     {
       "id": "karpathy-llm-wiki",
@@ -118,7 +126,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 13
+      "degree": 14
     },
     {
       "id": "adaptability-restlessness",
@@ -134,7 +142,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 16
+      "degree": 17
     },
     {
       "id": "from-code-to-human-problems",
@@ -150,7 +158,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "mcp",
@@ -166,7 +174,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 23
+      "degree": 24
     },
     {
       "id": "think-big-frontier-problems",
@@ -207,6 +215,14 @@
       "status": "draft",
       "exists": true,
       "degree": 12
+    },
+    {
+      "id": "trustworthy-systems-with-agents",
+      "title": "帶著 AI agents 做出可信系統（學生 5 種能力）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 14
     },
     {
       "id": "research-meeting-communication",
@@ -270,7 +286,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 24
+      "degree": 25
     },
     {
       "id": "positional-ai-leverage",
@@ -286,7 +302,7 @@
       "type": "concept",
       "status": "stub",
       "exists": true,
-      "degree": 19
+      "degree": 21
     },
     {
       "id": "pursuit-of-excellence",
@@ -302,7 +318,7 @@
       "type": "concept",
       "status": "stub",
       "exists": true,
-      "degree": 13
+      "degree": 15
     },
     {
       "id": "tacit-knowledge",
@@ -318,7 +334,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "token-economics",
@@ -390,7 +406,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "ai-layoff-trap",
@@ -534,7 +550,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "train-vs-ocean-american-dream",
@@ -558,7 +574,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "tree-sitter-llm-hybrid-analysis",
@@ -630,7 +646,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 45
+      "degree": 46
     },
     {
       "id": "ownership-and-autonomy",
@@ -678,7 +694,7 @@
       "type": "concept",
       "status": "stub",
       "exists": true,
-      "degree": 17
+      "degree": 18
     },
     {
       "id": "positive-cycle",
@@ -694,7 +710,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 17
+      "degree": 18
     },
     {
       "id": "context-engineering",
@@ -734,7 +750,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 23
+      "degree": 24
     },
     {
       "id": "mechanism-over-prompt",
@@ -926,7 +942,7 @@
       "type": "entity",
       "status": "draft",
       "exists": true,
-      "degree": 13
+      "degree": 14
     },
     {
       "id": "mustafa-suleyman",
@@ -1094,7 +1110,7 @@
       "type": "topic",
       "status": "draft",
       "exists": true,
-      "degree": 36
+      "degree": 37
     },
     {
       "id": "career-wealth-and-motivation",
@@ -1118,7 +1134,7 @@
       "type": "topic",
       "status": "draft",
       "exists": true,
-      "degree": 62
+      "degree": 64
     },
     {
       "id": "computex-2026-nvidia-amd",
@@ -1142,7 +1158,7 @@
       "type": "topic",
       "status": "draft",
       "exists": true,
-      "degree": 21
+      "degree": 22
     },
     {
       "id": "agentic-stack",
@@ -1255,6 +1271,14 @@
       "status": "",
       "exists": true,
       "degree": 3
+    },
+    {
+      "id": "source:mckinsey-agentic-software-delivery",
+      "title": "mckinsey-agentic-software-delivery",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 1
     },
     {
       "id": "source:ktchuang-mass-production-vs-inheritance",
@@ -1399,6 +1423,14 @@
       "status": "",
       "exists": true,
       "degree": 7
+    },
+    {
+      "id": "source:ktchuang-five-abilities-agentic-era",
+      "title": "ktchuang-five-abilities-agentic-era",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 1
     },
     {
       "id": "source:ktchuang-advisor-meeting",
@@ -2251,6 +2283,66 @@
       "to": "source:nathan-chiu-cs-education-ai"
     },
     {
+      "from": "agentic-software-delivery",
+      "to": "source:mckinsey-agentic-software-delivery"
+    },
+    {
+      "from": "agentic-software-delivery",
+      "to": "agent-harness"
+    },
+    {
+      "from": "agentic-software-delivery",
+      "to": "verifiability-mindset"
+    },
+    {
+      "from": "agentic-software-delivery",
+      "to": "karpathy-llm-wiki"
+    },
+    {
+      "from": "agentic-software-delivery",
+      "to": "agent-memory"
+    },
+    {
+      "from": "agentic-software-delivery",
+      "to": "is-grep-all-you-need"
+    },
+    {
+      "from": "agentic-software-delivery",
+      "to": "ai-operating-layer"
+    },
+    {
+      "from": "agentic-software-delivery",
+      "to": "ai-job-ladder-collapse"
+    },
+    {
+      "from": "agentic-software-delivery",
+      "to": "employer-absolute-market"
+    },
+    {
+      "from": "agentic-software-delivery",
+      "to": "team-of-excellence"
+    },
+    {
+      "from": "agentic-software-delivery",
+      "to": "ai-amplifier-effect"
+    },
+    {
+      "from": "agentic-software-delivery",
+      "to": "spec-driven-development"
+    },
+    {
+      "from": "agentic-software-delivery",
+      "to": "agentic-engineering"
+    },
+    {
+      "from": "agentic-software-delivery",
+      "to": "harness-engineering"
+    },
+    {
+      "from": "agentic-software-delivery",
+      "to": "ai-era-student-playbook"
+    },
+    {
       "from": "mass-production-vs-inheritance",
       "to": "source:ktchuang-mass-production-vs-inheritance"
     },
@@ -2865,6 +2957,62 @@
     {
       "from": "compute-as-throttle",
       "to": "token-economics"
+    },
+    {
+      "from": "trustworthy-systems-with-agents",
+      "to": "source:ktchuang-five-abilities-agentic-era"
+    },
+    {
+      "from": "trustworthy-systems-with-agents",
+      "to": "agentic-software-delivery"
+    },
+    {
+      "from": "trustworthy-systems-with-agents",
+      "to": "coding-as-proxy-for-thinking"
+    },
+    {
+      "from": "trustworthy-systems-with-agents",
+      "to": "directing-ai-not-executing"
+    },
+    {
+      "from": "trustworthy-systems-with-agents",
+      "to": "composable-task-decomposition"
+    },
+    {
+      "from": "trustworthy-systems-with-agents",
+      "to": "verifiability-mindset"
+    },
+    {
+      "from": "trustworthy-systems-with-agents",
+      "to": "agentic-engineering"
+    },
+    {
+      "from": "trustworthy-systems-with-agents",
+      "to": "task-vs-job"
+    },
+    {
+      "from": "trustworthy-systems-with-agents",
+      "to": "spec-driven-development"
+    },
+    {
+      "from": "trustworthy-systems-with-agents",
+      "to": "problem-first-not-tech-first"
+    },
+    {
+      "from": "trustworthy-systems-with-agents",
+      "to": "taking-on-responsibility"
+    },
+    {
+      "from": "trustworthy-systems-with-agents",
+      "to": "educate-not-ban"
+    },
+    {
+      "from": "trustworthy-systems-with-agents",
+      "to": "cs-education-ai-agents"
+    },
+    {
+      "from": "trustworthy-systems-with-agents",
+      "to": "ai-era-student-playbook"
     },
     {
       "from": "research-meeting-communication",
