@@ -6,7 +6,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 16
+      "degree": 17
     },
     {
       "id": "team-of-excellence",
@@ -14,7 +14,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 25
+      "degree": 27
     },
     {
       "id": "strategy-over-tactics",
@@ -30,7 +30,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 18
+      "degree": 19
     },
     {
       "id": "agent-native-economy",
@@ -62,7 +62,7 @@
       "type": "concept",
       "status": "stub",
       "exists": true,
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "agentic-web-traffic",
@@ -94,7 +94,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 16
+      "degree": 18
     },
     {
       "id": "mass-production-vs-inheritance",
@@ -118,7 +118,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 29
+      "degree": 31
     },
     {
       "id": "karpathy-llm-wiki",
@@ -142,7 +142,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 17
+      "degree": 22
     },
     {
       "id": "from-code-to-human-problems",
@@ -190,7 +190,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 27
+      "degree": 28
     },
     {
       "id": "jevons-paradox",
@@ -209,8 +209,24 @@
       "degree": 4
     },
     {
+      "id": "business-development-is-the-moat",
+      "title": "業務打擊是唯一沒被壓縮的環節（all in 需求黏著）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 16
+    },
+    {
       "id": "compute-as-throttle",
       "title": "算力即油門（台灣 CoWoS 的籌碼）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 12
+    },
+    {
+      "id": "cognitive-surrender",
+      "title": "認知投降（Cognitive Surrender）",
       "type": "concept",
       "status": "draft",
       "exists": true,
@@ -222,7 +238,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 14
+      "degree": 16
     },
     {
       "id": "research-meeting-communication",
@@ -262,7 +278,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 26
+      "degree": 27
     },
     {
       "id": "automation-vs-augmentation",
@@ -278,7 +294,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 24
+      "degree": 25
     },
     {
       "id": "ai-amplifier-effect",
@@ -287,6 +303,14 @@
       "status": "draft",
       "exists": true,
       "degree": 25
+    },
+    {
+      "id": "lack-of-urgency",
+      "title": "缺乏危機感（溫水煮青蛙是 AI 時代最危險的事）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 14
     },
     {
       "id": "positional-ai-leverage",
@@ -302,7 +326,7 @@
       "type": "concept",
       "status": "stub",
       "exists": true,
-      "degree": 21
+      "degree": 23
     },
     {
       "id": "pursuit-of-excellence",
@@ -334,7 +358,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 9
+      "degree": 11
     },
     {
       "id": "token-economics",
@@ -343,6 +367,14 @@
       "status": "draft",
       "exists": true,
       "degree": 34
+    },
+    {
+      "id": "generosity-over-genius",
+      "title": "慷慨 > 天才（天才不稀缺，品格才稀缺）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 14
     },
     {
       "id": "pc-dual-track",
@@ -361,12 +393,20 @@
       "degree": 13
     },
     {
+      "id": "programming-as-friction-tax",
+      "title": "程式語言是摩擦力（馬斯克：寫程式將消亡、AI 直接生成機器碼）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 14
+    },
+    {
       "id": "value-flow-window",
       "title": "工頭 vs 工人（成為價值流動的窗口）",
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "explorer-vs-follower",
@@ -382,7 +422,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "value-transfer-vs-value-creation",
@@ -390,7 +430,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 21
+      "degree": 22
     },
     {
       "id": "llm-routing",
@@ -414,7 +454,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 19
+      "degree": 20
     },
     {
       "id": "ai-era-product-development",
@@ -478,7 +518,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 20
+      "degree": 21
     },
     {
       "id": "recursive-self-improvement",
@@ -486,7 +526,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 22
+      "degree": 23
     },
     {
       "id": "shallow-trendy-trap",
@@ -526,7 +566,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 33
+      "degree": 34
     },
     {
       "id": "opportunity-adhesion",
@@ -534,7 +574,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 12
+      "degree": 14
     },
     {
       "id": "eval-driven-development",
@@ -550,7 +590,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 9
+      "degree": 11
     },
     {
       "id": "train-vs-ocean-american-dream",
@@ -566,7 +606,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 16
+      "degree": 18
     },
     {
       "id": "coding-as-proxy-for-thinking",
@@ -574,7 +614,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "tree-sitter-llm-hybrid-analysis",
@@ -678,7 +718,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 13
+      "degree": 15
     },
     {
       "id": "service-before-leadership",
@@ -686,7 +726,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 20
+      "degree": 21
     },
     {
       "id": "agent-memory",
@@ -702,7 +742,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 17
+      "degree": 18
     },
     {
       "id": "employer-absolute-market",
@@ -710,7 +750,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 18
+      "degree": 20
     },
     {
       "id": "context-engineering",
@@ -734,7 +774,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 13
+      "degree": 16
     },
     {
       "id": "combination-scarcity",
@@ -758,11 +798,19 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 20
+      "degree": 21
     },
     {
       "id": "affaan-m",
       "title": "Affaan Mustafa",
+      "type": "entity",
+      "status": "stub",
+      "exists": true,
+      "degree": 4
+    },
+    {
+      "id": "elon-musk",
+      "title": "Elon Musk",
       "type": "entity",
       "status": "stub",
       "exists": true,
@@ -881,12 +929,20 @@
       "degree": 5
     },
     {
+      "id": "chien-lee-feng",
+      "title": "簡立峰（Lee-Feng Chien）",
+      "type": "entity",
+      "status": "stub",
+      "exists": true,
+      "degree": 3
+    },
+    {
       "id": "jensen-huang",
       "title": "黃仁勳 (Jensen Huang)",
       "type": "entity",
       "status": "stub",
       "exists": true,
-      "degree": 14
+      "degree": 18
     },
     {
       "id": "boris-cherny",
@@ -1110,7 +1166,7 @@
       "type": "topic",
       "status": "draft",
       "exists": true,
-      "degree": 37
+      "degree": 39
     },
     {
       "id": "career-wealth-and-motivation",
@@ -1118,7 +1174,7 @@
       "type": "topic",
       "status": "draft",
       "exists": true,
-      "degree": 55
+      "degree": 58
     },
     {
       "id": "ai-agent-saas-disruption",
@@ -1134,7 +1190,7 @@
       "type": "topic",
       "status": "draft",
       "exists": true,
-      "degree": 64
+      "degree": 69
     },
     {
       "id": "computex-2026-nvidia-amd",
@@ -1158,7 +1214,7 @@
       "type": "topic",
       "status": "draft",
       "exists": true,
-      "degree": 22
+      "degree": 23
     },
     {
       "id": "agentic-stack",
@@ -1174,7 +1230,7 @@
       "type": "topic",
       "status": "draft",
       "exists": true,
-      "degree": 21
+      "degree": 23
     },
     {
       "id": "source:ktchuang-prepared-for-upheaval",
@@ -1409,6 +1465,22 @@
       "degree": 4
     },
     {
+      "id": "source:ktchuang-business-development-moat",
+      "title": "ktchuang-business-development-moat",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 1
+    },
+    {
+      "id": "source:sillyduck-software-cheap-selling-hard",
+      "title": "sillyduck-software-cheap-selling-hard",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 1
+    },
+    {
       "id": "source:sega-cheng-rsi-ai-writes-itself",
       "title": "sega-cheng-rsi-ai-writes-itself",
       "type": "source",
@@ -1423,6 +1495,14 @@
       "status": "",
       "exists": true,
       "degree": 7
+    },
+    {
+      "id": "source:explainthis-cognitive-surrender",
+      "title": "explainthis-cognitive-surrender",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 1
     },
     {
       "id": "source:ktchuang-five-abilities-agentic-era",
@@ -1489,6 +1569,14 @@
       "degree": 2
     },
     {
+      "id": "source:bnext-chien-lack-of-urgency",
+      "title": "bnext-chien-lack-of-urgency",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 2
+    },
+    {
       "id": "source:wiselychen-ai-worker-position",
       "title": "wiselychen-ai-worker-position",
       "type": "source",
@@ -1529,8 +1617,24 @@
       "degree": 4
     },
     {
+      "id": "source:jensen-generosity-summit",
+      "title": "jensen-generosity-summit",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 2
+    },
+    {
       "id": "source:aiase-deterministic-vs-foundation-model",
       "title": "aiase-deterministic-vs-foundation-model",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 2
+    },
+    {
+      "id": "source:musk-programming-as-friction",
+      "title": "musk-programming-as-friction",
       "type": "source",
       "status": "",
       "exists": true,
@@ -2927,6 +3031,66 @@
       "to": "skill-vs-subagent"
     },
     {
+      "from": "business-development-is-the-moat",
+      "to": "source:ktchuang-business-development-moat"
+    },
+    {
+      "from": "business-development-is-the-moat",
+      "to": "opportunity-adhesion"
+    },
+    {
+      "from": "business-development-is-the-moat",
+      "to": "value-flow-window"
+    },
+    {
+      "from": "business-development-is-the-moat",
+      "to": "team-of-excellence"
+    },
+    {
+      "from": "business-development-is-the-moat",
+      "to": "employer-absolute-market"
+    },
+    {
+      "from": "business-development-is-the-moat",
+      "to": "source:sillyduck-software-cheap-selling-hard"
+    },
+    {
+      "from": "business-development-is-the-moat",
+      "to": "software-valuation-reset"
+    },
+    {
+      "from": "business-development-is-the-moat",
+      "to": "recursive-self-improvement"
+    },
+    {
+      "from": "business-development-is-the-moat",
+      "to": "ai-job-ladder-collapse"
+    },
+    {
+      "from": "business-development-is-the-moat",
+      "to": "ai-native-service-companies"
+    },
+    {
+      "from": "business-development-is-the-moat",
+      "to": "problem-first-not-tech-first"
+    },
+    {
+      "from": "business-development-is-the-moat",
+      "to": "improve-human-tasks-not-faster-code"
+    },
+    {
+      "from": "business-development-is-the-moat",
+      "to": "ai-era-student-playbook"
+    },
+    {
+      "from": "business-development-is-the-moat",
+      "to": "directing-ai-not-executing"
+    },
+    {
+      "from": "business-development-is-the-moat",
+      "to": "career-wealth-and-motivation"
+    },
+    {
       "from": "compute-as-throttle",
       "to": "sega-cheng"
     },
@@ -2959,6 +3123,54 @@
       "to": "token-economics"
     },
     {
+      "from": "cognitive-surrender",
+      "to": "source:explainthis-cognitive-surrender"
+    },
+    {
+      "from": "cognitive-surrender",
+      "to": "verifiability-mindset"
+    },
+    {
+      "from": "cognitive-surrender",
+      "to": "ai-dependence-skill-erosion"
+    },
+    {
+      "from": "cognitive-surrender",
+      "to": "trustworthy-systems-with-agents"
+    },
+    {
+      "from": "cognitive-surrender",
+      "to": "directing-ai-not-executing"
+    },
+    {
+      "from": "cognitive-surrender",
+      "to": "mechanism-over-prompt"
+    },
+    {
+      "from": "cognitive-surrender",
+      "to": "agentic-software-delivery"
+    },
+    {
+      "from": "cognitive-surrender",
+      "to": "educate-not-ban"
+    },
+    {
+      "from": "cognitive-surrender",
+      "to": "cognitive-bias"
+    },
+    {
+      "from": "cognitive-surrender",
+      "to": "cs-education-ai-agents"
+    },
+    {
+      "from": "cognitive-surrender",
+      "to": "ai-era-student-playbook"
+    },
+    {
+      "from": "cognitive-surrender",
+      "to": "harness-engineering"
+    },
+    {
       "from": "trustworthy-systems-with-agents",
       "to": "source:ktchuang-five-abilities-agentic-era"
     },
@@ -2969,6 +3181,10 @@
     {
       "from": "trustworthy-systems-with-agents",
       "to": "coding-as-proxy-for-thinking"
+    },
+    {
+      "from": "trustworthy-systems-with-agents",
+      "to": "programming-as-friction-tax"
     },
     {
       "from": "trustworthy-systems-with-agents",
@@ -3323,6 +3539,62 @@
       "to": "agentic-engineering"
     },
     {
+      "from": "lack-of-urgency",
+      "to": "source:bnext-chien-lack-of-urgency"
+    },
+    {
+      "from": "lack-of-urgency",
+      "to": "chien-lee-feng"
+    },
+    {
+      "from": "lack-of-urgency",
+      "to": "ai-native-service-companies"
+    },
+    {
+      "from": "lack-of-urgency",
+      "to": "business-development-is-the-moat"
+    },
+    {
+      "from": "lack-of-urgency",
+      "to": "improve-human-tasks-not-faster-code"
+    },
+    {
+      "from": "lack-of-urgency",
+      "to": "software-valuation-reset"
+    },
+    {
+      "from": "lack-of-urgency",
+      "to": "go-to-sea"
+    },
+    {
+      "from": "lack-of-urgency",
+      "to": "educate-not-ban"
+    },
+    {
+      "from": "lack-of-urgency",
+      "to": "directing-ai-not-executing"
+    },
+    {
+      "from": "lack-of-urgency",
+      "to": "prepared-for-upheaval"
+    },
+    {
+      "from": "lack-of-urgency",
+      "to": "employer-absolute-market"
+    },
+    {
+      "from": "lack-of-urgency",
+      "to": "ai-layoff-trap"
+    },
+    {
+      "from": "lack-of-urgency",
+      "to": "career-wealth-and-motivation"
+    },
+    {
+      "from": "lack-of-urgency",
+      "to": "ai-era-student-playbook"
+    },
+    {
       "from": "positional-ai-leverage",
       "to": "wisely-chen"
     },
@@ -3619,6 +3891,62 @@
       "to": "harness-engineering"
     },
     {
+      "from": "generosity-over-genius",
+      "to": "source:jensen-generosity-summit"
+    },
+    {
+      "from": "generosity-over-genius",
+      "to": "jensen-huang"
+    },
+    {
+      "from": "generosity-over-genius",
+      "to": "meta-skill"
+    },
+    {
+      "from": "generosity-over-genius",
+      "to": "trust-and-eq"
+    },
+    {
+      "from": "generosity-over-genius",
+      "to": "team-of-excellence"
+    },
+    {
+      "from": "generosity-over-genius",
+      "to": "leadership-wishing-others-success"
+    },
+    {
+      "from": "generosity-over-genius",
+      "to": "value-transfer-vs-value-creation"
+    },
+    {
+      "from": "generosity-over-genius",
+      "to": "service-before-leadership"
+    },
+    {
+      "from": "generosity-over-genius",
+      "to": "positive-cycle"
+    },
+    {
+      "from": "generosity-over-genius",
+      "to": "worth-nurturing"
+    },
+    {
+      "from": "generosity-over-genius",
+      "to": "opportunity-adhesion"
+    },
+    {
+      "from": "generosity-over-genius",
+      "to": "transactional-mindset"
+    },
+    {
+      "from": "generosity-over-genius",
+      "to": "career-wealth-and-motivation"
+    },
+    {
+      "from": "generosity-over-genius",
+      "to": "ai-era-student-playbook"
+    },
+    {
       "from": "pc-dual-track",
       "to": "source:computex-2026-nvidia-amd"
     },
@@ -3673,6 +4001,58 @@
     {
       "from": "deterministic-vs-foundation-model",
       "to": "gemma-4"
+    },
+    {
+      "from": "programming-as-friction-tax",
+      "to": "source:musk-programming-as-friction"
+    },
+    {
+      "from": "programming-as-friction-tax",
+      "to": "elon-musk"
+    },
+    {
+      "from": "programming-as-friction-tax",
+      "to": "directing-ai-not-executing"
+    },
+    {
+      "from": "programming-as-friction-tax",
+      "to": "coding-as-proxy-for-thinking"
+    },
+    {
+      "from": "programming-as-friction-tax",
+      "to": "agentic-software-delivery"
+    },
+    {
+      "from": "programming-as-friction-tax",
+      "to": "gun-to-rocket-launcher"
+    },
+    {
+      "from": "programming-as-friction-tax",
+      "to": "ai-job-ladder-collapse"
+    },
+    {
+      "from": "programming-as-friction-tax",
+      "to": "verifiability-mindset"
+    },
+    {
+      "from": "programming-as-friction-tax",
+      "to": "problem-first-not-tech-first"
+    },
+    {
+      "from": "programming-as-friction-tax",
+      "to": "improve-human-tasks-not-faster-code"
+    },
+    {
+      "from": "programming-as-friction-tax",
+      "to": "jensen-huang"
+    },
+    {
+      "from": "programming-as-friction-tax",
+      "to": "ai-era-student-playbook"
+    },
+    {
+      "from": "programming-as-friction-tax",
+      "to": "harness-engineering"
     },
     {
       "from": "value-flow-window",
@@ -5048,6 +5428,10 @@
     },
     {
       "from": "go-to-sea",
+      "to": "chien-lee-feng"
+    },
+    {
+      "from": "go-to-sea",
       "to": "source:ai-exploration-sailors-anthropic"
     },
     {
@@ -5499,6 +5883,18 @@
       "to": "source:everything-claude-code-readme"
     },
     {
+      "from": "elon-musk",
+      "to": "source:musk-programming-as-friction"
+    },
+    {
+      "from": "elon-musk",
+      "to": "directing-ai-not-executing"
+    },
+    {
+      "from": "elon-musk",
+      "to": "jensen-huang"
+    },
+    {
       "from": "adam-rodman",
       "to": "harvard-llm-clinical-reasoning-study"
     },
@@ -5727,6 +6123,10 @@
       "to": "source:nathan-chiu-cs-education-ai"
     },
     {
+      "from": "chien-lee-feng",
+      "to": "source:bnext-chien-lack-of-urgency"
+    },
+    {
       "from": "jensen-huang",
       "to": "nvidia"
     },
@@ -5737,6 +6137,10 @@
     {
       "from": "jensen-huang",
       "to": "source:computex-2026-nvidia-amd"
+    },
+    {
+      "from": "jensen-huang",
+      "to": "source:jensen-generosity-summit"
     },
     {
       "from": "jensen-huang",
