@@ -6,6 +6,8 @@ graph LR
   class n_team_of_excellence concept;
   n_strategy_over_tactics["戰略 > 戰術（別用勤奮掩蓋戰略懶惰）"]
   class n_strategy_over_tactics concept;
+  n_relentless_ceo_standards["頂尖 CEO 的殘酷面（第一性原理 × 光速排程法）"]
+  class n_relentless_ceo_standards concept;
   n_trust_and_eq["情商與被信任（AI 時代的保護傘）"]
   class n_trust_and_eq concept;
   n_agent_native_economy["Agent-Native Economy"]
@@ -62,6 +64,8 @@ graph LR
   class n_trustworthy_systems_with_agents concept;
   n_research_meeting_communication["跟教授開會的心法（咪挺＝同步思考）"]
   class n_research_meeting_communication concept;
+  n_agent_amplifies_taste["AI 是品味的放大器（手寫程式碼考第一性原理）"]
+  class n_agent_amplifies_taste concept;
   n_credit_as_future_resource["信用即動員未來資源的能力"]
   class n_credit_as_future_resource concept;
   n_credentialing_erosion["認證權威的鬆動（大學被重新定價）"]
@@ -86,6 +90,8 @@ graph LR
   class n_pursuit_of_excellence concept;
   n_spec_driven_development["SDD（Spec-Driven Development，規格驅動開發）"]
   class n_spec_driven_development concept;
+  n_hr_pillars_collapse["HR 三支柱瓦解（畫錯重點：做能掌控的，不做最有感的）"]
+  class n_hr_pillars_collapse concept;
   n_tacit_knowledge["隱性知識與 Polanyi's Paradox"]
   class n_tacit_knowledge concept;
   n_educate_not_ban["不是禁用 AI，而是重新教（AI 時代的教育解方）"]
@@ -248,6 +254,8 @@ graph LR
   class n_agent_skills_for_context_engineering entity;
   n_timesfm["TimesFM"]
   class n_timesfm entity;
+  n_wikita["實驗室大師兄 WikiTA"]
+  class n_wikita entity;
   n_is_grep_all_you_need["'Is Grep All You Need?（PwC, 2026）'"]
   class n_is_grep_all_you_need entity;
   n_mustafa_suleyman["Mustafa Suleyman"]
@@ -314,6 +322,8 @@ graph LR
   class n_source_ktchuang_team_of_excellence source;
   n_source_ktchuang_strategy_over_tactics["ktchuang-strategy-over-tactics"]
   class n_source_ktchuang_strategy_over_tactics source;
+  n_source_ceo_relentless_first_principles["ceo-relentless-first-principles"]
+  class n_source_ceo_relentless_first_principles source;
   n_source_ktchuang_eq_and_trust["ktchuang-eq-and-trust"]
   class n_source_ktchuang_eq_and_trust source;
   n_source_karpathy_sequoia_ascent_2026["karpathy-sequoia-ascent-2026"]
@@ -380,6 +390,8 @@ graph LR
   class n_source_ktchuang_five_abilities_agentic_era source;
   n_source_ktchuang_advisor_meeting["ktchuang-advisor-meeting"]
   class n_source_ktchuang_advisor_meeting source;
+  n_source_github_copilot_handwriting_code["github-copilot-handwriting-code"]
+  class n_source_github_copilot_handwriting_code source;
   n_source_vincent_yu_credit_future_resources["vincent-yu-credit-future-resources"]
   class n_source_vincent_yu_credit_future_resources source;
   n_source_ktchuang_commitment_and_trust["ktchuang-commitment-and-trust"]
@@ -400,6 +412,8 @@ graph LR
   class n_source_aiase_2026_w8_token_economy source;
   n_source_ktchuang_pursuit_of_excellence["ktchuang-pursuit-of-excellence"]
   class n_source_ktchuang_pursuit_of_excellence source;
+  n_source_mckinsey_hr_monitor_2026["mckinsey-hr-monitor-2026"]
+  class n_source_mckinsey_hr_monitor_2026 source;
   n_source_ktchuang_educate_not_ban["ktchuang-educate-not-ban"]
   class n_source_ktchuang_educate_not_ban source;
   n_source_microsoft_suleyman_anthropic_too_expensive["microsoft-suleyman-anthropic-too-expensive"]
@@ -528,6 +542,20 @@ graph LR
   n_strategy_over_tactics --- n_learning_to_learn
   n_strategy_over_tactics --- n_transactional_mindset
   n_strategy_over_tactics --- n_ai_era_student_playbook
+  n_relentless_ceo_standards --- n_source_ceo_relentless_first_principles
+  n_relentless_ceo_standards --- n_jensen_huang
+  n_relentless_ceo_standards --- n_elon_musk
+  n_relentless_ceo_standards --- n_generosity_over_genius
+  n_relentless_ceo_standards --- n_leadership_wishing_others_success
+  n_relentless_ceo_standards --- n_run_towards_hardest_problems
+  n_relentless_ceo_standards --- n_lisa_su
+  n_relentless_ceo_standards --- n_employer_absolute_market
+  n_relentless_ceo_standards --- n_ai_amplifier_effect
+  n_relentless_ceo_standards --- n_trial_and_error_velocity
+  n_relentless_ceo_standards --- n_think_big_frontier_problems
+  n_relentless_ceo_standards --- n_taking_on_responsibility
+  n_relentless_ceo_standards --- n_pursuit_of_excellence
+  n_relentless_ceo_standards --- n_career_wealth_and_motivation
   n_trust_and_eq --- n_source_ktchuang_eq_and_trust
   n_trust_and_eq --- n_zero_to_one_vs_one_to_hundred
   n_trust_and_eq --- n_meta_skill
@@ -813,6 +841,21 @@ graph LR
   n_research_meeting_communication --- n_find_your_benefactor
   n_research_meeting_communication --- n_trust_and_eq
   n_research_meeting_communication --- n_ai_era_student_playbook
+  n_agent_amplifies_taste --- n_source_github_copilot_handwriting_code
+  n_agent_amplifies_taste --- n_ai_amplifier_effect
+  n_agent_amplifies_taste --- n_ai_dependence_skill_erosion
+  n_agent_amplifies_taste --- n_cognitive_surrender
+  n_agent_amplifies_taste --- n_coding_as_proxy_for_thinking
+  n_agent_amplifies_taste --- n_directing_ai_not_executing
+  n_agent_amplifies_taste --- n_problem_first_not_tech_first
+  n_agent_amplifies_taste --- n_task_vs_job
+  n_agent_amplifies_taste --- n_thinking_depth_over_speed
+  n_agent_amplifies_taste --- n_meta_skill
+  n_agent_amplifies_taste --- n_trustworthy_systems_with_agents
+  n_agent_amplifies_taste --- n_hr_pillars_collapse
+  n_agent_amplifies_taste --- n_relentless_ceo_standards
+  n_agent_amplifies_taste --- n_ai_era_student_playbook
+  n_agent_amplifies_taste --- n_cs_education_ai_agents
   n_credit_as_future_resource --- n_vincent_cw_yu
   n_credit_as_future_resource --- n_source_vincent_yu_credit_future_resources
   n_credit_as_future_resource --- n_source_ktchuang_commitment_and_trust
@@ -939,6 +982,22 @@ graph LR
   n_spec_driven_development --- n_cost_stack
   n_spec_driven_development --- n_eval_driven_development
   n_spec_driven_development --- n_harness_engineering
+  n_hr_pillars_collapse --- n_source_mckinsey_hr_monitor_2026
+  n_hr_pillars_collapse --- n_agentic_software_delivery
+  n_hr_pillars_collapse --- n_problem_first_not_tech_first
+  n_hr_pillars_collapse --- n_strategy_over_tactics
+  n_hr_pillars_collapse --- n_directing_ai_not_executing
+  n_hr_pillars_collapse --- n_trustworthy_systems_with_agents
+  n_hr_pillars_collapse --- n_meta_skill
+  n_hr_pillars_collapse --- n_shallow_trendy_trap
+  n_hr_pillars_collapse --- n_ai_job_ladder_collapse
+  n_hr_pillars_collapse --- n_employer_absolute_market
+  n_hr_pillars_collapse --- n_ai_amplifier_effect
+  n_hr_pillars_collapse --- n_cognitive_surrender
+  n_hr_pillars_collapse --- n_verifiability_mindset
+  n_hr_pillars_collapse --- n_improve_human_tasks_not_faster_code
+  n_hr_pillars_collapse --- n_career_wealth_and_motivation
+  n_hr_pillars_collapse --- n_ai_era_student_playbook
   n_tacit_knowledge --- n_source_aiase_2026_w7_agentic_stack
   n_tacit_knowledge --- n_task_vs_job
   n_tacit_knowledge --- n_credit_as_future_resource
@@ -1471,6 +1530,7 @@ graph LR
   n_affaan_m --- n_anthropic
   n_affaan_m --- n_source_everything_claude_code_readme
   n_elon_musk --- n_source_musk_programming_as_friction
+  n_elon_musk --- n_source_ceo_relentless_first_principles
   n_elon_musk --- n_directing_ai_not_executing
   n_elon_musk --- n_jensen_huang
   n_adam_rodman --- n_harvard_llm_clinical_reasoning_study
@@ -1535,6 +1595,7 @@ graph LR
   n_jensen_huang --- n_source_jensen_huang_leadership_summit
   n_jensen_huang --- n_source_computex_2026_nvidia_amd
   n_jensen_huang --- n_source_jensen_generosity_summit
+  n_jensen_huang --- n_source_ceo_relentless_first_principles
   n_jensen_huang --- n_sega_cheng
   n_jensen_huang --- n_lisa_su
   n_jensen_huang --- n_ai_agent_saas_disruption
@@ -1560,6 +1621,19 @@ graph LR
   n_agent_skills_for_context_engineering --- n_source_agent_skills_for_context_engineering
   n_timesfm --- n_gemma_4
   n_timesfm --- n_source_aiase_deterministic_vs_foundation_model
+  n_wikita --- n_automation_vs_augmentation
+  n_wikita --- n_task_vs_job
+  n_wikita --- n_ai_dependence_skill_erosion
+  n_wikita --- n_cognitive_surrender
+  n_wikita --- n_dan_garcia
+  n_wikita --- n_educate_not_ban
+  n_wikita --- n_mass_production_vs_inheritance
+  n_wikita --- n_pursuit_of_excellence
+  n_wikita --- n_learning_to_learn
+  n_wikita --- n_karpathy_llm_wiki
+  n_wikita --- n_agent_amplifies_taste
+  n_wikita --- n_cs_education_ai_agents
+  n_wikita --- n_ai_era_student_playbook
   n_is_grep_all_you_need --- n_claude_code
   n_is_grep_all_you_need --- n_wisely_chen
   n_is_grep_all_you_need --- n_source_wiselychen_is_grep_all_you_need

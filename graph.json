@@ -22,7 +22,15 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 10
+      "degree": 11
+    },
+    {
+      "id": "relentless-ceo-standards",
+      "title": "頂尖 CEO 的殘酷面（第一性原理 × 光速排程法）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 15
     },
     {
       "id": "trust-and-eq",
@@ -94,7 +102,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 18
+      "degree": 19
     },
     {
       "id": "mass-production-vs-inheritance",
@@ -102,7 +110,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 18
+      "degree": 19
     },
     {
       "id": "learning-to-learn",
@@ -110,7 +118,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 18
+      "degree": 19
     },
     {
       "id": "ai-job-ladder-collapse",
@@ -118,7 +126,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 31
+      "degree": 32
     },
     {
       "id": "karpathy-llm-wiki",
@@ -126,7 +134,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "adaptability-restlessness",
@@ -142,7 +150,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 22
+      "degree": 24
     },
     {
       "id": "from-code-to-human-problems",
@@ -174,7 +182,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 24
+      "degree": 25
     },
     {
       "id": "think-big-frontier-problems",
@@ -182,7 +190,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "worth-nurturing",
@@ -230,7 +238,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 12
+      "degree": 15
     },
     {
       "id": "trustworthy-systems-with-agents",
@@ -238,7 +246,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 16
+      "degree": 18
     },
     {
       "id": "research-meeting-communication",
@@ -247,6 +255,14 @@
       "status": "stub",
       "exists": true,
       "degree": 6
+    },
+    {
+      "id": "agent-amplifies-taste",
+      "title": "AI 是品味的放大器（手寫程式碼考第一性原理）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 16
     },
     {
       "id": "credit-as-future-resource",
@@ -286,7 +302,7 @@
       "type": "concept",
       "status": "stub",
       "exists": true,
-      "degree": 13
+      "degree": 14
     },
     {
       "id": "transactional-mindset",
@@ -302,7 +318,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 25
+      "degree": 28
     },
     {
       "id": "lack-of-urgency",
@@ -326,7 +342,7 @@
       "type": "concept",
       "status": "stub",
       "exists": true,
-      "degree": 23
+      "degree": 24
     },
     {
       "id": "pursuit-of-excellence",
@@ -334,7 +350,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 14
+      "degree": 16
     },
     {
       "id": "spec-driven-development",
@@ -343,6 +359,14 @@
       "status": "stub",
       "exists": true,
       "degree": 15
+    },
+    {
+      "id": "hr-pillars-collapse",
+      "title": "HR 三支柱瓦解（畫錯重點：做能掌控的，不做最有感的）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 17
     },
     {
       "id": "tacit-knowledge",
@@ -358,7 +382,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "token-economics",
@@ -374,7 +398,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "pc-dual-track",
@@ -422,7 +446,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 15
+      "degree": 16
     },
     {
       "id": "value-transfer-vs-value-creation",
@@ -518,7 +542,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 21
+      "degree": 23
     },
     {
       "id": "recursive-self-improvement",
@@ -534,7 +558,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "high-win-rate-people",
@@ -566,7 +590,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 34
+      "degree": 36
     },
     {
       "id": "opportunity-adhesion",
@@ -590,7 +614,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 11
+      "degree": 13
     },
     {
       "id": "train-vs-ocean-american-dream",
@@ -614,7 +638,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "tree-sitter-llm-hybrid-analysis",
@@ -654,7 +678,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 21
+      "degree": 22
     },
     {
       "id": "retrieval-plus-orchestration",
@@ -686,7 +710,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 46
+      "degree": 48
     },
     {
       "id": "ownership-and-autonomy",
@@ -702,7 +726,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 24
+      "degree": 25
     },
     {
       "id": "llm-jaggedness",
@@ -750,7 +774,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 20
+      "degree": 22
     },
     {
       "id": "context-engineering",
@@ -766,7 +790,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 20
+      "degree": 21
     },
     {
       "id": "improve-human-tasks-not-faster-code",
@@ -774,7 +798,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 16
+      "degree": 17
     },
     {
       "id": "combination-scarcity",
@@ -814,7 +838,7 @@
       "type": "entity",
       "status": "stub",
       "exists": true,
-      "degree": 4
+      "degree": 6
     },
     {
       "id": "adam-rodman",
@@ -942,7 +966,7 @@
       "type": "entity",
       "status": "stub",
       "exists": true,
-      "degree": 18
+      "degree": 20
     },
     {
       "id": "boris-cherny",
@@ -991,6 +1015,14 @@
       "status": "stub",
       "exists": true,
       "degree": 3
+    },
+    {
+      "id": "wikita",
+      "title": "實驗室大師兄 WikiTA",
+      "type": "entity",
+      "status": "draft",
+      "exists": true,
+      "degree": 13
     },
     {
       "id": "is-grep-all-you-need",
@@ -1086,7 +1118,7 @@
       "type": "entity",
       "status": "stub",
       "exists": true,
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "agentopt",
@@ -1134,7 +1166,7 @@
       "type": "entity",
       "status": "stub",
       "exists": true,
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "autoresearch",
@@ -1174,7 +1206,7 @@
       "type": "topic",
       "status": "draft",
       "exists": true,
-      "degree": 58
+      "degree": 60
     },
     {
       "id": "ai-agent-saas-disruption",
@@ -1190,7 +1222,7 @@
       "type": "topic",
       "status": "draft",
       "exists": true,
-      "degree": 69
+      "degree": 72
     },
     {
       "id": "computex-2026-nvidia-amd",
@@ -1214,7 +1246,7 @@
       "type": "topic",
       "status": "draft",
       "exists": true,
-      "degree": 23
+      "degree": 25
     },
     {
       "id": "agentic-stack",
@@ -1255,6 +1287,14 @@
       "status": "",
       "exists": true,
       "degree": 1
+    },
+    {
+      "id": "source:ceo-relentless-first-principles",
+      "title": "ceo-relentless-first-principles",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 3
     },
     {
       "id": "source:ktchuang-eq-and-trust",
@@ -1521,6 +1561,14 @@
       "degree": 1
     },
     {
+      "id": "source:github-copilot-handwriting-code",
+      "title": "github-copilot-handwriting-code",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 1
+    },
+    {
       "id": "source:vincent-yu-credit-future-resources",
       "title": "vincent-yu-credit-future-resources",
       "type": "source",
@@ -1595,6 +1643,14 @@
     {
       "id": "source:ktchuang-pursuit-of-excellence",
       "title": "ktchuang-pursuit-of-excellence",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 1
+    },
+    {
+      "id": "source:mckinsey-hr-monitor-2026",
+      "title": "mckinsey-hr-monitor-2026",
       "type": "source",
       "status": "",
       "exists": true,
@@ -2113,6 +2169,62 @@
     {
       "from": "strategy-over-tactics",
       "to": "ai-era-student-playbook"
+    },
+    {
+      "from": "relentless-ceo-standards",
+      "to": "source:ceo-relentless-first-principles"
+    },
+    {
+      "from": "relentless-ceo-standards",
+      "to": "jensen-huang"
+    },
+    {
+      "from": "relentless-ceo-standards",
+      "to": "elon-musk"
+    },
+    {
+      "from": "relentless-ceo-standards",
+      "to": "generosity-over-genius"
+    },
+    {
+      "from": "relentless-ceo-standards",
+      "to": "leadership-wishing-others-success"
+    },
+    {
+      "from": "relentless-ceo-standards",
+      "to": "run-towards-hardest-problems"
+    },
+    {
+      "from": "relentless-ceo-standards",
+      "to": "lisa-su"
+    },
+    {
+      "from": "relentless-ceo-standards",
+      "to": "employer-absolute-market"
+    },
+    {
+      "from": "relentless-ceo-standards",
+      "to": "ai-amplifier-effect"
+    },
+    {
+      "from": "relentless-ceo-standards",
+      "to": "trial-and-error-velocity"
+    },
+    {
+      "from": "relentless-ceo-standards",
+      "to": "think-big-frontier-problems"
+    },
+    {
+      "from": "relentless-ceo-standards",
+      "to": "taking-on-responsibility"
+    },
+    {
+      "from": "relentless-ceo-standards",
+      "to": "pursuit-of-excellence"
+    },
+    {
+      "from": "relentless-ceo-standards",
+      "to": "career-wealth-and-motivation"
     },
     {
       "from": "trust-and-eq",
@@ -3255,6 +3367,66 @@
       "to": "ai-era-student-playbook"
     },
     {
+      "from": "agent-amplifies-taste",
+      "to": "source:github-copilot-handwriting-code"
+    },
+    {
+      "from": "agent-amplifies-taste",
+      "to": "ai-amplifier-effect"
+    },
+    {
+      "from": "agent-amplifies-taste",
+      "to": "ai-dependence-skill-erosion"
+    },
+    {
+      "from": "agent-amplifies-taste",
+      "to": "cognitive-surrender"
+    },
+    {
+      "from": "agent-amplifies-taste",
+      "to": "coding-as-proxy-for-thinking"
+    },
+    {
+      "from": "agent-amplifies-taste",
+      "to": "directing-ai-not-executing"
+    },
+    {
+      "from": "agent-amplifies-taste",
+      "to": "problem-first-not-tech-first"
+    },
+    {
+      "from": "agent-amplifies-taste",
+      "to": "task-vs-job"
+    },
+    {
+      "from": "agent-amplifies-taste",
+      "to": "thinking-depth-over-speed"
+    },
+    {
+      "from": "agent-amplifies-taste",
+      "to": "meta-skill"
+    },
+    {
+      "from": "agent-amplifies-taste",
+      "to": "trustworthy-systems-with-agents"
+    },
+    {
+      "from": "agent-amplifies-taste",
+      "to": "hr-pillars-collapse"
+    },
+    {
+      "from": "agent-amplifies-taste",
+      "to": "relentless-ceo-standards"
+    },
+    {
+      "from": "agent-amplifies-taste",
+      "to": "ai-era-student-playbook"
+    },
+    {
+      "from": "agent-amplifies-taste",
+      "to": "cs-education-ai-agents"
+    },
+    {
       "from": "credit-as-future-resource",
       "to": "vincent-cw-yu"
     },
@@ -3757,6 +3929,70 @@
     {
       "from": "spec-driven-development",
       "to": "harness-engineering"
+    },
+    {
+      "from": "hr-pillars-collapse",
+      "to": "source:mckinsey-hr-monitor-2026"
+    },
+    {
+      "from": "hr-pillars-collapse",
+      "to": "agentic-software-delivery"
+    },
+    {
+      "from": "hr-pillars-collapse",
+      "to": "problem-first-not-tech-first"
+    },
+    {
+      "from": "hr-pillars-collapse",
+      "to": "strategy-over-tactics"
+    },
+    {
+      "from": "hr-pillars-collapse",
+      "to": "directing-ai-not-executing"
+    },
+    {
+      "from": "hr-pillars-collapse",
+      "to": "trustworthy-systems-with-agents"
+    },
+    {
+      "from": "hr-pillars-collapse",
+      "to": "meta-skill"
+    },
+    {
+      "from": "hr-pillars-collapse",
+      "to": "shallow-trendy-trap"
+    },
+    {
+      "from": "hr-pillars-collapse",
+      "to": "ai-job-ladder-collapse"
+    },
+    {
+      "from": "hr-pillars-collapse",
+      "to": "employer-absolute-market"
+    },
+    {
+      "from": "hr-pillars-collapse",
+      "to": "ai-amplifier-effect"
+    },
+    {
+      "from": "hr-pillars-collapse",
+      "to": "cognitive-surrender"
+    },
+    {
+      "from": "hr-pillars-collapse",
+      "to": "verifiability-mindset"
+    },
+    {
+      "from": "hr-pillars-collapse",
+      "to": "improve-human-tasks-not-faster-code"
+    },
+    {
+      "from": "hr-pillars-collapse",
+      "to": "career-wealth-and-motivation"
+    },
+    {
+      "from": "hr-pillars-collapse",
+      "to": "ai-era-student-playbook"
     },
     {
       "from": "tacit-knowledge",
@@ -5888,6 +6124,10 @@
     },
     {
       "from": "elon-musk",
+      "to": "source:ceo-relentless-first-principles"
+    },
+    {
+      "from": "elon-musk",
       "to": "directing-ai-not-executing"
     },
     {
@@ -6144,6 +6384,10 @@
     },
     {
       "from": "jensen-huang",
+      "to": "source:ceo-relentless-first-principles"
+    },
+    {
+      "from": "jensen-huang",
       "to": "sega-cheng"
     },
     {
@@ -6241,6 +6485,58 @@
     {
       "from": "timesfm",
       "to": "source:aiase-deterministic-vs-foundation-model"
+    },
+    {
+      "from": "wikita",
+      "to": "automation-vs-augmentation"
+    },
+    {
+      "from": "wikita",
+      "to": "task-vs-job"
+    },
+    {
+      "from": "wikita",
+      "to": "ai-dependence-skill-erosion"
+    },
+    {
+      "from": "wikita",
+      "to": "cognitive-surrender"
+    },
+    {
+      "from": "wikita",
+      "to": "dan-garcia"
+    },
+    {
+      "from": "wikita",
+      "to": "educate-not-ban"
+    },
+    {
+      "from": "wikita",
+      "to": "mass-production-vs-inheritance"
+    },
+    {
+      "from": "wikita",
+      "to": "pursuit-of-excellence"
+    },
+    {
+      "from": "wikita",
+      "to": "learning-to-learn"
+    },
+    {
+      "from": "wikita",
+      "to": "karpathy-llm-wiki"
+    },
+    {
+      "from": "wikita",
+      "to": "agent-amplifies-taste"
+    },
+    {
+      "from": "wikita",
+      "to": "cs-education-ai-agents"
+    },
+    {
+      "from": "wikita",
+      "to": "ai-era-student-playbook"
     },
     {
       "from": "is-grep-all-you-need",
