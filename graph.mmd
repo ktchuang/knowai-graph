@@ -140,6 +140,10 @@ graph LR
   class n_ai_era_product_development concept;
   n_skill_vs_subagent["Skill vs Sub-Agent（為什麼 Skill 通常更好）"]
   class n_skill_vs_subagent concept;
+  n_ai_native_engineering_management["AI 化軟體團隊的管理（routines、IC-first、JIT 規劃、砍流程）"]
+  class n_ai_native_engineering_management concept;
+  n_verification_is_the_new_bottleneck["驗證成為新瓶頸（產出爆增後，別把動作誤認為進步）"]
+  class n_verification_is_the_new_bottleneck concept;
   n_software_1_2_3["Software 1.0 / 2.0 / 3.0"]
   class n_software_1_2_3 concept;
   n_executive_burnout["高階經理人倦勤（Executive Career Burnout）"]
@@ -218,6 +222,8 @@ graph LR
   class n_llm_jaggedness concept;
   n_go_to_sea["出海（大航海時代的航海王）"]
   class n_go_to_sea concept;
+  n_taste_resists_verification["品味/人味難被確定性驗證（評估 AI 作品的兩難）"]
+  class n_taste_resists_verification concept;
   n_service_before_leadership["不要只想著領導，先學會服務（利他優先）"]
   class n_service_before_leadership concept;
   n_agent_memory["Agent Memory（代理記憶）"]
@@ -314,6 +320,8 @@ graph LR
   class n_microsoft entity;
   n_nvidia["NVIDIA（輝達）"]
   class n_nvidia entity;
+  n_fiona_fung["Fiona Fung"]
+  class n_fiona_fung entity;
   n_charlie_warren["Charlie Warren（YC）"]
   class n_charlie_warren entity;
   n_cloudflare["Cloudflare"]
@@ -468,6 +476,8 @@ graph LR
   class n_source_fable5_system_prompt_harness source;
   n_source_ktchuang_passion_attracts_benefactors["ktchuang-passion-attracts-benefactors"]
   class n_source_ktchuang_passion_attracts_benefactors source;
+  n_source_ktchuang_grade_adjustment_letter["ktchuang-grade-adjustment-letter"]
+  class n_source_ktchuang_grade_adjustment_letter source;
   n_source_skillspector["skillspector"]
   class n_source_skillspector source;
   n_source_bnext_chien_lack_of_urgency["bnext-chien-lack-of-urgency"]
@@ -510,6 +520,10 @@ graph LR
   class n_source_ktchuang_snap_ai_layoff_confession source;
   n_source_catwu_claude_code_pm_9_truths["catwu-claude-code-pm-9-truths"]
   class n_source_catwu_claude_code_pm_9_truths source;
+  n_source_lenny_fiona_fung_ai_native_eng["lenny-fiona-fung-ai-native-eng"]
+  class n_source_lenny_fiona_fung_ai_native_eng source;
+  n_source_ktchuang_fiona_verification_note["ktchuang-fiona-verification-note"]
+  class n_source_ktchuang_fiona_verification_note source;
   n_source_executive_career_burnout["executive-career-burnout"]
   class n_source_executive_career_burnout source;
   n_source_ktchuang_zero_to_one_talent["ktchuang-zero-to-one-talent"]
@@ -725,6 +739,9 @@ graph LR
   n_agentic_software_delivery --- n_ai_amplifier_effect
   n_agentic_software_delivery --- n_spec_driven_development
   n_agentic_software_delivery --- n_agentic_engineering
+  n_agentic_software_delivery --- n_verification_is_the_new_bottleneck
+  n_agentic_software_delivery --- n_ai_native_engineering_management
+  n_agentic_software_delivery --- n_fiona_fung
   n_agentic_software_delivery --- n_harness_engineering
   n_agentic_software_delivery --- n_ai_era_student_playbook
   n_mass_production_vs_inheritance --- n_source_ktchuang_mass_production_vs_inheritance
@@ -1094,8 +1111,10 @@ graph LR
   n_become_a_giver --- n_trust_and_eq
   n_become_a_giver --- n_from_code_to_human_problems
   n_become_a_giver --- n_how_you_work_not_what_you_can_do
-  n_become_a_giver --- n_find_your_benefactor
+  n_become_a_giver --- n_source_ktchuang_grade_adjustment_letter
+  n_become_a_giver --- n_taste_resists_verification
   n_become_a_giver --- n_generosity_over_genius
+  n_become_a_giver --- n_find_your_benefactor
   n_become_a_giver --- n_leadership_wishing_others_success
   n_become_a_giver --- n_taking_on_responsibility
   n_become_a_giver --- n_worth_nurturing
@@ -1153,6 +1172,8 @@ graph LR
   n_verifiability_mindset --- n_is_grep_all_you_need
   n_verifiability_mindset --- n_eval_driven_development
   n_verifiability_mindset --- n_deterministic_vs_foundation_model
+  n_verifiability_mindset --- n_taste_resists_verification
+  n_verifiability_mindset --- n_tacit_knowledge
   n_verifiability_mindset --- n_cost_stack
   n_verifiability_mindset --- n_spec_driven_development
   n_verifiability_mindset --- n_harness_engineering
@@ -1394,6 +1415,49 @@ graph LR
   n_skill_vs_subagent --- n_token_economics
   n_skill_vs_subagent --- n_karpathy_llm_wiki
   n_skill_vs_subagent --- n_pi_framework
+  n_ai_native_engineering_management --- n_source_lenny_fiona_fung_ai_native_eng
+  n_ai_native_engineering_management --- n_fiona_fung
+  n_ai_native_engineering_management --- n_loop_engineering
+  n_ai_native_engineering_management --- n_six_layer_ai_engineering
+  n_ai_native_engineering_management --- n_multi_agent_cost
+  n_ai_native_engineering_management --- n_combination_scarcity
+  n_ai_native_engineering_management --- n_team_of_excellence
+  n_ai_native_engineering_management --- n_domain_knowledge_leverage
+  n_ai_native_engineering_management --- n_how_you_work_not_what_you_can_do
+  n_ai_native_engineering_management --- n_ownership_and_autonomy
+  n_ai_native_engineering_management --- n_mass_production_vs_inheritance
+  n_ai_native_engineering_management --- n_learning_to_learn
+  n_ai_native_engineering_management --- n_trial_and_error_velocity
+  n_ai_native_engineering_management --- n_prepared_for_upheaval
+  n_ai_native_engineering_management --- n_adaptability_restlessness
+  n_ai_native_engineering_management --- n_ai_dependence_skill_erosion
+  n_ai_native_engineering_management --- n_trust_and_eq
+  n_ai_native_engineering_management --- n_service_before_leadership
+  n_ai_native_engineering_management --- n_ai_native_learning_attitude
+  n_ai_native_engineering_management --- n_cs_education_ai_agents
+  n_ai_native_engineering_management --- n_verification_is_the_new_bottleneck
+  n_ai_native_engineering_management --- n_ai_native_org_structure
+  n_ai_native_engineering_management --- n_harness_engineering
+  n_ai_native_engineering_management --- n_career_wealth_and_motivation
+  n_verification_is_the_new_bottleneck --- n_source_lenny_fiona_fung_ai_native_eng
+  n_verification_is_the_new_bottleneck --- n_fiona_fung
+  n_verification_is_the_new_bottleneck --- n_boris_cherny
+  n_verification_is_the_new_bottleneck --- n_domain_knowledge_leverage
+  n_verification_is_the_new_bottleneck --- n_directing_ai_not_executing
+  n_verification_is_the_new_bottleneck --- n_token_economics
+  n_verification_is_the_new_bottleneck --- n_cost_stack
+  n_verification_is_the_new_bottleneck --- n_verifiability_mindset
+  n_verification_is_the_new_bottleneck --- n_multi_agent_cost
+  n_verification_is_the_new_bottleneck --- n_spec_driven_development
+  n_verification_is_the_new_bottleneck --- n_eval_driven_development
+  n_verification_is_the_new_bottleneck --- n_mechanism_over_prompt
+  n_verification_is_the_new_bottleneck --- n_harness_over_model
+  n_verification_is_the_new_bottleneck --- n_taste_resists_verification
+  n_verification_is_the_new_bottleneck --- n_ai_era_product_development
+  n_verification_is_the_new_bottleneck --- n_improve_human_tasks_not_faster_code
+  n_verification_is_the_new_bottleneck --- n_harness_engineering
+  n_verification_is_the_new_bottleneck --- n_six_layer_ai_engineering
+  n_verification_is_the_new_bottleneck --- n_source_ktchuang_fiona_verification_note
   n_software_1_2_3 --- n_andrej_karpathy
   n_software_1_2_3 --- n_source_karpathy_sequoia_ascent_2026
   n_software_1_2_3 --- n_source_ktchuang_genai_course_reflection
@@ -1602,6 +1666,7 @@ graph LR
   n_domain_knowledge_leverage --- n_credentialing_erosion
   n_domain_knowledge_leverage --- n_ai_era_product_development
   n_domain_knowledge_leverage --- n_meta_skill
+  n_domain_knowledge_leverage --- n_fiona_fung
   n_domain_knowledge_leverage --- n_anthropic
   n_domain_knowledge_leverage --- n_claude_code
   n_domain_knowledge_leverage --- n_ai_era_student_playbook
@@ -1721,6 +1786,22 @@ graph LR
   n_go_to_sea --- n_task_vs_job
   n_go_to_sea --- n_meta_skill
   n_go_to_sea --- n_career_wealth_and_motivation
+  n_taste_resists_verification --- n_source_ktchuang_grade_adjustment_letter
+  n_taste_resists_verification --- n_harness_over_model
+  n_taste_resists_verification --- n_token_economics
+  n_taste_resists_verification --- n_agent_skill_security
+  n_taste_resists_verification --- n_context_window_management
+  n_taste_resists_verification --- n_eval_driven_development
+  n_taste_resists_verification --- n_model_fusion
+  n_taste_resists_verification --- n_llm_jaggedness
+  n_taste_resists_verification --- n_tacit_knowledge
+  n_taste_resists_verification --- n_deterministic_vs_foundation_model
+  n_taste_resists_verification --- n_agent_amplifies_taste
+  n_taste_resists_verification --- n_credentialing_erosion
+  n_taste_resists_verification --- n_ai_native_learning_attitude
+  n_taste_resists_verification --- n_generosity_over_genius
+  n_taste_resists_verification --- n_harness_engineering
+  n_taste_resists_verification --- n_ai_era_student_playbook
   n_service_before_leadership --- n_source_ktchuang_service_before_leadership
   n_service_before_leadership --- n_source_ktchuang_meta_skill_rabbit
   n_service_before_leadership --- n_source_ktchuang_altruism_undistillable
@@ -2001,6 +2082,12 @@ graph LR
   n_nvidia --- n_source_computex_2026_nvidia_amd
   n_nvidia --- n_source_jensen_huang_leadership_summit
   n_nvidia --- n_computex_2026_nvidia_amd
+  n_fiona_fung --- n_anthropic
+  n_fiona_fung --- n_source_lenny_fiona_fung_ai_native_eng
+  n_fiona_fung --- n_ai_dependence_skill_erosion
+  n_fiona_fung --- n_boris_cherny
+  n_fiona_fung --- n_cat_wu
+  n_fiona_fung --- n_ai_era_product_development
   n_charlie_warren --- n_ai_native_service_companies
   n_charlie_warren --- n_source_yc_ai_native_services_playbook
   n_charlie_warren --- n_ai_agent_saas_disruption

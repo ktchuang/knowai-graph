@@ -6,7 +6,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 18
+      "degree": 19
     },
     {
       "id": "team-of-excellence",
@@ -14,7 +14,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 29
+      "degree": 30
     },
     {
       "id": "strategy-over-tactics",
@@ -38,7 +38,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 22
+      "degree": 23
     },
     {
       "id": "agent-native-economy",
@@ -102,7 +102,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 22
+      "degree": 25
     },
     {
       "id": "mass-production-vs-inheritance",
@@ -110,7 +110,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 20
+      "degree": 21
     },
     {
       "id": "learning-to-learn",
@@ -118,7 +118,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 23
+      "degree": 24
     },
     {
       "id": "ai-job-ladder-collapse",
@@ -142,7 +142,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "directing-ai-not-executing",
@@ -150,7 +150,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 29
+      "degree": 30
     },
     {
       "id": "from-code-to-human-problems",
@@ -190,7 +190,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "think-big-frontier-problems",
@@ -214,7 +214,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 40
+      "degree": 42
     },
     {
       "id": "jevons-paradox",
@@ -278,7 +278,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 18
+      "degree": 19
     },
     {
       "id": "expensive-poverty",
@@ -302,7 +302,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 15
+      "degree": 16
     },
     {
       "id": "context-window-management",
@@ -310,7 +310,7 @@
       "type": "concept",
       "status": "stub",
       "exists": true,
-      "degree": 17
+      "degree": 18
     },
     {
       "id": "gun-to-rocket-launcher",
@@ -342,7 +342,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 16
+      "degree": 18
     },
     {
       "id": "ai-amplifier-effect",
@@ -358,7 +358,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 17
+      "degree": 19
     },
     {
       "id": "agent-skill-security",
@@ -366,7 +366,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 13
+      "degree": 14
     },
     {
       "id": "lack-of-urgency",
@@ -390,7 +390,7 @@
       "type": "concept",
       "status": "stub",
       "exists": true,
-      "degree": 29
+      "degree": 32
     },
     {
       "id": "pursuit-of-excellence",
@@ -406,7 +406,7 @@
       "type": "concept",
       "status": "stub",
       "exists": true,
-      "degree": 15
+      "degree": 16
     },
     {
       "id": "hr-pillars-collapse",
@@ -422,7 +422,7 @@
       "type": "concept",
       "status": "stub",
       "exists": true,
-      "degree": 17
+      "degree": 19
     },
     {
       "id": "educate-not-ban",
@@ -438,7 +438,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 43
+      "degree": 45
     },
     {
       "id": "generosity-over-genius",
@@ -446,7 +446,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 17
+      "degree": 18
     },
     {
       "id": "pc-dual-track",
@@ -470,7 +470,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 18
+      "degree": 19
     },
     {
       "id": "programming-as-friction-tax",
@@ -550,7 +550,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 19
+      "degree": 21
     },
     {
       "id": "skill-vs-subagent",
@@ -559,6 +559,22 @@
       "status": "stub",
       "exists": true,
       "degree": 15
+    },
+    {
+      "id": "ai-native-engineering-management",
+      "title": "AI 化軟體團隊的管理（routines、IC-first、JIT 規劃、砍流程）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 25
+    },
+    {
+      "id": "verification-is-the-new-bottleneck",
+      "title": "驗證成為新瓶頸（產出爆增後，別把動作誤認為進步）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 21
     },
     {
       "id": "software-1-2-3",
@@ -590,7 +606,7 @@
       "type": "concept",
       "status": "stub",
       "exists": true,
-      "degree": 14
+      "degree": 16
     },
     {
       "id": "how-you-work-not-what-you-can-do",
@@ -598,7 +614,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 18
+      "degree": 19
     },
     {
       "id": "ai-dependence-skill-erosion",
@@ -606,7 +622,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 24
+      "degree": 26
     },
     {
       "id": "recursive-self-improvement",
@@ -638,7 +654,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 19
+      "degree": 20
     },
     {
       "id": "structured-cot",
@@ -678,7 +694,7 @@
       "type": "concept",
       "status": "stub",
       "exists": true,
-      "degree": 16
+      "degree": 18
     },
     {
       "id": "problem-first-not-tech-first",
@@ -766,7 +782,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 15
+      "degree": 18
     },
     {
       "id": "retrieval-plus-orchestration",
@@ -790,7 +806,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 22
+      "degree": 23
     },
     {
       "id": "task-vs-job",
@@ -814,7 +830,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "mtms-coordination-distillation",
@@ -862,7 +878,7 @@
       "type": "concept",
       "status": "stub",
       "exists": true,
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "go-to-sea",
@@ -873,12 +889,20 @@
       "degree": 15
     },
     {
+      "id": "taste-resists-verification",
+      "title": "品味/人味難被確定性驗證（評估 AI 作品的兩難）",
+      "type": "concept",
+      "status": "draft",
+      "exists": true,
+      "degree": 19
+    },
+    {
       "id": "service-before-leadership",
       "title": "不要只想著領導，先學會服務（利他優先）",
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 24
+      "degree": 25
     },
     {
       "id": "agent-memory",
@@ -918,7 +942,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 24
+      "degree": 25
     },
     {
       "id": "improve-human-tasks-not-faster-code",
@@ -926,7 +950,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 19
+      "degree": 20
     },
     {
       "id": "combination-scarcity",
@@ -934,7 +958,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 20
+      "degree": 21
     },
     {
       "id": "agent-harness",
@@ -950,7 +974,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 13
+      "degree": 14
     },
     {
       "id": "mechanism-over-prompt",
@@ -958,7 +982,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 29
+      "degree": 30
     },
     {
       "id": "affaan-m",
@@ -990,7 +1014,7 @@
       "type": "entity",
       "status": "stub",
       "exists": true,
-      "degree": 19
+      "degree": 20
     },
     {
       "id": "claude-code",
@@ -1142,7 +1166,7 @@
       "type": "entity",
       "status": "stub",
       "exists": true,
-      "degree": 5
+      "degree": 7
     },
     {
       "id": "sahil-bloom",
@@ -1257,6 +1281,14 @@
       "degree": 8
     },
     {
+      "id": "fiona-fung",
+      "title": "Fiona Fung",
+      "type": "entity",
+      "status": "stub",
+      "exists": true,
+      "degree": 10
+    },
+    {
       "id": "charlie-warren",
       "title": "Charlie Warren（YC）",
       "type": "entity",
@@ -1278,7 +1310,7 @@
       "type": "entity",
       "status": "stub",
       "exists": true,
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "understand-anything",
@@ -1382,7 +1414,7 @@
       "type": "topic",
       "status": "draft",
       "exists": true,
-      "degree": 47
+      "degree": 50
     },
     {
       "id": "lab-onboarding-backend-edge",
@@ -1398,7 +1430,7 @@
       "type": "topic",
       "status": "draft",
       "exists": true,
-      "degree": 65
+      "degree": 66
     },
     {
       "id": "ai-agent-saas-disruption",
@@ -1414,7 +1446,7 @@
       "type": "topic",
       "status": "draft",
       "exists": true,
-      "degree": 78
+      "degree": 79
     },
     {
       "id": "computex-2026-nvidia-amd",
@@ -1438,7 +1470,7 @@
       "type": "topic",
       "status": "draft",
       "exists": true,
-      "degree": 27
+      "degree": 28
     },
     {
       "id": "six-layer-ai-engineering",
@@ -1446,7 +1478,7 @@
       "type": "topic",
       "status": "draft",
       "exists": true,
-      "degree": 27
+      "degree": 29
     },
     {
       "id": "energyai",
@@ -1873,6 +1905,14 @@
       "degree": 1
     },
     {
+      "id": "source:ktchuang-grade-adjustment-letter",
+      "title": "ktchuang-grade-adjustment-letter",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 2
+    },
+    {
       "id": "source:skillspector",
       "title": "skillspector",
       "type": "source",
@@ -2039,6 +2079,22 @@
       "status": "",
       "exists": true,
       "degree": 2
+    },
+    {
+      "id": "source:lenny-fiona-fung-ai-native-eng",
+      "title": "lenny-fiona-fung-ai-native-eng",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 3
+    },
+    {
+      "id": "source:ktchuang-fiona-verification-note",
+      "title": "ktchuang-fiona-verification-note",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 1
     },
     {
       "id": "source:executive-career-burnout",
@@ -2901,6 +2957,18 @@
     {
       "from": "agentic-software-delivery",
       "to": "agentic-engineering"
+    },
+    {
+      "from": "agentic-software-delivery",
+      "to": "verification-is-the-new-bottleneck"
+    },
+    {
+      "from": "agentic-software-delivery",
+      "to": "ai-native-engineering-management"
+    },
+    {
+      "from": "agentic-software-delivery",
+      "to": "fiona-fung"
     },
     {
       "from": "agentic-software-delivery",
@@ -4380,11 +4448,19 @@
     },
     {
       "from": "become-a-giver",
-      "to": "find-your-benefactor"
+      "to": "source:ktchuang-grade-adjustment-letter"
+    },
+    {
+      "from": "become-a-giver",
+      "to": "taste-resists-verification"
     },
     {
       "from": "become-a-giver",
       "to": "generosity-over-genius"
+    },
+    {
+      "from": "become-a-giver",
+      "to": "find-your-benefactor"
     },
     {
       "from": "become-a-giver",
@@ -4613,6 +4689,14 @@
     {
       "from": "verifiability-mindset",
       "to": "deterministic-vs-foundation-model"
+    },
+    {
+      "from": "verifiability-mindset",
+      "to": "taste-resists-verification"
+    },
+    {
+      "from": "verifiability-mindset",
+      "to": "tacit-knowledge"
     },
     {
       "from": "verifiability-mindset",
@@ -5579,6 +5663,178 @@
       "to": "pi-framework"
     },
     {
+      "from": "ai-native-engineering-management",
+      "to": "source:lenny-fiona-fung-ai-native-eng"
+    },
+    {
+      "from": "ai-native-engineering-management",
+      "to": "fiona-fung"
+    },
+    {
+      "from": "ai-native-engineering-management",
+      "to": "loop-engineering"
+    },
+    {
+      "from": "ai-native-engineering-management",
+      "to": "six-layer-ai-engineering"
+    },
+    {
+      "from": "ai-native-engineering-management",
+      "to": "multi-agent-cost"
+    },
+    {
+      "from": "ai-native-engineering-management",
+      "to": "combination-scarcity"
+    },
+    {
+      "from": "ai-native-engineering-management",
+      "to": "team-of-excellence"
+    },
+    {
+      "from": "ai-native-engineering-management",
+      "to": "domain-knowledge-leverage"
+    },
+    {
+      "from": "ai-native-engineering-management",
+      "to": "how-you-work-not-what-you-can-do"
+    },
+    {
+      "from": "ai-native-engineering-management",
+      "to": "ownership-and-autonomy"
+    },
+    {
+      "from": "ai-native-engineering-management",
+      "to": "mass-production-vs-inheritance"
+    },
+    {
+      "from": "ai-native-engineering-management",
+      "to": "learning-to-learn"
+    },
+    {
+      "from": "ai-native-engineering-management",
+      "to": "trial-and-error-velocity"
+    },
+    {
+      "from": "ai-native-engineering-management",
+      "to": "prepared-for-upheaval"
+    },
+    {
+      "from": "ai-native-engineering-management",
+      "to": "adaptability-restlessness"
+    },
+    {
+      "from": "ai-native-engineering-management",
+      "to": "ai-dependence-skill-erosion"
+    },
+    {
+      "from": "ai-native-engineering-management",
+      "to": "trust-and-eq"
+    },
+    {
+      "from": "ai-native-engineering-management",
+      "to": "service-before-leadership"
+    },
+    {
+      "from": "ai-native-engineering-management",
+      "to": "ai-native-learning-attitude"
+    },
+    {
+      "from": "ai-native-engineering-management",
+      "to": "cs-education-ai-agents"
+    },
+    {
+      "from": "ai-native-engineering-management",
+      "to": "verification-is-the-new-bottleneck"
+    },
+    {
+      "from": "ai-native-engineering-management",
+      "to": "ai-native-org-structure"
+    },
+    {
+      "from": "ai-native-engineering-management",
+      "to": "harness-engineering"
+    },
+    {
+      "from": "ai-native-engineering-management",
+      "to": "career-wealth-and-motivation"
+    },
+    {
+      "from": "verification-is-the-new-bottleneck",
+      "to": "source:lenny-fiona-fung-ai-native-eng"
+    },
+    {
+      "from": "verification-is-the-new-bottleneck",
+      "to": "fiona-fung"
+    },
+    {
+      "from": "verification-is-the-new-bottleneck",
+      "to": "boris-cherny"
+    },
+    {
+      "from": "verification-is-the-new-bottleneck",
+      "to": "domain-knowledge-leverage"
+    },
+    {
+      "from": "verification-is-the-new-bottleneck",
+      "to": "directing-ai-not-executing"
+    },
+    {
+      "from": "verification-is-the-new-bottleneck",
+      "to": "token-economics"
+    },
+    {
+      "from": "verification-is-the-new-bottleneck",
+      "to": "cost-stack"
+    },
+    {
+      "from": "verification-is-the-new-bottleneck",
+      "to": "verifiability-mindset"
+    },
+    {
+      "from": "verification-is-the-new-bottleneck",
+      "to": "multi-agent-cost"
+    },
+    {
+      "from": "verification-is-the-new-bottleneck",
+      "to": "spec-driven-development"
+    },
+    {
+      "from": "verification-is-the-new-bottleneck",
+      "to": "eval-driven-development"
+    },
+    {
+      "from": "verification-is-the-new-bottleneck",
+      "to": "mechanism-over-prompt"
+    },
+    {
+      "from": "verification-is-the-new-bottleneck",
+      "to": "harness-over-model"
+    },
+    {
+      "from": "verification-is-the-new-bottleneck",
+      "to": "taste-resists-verification"
+    },
+    {
+      "from": "verification-is-the-new-bottleneck",
+      "to": "ai-era-product-development"
+    },
+    {
+      "from": "verification-is-the-new-bottleneck",
+      "to": "improve-human-tasks-not-faster-code"
+    },
+    {
+      "from": "verification-is-the-new-bottleneck",
+      "to": "harness-engineering"
+    },
+    {
+      "from": "verification-is-the-new-bottleneck",
+      "to": "six-layer-ai-engineering"
+    },
+    {
+      "from": "verification-is-the-new-bottleneck",
+      "to": "source:ktchuang-fiona-verification-note"
+    },
+    {
       "from": "software-1-2-3",
       "to": "andrej-karpathy"
     },
@@ -6412,6 +6668,10 @@
     },
     {
       "from": "domain-knowledge-leverage",
+      "to": "fiona-fung"
+    },
+    {
+      "from": "domain-knowledge-leverage",
       "to": "anthropic"
     },
     {
@@ -6885,6 +7145,70 @@
     {
       "from": "go-to-sea",
       "to": "career-wealth-and-motivation"
+    },
+    {
+      "from": "taste-resists-verification",
+      "to": "source:ktchuang-grade-adjustment-letter"
+    },
+    {
+      "from": "taste-resists-verification",
+      "to": "harness-over-model"
+    },
+    {
+      "from": "taste-resists-verification",
+      "to": "token-economics"
+    },
+    {
+      "from": "taste-resists-verification",
+      "to": "agent-skill-security"
+    },
+    {
+      "from": "taste-resists-verification",
+      "to": "context-window-management"
+    },
+    {
+      "from": "taste-resists-verification",
+      "to": "eval-driven-development"
+    },
+    {
+      "from": "taste-resists-verification",
+      "to": "model-fusion"
+    },
+    {
+      "from": "taste-resists-verification",
+      "to": "llm-jaggedness"
+    },
+    {
+      "from": "taste-resists-verification",
+      "to": "tacit-knowledge"
+    },
+    {
+      "from": "taste-resists-verification",
+      "to": "deterministic-vs-foundation-model"
+    },
+    {
+      "from": "taste-resists-verification",
+      "to": "agent-amplifies-taste"
+    },
+    {
+      "from": "taste-resists-verification",
+      "to": "credentialing-erosion"
+    },
+    {
+      "from": "taste-resists-verification",
+      "to": "ai-native-learning-attitude"
+    },
+    {
+      "from": "taste-resists-verification",
+      "to": "generosity-over-genius"
+    },
+    {
+      "from": "taste-resists-verification",
+      "to": "harness-engineering"
+    },
+    {
+      "from": "taste-resists-verification",
+      "to": "ai-era-student-playbook"
     },
     {
       "from": "service-before-leadership",
@@ -8005,6 +8329,30 @@
     {
       "from": "nvidia",
       "to": "computex-2026-nvidia-amd"
+    },
+    {
+      "from": "fiona-fung",
+      "to": "anthropic"
+    },
+    {
+      "from": "fiona-fung",
+      "to": "source:lenny-fiona-fung-ai-native-eng"
+    },
+    {
+      "from": "fiona-fung",
+      "to": "ai-dependence-skill-erosion"
+    },
+    {
+      "from": "fiona-fung",
+      "to": "boris-cherny"
+    },
+    {
+      "from": "fiona-fung",
+      "to": "cat-wu"
+    },
+    {
+      "from": "fiona-fung",
+      "to": "ai-era-product-development"
     },
     {
       "from": "charlie-warren",
