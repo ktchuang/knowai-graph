@@ -144,7 +144,7 @@ function init(){
     nb.forEach(function(x){(grp[x.ty]||(grp[x.ty]=[])).push(x);});
     var h='';['topic','concept','entity','source'].forEach(function(ty){var a=grp[ty];if(!a||!a.length)return;
       h+='<div class="pgrp"><b style="color:'+COL[ty]+'">'+TL(ty)+' ('+a.length+')</b><div class="chips">';
-      a.forEach(function(x){h+='<span class="chip2" onclick="cosmosGo(''+x.id+'')" title="'+esc(x.t)+'">'+
+      a.forEach(function(x){h+='<span class="chip2" onclick="cosmosGo(\''+x.id+'\')" title="'+esc(x.t)+'">'+
         esc(x.t.length<=18?x.t:x.t.slice(0,18)+'…')+'</span>';});
       h+='</div></div>';});
     document.getElementById('pchips').innerHTML=h;
