@@ -46,6 +46,7 @@
 </div>
 <div id="hint">右鍵拖曳＝旋轉・滾輪＝縮放・拖曳＝平移・點星體＝飛向並聚焦</div>
 <script src="https://unpkg.com/3d-force-graph"></script>
+<script src="https://unpkg.com/three-spritetext"></script>
 <script>
 const _load=document.getElementById('load');
 function _fail(m){_load.innerHTML='⚠ 3D 引擎載入失敗：<br><span style="color:#ff9">'+m+
@@ -60,14 +61,23 @@ function init(){
   const nodes=RAW.nodes.map(function(n){return Object.assign({},n);});
   const links=RAW.links.map(function(l){return {source:l.s,target:l.t};});
   document.getElementById('stat').textContent=nodes.length+' 星體 · '+links.length+' 連結';
+  var ds=nodes.map(function(n){return n.d;}).sort(function(a,b){return b-a;});
+  var HUB=Math.max(ds[Math.min(16,ds.length-1)]||0,14);   // 這些恆星級節點常駐標籤
+  function labelObj(n){
+    if(typeof SpriteText==='undefined'||n.d<HUB)return null;
+    var s=new SpriteText(n.t.length<=16?n.t:n.t.slice(0,16)+'…');
+    s.color='#eaf3ff';s.textHeight=Math.min(8,3.6+n.d*0.05);s.fontWeight='600';
+    s.backgroundColor='rgba(8,12,26,0.55)';s.padding=2;s.borderRadius=3;
+    s.position.set(0,7+Math.sqrt(n.d)*1.6,0);return s;}
   const Graph=ForceGraph3D()(document.getElementById('viz'))
     .backgroundColor('#05070f')
     .graphData({nodes:nodes,links:links})
     .nodeColor(function(n){return COL[n.ty]||COL.unknown;})
     .nodeVal(function(n){return 1+n.d*1.5;})
-    .nodeOpacity(0.92).nodeResolution(14)
+    .nodeOpacity(0.95).nodeResolution(14)
+    .nodeThreeObjectExtend(true).nodeThreeObject(labelObj)
     .nodeLabel(function(n){return '<div style="font:13px PingFang TC;color:#eaf2ff;background:rgba(8,12,26,.85);padding:3px 7px;border-radius:6px">'+n.t+' · '+n.d+' 連結</div>';})
-    .linkColor(function(){return '#5878c8';}).linkOpacity(0.13).linkWidth(0.5)
+    .linkColor(function(){return '#9fbcf2';}).linkOpacity(0.35).linkWidth(0.9)
     .onNodeClick(focusNode).onBackgroundClick(function(){Graph.zoomToFit(700,80);});
   Graph.d3Force('charge').strength(-115);
   var lf=Graph.d3Force('link'); if(lf&&lf.distance) lf.distance(36);
