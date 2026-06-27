@@ -28,6 +28,18 @@
   #hint{position:fixed;left:16px;bottom:14px;z-index:10;font-size:11.5px;color:#7385ad}
   #load{position:fixed;inset:0;z-index:20;display:flex;align-items:center;justify-content:center;
     color:#9fb0d4;font-size:14px;background:#05070f}
+  #panel{position:fixed;left:0;right:0;bottom:0;z-index:12;max-height:42vh;overflow:auto;display:none;
+    padding:11px 16px 14px;background:linear-gradient(0deg,rgba(7,10,22,.96),rgba(7,10,22,.45));
+    backdrop-filter:blur(8px);border-top:1px solid var(--line)}
+  #phead{display:flex;align-items:center;gap:9px;margin-bottom:8px;flex-wrap:wrap}
+  #phead .pic{width:14px;height:14px;border-radius:50%;box-shadow:0 0 9px 1px currentColor}
+  #phead .ptitle{font-weight:800;font-size:15px}
+  #phead .pmeta{color:var(--muted);font-size:12px}
+  .pgrp{margin:6px 0}.pgrp b{font-size:12px}
+  .chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+  .chip2{font-size:12px;padding:4px 10px;border-radius:7px;cursor:pointer;color:#cfe0ff;
+    background:rgba(30,40,70,.7);border:1px solid var(--line)}
+  .chip2:hover{border-color:#6fb1ff;background:rgba(40,55,95,.85)}
 </style></head>
 <body>
 <div id="viz"></div>
@@ -44,7 +56,8 @@
   <span class="chip"><i style="color:#8C9BC4"></i>來源</span>
   <span id="stat"></span>
 </div>
-<div id="hint">右鍵拖曳＝旋轉・滾輪＝縮放・拖曳＝平移・點星體＝飛向並聚焦</div>
+<div id="hint">右鍵拖曳＝旋轉・滾輪＝縮放・點星體＝高亮鄰域＋資訊卡・點空白＝清除</div>
+<div id="panel"><div id="phead"></div><div id="pchips"></div></div>
 <script src="https://unpkg.com/3d-force-graph"></script>
 <script src="https://unpkg.com/three-spritetext"></script>
 <script>
@@ -65,7 +78,12 @@ function init(){
   var HUB=Math.max(ds[Math.min(16,ds.length-1)]||0,14);
   var adjId={}; nodes.forEach(function(n){adjId[n.id]=new Set();});
   links.forEach(function(l){adjId[l.source].add(l.target);adjId[l.target].add(l.source);});
-  var SEL=null, hlN=new Set(), hlL=new Set();   // 選取中的節點、亮起的節點/連結
+  var byId={}; nodes.forEach(function(n){byId[n.id]=n;});
+  var SEL=null, hlN=new Set(), hlN2=new Set(), hlL1=new Set(), hlL2=new Set();
+  function dim(hex,t){var h=hex.replace('#',''),r=parseInt(h.slice(0,2),16),g=parseInt(h.slice(2,4),16),b=parseInt(h.slice(4,6),16);
+    return 'rgb('+Math.round(r*(1-t))+','+Math.round(g*(1-t))+','+Math.round(b*(1-t))+')';}
+  function esc(s){return s.replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+  function TL(ty){return {topic:'主題',concept:'概念',entity:'實體',source:'來源'}[ty]||'';}
   function labelObj(n){
     if(typeof SpriteText==='undefined')return null;
     var show = SEL ? hlN.has(n.id) : (n.d>=HUB);   // 選取時：自己＋鄰居都顯示星名
@@ -78,14 +96,17 @@ function init(){
     .backgroundColor('#05070f')
     .graphData({nodes:nodes,links:links})
     .nodeColor(function(n){var c=COL[n.ty]||COL.unknown;
-      if(!SEL)return c; if(n.id===SEL)return '#ffffff'; return hlN.has(n.id)?c:'#1b2336';})
+      if(!SEL)return c; if(n.id===SEL)return '#ffffff';
+      if(hlN.has(n.id))return c; if(hlN2.has(n.id))return dim(c,0.55); return '#161d2e';})
     .nodeVal(function(n){return 1+n.d*1.5;})
     .nodeOpacity(0.96).nodeResolution(14)
     .nodeThreeObjectExtend(true).nodeThreeObject(labelObj)
     .nodeLabel(function(n){return '<div style="font:13px PingFang TC;color:#eaf2ff;background:rgba(8,12,26,.85);padding:3px 7px;border-radius:6px">'+n.t+' · '+n.d+' 連結</div>';})
-    .linkColor(function(l){if(!SEL)return 'rgba(159,188,242,0.35)';return hlL.has(l)?'rgba(185,218,255,0.95)':'rgba(120,150,210,0.05)';})
-    .linkOpacity(1).linkWidth(function(l){return SEL&&hlL.has(l)?1.8:0.7;})
-    .linkDirectionalParticles(function(l){return SEL&&hlL.has(l)?3:0;}).linkDirectionalParticleWidth(1.5)
+    .linkColor(function(l){if(!SEL)return 'rgba(159,188,242,0.35)';
+      if(hlL1.has(l))return 'rgba(185,218,255,0.95)'; if(hlL2.has(l))return 'rgba(150,180,235,0.30)';
+      return 'rgba(120,150,210,0.04)';})
+    .linkOpacity(1).linkWidth(function(l){return SEL?(hlL1.has(l)?1.8:(hlL2.has(l)?0.9:0.5)):0.7;})
+    .linkDirectionalParticles(function(l){return SEL&&hlL1.has(l)?3:0;}).linkDirectionalParticleWidth(1.5)
     .onNodeClick(onClickNode).onBackgroundClick(clearSel);
   Graph.d3Force('charge').strength(-115);
   var lf=Graph.d3Force('link'); if(lf&&lf.distance) lf.distance(36);
@@ -102,13 +123,34 @@ function init(){
     .nodeThreeObject(labelObj);}
   function onClickNode(n){
     if(SEL===n.id){clearSel();return;}
-    SEL=n.id; hlN=new Set([n.id]); (adjId[n.id]||new Set()).forEach(function(x){hlN.add(x);});
-    hlL=new Set(); Graph.graphData().links.forEach(function(l){
+    SEL=n.id;
+    hlN=new Set([n.id]); (adjId[n.id]||new Set()).forEach(function(x){hlN.add(x);});
+    hlN2=new Set(); hlN.forEach(function(id){(adjId[id]||new Set()).forEach(function(x){if(!hlN.has(x))hlN2.add(x);});});
+    hlL1=new Set(); hlL2=new Set();
+    Graph.graphData().links.forEach(function(l){
       var s=(l.source.id!==undefined?l.source.id:l.source),
           t=(l.target.id!==undefined?l.target.id:l.target);
-      if(s===n.id||t===n.id)hlL.add(l);});
-    refresh(); focusNode(n);}
-  function clearSel(){SEL=null;hlN=new Set();hlL=new Set();refresh();}
+      if(s===n.id||t===n.id){hlL1.add(l);return;}
+      if((hlN.has(s)&&(hlN.has(t)||hlN2.has(t)))||(hlN.has(t)&&(hlN.has(s)||hlN2.has(s))))hlL2.add(l);});
+    refresh(); focusNode(n); showCard(n);}
+  function clearSel(){SEL=null;hlN=new Set();hlN2=new Set();hlL1=new Set();hlL2=new Set();refresh();hideCard();}
+  function showCard(n){
+    document.getElementById('phead').innerHTML='<span class="pic" style="background:'+(COL[n.ty]||'#888')+
+      ';color:'+(COL[n.ty]||'#888')+'"></span><span class="ptitle">'+esc(n.t)+
+      '</span><span class="pmeta">'+TL(n.ty)+' · '+n.d+' 連結 · 點下方續追，點空白清除</span>';
+    var nb=Array.from(adjId[n.id]||[]).map(function(id){return byId[id];}).filter(Boolean)
+      .sort(function(a,b){return b.d-a.d;});
+    var grp={topic:[],concept:[],entity:[],source:[]};
+    nb.forEach(function(x){(grp[x.ty]||(grp[x.ty]=[])).push(x);});
+    var h='';['topic','concept','entity','source'].forEach(function(ty){var a=grp[ty];if(!a||!a.length)return;
+      h+='<div class="pgrp"><b style="color:'+COL[ty]+'">'+TL(ty)+' ('+a.length+')</b><div class="chips">';
+      a.forEach(function(x){h+='<span class="chip2" onclick="cosmosGo(''+x.id+'')" title="'+esc(x.t)+'">'+
+        esc(x.t.length<=18?x.t:x.t.slice(0,18)+'…')+'</span>';});
+      h+='</div></div>';});
+    document.getElementById('pchips').innerHTML=h;
+    document.getElementById('panel').style.display='block';}
+  function hideCard(){document.getElementById('panel').style.display='none';}
+  window.cosmosGo=function(id){var n=byId[id]; if(n)onClickNode(n);};
   function focusNode(n){var r=Math.hypot(n.x,n.y,n.z)||1,k=1+80/r;Graph.cameraPosition({x:n.x*k,y:n.y*k,z:n.z*k},n,1200);}
   function clusterForce(strength){var ns;
     function f(alpha){var sum={},cnt={};
