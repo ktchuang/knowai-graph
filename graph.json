@@ -70,7 +70,7 @@
       "type": "concept",
       "status": "stub",
       "exists": true,
-      "degree": 4
+      "degree": 6
     },
     {
       "id": "agentic-web-traffic",
@@ -79,6 +79,38 @@
       "status": "draft",
       "exists": true,
       "degree": 11
+    },
+    {
+      "id": "hardware-without-spec-power",
+      "title": "硬體有份、規格沒份（台灣的軟體話語權缺口）",
+      "type": "concept",
+      "status": "stub",
+      "exists": true,
+      "degree": 12
+    },
+    {
+      "id": "premature-llm-lock-in",
+      "title": "過早押注 LLM（Betamax 鎖死 / explore vs exploit）",
+      "type": "concept",
+      "status": "stub",
+      "exists": true,
+      "degree": 8
+    },
+    {
+      "id": "temporal-state-tracking-rag",
+      "title": "時序狀態追蹤（RAG 找得到「相關」，但不一定知道「最新」）",
+      "type": "concept",
+      "status": "stub",
+      "exists": true,
+      "degree": 9
+    },
+    {
+      "id": "over-attribution-of-intelligence",
+      "title": "過度歸因智能（Eliza 效應）",
+      "type": "concept",
+      "status": "stub",
+      "exists": true,
+      "degree": 9
     },
     {
       "id": "ai-operating-leverage",
@@ -190,7 +222,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 13
+      "degree": 14
     },
     {
       "id": "think-big-frontier-problems",
@@ -222,7 +254,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 20
+      "degree": 21
     },
     {
       "id": "a2a-protocol",
@@ -238,7 +270,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 16
+      "degree": 21
     },
     {
       "id": "compute-as-throttle",
@@ -246,7 +278,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 15
+      "degree": 18
     },
     {
       "id": "cognitive-surrender",
@@ -254,7 +286,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 19
+      "degree": 21
     },
     {
       "id": "trustworthy-systems-with-agents",
@@ -262,7 +294,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 23
+      "degree": 25
     },
     {
       "id": "research-meeting-communication",
@@ -342,7 +374,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 18
+      "degree": 22
     },
     {
       "id": "ai-amplifier-effect",
@@ -358,7 +390,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 19
+      "degree": 20
     },
     {
       "id": "agent-skill-security",
@@ -366,7 +398,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "lack-of-urgency",
@@ -390,7 +422,7 @@
       "type": "concept",
       "status": "stub",
       "exists": true,
-      "degree": 32
+      "degree": 33
     },
     {
       "id": "pursuit-of-excellence",
@@ -438,7 +470,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 45
+      "degree": 46
     },
     {
       "id": "generosity-over-genius",
@@ -470,7 +502,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 19
+      "degree": 22
     },
     {
       "id": "programming-as-friction-tax",
@@ -494,7 +526,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 37
+      "degree": 38
     },
     {
       "id": "prompt-engineering",
@@ -601,12 +633,20 @@
       "degree": 12
     },
     {
+      "id": "fda-style-ai-oversight",
+      "title": "FDA 式 AI 監管（上市前預篩）",
+      "type": "concept",
+      "status": "stub",
+      "exists": true,
+      "degree": 5
+    },
+    {
       "id": "multi-agent-cost",
       "title": "Multi-Agent 成本爆炸（何時值得）",
       "type": "concept",
       "status": "stub",
       "exists": true,
-      "degree": 16
+      "degree": 18
     },
     {
       "id": "how-you-work-not-what-you-can-do",
@@ -638,7 +678,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "high-win-rate-people",
@@ -705,6 +745,14 @@
       "degree": 15
     },
     {
+      "id": "open-source-as-strategy",
+      "title": "開源即戰略（誰貢獻，誰決定）",
+      "type": "concept",
+      "status": "stub",
+      "exists": true,
+      "degree": 11
+    },
+    {
       "id": "virtual-power-plant",
       "title": "虛擬電廠 VPP 與鴨子曲線（從負載追隨到彈性電網）",
       "type": "concept",
@@ -726,7 +774,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 18
+      "degree": 21
     },
     {
       "id": "coding-as-proxy-for-thinking",
@@ -766,7 +814,7 @@
       "type": "concept",
       "status": "stub",
       "exists": true,
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "run-towards-hardest-problems",
@@ -775,6 +823,14 @@
       "status": "draft",
       "exists": true,
       "degree": 22
+    },
+    {
+      "id": "llm-commoditization-no-moat",
+      "title": "LLM 同質化（牙膏比喻）——沒有護城河",
+      "type": "concept",
+      "status": "stub",
+      "exists": true,
+      "degree": 12
     },
     {
       "id": "domain-knowledge-leverage",
@@ -790,7 +846,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 14
+      "degree": 16
     },
     {
       "id": "second-opinion-cheatsheet",
@@ -878,7 +934,7 @@
       "type": "concept",
       "status": "stub",
       "exists": true,
-      "degree": 8
+      "degree": 10
     },
     {
       "id": "go-to-sea",
@@ -910,7 +966,7 @@
       "type": "concept",
       "status": "stub",
       "exists": true,
-      "degree": 23
+      "degree": 25
     },
     {
       "id": "positive-cycle",
@@ -934,7 +990,7 @@
       "type": "concept",
       "status": "draft",
       "exists": true,
-      "degree": 24
+      "degree": 26
     },
     {
       "id": "trial-and-error-velocity",
@@ -983,6 +1039,14 @@
       "status": "draft",
       "exists": true,
       "degree": 30
+    },
+    {
+      "id": "tsai-chi-yen",
+      "title": "蔡祈岩",
+      "type": "entity",
+      "status": "stub",
+      "exists": true,
+      "degree": 6
     },
     {
       "id": "affaan-m",
@@ -1038,7 +1102,15 @@
       "type": "entity",
       "status": "draft",
       "exists": true,
-      "degree": 7
+      "degree": 9
+    },
+    {
+      "id": "evoembedding",
+      "title": "EvoEmbedding",
+      "type": "entity",
+      "status": "draft",
+      "exists": true,
+      "degree": 6
     },
     {
       "id": "harvard-llm-clinical-reasoning-study",
@@ -1129,6 +1201,14 @@
       "degree": 5
     },
     {
+      "id": "tsai-chia-ping",
+      "title": "蔡嘉平",
+      "type": "entity",
+      "status": "stub",
+      "exists": true,
+      "degree": 5
+    },
+    {
       "id": "chien-lee-feng",
       "title": "簡立峰（Lee-Feng Chien）",
       "type": "entity",
@@ -1142,7 +1222,7 @@
       "type": "entity",
       "status": "stub",
       "exists": true,
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "skillspector",
@@ -1175,6 +1255,14 @@
       "status": "stub",
       "exists": true,
       "degree": 4
+    },
+    {
+      "id": "gary-marcus",
+      "title": "Gary Marcus",
+      "type": "entity",
+      "status": "stub",
+      "exists": true,
+      "degree": 17
     },
     {
       "id": "muratcan-koylan",
@@ -1225,12 +1313,20 @@
       "degree": 15
     },
     {
+      "id": "justin-mclean",
+      "title": "Justin McLean（麥克林）",
+      "type": "entity",
+      "status": "stub",
+      "exists": true,
+      "degree": 5
+    },
+    {
       "id": "mustafa-suleyman",
       "title": "Mustafa Suleyman",
       "type": "entity",
       "status": "stub",
       "exists": true,
-      "degree": 4
+      "degree": 7
     },
     {
       "id": "headroom",
@@ -1278,7 +1374,7 @@
       "type": "entity",
       "status": "stub",
       "exists": true,
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "fiona-fung",
@@ -1438,7 +1534,7 @@
       "type": "topic",
       "status": "draft",
       "exists": true,
-      "degree": 35
+      "degree": 36
     },
     {
       "id": "ai-era-student-playbook",
@@ -1454,7 +1550,7 @@
       "type": "topic",
       "status": "draft",
       "exists": true,
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "ai-second-opinion",
@@ -1486,7 +1582,7 @@
       "type": "topic",
       "status": "draft",
       "exists": true,
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "green-ai-computing",
@@ -1494,7 +1590,7 @@
       "type": "topic",
       "status": "draft",
       "exists": true,
-      "degree": 19
+      "degree": 21
     },
     {
       "id": "agentic-stack",
@@ -1591,6 +1687,38 @@
       "status": "",
       "exists": true,
       "degree": 3
+    },
+    {
+      "id": "source:bnext-taiwan-ai-open-source",
+      "title": "bnext-taiwan-ai-open-source",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 5
+    },
+    {
+      "id": "source:gary-marcus-llm-toothpaste-2026",
+      "title": "gary-marcus-llm-toothpaste-2026",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 6
+    },
+    {
+      "id": "source:temporal-rag-state-tracking",
+      "title": "temporal-rag-state-tracking",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 1
+    },
+    {
+      "id": "source:evoembedding",
+      "title": "evoembedding",
+      "type": "source",
+      "status": "",
+      "exists": true,
+      "degree": 2
     },
     {
       "id": "source:yc-ai-native-services-playbook",
@@ -2835,6 +2963,150 @@
       "to": "mcp"
     },
     {
+      "from": "hardware-without-spec-power",
+      "to": "source:bnext-taiwan-ai-open-source"
+    },
+    {
+      "from": "hardware-without-spec-power",
+      "to": "justin-mclean"
+    },
+    {
+      "from": "hardware-without-spec-power",
+      "to": "tsai-chia-ping"
+    },
+    {
+      "from": "hardware-without-spec-power",
+      "to": "compute-as-throttle"
+    },
+    {
+      "from": "hardware-without-spec-power",
+      "to": "business-development-is-the-moat"
+    },
+    {
+      "from": "hardware-without-spec-power",
+      "to": "software-valuation-reset"
+    },
+    {
+      "from": "hardware-without-spec-power",
+      "to": "open-source-as-strategy"
+    },
+    {
+      "from": "hardware-without-spec-power",
+      "to": "green-ai-computing"
+    },
+    {
+      "from": "hardware-without-spec-power",
+      "to": "energyai"
+    },
+    {
+      "from": "hardware-without-spec-power",
+      "to": "iown"
+    },
+    {
+      "from": "hardware-without-spec-power",
+      "to": "tsai-chi-yen"
+    },
+    {
+      "from": "hardware-without-spec-power",
+      "to": "computex-2026-nvidia-amd"
+    },
+    {
+      "from": "premature-llm-lock-in",
+      "to": "gary-marcus"
+    },
+    {
+      "from": "premature-llm-lock-in",
+      "to": "source:gary-marcus-llm-toothpaste-2026"
+    },
+    {
+      "from": "premature-llm-lock-in",
+      "to": "explorer-vs-follower"
+    },
+    {
+      "from": "premature-llm-lock-in",
+      "to": "shallow-trendy-trap"
+    },
+    {
+      "from": "premature-llm-lock-in",
+      "to": "jevons-paradox"
+    },
+    {
+      "from": "premature-llm-lock-in",
+      "to": "harness-over-model"
+    },
+    {
+      "from": "premature-llm-lock-in",
+      "to": "llm-commoditization-no-moat"
+    },
+    {
+      "from": "premature-llm-lock-in",
+      "to": "deterministic-vs-foundation-model"
+    },
+    {
+      "from": "temporal-state-tracking-rag",
+      "to": "source:temporal-rag-state-tracking"
+    },
+    {
+      "from": "temporal-state-tracking-rag",
+      "to": "evoembedding"
+    },
+    {
+      "from": "temporal-state-tracking-rag",
+      "to": "source:evoembedding"
+    },
+    {
+      "from": "temporal-state-tracking-rag",
+      "to": "agent-memory"
+    },
+    {
+      "from": "temporal-state-tracking-rag",
+      "to": "retrieval-plus-orchestration"
+    },
+    {
+      "from": "temporal-state-tracking-rag",
+      "to": "evolvemem"
+    },
+    {
+      "from": "temporal-state-tracking-rag",
+      "to": "trustworthy-systems-with-agents"
+    },
+    {
+      "from": "temporal-state-tracking-rag",
+      "to": "context-engineering"
+    },
+    {
+      "from": "temporal-state-tracking-rag",
+      "to": "context-degradation"
+    },
+    {
+      "from": "over-attribution-of-intelligence",
+      "to": "gary-marcus"
+    },
+    {
+      "from": "over-attribution-of-intelligence",
+      "to": "source:gary-marcus-llm-toothpaste-2026"
+    },
+    {
+      "from": "over-attribution-of-intelligence",
+      "to": "cognitive-surrender"
+    },
+    {
+      "from": "over-attribution-of-intelligence",
+      "to": "cognitive-bias"
+    },
+    {
+      "from": "over-attribution-of-intelligence",
+      "to": "llm-jaggedness"
+    },
+    {
+      "from": "over-attribution-of-intelligence",
+      "to": "harness-over-model"
+    },
+    {
+      "from": "over-attribution-of-intelligence",
+      "to": "verifiability-mindset"
+    },
+    {
       "from": "ai-operating-leverage",
       "to": "charlie-warren"
     },
@@ -3857,6 +4129,10 @@
     {
       "from": "compute-as-throttle",
       "to": "token-economics"
+    },
+    {
+      "from": "compute-as-throttle",
+      "to": "open-source-as-strategy"
     },
     {
       "from": "cognitive-surrender",
@@ -5903,6 +6179,26 @@
       "to": "career-wealth-and-motivation"
     },
     {
+      "from": "fda-style-ai-oversight",
+      "to": "gary-marcus"
+    },
+    {
+      "from": "fda-style-ai-oversight",
+      "to": "source:gary-marcus-llm-toothpaste-2026"
+    },
+    {
+      "from": "fda-style-ai-oversight",
+      "to": "trustworthy-systems-with-agents"
+    },
+    {
+      "from": "fda-style-ai-oversight",
+      "to": "agent-skill-security"
+    },
+    {
+      "from": "fda-style-ai-oversight",
+      "to": "over-attribution-of-intelligence"
+    },
+    {
       "from": "multi-agent-cost",
       "to": "cost-stack"
     },
@@ -6355,6 +6651,42 @@
       "to": "ai-era-student-playbook"
     },
     {
+      "from": "open-source-as-strategy",
+      "to": "source:bnext-taiwan-ai-open-source"
+    },
+    {
+      "from": "open-source-as-strategy",
+      "to": "tsai-chi-yen"
+    },
+    {
+      "from": "open-source-as-strategy",
+      "to": "justin-mclean"
+    },
+    {
+      "from": "open-source-as-strategy",
+      "to": "tsai-chia-ping"
+    },
+    {
+      "from": "open-source-as-strategy",
+      "to": "business-development-is-the-moat"
+    },
+    {
+      "from": "open-source-as-strategy",
+      "to": "become-a-giver"
+    },
+    {
+      "from": "open-source-as-strategy",
+      "to": "gary-marcus"
+    },
+    {
+      "from": "open-source-as-strategy",
+      "to": "llm-commoditization-no-moat"
+    },
+    {
+      "from": "open-source-as-strategy",
+      "to": "green-ai-computing"
+    },
+    {
       "from": "virtual-power-plant",
       "to": "source:nstc-iown-green-ai-proposal"
     },
@@ -6625,6 +6957,46 @@
     {
       "from": "run-towards-hardest-problems",
       "to": "career-wealth-and-motivation"
+    },
+    {
+      "from": "llm-commoditization-no-moat",
+      "to": "gary-marcus"
+    },
+    {
+      "from": "llm-commoditization-no-moat",
+      "to": "source:gary-marcus-llm-toothpaste-2026"
+    },
+    {
+      "from": "llm-commoditization-no-moat",
+      "to": "software-valuation-reset"
+    },
+    {
+      "from": "llm-commoditization-no-moat",
+      "to": "business-development-is-the-moat"
+    },
+    {
+      "from": "llm-commoditization-no-moat",
+      "to": "token-economics"
+    },
+    {
+      "from": "llm-commoditization-no-moat",
+      "to": "multi-agent-cost"
+    },
+    {
+      "from": "llm-commoditization-no-moat",
+      "to": "compute-as-throttle"
+    },
+    {
+      "from": "llm-commoditization-no-moat",
+      "to": "deterministic-vs-foundation-model"
+    },
+    {
+      "from": "llm-commoditization-no-moat",
+      "to": "harness-over-model"
+    },
+    {
+      "from": "llm-commoditization-no-moat",
+      "to": "ai-agent-saas-disruption"
     },
     {
       "from": "domain-knowledge-leverage",
@@ -7659,6 +8031,22 @@
       "to": "wisely-chen"
     },
     {
+      "from": "tsai-chi-yen",
+      "to": "source:bnext-taiwan-ai-open-source"
+    },
+    {
+      "from": "tsai-chi-yen",
+      "to": "business-development-is-the-moat"
+    },
+    {
+      "from": "tsai-chi-yen",
+      "to": "justin-mclean"
+    },
+    {
+      "from": "tsai-chi-yen",
+      "to": "tsai-chia-ping"
+    },
+    {
       "from": "affaan-m",
       "to": "everything-claude-code"
     },
@@ -7784,7 +8172,27 @@
     },
     {
       "from": "evolvemem",
+      "to": "evoembedding"
+    },
+    {
+      "from": "evolvemem",
       "to": "source:evolvemem"
+    },
+    {
+      "from": "evoembedding",
+      "to": "agent-memory"
+    },
+    {
+      "from": "evoembedding",
+      "to": "retrieval-plus-orchestration"
+    },
+    {
+      "from": "evoembedding",
+      "to": "context-engineering"
+    },
+    {
+      "from": "evoembedding",
+      "to": "source:evoembedding"
     },
     {
       "from": "harvard-llm-clinical-reasoning-study",
@@ -7987,6 +8395,14 @@
       "to": "source:nathan-chiu-cs-education-ai"
     },
     {
+      "from": "tsai-chia-ping",
+      "to": "source:bnext-taiwan-ai-open-source"
+    },
+    {
+      "from": "tsai-chia-ping",
+      "to": "justin-mclean"
+    },
+    {
       "from": "chien-lee-feng",
       "to": "source:bnext-chien-lack-of-urgency"
     },
@@ -8085,6 +8501,54 @@
     {
       "from": "sahil-bloom",
       "to": "source:wang-poda-five-types-wealth"
+    },
+    {
+      "from": "gary-marcus",
+      "to": "nvidia"
+    },
+    {
+      "from": "gary-marcus",
+      "to": "source:gary-marcus-llm-toothpaste-2026"
+    },
+    {
+      "from": "gary-marcus",
+      "to": "llm-jaggedness"
+    },
+    {
+      "from": "gary-marcus",
+      "to": "deterministic-vs-foundation-model"
+    },
+    {
+      "from": "gary-marcus",
+      "to": "software-valuation-reset"
+    },
+    {
+      "from": "gary-marcus",
+      "to": "business-development-is-the-moat"
+    },
+    {
+      "from": "gary-marcus",
+      "to": "cognitive-surrender"
+    },
+    {
+      "from": "gary-marcus",
+      "to": "cognitive-bias"
+    },
+    {
+      "from": "gary-marcus",
+      "to": "mustafa-suleyman"
+    },
+    {
+      "from": "gary-marcus",
+      "to": "harness-over-model"
+    },
+    {
+      "from": "gary-marcus",
+      "to": "model-fusion"
+    },
+    {
+      "from": "gary-marcus",
+      "to": "multi-agent-cost"
     },
     {
       "from": "muratcan-koylan",
@@ -8239,12 +8703,24 @@
       "to": "agent-harness"
     },
     {
+      "from": "justin-mclean",
+      "to": "source:bnext-taiwan-ai-open-source"
+    },
+    {
       "from": "mustafa-suleyman",
       "to": "microsoft"
     },
     {
       "from": "mustafa-suleyman",
       "to": "source:microsoft-suleyman-anthropic-too-expensive"
+    },
+    {
+      "from": "mustafa-suleyman",
+      "to": "source:gary-marcus-llm-toothpaste-2026"
+    },
+    {
+      "from": "mustafa-suleyman",
+      "to": "over-attribution-of-intelligence"
     },
     {
       "from": "headroom",

@@ -1,12 +1,2445 @@
-# KnowAI Knowledge Graph
+# 🧭 KnowAI 知識圖譜
 
-互動式知識圖譜視覺化（力導向，可平移／縮放／搜尋）。
+> 由 `tools/build_graph.py` 自動產生（確定性解析所有 `[[wikilinks]]`）。
+> 重建：`python3 tools/build_graph.py`
 
-🔗 **線上版**：https://ktchuang.github.io/knowai-graph/
+**319 節點 · 1786 連結** — 概念 130 ｜ 實體 58 ｜ 主題 13 ｜ 來源 118
 
-- 節點：🔵 概念 ｜ 🟠 實體 ｜ 🟢 主題 ｜ ⚪ 來源
-- 節點大小 = 連結數
+- **互動版**：開啟 [`index.html`](./index.html)（力導向、可平移/縮放/搜尋）
+- **靜態圖**：[`graph.svg`](./graph.svg)
+- **資料**：[`graph.json`](./graph.json)
 
-> 此 repo 僅含知識圖譜的視覺化（節點標題與連結結構）。
-> 完整的知識庫內容（來源逐字全文、wiki 頁）保存在另一個私有 repo。
-> 由 [KnowAI](https://github.com/ktchuang/KnowAI) 的 `tools/build_graph.py` 產生。
+顏色：🔵 概念 ｜ 🟠 實體 ｜ 🟢 主題 ｜ ⚪ 來源
+
+```mermaid
+graph LR
+  n_prepared_for_upheaval["做好準備就不怕動盪（All-in 自我改造）"]
+  class n_prepared_for_upheaval concept;
+  n_team_of_excellence["Team of Excellence（工作流程壓縮與多能人才）"]
+  class n_team_of_excellence concept;
+  n_strategy_over_tactics["戰略 > 戰術（別用勤奮掩蓋戰略懶惰）"]
+  class n_strategy_over_tactics concept;
+  n_relentless_ceo_standards["頂尖 CEO 的殘酷面（第一性原理 × 光速排程法）"]
+  class n_relentless_ceo_standards concept;
+  n_trust_and_eq["情商與被信任（AI 時代的保護傘）"]
+  class n_trust_and_eq concept;
+  n_agent_native_economy["Agent-Native Economy"]
+  class n_agent_native_economy concept;
+  n_five_types_of_wealth["五種財富（Five Types of Wealth）"]
+  class n_five_types_of_wealth concept;
+  n_claude_code_config_primitives["Claude Code 設定原語 (Config Primitives)"]
+  class n_claude_code_config_primitives concept;
+  n_cognitive_bias["認知偏誤 (Cognitive Bias)"]
+  class n_cognitive_bias concept;
+  n_agentic_web_traffic["Agentic 網路流量超越人類（agentic age 已來）"]
+  class n_agentic_web_traffic concept;
+  n_hardware_without_spec_power["硬體有份、規格沒份（台灣的軟體話語權缺口）"]
+  class n_hardware_without_spec_power concept;
+  n_premature_llm_lock_in["過早押注 LLM（Betamax 鎖死 / explore vs exploit）"]
+  class n_premature_llm_lock_in concept;
+  n_temporal_state_tracking_rag["時序狀態追蹤（RAG 找得到「相關」，但不一定知道「最新」）"]
+  class n_temporal_state_tracking_rag concept;
+  n_over_attribution_of_intelligence["過度歸因智能（Eliza 效應）"]
+  class n_over_attribution_of_intelligence concept;
+  n_ai_operating_leverage["AI 經營槓桿（AI Operating Leverage）"]
+  class n_ai_operating_leverage concept;
+  n_agentic_engineering["Agentic Engineering"]
+  class n_agentic_engineering concept;
+  n_agentic_software_delivery["Agentic 軟體交付（重構交付模式,不是點狀導入 AI）"]
+  class n_agentic_software_delivery concept;
+  n_mass_production_vs_inheritance["量產 vs 傳承（人才培養與人格養成）"]
+  class n_mass_production_vs_inheritance concept;
+  n_learning_to_learn["怎麼學 > 學什麼（百倍速時代的終極武器）"]
+  class n_learning_to_learn concept;
+  n_ai_job_ladder_collapse["AI 職涯階梯斷裂（初階白領崩塌）"]
+  class n_ai_job_ladder_collapse concept;
+  n_karpathy_llm_wiki["Karpathy LLM Wiki 方法論"]
+  class n_karpathy_llm_wiki concept;
+  n_adaptability_restlessness["適應力與不安分（新貨幣 / 熱愛才是根）"]
+  class n_adaptability_restlessness concept;
+  n_directing_ai_not_executing["指導 AI > 執行（問對問題、語言是終極編程語言）"]
+  class n_directing_ai_not_executing concept;
+  n_from_code_to_human_problems["從 code 問題到人的問題（做出來、分享出來）"]
+  class n_from_code_to_human_problems concept;
+  n_composable_task_decomposition["快速化 × 可組裝的任務拆解（數位價值核心）"]
+  class n_composable_task_decomposition concept;
+  n_mcp["MCP（Model Context Protocol）"]
+  class n_mcp concept;
+  n_taking_on_responsibility["承擔（社會資本的核心：肩膀硬度）"]
+  class n_taking_on_responsibility concept;
+  n_model_fusion["模型融合（三個臭皮匠勝諸葛亮）"]
+  class n_model_fusion concept;
+  n_think_big_frontier_problems["Think Big（剩下的都是大題目）"]
+  class n_think_big_frontier_problems concept;
+  n_worth_nurturing["得人疼（值得被栽培的特質）"]
+  class n_worth_nurturing concept;
+  n_ai_native_learning_attitude["AI Native 時代的學習態度（給實驗室學生的話）"]
+  class n_ai_native_learning_attitude concept;
+  n_jevons_paradox["傑文斯悖論（Jevons Paradox）"]
+  class n_jevons_paradox concept;
+  n_a2a_protocol["A2A Protocol（Agent-to-Agent）"]
+  class n_a2a_protocol concept;
+  n_business_development_is_the_moat["業務打擊是唯一沒被壓縮的環節（all in 需求黏著）"]
+  class n_business_development_is_the_moat concept;
+  n_compute_as_throttle["算力即油門（台灣 CoWoS 的籌碼）"]
+  class n_compute_as_throttle concept;
+  n_cognitive_surrender["認知投降（Cognitive Surrender）"]
+  class n_cognitive_surrender concept;
+  n_trustworthy_systems_with_agents["帶著 AI agents 做出可信系統（學生 5 種能力）"]
+  class n_trustworthy_systems_with_agents concept;
+  n_research_meeting_communication["跟教授開會的心法（咪挺＝同步思考）"]
+  class n_research_meeting_communication concept;
+  n_agent_amplifies_taste["AI 是品味的放大器（手寫程式碼考第一性原理）"]
+  class n_agent_amplifies_taste concept;
+  n_expensive_poverty["很昂貴的貧窮（資產富人、生活窮人）"]
+  class n_expensive_poverty concept;
+  n_credit_as_future_resource["信用即動員未來資源的能力"]
+  class n_credit_as_future_resource concept;
+  n_credentialing_erosion["認證權威的鬆動（大學被重新定價）"]
+  class n_credentialing_erosion concept;
+  n_context_window_management["上下文視窗管理 (Context Window Management)"]
+  class n_context_window_management concept;
+  n_gun_to_rocket_launcher["從槍到火箭筒（高手與猴子分不出來了）"]
+  class n_gun_to_rocket_launcher concept;
+  n_automation_vs_augmentation["Automation vs Augmentation（代筆 vs 陪練）"]
+  class n_automation_vs_augmentation concept;
+  n_transactional_mindset["對價關係思維（算計 vs 初心）"]
+  class n_transactional_mindset concept;
+  n_harness_over_model["能力是 Harness 決定，不是模型（降低變異而非變聰明）"]
+  class n_harness_over_model concept;
+  n_ai_amplifier_effect["AI 放大器效應（強者越強、忙者更忙）"]
+  class n_ai_amplifier_effect concept;
+  n_become_a_giver["從 receiver 變 giver（熱情吸引貴人、我想讓你成功）"]
+  class n_become_a_giver concept;
+  n_agent_skill_security["Agent Skill 安全（skill 是新的攻擊面）"]
+  class n_agent_skill_security concept;
+  n_lack_of_urgency["缺乏危機感（溫水煮青蛙是 AI 時代最危險的事）"]
+  class n_lack_of_urgency concept;
+  n_positional_ai_leverage["AI 槓桿是「位置」的問題（主管 vs 打工人）"]
+  class n_positional_ai_leverage concept;
+  n_verifiability_mindset["Verifiability Mindset（可驗證性心態）"]
+  class n_verifiability_mindset concept;
+  n_pursuit_of_excellence["追求卓越的傳承（60 分生存 vs 100 分卓越）"]
+  class n_pursuit_of_excellence concept;
+  n_spec_driven_development["SDD（Spec-Driven Development，規格驅動開發）"]
+  class n_spec_driven_development concept;
+  n_hr_pillars_collapse["HR 三支柱瓦解（畫錯重點：做能掌控的，不做最有感的）"]
+  class n_hr_pillars_collapse concept;
+  n_tacit_knowledge["隱性知識與 Polanyi's Paradox"]
+  class n_tacit_knowledge concept;
+  n_educate_not_ban["不是禁用 AI，而是重新教（AI 時代的教育解方）"]
+  class n_educate_not_ban concept;
+  n_token_economics["Token 經濟學與成本失控（AI Tax）"]
+  class n_token_economics concept;
+  n_generosity_over_genius["慷慨 > 天才（天才不稀缺，品格才稀缺）"]
+  class n_generosity_over_genius concept;
+  n_pc_dual_track["PC 雙軌制（ARM 整合 vs X86 固守）"]
+  class n_pc_dual_track concept;
+  n_tool_engineering["Tool Engineering 工具工程（第 3 層：從會說到會做）"]
+  class n_tool_engineering concept;
+  n_deterministic_vs_foundation_model["確定性演算法 vs. 基礎模型泛化推理"]
+  class n_deterministic_vs_foundation_model concept;
+  n_programming_as_friction_tax["程式語言是摩擦力（馬斯克：寫程式將消亡、AI 直接生成機器碼）"]
+  class n_programming_as_friction_tax concept;
+  n_value_flow_window["工頭 vs 工人（成為價值流動的窗口）"]
+  class n_value_flow_window concept;
+  n_explorer_vs_follower["探索者 vs Follower"]
+  class n_explorer_vs_follower concept;
+  n_prompt_engineering["Prompt Engineering 提示工程（第 1 層：控制輸出）"]
+  class n_prompt_engineering concept;
+  n_leadership_wishing_others_success["領導者價值觀：希望他人成功"]
+  class n_leadership_wishing_others_success concept;
+  n_value_transfer_vs_value_creation["價值轉移 vs 價值創造（璞玉千里馬與伯樂）"]
+  class n_value_transfer_vs_value_creation concept;
+  n_llm_routing["LLM Routing（模型間分流）"]
+  class n_llm_routing concept;
+  n_ai_operating_layer["AI 作為 Operating Layer（個人 AI OS → 組織數位孿生）"]
+  class n_ai_operating_layer concept;
+  n_ai_layoff_trap["AI 裁員陷阱（過度自動化的賽局）"]
+  class n_ai_layoff_trap concept;
+  n_ai_era_product_development["AI 時代的產品開發（6 個月 → 1 天）"]
+  class n_ai_era_product_development concept;
+  n_skill_vs_subagent["Skill vs Sub-Agent（為什麼 Skill 通常更好）"]
+  class n_skill_vs_subagent concept;
+  n_ai_native_engineering_management["AI 化軟體團隊的管理（routines、IC-first、JIT 規劃、砍流程）"]
+  class n_ai_native_engineering_management concept;
+  n_verification_is_the_new_bottleneck["驗證成為新瓶頸（產出爆增後，別把動作誤認為進步）"]
+  class n_verification_is_the_new_bottleneck concept;
+  n_software_1_2_3["Software 1.0 / 2.0 / 3.0"]
+  class n_software_1_2_3 concept;
+  n_executive_burnout["高階經理人倦勤（Executive Career Burnout）"]
+  class n_executive_burnout concept;
+  n_zero_to_one_vs_one_to_hundred["0→1 vs 1→100（為什麼 1→100 工程人力被壓縮）"]
+  class n_zero_to_one_vs_one_to_hundred concept;
+  n_fda_style_ai_oversight["FDA 式 AI 監管（上市前預篩）"]
+  class n_fda_style_ai_oversight concept;
+  n_multi_agent_cost["Multi-Agent 成本爆炸（何時值得）"]
+  class n_multi_agent_cost concept;
+  n_how_you_work_not_what_you_can_do["怎麼做事 > 會做什麼"]
+  class n_how_you_work_not_what_you_can_do concept;
+  n_ai_dependence_skill_erosion["AI 依賴與基礎能力空心化（Skill Erosion）"]
+  class n_ai_dependence_skill_erosion concept;
+  n_recursive_self_improvement["遞迴自我改進（RSI：AI 開始自己寫自己）"]
+  class n_recursive_self_improvement concept;
+  n_shallow_trendy_trap["挑軟柿子的陷阱（淺碟跟風 AI）"]
+  class n_shallow_trendy_trap concept;
+  n_high_win_rate_people["跟勝率高的人一起走（高勝率的人）"]
+  class n_high_win_rate_people concept;
+  n_ai_native_org_structure["AI Native 組織結構（合夥人制 / 傭兵 / 贏者全拿）"]
+  class n_ai_native_org_structure concept;
+  n_structured_cot["Structured CoT（Grammar 約束推理壓縮）"]
+  class n_structured_cot concept;
+  n_meta_skill["Meta Skill（AI 時代的「原力」：故事 × 創造 × 判斷）"]
+  class n_meta_skill concept;
+  n_opportunity_adhesion["機會黏著 vs 機會搶佔（成為發光體）"]
+  class n_opportunity_adhesion concept;
+  n_ai_compute_as_dispatchable_load["AI 算力即可調度的數位負載（Workload Shifting）"]
+  class n_ai_compute_as_dispatchable_load concept;
+  n_eval_driven_development["Eval-Driven Development（評測驅動開發）"]
+  class n_eval_driven_development concept;
+  n_problem_first_not_tech_first["問題導向 > 技術導向（別拿槌子找釘子）"]
+  class n_problem_first_not_tech_first concept;
+  n_open_source_as_strategy["開源即戰略（誰貢獻，誰決定）"]
+  class n_open_source_as_strategy concept;
+  n_virtual_power_plant["虛擬電廠 VPP 與鴨子曲線（從負載追隨到彈性電網）"]
+  class n_virtual_power_plant concept;
+  n_train_vs_ocean_american_dream["火車 vs 海洋：當代美國夢"]
+  class n_train_vs_ocean_american_dream concept;
+  n_software_valuation_reset["軟體估值修正（門檻是商業價值，不是軟體）"]
+  class n_software_valuation_reset concept;
+  n_coding_as_proxy_for_thinking["「會寫 code」作為「會思考」的代理指標（已失效）"]
+  class n_coding_as_proxy_for_thinking concept;
+  n_tree_sitter_llm_hybrid_analysis["Tree-sitter + LLM 混合分析"]
+  class n_tree_sitter_llm_hybrid_analysis concept;
+  n_find_your_benefactor["找到你的貴人與標竿（最缺的不是明牌）"]
+  class n_find_your_benefactor concept;
+  n_harness_five_subsystems["Harness 五子系統模型"]
+  class n_harness_five_subsystems concept;
+  n_context_degradation["Context Degradation（脈絡退化）"]
+  class n_context_degradation concept;
+  n_run_towards_hardest_problems["迎向最難的問題 × 工程師直覺 × 創造運氣"]
+  class n_run_towards_hardest_problems concept;
+  n_llm_commoditization_no_moat["LLM 同質化（牙膏比喻）——沒有護城河"]
+  class n_llm_commoditization_no_moat concept;
+  n_domain_knowledge_leverage["本業知識才是最大槓桿（Vibe coding 真相：人出題驗收、AI 動手）"]
+  class n_domain_knowledge_leverage concept;
+  n_retrieval_plus_orchestration["Retrieval-plus-Orchestration"]
+  class n_retrieval_plus_orchestration concept;
+  n_second_opinion_cheatsheet["第二意見速查卡 (Second Opinion Cheat Sheet)"]
+  class n_second_opinion_cheatsheet concept;
+  n_cost_stack["Cost Stack（6 層 × 12 機制的 token 成本框架）"]
+  class n_cost_stack concept;
+  n_task_vs_job["任務 vs 工作（Task vs Job）"]
+  class n_task_vs_job concept;
+  n_incentive_guided_energy["誘因引導節能（行為需量反應、參與式能源治理）"]
+  class n_incentive_guided_energy concept;
+  n_ownership_and_autonomy["主控力與選擇權（全權負責換自由）"]
+  class n_ownership_and_autonomy concept;
+  n_mtms_coordination_distillation["MTMS 協作知識蒸餾（把多代理協作壓進 SLM）"]
+  class n_mtms_coordination_distillation concept;
+  n_thinking_depth_over_speed["思考的厚度 > 速度（當實作趨近免費）"]
+  class n_thinking_depth_over_speed concept;
+  n_self_education_attention_compounding["自我教育與注意力複利（畢業才是自由學習的開始）"]
+  class n_self_education_attention_compounding concept;
+  n_iterations_not_hours["1 萬次迭代，不是 1 萬小時（Naval）"]
+  class n_iterations_not_hours concept;
+  n_workflow_engineering["Workflow Engineering 工作流程工程（第 5 層：任務編排與協作）"]
+  class n_workflow_engineering concept;
+  n_llm_jaggedness["LLM Jaggedness（鋸齒狀能力）"]
+  class n_llm_jaggedness concept;
+  n_go_to_sea["出海（大航海時代的航海王）"]
+  class n_go_to_sea concept;
+  n_taste_resists_verification["品味/人味難被確定性驗證（評估 AI 作品的兩難）"]
+  class n_taste_resists_verification concept;
+  n_service_before_leadership["不要只想著領導，先學會服務（利他優先）"]
+  class n_service_before_leadership concept;
+  n_agent_memory["Agent Memory（代理記憶）"]
+  class n_agent_memory concept;
+  n_positive_cycle["正向循環（真正的競爭力 vs 沒用的競爭力）"]
+  class n_positive_cycle concept;
+  n_employer_absolute_market["絕對資方市場（只付給夠格的 10%）"]
+  class n_employer_absolute_market concept;
+  n_context_engineering["Context Engineering"]
+  class n_context_engineering concept;
+  n_trial_and_error_velocity["試誤速度與容錯力（效率×30 ＝ 失敗速度×30）"]
+  class n_trial_and_error_velocity concept;
+  n_improve_human_tasks_not_faster_code["軟體價值＝改善人類任務（別只捲寫 code 更快）"]
+  class n_improve_human_tasks_not_faster_code concept;
+  n_combination_scarcity["組合稀缺性（樣樣通、精通幾門）"]
+  class n_combination_scarcity concept;
+  n_agent_harness["Agent Harness"]
+  class n_agent_harness concept;
+  n_loop_engineering["Loop Engineering 迴圈工程（第 6 層：自我修正與收斂）"]
+  class n_loop_engineering concept;
+  n_mechanism_over_prompt["機制 > 提示（Prompt 是建議，機制才是規則）"]
+  class n_mechanism_over_prompt concept;
+  n_tsai_chi_yen["蔡祈岩"]
+  class n_tsai_chi_yen entity;
+  n_affaan_m["Affaan Mustafa"]
+  class n_affaan_m entity;
+  n_elon_musk["Elon Musk"]
+  class n_elon_musk entity;
+  n_adam_rodman["Adam Rodman"]
+  class n_adam_rodman entity;
+  n_anthropic["Anthropic"]
+  class n_anthropic entity;
+  n_claude_code["Claude Code"]
+  class n_claude_code entity;
+  n_wang_poda["王伯達 (Po Wang)"]
+  class n_wang_poda entity;
+  n_evolvemem["EvolveMem"]
+  class n_evolvemem entity;
+  n_evoembedding["EvoEmbedding"]
+  class n_evoembedding entity;
+  n_harvard_llm_clinical_reasoning_study["哈佛 LLM 臨床推理研究 (Science, 2026)"]
+  class n_harvard_llm_clinical_reasoning_study entity;
+  n_learn_harness_engineering["Learn Harness Engineering（課程）"]
+  class n_learn_harness_engineering entity;
+  n_jack_c_sung["Jack C. Sung"]
+  class n_jack_c_sung entity;
+  n_lmcache["LMCache"]
+  class n_lmcache entity;
+  n_amd["AMD（超微）"]
+  class n_amd entity;
+  n_gstack["gstack（Garry Tan）"]
+  class n_gstack entity;
+  n_pi_framework["Pi Framework（Mario Zechner）"]
+  class n_pi_framework entity;
+  n_openmed["OpenMed"]
+  class n_openmed entity;
+  n_stanford_sdel_canaries["Canaries in the Coal Mine?（Stanford SDEL）"]
+  class n_stanford_sdel_canaries entity;
+  n_atomic_habits["原子習慣（Atomic Habits）"]
+  class n_atomic_habits entity;
+  n_nathan_chiu["Nathan Chiu"]
+  class n_nathan_chiu entity;
+  n_tsai_chia_ping["蔡嘉平"]
+  class n_tsai_chia_ping entity;
+  n_chien_lee_feng["簡立峰（Lee-Feng Chien）"]
+  class n_chien_lee_feng entity;
+  n_iown["IOWN 全光網路（APN / PEC / DCI）"]
+  class n_iown entity;
+  n_skillspector["SkillSpector"]
+  class n_skillspector entity;
+  n_jensen_huang["黃仁勳 (Jensen Huang)"]
+  class n_jensen_huang entity;
+  n_boris_cherny["Boris Cherny"]
+  class n_boris_cherny entity;
+  n_sahil_bloom["Sahil Bloom"]
+  class n_sahil_bloom entity;
+  n_gary_marcus["Gary Marcus"]
+  class n_gary_marcus entity;
+  n_muratcan_koylan["Muratcan Koylan"]
+  class n_muratcan_koylan entity;
+  n_sega_cheng["程世嘉（Sega Cheng）"]
+  class n_sega_cheng entity;
+  n_agent_skills_for_context_engineering["Agent Skills for Context Engineering"]
+  class n_agent_skills_for_context_engineering entity;
+  n_timesfm["TimesFM"]
+  class n_timesfm entity;
+  n_wikita["實驗室大師兄 WikiTA"]
+  class n_wikita entity;
+  n_is_grep_all_you_need["'Is Grep All You Need?（PwC, 2026）'"]
+  class n_is_grep_all_you_need entity;
+  n_justin_mclean["Justin McLean（麥克林）"]
+  class n_justin_mclean entity;
+  n_mustafa_suleyman["Mustafa Suleyman"]
+  class n_mustafa_suleyman entity;
+  n_headroom["headroom"]
+  class n_headroom entity;
+  n_benedict_evans["Benedict Evans"]
+  class n_benedict_evans entity;
+  n_everything_claude_code["Everything Claude Code (ECC)"]
+  class n_everything_claude_code entity;
+  n_wisely_chen["Wisely Chen"]
+  class n_wisely_chen entity;
+  n_microsoft["Microsoft（微軟）"]
+  class n_microsoft entity;
+  n_nvidia["NVIDIA（輝達）"]
+  class n_nvidia entity;
+  n_fiona_fung["Fiona Fung"]
+  class n_fiona_fung entity;
+  n_charlie_warren["Charlie Warren（YC）"]
+  class n_charlie_warren entity;
+  n_cloudflare["Cloudflare"]
+  class n_cloudflare entity;
+  n_cat_wu["Cat Wu"]
+  class n_cat_wu entity;
+  n_understand_anything["Understand Anything"]
+  class n_understand_anything entity;
+  n_dan_garcia["Dan Garcia"]
+  class n_dan_garcia entity;
+  n_graphify["graphify"]
+  class n_graphify entity;
+  n_agentopt["AgentOpt（Columbia DAPLab）"]
+  class n_agentopt entity;
+  n_ben_mann["Ben Mann"]
+  class n_ben_mann entity;
+  n_vincent_cw_yu["Vincent Cheng-Wen Yu"]
+  class n_vincent_cw_yu entity;
+  n_lum1104["Lum1104"]
+  class n_lum1104 entity;
+  n_code_as_agent_harness["Code as Agent Harness (survey)"]
+  class n_code_as_agent_harness entity;
+  n_lisa_su["蘇姿丰 (Lisa Su)"]
+  class n_lisa_su entity;
+  n_autoresearch["autoresearch（karpathy）"]
+  class n_autoresearch entity;
+  n_gemma_4["Gemma 4"]
+  class n_gemma_4 entity;
+  n_andrej_karpathy["Andrej Karpathy"]
+  class n_andrej_karpathy entity;
+  n_harness_engineering["Harness Engineering（主題綜合）"]
+  class n_harness_engineering topic;
+  n_lab_onboarding_backend_edge["專題新生暑假起步指引（後端資料處理 × 邊緣運算）"]
+  class n_lab_onboarding_backend_edge topic;
+  n_career_wealth_and_motivation["AI 時代的職涯、財富與動力（主題綜合）"]
+  class n_career_wealth_and_motivation topic;
+  n_ai_agent_saas_disruption["AI Agent 對 SaaS 護城河的衝擊"]
+  class n_ai_agent_saas_disruption topic;
+  n_ai_era_student_playbook["AI 時代學生生存心法（ktchuang 教學論述綜合）"]
+  class n_ai_era_student_playbook topic;
+  n_computex_2026_nvidia_amd["Computex 2026 — Nvidia vs AMD（主題綜合）"]
+  class n_computex_2026_nvidia_amd topic;
+  n_ai_second_opinion["AI 作為決策「第二意見」"]
+  class n_ai_second_opinion topic;
+  n_cs_education_ai_agents["AI Agent 時代的資工教育"]
+  class n_cs_education_ai_agents topic;
+  n_six_layer_ai_engineering["六大 AI 工程層次（從 Prompt 到 Loop：成為 AI Systems Engineer）"]
+  class n_six_layer_ai_engineering topic;
+  n_energyai["EnergyAI（電力數據加值的能源轉型 AI 框架）"]
+  class n_energyai topic;
+  n_green_ai_computing["綠色 AI 算力（能源感知的 AI 部署與調度）"]
+  class n_green_ai_computing topic;
+  n_agentic_stack["Agentic Stack（用 OS 觀點拆解 Skill/MCP/A2A/CLI）"]
+  class n_agentic_stack topic;
+  n_ai_native_service_companies["AI 原生服務公司（賣結果不賣工具）"]
+  class n_ai_native_service_companies topic;
+  n_source_ktchuang_prepared_for_upheaval["ktchuang-prepared-for-upheaval"]
+  class n_source_ktchuang_prepared_for_upheaval source;
+  n_source_ktchuang_team_of_excellence["ktchuang-team-of-excellence"]
+  class n_source_ktchuang_team_of_excellence source;
+  n_source_ktchuang_strategy_over_tactics["ktchuang-strategy-over-tactics"]
+  class n_source_ktchuang_strategy_over_tactics source;
+  n_source_ceo_relentless_first_principles["ceo-relentless-first-principles"]
+  class n_source_ceo_relentless_first_principles source;
+  n_source_ktchuang_eq_and_trust["ktchuang-eq-and-trust"]
+  class n_source_ktchuang_eq_and_trust source;
+  n_source_karpathy_sequoia_ascent_2026["karpathy-sequoia-ascent-2026"]
+  class n_source_karpathy_sequoia_ascent_2026 source;
+  n_source_wang_poda_five_types_wealth["wang-poda-five-types-wealth"]
+  class n_source_wang_poda_five_types_wealth source;
+  n_source_everything_claude_code_readme["everything-claude-code-readme"]
+  class n_source_everything_claude_code_readme source;
+  n_source_ai_second_opinion_prompt["ai-second-opinion-prompt"]
+  class n_source_ai_second_opinion_prompt source;
+  n_source_cloudflare_bots_surpass_humans["cloudflare-bots-surpass-humans"]
+  class n_source_cloudflare_bots_surpass_humans source;
+  n_source_bnext_taiwan_ai_open_source["bnext-taiwan-ai-open-source"]
+  class n_source_bnext_taiwan_ai_open_source source;
+  n_source_gary_marcus_llm_toothpaste_2026["gary-marcus-llm-toothpaste-2026"]
+  class n_source_gary_marcus_llm_toothpaste_2026 source;
+  n_source_temporal_rag_state_tracking["temporal-rag-state-tracking"]
+  class n_source_temporal_rag_state_tracking source;
+  n_source_evoembedding["evoembedding"]
+  class n_source_evoembedding source;
+  n_source_yc_ai_native_services_playbook["yc-ai-native-services-playbook"]
+  class n_source_yc_ai_native_services_playbook source;
+  n_source_aiase_2026_w7_agentic_stack["aiase-2026-w7-agentic-stack"]
+  class n_source_aiase_2026_w7_agentic_stack source;
+  n_source_nathan_chiu_cs_education_ai["nathan-chiu-cs-education-ai"]
+  class n_source_nathan_chiu_cs_education_ai source;
+  n_source_mckinsey_agentic_software_delivery["mckinsey-agentic-software-delivery"]
+  class n_source_mckinsey_agentic_software_delivery source;
+  n_source_ktchuang_mass_production_vs_inheritance["ktchuang-mass-production-vs-inheritance"]
+  class n_source_ktchuang_mass_production_vs_inheritance source;
+  n_source_ktchuang_service_before_leadership["ktchuang-service-before-leadership"]
+  class n_source_ktchuang_service_before_leadership source;
+  n_source_ktchuang_learning_to_learn_100x["ktchuang-learning-to-learn-100x"]
+  class n_source_ktchuang_learning_to_learn_100x source;
+  n_source_ikala_sega_ai_agent_era_2026["ikala-sega-ai-agent-era-2026"]
+  class n_source_ikala_sega_ai_agent_era_2026 source;
+  n_source_ktchuang_explorer_vs_follower["ktchuang-explorer-vs-follower"]
+  class n_source_ktchuang_explorer_vs_follower source;
+  n_source_understand_anything_readme["understand-anything-readme"]
+  class n_source_understand_anything_readme source;
+  n_source_ktchuang_adaptability_restlessness_1["ktchuang-adaptability-restlessness-1"]
+  class n_source_ktchuang_adaptability_restlessness_1 source;
+  n_source_ktchuang_directing_ai_language["ktchuang-directing-ai-language"]
+  class n_source_ktchuang_directing_ai_language source;
+  n_source_ktchuang_ship_and_share["ktchuang-ship-and-share"]
+  class n_source_ktchuang_ship_and_share source;
+  n_source_ktchuang_genai_course_reflection["ktchuang-genai-course-reflection"]
+  class n_source_ktchuang_genai_course_reflection source;
+  n_source_ktchuang_composable_task_decomposition["ktchuang-composable-task-decomposition"]
+  class n_source_ktchuang_composable_task_decomposition source;
+  n_source_ktchuang_taking_on_responsibility["ktchuang-taking-on-responsibility"]
+  class n_source_ktchuang_taking_on_responsibility source;
+  n_source_openrouter_fusion_beats_frontier["openrouter-fusion-beats-frontier"]
+  class n_source_openrouter_fusion_beats_frontier source;
+  n_source_ktchuang_think_big_service_as_software["ktchuang-think-big-service-as-software"]
+  class n_source_ktchuang_think_big_service_as_software source;
+  n_source_ktchuang_worth_nurturing_lin_che["ktchuang-worth-nurturing-lin-che"]
+  class n_source_ktchuang_worth_nurturing_lin_che source;
+  n_source_ktchuang_meta_skill_rabbit["ktchuang-meta-skill-rabbit"]
+  class n_source_ktchuang_meta_skill_rabbit source;
+  n_source_ktchuang_ai_native_learning_attitude["ktchuang-ai-native-learning-attitude"]
+  class n_source_ktchuang_ai_native_learning_attitude source;
+  n_source_jevons_coding_task_vs_job["jevons-coding-task-vs-job"]
+  class n_source_jevons_coding_task_vs_job source;
+  n_source_ktchuang_business_development_moat["ktchuang-business-development-moat"]
+  class n_source_ktchuang_business_development_moat source;
+  n_source_sillyduck_software_cheap_selling_hard["sillyduck-software-cheap-selling-hard"]
+  class n_source_sillyduck_software_cheap_selling_hard source;
+  n_source_sega_cheng_rsi_ai_writes_itself["sega-cheng-rsi-ai-writes-itself"]
+  class n_source_sega_cheng_rsi_ai_writes_itself source;
+  n_source_computex_2026_nvidia_amd["computex-2026-nvidia-amd"]
+  class n_source_computex_2026_nvidia_amd source;
+  n_source_explainthis_cognitive_surrender["explainthis-cognitive-surrender"]
+  class n_source_explainthis_cognitive_surrender source;
+  n_source_ktchuang_five_abilities_agentic_era["ktchuang-five-abilities-agentic-era"]
+  class n_source_ktchuang_five_abilities_agentic_era source;
+  n_source_ktchuang_advisor_meeting["ktchuang-advisor-meeting"]
+  class n_source_ktchuang_advisor_meeting source;
+  n_source_github_copilot_handwriting_code["github-copilot-handwriting-code"]
+  class n_source_github_copilot_handwriting_code source;
+  n_source_expensive_poverty_taipei["expensive-poverty-taipei"]
+  class n_source_expensive_poverty_taipei source;
+  n_source_vincent_yu_credit_future_resources["vincent-yu-credit-future-resources"]
+  class n_source_vincent_yu_credit_future_resources source;
+  n_source_ktchuang_commitment_and_trust["ktchuang-commitment-and-trust"]
+  class n_source_ktchuang_commitment_and_trust source;
+  n_source_ktchuang_credentialing_erosion["ktchuang-credentialing-erosion"]
+  class n_source_ktchuang_credentialing_erosion source;
+  n_source_berkeley_cs_ai_failing_grades["berkeley-cs-ai-failing-grades"]
+  class n_source_berkeley_cs_ai_failing_grades source;
+  n_source_ktchuang_rocket_launcher_win_rate["ktchuang-rocket-launcher-win-rate"]
+  class n_source_ktchuang_rocket_launcher_win_rate source;
+  n_source_ktchuang_transactional_mindset["ktchuang-transactional-mindset"]
+  class n_source_ktchuang_transactional_mindset source;
+  n_source_fable5_system_prompt_harness["fable5-system-prompt-harness"]
+  class n_source_fable5_system_prompt_harness source;
+  n_source_ktchuang_passion_attracts_benefactors["ktchuang-passion-attracts-benefactors"]
+  class n_source_ktchuang_passion_attracts_benefactors source;
+  n_source_ktchuang_grade_adjustment_letter["ktchuang-grade-adjustment-letter"]
+  class n_source_ktchuang_grade_adjustment_letter source;
+  n_source_skillspector["skillspector"]
+  class n_source_skillspector source;
+  n_source_bnext_chien_lack_of_urgency["bnext-chien-lack-of-urgency"]
+  class n_source_bnext_chien_lack_of_urgency source;
+  n_source_wiselychen_ai_worker_position["wiselychen-ai-worker-position"]
+  class n_source_wiselychen_ai_worker_position source;
+  n_source_aiase_2026_w8_token_economy["aiase-2026-w8-token-economy"]
+  class n_source_aiase_2026_w8_token_economy source;
+  n_source_ktchuang_pursuit_of_excellence["ktchuang-pursuit-of-excellence"]
+  class n_source_ktchuang_pursuit_of_excellence source;
+  n_source_mckinsey_hr_monitor_2026["mckinsey-hr-monitor-2026"]
+  class n_source_mckinsey_hr_monitor_2026 source;
+  n_source_ktchuang_educate_not_ban["ktchuang-educate-not-ban"]
+  class n_source_ktchuang_educate_not_ban source;
+  n_source_microsoft_suleyman_anthropic_too_expensive["microsoft-suleyman-anthropic-too-expensive"]
+  class n_source_microsoft_suleyman_anthropic_too_expensive source;
+  n_source_jensen_generosity_summit["jensen-generosity-summit"]
+  class n_source_jensen_generosity_summit source;
+  n_source_six_layer_ai_engineering["six-layer-ai-engineering"]
+  class n_source_six_layer_ai_engineering source;
+  n_source_aiase_deterministic_vs_foundation_model["aiase-deterministic-vs-foundation-model"]
+  class n_source_aiase_deterministic_vs_foundation_model source;
+  n_source_musk_programming_as_friction["musk-programming-as-friction"]
+  class n_source_musk_programming_as_friction source;
+  n_source_ktchuang_value_flow_window["ktchuang-value-flow-window"]
+  class n_source_ktchuang_value_flow_window source;
+  n_source_bnext_context_engineering["bnext-context-engineering"]
+  class n_source_bnext_context_engineering source;
+  n_source_jensen_huang_leadership_summit["jensen-huang-leadership-summit"]
+  class n_source_jensen_huang_leadership_summit source;
+  n_source_ktchuang_value_transfer_vs_creation["ktchuang-value-transfer-vs-creation"]
+  class n_source_ktchuang_value_transfer_vs_creation source;
+  n_source_wanweigang_scarce_abilities["wanweigang-scarce-abilities"]
+  class n_source_wanweigang_scarce_abilities source;
+  n_source_kenny_su_ai_os["kenny-su-ai-os"]
+  class n_source_kenny_su_ai_os source;
+  n_source_ai_layoff_trap_paper["ai-layoff-trap-paper"]
+  class n_source_ai_layoff_trap_paper source;
+  n_source_ktchuang_snap_ai_layoff_confession["ktchuang-snap-ai-layoff-confession"]
+  class n_source_ktchuang_snap_ai_layoff_confession source;
+  n_source_catwu_claude_code_pm_9_truths["catwu-claude-code-pm-9-truths"]
+  class n_source_catwu_claude_code_pm_9_truths source;
+  n_source_lenny_fiona_fung_ai_native_eng["lenny-fiona-fung-ai-native-eng"]
+  class n_source_lenny_fiona_fung_ai_native_eng source;
+  n_source_ktchuang_fiona_verification_note["ktchuang-fiona-verification-note"]
+  class n_source_ktchuang_fiona_verification_note source;
+  n_source_executive_career_burnout["executive-career-burnout"]
+  class n_source_executive_career_burnout source;
+  n_source_ktchuang_zero_to_one_talent["ktchuang-zero-to-one-talent"]
+  class n_source_ktchuang_zero_to_one_talent source;
+  n_source_ktchuang_how_you_work_water_amd["ktchuang-how-you-work-water-amd"]
+  class n_source_ktchuang_how_you_work_water_amd source;
+  n_source_ktchuang_cs_education_all_in_ai["ktchuang-cs-education-all-in-ai"]
+  class n_source_ktchuang_cs_education_all_in_ai source;
+  n_source_ktchuang_ai_compiler_of_compiler["ktchuang-ai-compiler-of-compiler"]
+  class n_source_ktchuang_ai_compiler_of_compiler source;
+  n_source_ktchuang_shallow_trendy_trap["ktchuang-shallow-trendy-trap"]
+  class n_source_ktchuang_shallow_trendy_trap source;
+  n_source_ktchuang_do_what_moves_you["ktchuang-do-what-moves-you"]
+  class n_source_ktchuang_do_what_moves_you source;
+  n_source_ktchuang_altruism_undistillable["ktchuang-altruism-undistillable"]
+  class n_source_ktchuang_altruism_undistillable source;
+  n_source_nstc_iown_green_ai_proposal["nstc-iown-green-ai-proposal"]
+  class n_source_nstc_iown_green_ai_proposal source;
+  n_source_shenrobin_problem_first["shenrobin-problem-first"]
+  class n_source_shenrobin_problem_first source;
+  n_source_nstc_energyai_proposal["nstc-energyai-proposal"]
+  class n_source_nstc_energyai_proposal source;
+  n_source_jack_sung_american_dream["jack-sung-american-dream"]
+  class n_source_jack_sung_american_dream source;
+  n_source_ktchuang_software_valuation_reset["ktchuang-software-valuation-reset"]
+  class n_source_ktchuang_software_valuation_reset source;
+  n_source_ktchuang_ben_thompson_saas["ktchuang-ben-thompson-saas"]
+  class n_source_ktchuang_ben_thompson_saas source;
+  n_source_ktchuang_find_your_benefactor["ktchuang-find-your-benefactor"]
+  class n_source_ktchuang_find_your_benefactor source;
+  n_source_ktchuang_wang_wenhan_be_ready["ktchuang-wang-wenhan-be-ready"]
+  class n_source_ktchuang_wang_wenhan_be_ready source;
+  n_source_learn_harness_engineering["learn-harness-engineering"]
+  class n_source_learn_harness_engineering source;
+  n_source_agent_skills_for_context_engineering["agent-skills-for-context-engineering"]
+  class n_source_agent_skills_for_context_engineering source;
+  n_source_lisa_su_mit_commencement_2026["lisa-su-mit-commencement-2026"]
+  class n_source_lisa_su_mit_commencement_2026 source;
+  n_source_bnext_anthropic_vibe_coding["bnext-anthropic-vibe-coding"]
+  class n_source_bnext_anthropic_vibe_coding source;
+  n_source_wiselychen_is_grep_all_you_need["wiselychen-is-grep-all-you-need"]
+  class n_source_wiselychen_is_grep_all_you_need source;
+  n_source_ktchuang_ownership_and_autonomy["ktchuang-ownership-and-autonomy"]
+  class n_source_ktchuang_ownership_and_autonomy source;
+  n_source_taiwan_ai_academy_dev_day_reflection["taiwan-ai-academy-dev-day-reflection"]
+  class n_source_taiwan_ai_academy_dev_day_reflection source;
+  n_source_self_education_lifelong_learning_video["self-education-lifelong-learning-video"]
+  class n_source_self_education_lifelong_learning_video source;
+  n_source_naval_iterations_not_hours["naval-iterations-not-hours"]
+  class n_source_naval_iterations_not_hours source;
+  n_source_ktchuang_go_to_sea["ktchuang-go-to-sea"]
+  class n_source_ktchuang_go_to_sea source;
+  n_source_ai_exploration_sailors_anthropic["ai-exploration-sailors-anthropic"]
+  class n_source_ai_exploration_sailors_anthropic source;
+  n_source_evolvemem["evolvemem"]
+  class n_source_evolvemem source;
+  n_source_code_as_agent_harness["code-as-agent-harness"]
+  class n_source_code_as_agent_harness source;
+  n_source_ktchuang_positive_cycle_final_words["ktchuang-positive-cycle-final-words"]
+  class n_source_ktchuang_positive_cycle_final_words source;
+  n_source_ktchuang_employer_absolute_market["ktchuang-employer-absolute-market"]
+  class n_source_ktchuang_employer_absolute_market source;
+  n_source_ktchuang_trial_and_error_velocity["ktchuang-trial-and-error-velocity"]
+  class n_source_ktchuang_trial_and_error_velocity source;
+  n_source_ktchuang_software_value_japan_manufacturing["ktchuang-software-value-japan-manufacturing"]
+  class n_source_ktchuang_software_value_japan_manufacturing source;
+  n_source_wiselychen_jack_of_all_trades["wiselychen-jack-of-all-trades"]
+  class n_source_wiselychen_jack_of_all_trades source;
+  n_source_wiselychen_mechanism_not_prompt["wiselychen-mechanism-not-prompt"]
+  class n_source_wiselychen_mechanism_not_prompt source;
+  n_source_boris_cherny_ai_agent_saas["boris-cherny-ai-agent-saas"]
+  class n_source_boris_cherny_ai_agent_saas source;
+  n_source_lmcache["lmcache"]
+  class n_source_lmcache source;
+  n_source_openmed["openmed"]
+  class n_source_openmed source;
+  n_source_headroom["headroom"]
+  class n_source_headroom source;
+  n_source_graphify["graphify"]
+  class n_source_graphify source;
+  n_source_rar_gemma_4["rar-gemma-4"]
+  class n_source_rar_gemma_4 source;
+  n_prepared_for_upheaval --- n_source_ktchuang_prepared_for_upheaval
+  n_prepared_for_upheaval --- n_pursuit_of_excellence
+  n_prepared_for_upheaval --- n_transactional_mindset
+  n_prepared_for_upheaval --- n_trial_and_error_velocity
+  n_prepared_for_upheaval --- n_learning_to_learn
+  n_prepared_for_upheaval --- n_team_of_excellence
+  n_prepared_for_upheaval --- n_ai_native_service_companies
+  n_prepared_for_upheaval --- n_anthropic
+  n_prepared_for_upheaval --- n_ai_job_ladder_collapse
+  n_prepared_for_upheaval --- n_ai_agent_saas_disruption
+  n_prepared_for_upheaval --- n_gun_to_rocket_launcher
+  n_prepared_for_upheaval --- n_token_economics
+  n_prepared_for_upheaval --- n_meta_skill
+  n_prepared_for_upheaval --- n_taking_on_responsibility
+  n_prepared_for_upheaval --- n_ai_era_student_playbook
+  n_team_of_excellence --- n_source_ktchuang_team_of_excellence
+  n_team_of_excellence --- n_token_economics
+  n_team_of_excellence --- n_ai_native_service_companies
+  n_team_of_excellence --- n_combination_scarcity
+  n_team_of_excellence --- n_taking_on_responsibility
+  n_team_of_excellence --- n_trust_and_eq
+  n_team_of_excellence --- n_zero_to_one_vs_one_to_hundred
+  n_team_of_excellence --- n_ai_native_org_structure
+  n_team_of_excellence --- n_ai_amplifier_effect
+  n_team_of_excellence --- n_explorer_vs_follower
+  n_team_of_excellence --- n_model_fusion
+  n_team_of_excellence --- n_ai_era_student_playbook
+  n_team_of_excellence --- n_career_wealth_and_motivation
+  n_strategy_over_tactics --- n_source_ktchuang_strategy_over_tactics
+  n_strategy_over_tactics --- n_deterministic_vs_foundation_model
+  n_strategy_over_tactics --- n_taking_on_responsibility
+  n_strategy_over_tactics --- n_trial_and_error_velocity
+  n_strategy_over_tactics --- n_think_big_frontier_problems
+  n_strategy_over_tactics --- n_meta_skill
+  n_strategy_over_tactics --- n_learning_to_learn
+  n_strategy_over_tactics --- n_transactional_mindset
+  n_strategy_over_tactics --- n_ai_era_student_playbook
+  n_relentless_ceo_standards --- n_source_ceo_relentless_first_principles
+  n_relentless_ceo_standards --- n_jensen_huang
+  n_relentless_ceo_standards --- n_elon_musk
+  n_relentless_ceo_standards --- n_generosity_over_genius
+  n_relentless_ceo_standards --- n_leadership_wishing_others_success
+  n_relentless_ceo_standards --- n_run_towards_hardest_problems
+  n_relentless_ceo_standards --- n_lisa_su
+  n_relentless_ceo_standards --- n_employer_absolute_market
+  n_relentless_ceo_standards --- n_ai_amplifier_effect
+  n_relentless_ceo_standards --- n_trial_and_error_velocity
+  n_relentless_ceo_standards --- n_think_big_frontier_problems
+  n_relentless_ceo_standards --- n_taking_on_responsibility
+  n_relentless_ceo_standards --- n_pursuit_of_excellence
+  n_relentless_ceo_standards --- n_career_wealth_and_motivation
+  n_trust_and_eq --- n_source_ktchuang_eq_and_trust
+  n_trust_and_eq --- n_zero_to_one_vs_one_to_hundred
+  n_trust_and_eq --- n_meta_skill
+  n_trust_and_eq --- n_positive_cycle
+  n_trust_and_eq --- n_service_before_leadership
+  n_trust_and_eq --- n_worth_nurturing
+  n_trust_and_eq --- n_ai_native_org_structure
+  n_trust_and_eq --- n_high_win_rate_people
+  n_trust_and_eq --- n_find_your_benefactor
+  n_trust_and_eq --- n_ai_era_student_playbook
+  n_trust_and_eq --- n_career_wealth_and_motivation
+  n_agent_native_economy --- n_andrej_karpathy
+  n_agent_native_economy --- n_software_1_2_3
+  n_agent_native_economy --- n_agentic_engineering
+  n_agent_native_economy --- n_karpathy_llm_wiki
+  n_agent_native_economy --- n_understand_anything
+  n_agent_native_economy --- n_source_karpathy_sequoia_ascent_2026
+  n_five_types_of_wealth --- n_sahil_bloom
+  n_five_types_of_wealth --- n_wang_poda
+  n_five_types_of_wealth --- n_source_wang_poda_five_types_wealth
+  n_five_types_of_wealth --- n_credit_as_future_resource
+  n_five_types_of_wealth --- n_train_vs_ocean_american_dream
+  n_five_types_of_wealth --- n_task_vs_job
+  n_five_types_of_wealth --- n_jevons_paradox
+  n_five_types_of_wealth --- n_career_wealth_and_motivation
+  n_five_types_of_wealth --- n_executive_burnout
+  n_five_types_of_wealth --- n_expensive_poverty
+  n_claude_code_config_primitives --- n_claude_code
+  n_claude_code_config_primitives --- n_everything_claude_code
+  n_claude_code_config_primitives --- n_context_window_management
+  n_claude_code_config_primitives --- n_agentic_stack
+  n_claude_code_config_primitives --- n_skill_vs_subagent
+  n_claude_code_config_primitives --- n_mcp
+  n_claude_code_config_primitives --- n_gstack
+  n_claude_code_config_primitives --- n_agentic_engineering
+  n_claude_code_config_primitives --- n_agent_harness
+  n_claude_code_config_primitives --- n_harness_five_subsystems
+  n_claude_code_config_primitives --- n_source_everything_claude_code_readme
+  n_cognitive_bias --- n_ai_second_opinion
+  n_cognitive_bias --- n_source_ai_second_opinion_prompt
+  n_agentic_web_traffic --- n_source_cloudflare_bots_surpass_humans
+  n_agentic_web_traffic --- n_cloudflare
+  n_agentic_web_traffic --- n_ai_amplifier_effect
+  n_agentic_web_traffic --- n_agentic_engineering
+  n_agentic_web_traffic --- n_ai_agent_saas_disruption
+  n_agentic_web_traffic --- n_sega_cheng
+  n_agentic_web_traffic --- n_cost_stack
+  n_agentic_web_traffic --- n_token_economics
+  n_agentic_web_traffic --- n_recursive_self_improvement
+  n_agentic_web_traffic --- n_compute_as_throttle
+  n_agentic_web_traffic --- n_mcp
+  n_hardware_without_spec_power --- n_source_bnext_taiwan_ai_open_source
+  n_hardware_without_spec_power --- n_justin_mclean
+  n_hardware_without_spec_power --- n_tsai_chia_ping
+  n_hardware_without_spec_power --- n_compute_as_throttle
+  n_hardware_without_spec_power --- n_business_development_is_the_moat
+  n_hardware_without_spec_power --- n_software_valuation_reset
+  n_hardware_without_spec_power --- n_open_source_as_strategy
+  n_hardware_without_spec_power --- n_green_ai_computing
+  n_hardware_without_spec_power --- n_energyai
+  n_hardware_without_spec_power --- n_iown
+  n_hardware_without_spec_power --- n_tsai_chi_yen
+  n_hardware_without_spec_power --- n_computex_2026_nvidia_amd
+  n_premature_llm_lock_in --- n_gary_marcus
+  n_premature_llm_lock_in --- n_source_gary_marcus_llm_toothpaste_2026
+  n_premature_llm_lock_in --- n_explorer_vs_follower
+  n_premature_llm_lock_in --- n_shallow_trendy_trap
+  n_premature_llm_lock_in --- n_jevons_paradox
+  n_premature_llm_lock_in --- n_harness_over_model
+  n_premature_llm_lock_in --- n_llm_commoditization_no_moat
+  n_premature_llm_lock_in --- n_deterministic_vs_foundation_model
+  n_temporal_state_tracking_rag --- n_source_temporal_rag_state_tracking
+  n_temporal_state_tracking_rag --- n_evoembedding
+  n_temporal_state_tracking_rag --- n_source_evoembedding
+  n_temporal_state_tracking_rag --- n_agent_memory
+  n_temporal_state_tracking_rag --- n_retrieval_plus_orchestration
+  n_temporal_state_tracking_rag --- n_evolvemem
+  n_temporal_state_tracking_rag --- n_trustworthy_systems_with_agents
+  n_temporal_state_tracking_rag --- n_context_engineering
+  n_temporal_state_tracking_rag --- n_context_degradation
+  n_over_attribution_of_intelligence --- n_gary_marcus
+  n_over_attribution_of_intelligence --- n_source_gary_marcus_llm_toothpaste_2026
+  n_over_attribution_of_intelligence --- n_cognitive_surrender
+  n_over_attribution_of_intelligence --- n_cognitive_bias
+  n_over_attribution_of_intelligence --- n_llm_jaggedness
+  n_over_attribution_of_intelligence --- n_harness_over_model
+  n_over_attribution_of_intelligence --- n_verifiability_mindset
+  n_ai_operating_leverage --- n_charlie_warren
+  n_ai_operating_leverage --- n_ai_native_service_companies
+  n_ai_operating_leverage --- n_source_yc_ai_native_services_playbook
+  n_ai_operating_leverage --- n_token_economics
+  n_ai_operating_leverage --- n_cost_stack
+  n_ai_operating_leverage --- n_jevons_paradox
+  n_agentic_engineering --- n_claude_code
+  n_agentic_engineering --- n_ai_agent_saas_disruption
+  n_agentic_engineering --- n_nathan_chiu
+  n_agentic_engineering --- n_cs_education_ai_agents
+  n_agentic_engineering --- n_andrej_karpathy
+  n_agentic_engineering --- n_source_karpathy_sequoia_ascent_2026
+  n_agentic_engineering --- n_source_aiase_2026_w7_agentic_stack
+  n_agentic_engineering --- n_agentic_stack
+  n_agentic_engineering --- n_agent_harness
+  n_agentic_engineering --- n_task_vs_job
+  n_agentic_engineering --- n_jevons_paradox
+  n_agentic_engineering --- n_source_nathan_chiu_cs_education_ai
+  n_agentic_software_delivery --- n_source_mckinsey_agentic_software_delivery
+  n_agentic_software_delivery --- n_agent_harness
+  n_agentic_software_delivery --- n_verifiability_mindset
+  n_agentic_software_delivery --- n_karpathy_llm_wiki
+  n_agentic_software_delivery --- n_agent_memory
+  n_agentic_software_delivery --- n_is_grep_all_you_need
+  n_agentic_software_delivery --- n_ai_operating_layer
+  n_agentic_software_delivery --- n_ai_job_ladder_collapse
+  n_agentic_software_delivery --- n_employer_absolute_market
+  n_agentic_software_delivery --- n_team_of_excellence
+  n_agentic_software_delivery --- n_ai_amplifier_effect
+  n_agentic_software_delivery --- n_spec_driven_development
+  n_agentic_software_delivery --- n_agentic_engineering
+  n_agentic_software_delivery --- n_verification_is_the_new_bottleneck
+  n_agentic_software_delivery --- n_ai_native_engineering_management
+  n_agentic_software_delivery --- n_fiona_fung
+  n_agentic_software_delivery --- n_harness_engineering
+  n_agentic_software_delivery --- n_ai_era_student_playbook
+  n_mass_production_vs_inheritance --- n_source_ktchuang_mass_production_vs_inheritance
+  n_mass_production_vs_inheritance --- n_cs_education_ai_agents
+  n_mass_production_vs_inheritance --- n_service_before_leadership
+  n_mass_production_vs_inheritance --- n_high_win_rate_people
+  n_mass_production_vs_inheritance --- n_meta_skill
+  n_mass_production_vs_inheritance --- n_tacit_knowledge
+  n_mass_production_vs_inheritance --- n_source_ktchuang_service_before_leadership
+  n_mass_production_vs_inheritance --- n_ai_native_org_structure
+  n_mass_production_vs_inheritance --- n_ai_native_learning_attitude
+  n_mass_production_vs_inheritance --- n_pursuit_of_excellence
+  n_mass_production_vs_inheritance --- n_ai_dependence_skill_erosion
+  n_mass_production_vs_inheritance --- n_career_wealth_and_motivation
+  n_learning_to_learn --- n_source_ktchuang_learning_to_learn_100x
+  n_learning_to_learn --- n_mass_production_vs_inheritance
+  n_learning_to_learn --- n_gun_to_rocket_launcher
+  n_learning_to_learn --- n_meta_skill
+  n_learning_to_learn --- n_combination_scarcity
+  n_learning_to_learn --- n_explorer_vs_follower
+  n_learning_to_learn --- n_from_code_to_human_problems
+  n_learning_to_learn --- n_high_win_rate_people
+  n_learning_to_learn --- n_worth_nurturing
+  n_learning_to_learn --- n_find_your_benefactor
+  n_learning_to_learn --- n_self_education_attention_compounding
+  n_learning_to_learn --- n_ai_era_student_playbook
+  n_learning_to_learn --- n_career_wealth_and_motivation
+  n_ai_job_ladder_collapse --- n_source_aiase_2026_w7_agentic_stack
+  n_ai_job_ladder_collapse --- n_career_wealth_and_motivation
+  n_ai_job_ladder_collapse --- n_stanford_sdel_canaries
+  n_ai_job_ladder_collapse --- n_ai_layoff_trap
+  n_ai_job_ladder_collapse --- n_tacit_knowledge
+  n_ai_job_ladder_collapse --- n_task_vs_job
+  n_ai_job_ladder_collapse --- n_automation_vs_augmentation
+  n_ai_job_ladder_collapse --- n_ai_dependence_skill_erosion
+  n_ai_job_ladder_collapse --- n_harness_engineering
+  n_ai_job_ladder_collapse --- n_sega_cheng
+  n_ai_job_ladder_collapse --- n_source_ikala_sega_ai_agent_era_2026
+  n_ai_job_ladder_collapse --- n_ai_amplifier_effect
+  n_ai_job_ladder_collapse --- n_source_ktchuang_explorer_vs_follower
+  n_ai_job_ladder_collapse --- n_explorer_vs_follower
+  n_ai_job_ladder_collapse --- n_ai_native_org_structure
+  n_ai_job_ladder_collapse --- n_jevons_paradox
+  n_ai_job_ladder_collapse --- n_executive_burnout
+  n_karpathy_llm_wiki --- n_andrej_karpathy
+  n_karpathy_llm_wiki --- n_source_karpathy_sequoia_ascent_2026
+  n_karpathy_llm_wiki --- n_understand_anything
+  n_karpathy_llm_wiki --- n_agent_skills_for_context_engineering
+  n_karpathy_llm_wiki --- n_context_engineering
+  n_karpathy_llm_wiki --- n_tree_sitter_llm_hybrid_analysis
+  n_karpathy_llm_wiki --- n_source_understand_anything_readme
+  n_adaptability_restlessness --- n_source_ktchuang_adaptability_restlessness_1
+  n_adaptability_restlessness --- n_meta_skill
+  n_adaptability_restlessness --- n_mass_production_vs_inheritance
+  n_adaptability_restlessness --- n_explorer_vs_follower
+  n_adaptability_restlessness --- n_trial_and_error_velocity
+  n_adaptability_restlessness --- n_learning_to_learn
+  n_adaptability_restlessness --- n_worth_nurturing
+  n_adaptability_restlessness --- n_transactional_mindset
+  n_adaptability_restlessness --- n_ai_era_student_playbook
+  n_directing_ai_not_executing --- n_source_ktchuang_directing_ai_language
+  n_directing_ai_not_executing --- n_ai_era_product_development
+  n_directing_ai_not_executing --- n_verifiability_mindset
+  n_directing_ai_not_executing --- n_task_vs_job
+  n_directing_ai_not_executing --- n_recursive_self_improvement
+  n_directing_ai_not_executing --- n_mechanism_over_prompt
+  n_directing_ai_not_executing --- n_team_of_excellence
+  n_directing_ai_not_executing --- n_ai_job_ladder_collapse
+  n_directing_ai_not_executing --- n_positional_ai_leverage
+  n_directing_ai_not_executing --- n_domain_knowledge_leverage
+  n_directing_ai_not_executing --- n_jensen_huang
+  n_directing_ai_not_executing --- n_ai_era_student_playbook
+  n_from_code_to_human_problems --- n_source_ktchuang_ship_and_share
+  n_from_code_to_human_problems --- n_meta_skill
+  n_from_code_to_human_problems --- n_service_before_leadership
+  n_from_code_to_human_problems --- n_task_vs_job
+  n_from_code_to_human_problems --- n_explorer_vs_follower
+  n_from_code_to_human_problems --- n_ai_dependence_skill_erosion
+  n_from_code_to_human_problems --- n_source_ktchuang_genai_course_reflection
+  n_from_code_to_human_problems --- n_thinking_depth_over_speed
+  n_from_code_to_human_problems --- n_career_wealth_and_motivation
+  n_from_code_to_human_problems --- n_source_ktchuang_service_before_leadership
+  n_composable_task_decomposition --- n_source_ktchuang_composable_task_decomposition
+  n_composable_task_decomposition --- n_improve_human_tasks_not_faster_code
+  n_composable_task_decomposition --- n_directing_ai_not_executing
+  n_composable_task_decomposition --- n_ai_era_product_development
+  n_composable_task_decomposition --- n_task_vs_job
+  n_composable_task_decomposition --- n_value_flow_window
+  n_composable_task_decomposition --- n_team_of_excellence
+  n_composable_task_decomposition --- n_skill_vs_subagent
+  n_composable_task_decomposition --- n_agentic_stack
+  n_composable_task_decomposition --- n_ai_era_student_playbook
+  n_mcp --- n_agentic_stack
+  n_mcp --- n_source_aiase_2026_w7_agentic_stack
+  n_mcp --- n_a2a_protocol
+  n_mcp --- n_token_economics
+  n_mcp --- n_cost_stack
+  n_mcp --- n_skill_vs_subagent
+  n_mcp --- n_context_window_management
+  n_taking_on_responsibility --- n_source_ktchuang_taking_on_responsibility
+  n_taking_on_responsibility --- n_ai_job_ladder_collapse
+  n_taking_on_responsibility --- n_gun_to_rocket_launcher
+  n_taking_on_responsibility --- n_worth_nurturing
+  n_taking_on_responsibility --- n_meta_skill
+  n_taking_on_responsibility --- n_trust_and_eq
+  n_taking_on_responsibility --- n_find_your_benefactor
+  n_taking_on_responsibility --- n_high_win_rate_people
+  n_taking_on_responsibility --- n_credit_as_future_resource
+  n_taking_on_responsibility --- n_positive_cycle
+  n_taking_on_responsibility --- n_ai_era_student_playbook
+  n_taking_on_responsibility --- n_career_wealth_and_motivation
+  n_taking_on_responsibility --- n_ownership_and_autonomy
+  n_taking_on_responsibility --- n_leadership_wishing_others_success
+  n_taking_on_responsibility --- n_jensen_huang
+  n_model_fusion --- n_source_openrouter_fusion_beats_frontier
+  n_model_fusion --- n_agentopt
+  n_model_fusion --- n_multi_agent_cost
+  n_model_fusion --- n_llm_routing
+  n_model_fusion --- n_ai_second_opinion
+  n_model_fusion --- n_second_opinion_cheatsheet
+  n_model_fusion --- n_trust_and_eq
+  n_model_fusion --- n_mtms_coordination_distillation
+  n_model_fusion --- n_combination_scarcity
+  n_model_fusion --- n_harness_engineering
+  n_think_big_frontier_problems --- n_source_ktchuang_think_big_service_as_software
+  n_think_big_frontier_problems --- n_run_towards_hardest_problems
+  n_think_big_frontier_problems --- n_thinking_depth_over_speed
+  n_think_big_frontier_problems --- n_explorer_vs_follower
+  n_think_big_frontier_problems --- n_prepared_for_upheaval
+  n_think_big_frontier_problems --- n_autoresearch
+  n_think_big_frontier_problems --- n_trial_and_error_velocity
+  n_think_big_frontier_problems --- n_ai_amplifier_effect
+  n_think_big_frontier_problems --- n_karpathy_llm_wiki
+  n_think_big_frontier_problems --- n_ai_native_service_companies
+  n_think_big_frontier_problems --- n_ai_agent_saas_disruption
+  n_think_big_frontier_problems --- n_compute_as_throttle
+  n_think_big_frontier_problems --- n_ai_era_student_playbook
+  n_worth_nurturing --- n_high_win_rate_people
+  n_worth_nurturing --- n_service_before_leadership
+  n_worth_nurturing --- n_source_ktchuang_worth_nurturing_lin_che
+  n_worth_nurturing --- n_meta_skill
+  n_worth_nurturing --- n_from_code_to_human_problems
+  n_worth_nurturing --- n_explorer_vs_follower
+  n_worth_nurturing --- n_thinking_depth_over_speed
+  n_worth_nurturing --- n_credit_as_future_resource
+  n_worth_nurturing --- n_mass_production_vs_inheritance
+  n_worth_nurturing --- n_positive_cycle
+  n_worth_nurturing --- n_find_your_benefactor
+  n_worth_nurturing --- n_opportunity_adhesion
+  n_worth_nurturing --- n_transactional_mindset
+  n_worth_nurturing --- n_career_wealth_and_motivation
+  n_worth_nurturing --- n_source_ktchuang_meta_skill_rabbit
+  n_worth_nurturing --- n_source_ktchuang_service_before_leadership
+  n_ai_native_learning_attitude --- n_source_ktchuang_ai_native_learning_attitude
+  n_ai_native_learning_attitude --- n_ai_era_student_playbook
+  n_ai_native_learning_attitude --- n_agent_harness
+  n_ai_native_learning_attitude --- n_harness_over_model
+  n_ai_native_learning_attitude --- n_trustworthy_systems_with_agents
+  n_ai_native_learning_attitude --- n_mechanism_over_prompt
+  n_ai_native_learning_attitude --- n_deterministic_vs_foundation_model
+  n_ai_native_learning_attitude --- n_meta_skill
+  n_ai_native_learning_attitude --- n_six_layer_ai_engineering
+  n_ai_native_learning_attitude --- n_value_flow_window
+  n_ai_native_learning_attitude --- n_ai_job_ladder_collapse
+  n_ai_native_learning_attitude --- n_employer_absolute_market
+  n_ai_native_learning_attitude --- n_gun_to_rocket_launcher
+  n_ai_native_learning_attitude --- n_task_vs_job
+  n_ai_native_learning_attitude --- n_directing_ai_not_executing
+  n_ai_native_learning_attitude --- n_domain_knowledge_leverage
+  n_ai_native_learning_attitude --- n_prepared_for_upheaval
+  n_ai_native_learning_attitude --- n_ownership_and_autonomy
+  n_ai_native_learning_attitude --- n_high_win_rate_people
+  n_ai_native_learning_attitude --- n_learning_to_learn
+  n_ai_native_learning_attitude --- n_combination_scarcity
+  n_ai_native_learning_attitude --- n_shallow_trendy_trap
+  n_ai_native_learning_attitude --- n_service_before_leadership
+  n_ai_native_learning_attitude --- n_transactional_mindset
+  n_ai_native_learning_attitude --- n_generosity_over_genius
+  n_ai_native_learning_attitude --- n_worth_nurturing
+  n_ai_native_learning_attitude --- n_trust_and_eq
+  n_ai_native_learning_attitude --- n_taking_on_responsibility
+  n_ai_native_learning_attitude --- n_positive_cycle
+  n_ai_native_learning_attitude --- n_find_your_benefactor
+  n_ai_native_learning_attitude --- n_opportunity_adhesion
+  n_ai_native_learning_attitude --- n_wikita
+  n_ai_native_learning_attitude --- n_research_meeting_communication
+  n_ai_native_learning_attitude --- n_credentialing_erosion
+  n_ai_native_learning_attitude --- n_how_you_work_not_what_you_can_do
+  n_ai_native_learning_attitude --- n_from_code_to_human_problems
+  n_ai_native_learning_attitude --- n_team_of_excellence
+  n_ai_native_learning_attitude --- n_career_wealth_and_motivation
+  n_jevons_paradox --- n_benedict_evans
+  n_jevons_paradox --- n_source_jevons_coding_task_vs_job
+  n_jevons_paradox --- n_task_vs_job
+  n_jevons_paradox --- n_ai_agent_saas_disruption
+  n_jevons_paradox --- n_source_karpathy_sequoia_ascent_2026
+  n_a2a_protocol --- n_agentic_stack
+  n_a2a_protocol --- n_source_aiase_2026_w7_agentic_stack
+  n_a2a_protocol --- n_skill_vs_subagent
+  n_business_development_is_the_moat --- n_source_ktchuang_business_development_moat
+  n_business_development_is_the_moat --- n_opportunity_adhesion
+  n_business_development_is_the_moat --- n_value_flow_window
+  n_business_development_is_the_moat --- n_team_of_excellence
+  n_business_development_is_the_moat --- n_employer_absolute_market
+  n_business_development_is_the_moat --- n_source_sillyduck_software_cheap_selling_hard
+  n_business_development_is_the_moat --- n_software_valuation_reset
+  n_business_development_is_the_moat --- n_recursive_self_improvement
+  n_business_development_is_the_moat --- n_ai_job_ladder_collapse
+  n_business_development_is_the_moat --- n_ai_native_service_companies
+  n_business_development_is_the_moat --- n_problem_first_not_tech_first
+  n_business_development_is_the_moat --- n_improve_human_tasks_not_faster_code
+  n_business_development_is_the_moat --- n_ai_era_student_playbook
+  n_business_development_is_the_moat --- n_directing_ai_not_executing
+  n_business_development_is_the_moat --- n_career_wealth_and_motivation
+  n_compute_as_throttle --- n_sega_cheng
+  n_compute_as_throttle --- n_source_sega_cheng_rsi_ai_writes_itself
+  n_compute_as_throttle --- n_recursive_self_improvement
+  n_compute_as_throttle --- n_nvidia
+  n_compute_as_throttle --- n_amd
+  n_compute_as_throttle --- n_pc_dual_track
+  n_compute_as_throttle --- n_source_computex_2026_nvidia_amd
+  n_compute_as_throttle --- n_token_economics
+  n_compute_as_throttle --- n_open_source_as_strategy
+  n_cognitive_surrender --- n_source_explainthis_cognitive_surrender
+  n_cognitive_surrender --- n_verifiability_mindset
+  n_cognitive_surrender --- n_ai_dependence_skill_erosion
+  n_cognitive_surrender --- n_trustworthy_systems_with_agents
+  n_cognitive_surrender --- n_directing_ai_not_executing
+  n_cognitive_surrender --- n_mechanism_over_prompt
+  n_cognitive_surrender --- n_agentic_software_delivery
+  n_cognitive_surrender --- n_educate_not_ban
+  n_cognitive_surrender --- n_cognitive_bias
+  n_cognitive_surrender --- n_cs_education_ai_agents
+  n_cognitive_surrender --- n_ai_era_student_playbook
+  n_cognitive_surrender --- n_harness_engineering
+  n_trustworthy_systems_with_agents --- n_source_ktchuang_five_abilities_agentic_era
+  n_trustworthy_systems_with_agents --- n_agentic_software_delivery
+  n_trustworthy_systems_with_agents --- n_coding_as_proxy_for_thinking
+  n_trustworthy_systems_with_agents --- n_programming_as_friction_tax
+  n_trustworthy_systems_with_agents --- n_directing_ai_not_executing
+  n_trustworthy_systems_with_agents --- n_composable_task_decomposition
+  n_trustworthy_systems_with_agents --- n_verifiability_mindset
+  n_trustworthy_systems_with_agents --- n_agentic_engineering
+  n_trustworthy_systems_with_agents --- n_task_vs_job
+  n_trustworthy_systems_with_agents --- n_spec_driven_development
+  n_trustworthy_systems_with_agents --- n_problem_first_not_tech_first
+  n_trustworthy_systems_with_agents --- n_taking_on_responsibility
+  n_trustworthy_systems_with_agents --- n_educate_not_ban
+  n_trustworthy_systems_with_agents --- n_cs_education_ai_agents
+  n_trustworthy_systems_with_agents --- n_ai_era_student_playbook
+  n_research_meeting_communication --- n_source_ktchuang_advisor_meeting
+  n_research_meeting_communication --- n_learning_to_learn
+  n_research_meeting_communication --- n_high_win_rate_people
+  n_research_meeting_communication --- n_find_your_benefactor
+  n_research_meeting_communication --- n_trust_and_eq
+  n_research_meeting_communication --- n_ai_era_student_playbook
+  n_agent_amplifies_taste --- n_source_github_copilot_handwriting_code
+  n_agent_amplifies_taste --- n_ai_amplifier_effect
+  n_agent_amplifies_taste --- n_ai_dependence_skill_erosion
+  n_agent_amplifies_taste --- n_cognitive_surrender
+  n_agent_amplifies_taste --- n_coding_as_proxy_for_thinking
+  n_agent_amplifies_taste --- n_directing_ai_not_executing
+  n_agent_amplifies_taste --- n_problem_first_not_tech_first
+  n_agent_amplifies_taste --- n_task_vs_job
+  n_agent_amplifies_taste --- n_thinking_depth_over_speed
+  n_agent_amplifies_taste --- n_meta_skill
+  n_agent_amplifies_taste --- n_trustworthy_systems_with_agents
+  n_agent_amplifies_taste --- n_hr_pillars_collapse
+  n_agent_amplifies_taste --- n_relentless_ceo_standards
+  n_agent_amplifies_taste --- n_ai_era_student_playbook
+  n_agent_amplifies_taste --- n_cs_education_ai_agents
+  n_expensive_poverty --- n_source_expensive_poverty_taipei
+  n_expensive_poverty --- n_executive_burnout
+  n_expensive_poverty --- n_transactional_mindset
+  n_expensive_poverty --- n_self_education_attention_compounding
+  n_expensive_poverty --- n_task_vs_job
+  n_expensive_poverty --- n_jevons_paradox
+  n_expensive_poverty --- n_credit_as_future_resource
+  n_expensive_poverty --- n_career_wealth_and_motivation
+  n_credit_as_future_resource --- n_vincent_cw_yu
+  n_credit_as_future_resource --- n_source_vincent_yu_credit_future_resources
+  n_credit_as_future_resource --- n_source_ktchuang_commitment_and_trust
+  n_credit_as_future_resource --- n_transactional_mindset
+  n_credit_as_future_resource --- n_positive_cycle
+  n_credit_as_future_resource --- n_llm_jaggedness
+  n_credit_as_future_resource --- n_deterministic_vs_foundation_model
+  n_credit_as_future_resource --- n_career_wealth_and_motivation
+  n_credit_as_future_resource --- n_ai_era_student_playbook
+  n_credit_as_future_resource --- n_trust_and_eq
+  n_credit_as_future_resource --- n_train_vs_ocean_american_dream
+  n_credentialing_erosion --- n_source_ktchuang_credentialing_erosion
+  n_credentialing_erosion --- n_combination_scarcity
+  n_credentialing_erosion --- n_coding_as_proxy_for_thinking
+  n_credentialing_erosion --- n_source_berkeley_cs_ai_failing_grades
+  n_credentialing_erosion --- n_dan_garcia
+  n_credentialing_erosion --- n_cs_education_ai_agents
+  n_credentialing_erosion --- n_software_valuation_reset
+  n_credentialing_erosion --- n_how_you_work_not_what_you_can_do
+  n_credentialing_erosion --- n_value_transfer_vs_value_creation
+  n_credentialing_erosion --- n_directing_ai_not_executing
+  n_credentialing_erosion --- n_ai_dependence_skill_erosion
+  n_credentialing_erosion --- n_ai_era_student_playbook
+  n_context_window_management --- n_claude_code
+  n_context_window_management --- n_everything_claude_code
+  n_context_window_management --- n_context_engineering
+  n_context_window_management --- n_context_degradation
+  n_context_window_management --- n_source_everything_claude_code_readme
+  n_gun_to_rocket_launcher --- n_source_ktchuang_rocket_launcher_win_rate
+  n_gun_to_rocket_launcher --- n_meta_skill
+  n_gun_to_rocket_launcher --- n_high_win_rate_people
+  n_gun_to_rocket_launcher --- n_ai_agent_saas_disruption
+  n_gun_to_rocket_launcher --- n_ai_native_service_companies
+  n_gun_to_rocket_launcher --- n_token_economics
+  n_gun_to_rocket_launcher --- n_llm_routing
+  n_gun_to_rocket_launcher --- n_agent_memory
+  n_gun_to_rocket_launcher --- n_mechanism_over_prompt
+  n_gun_to_rocket_launcher --- n_ai_amplifier_effect
+  n_gun_to_rocket_launcher --- n_explorer_vs_follower
+  n_gun_to_rocket_launcher --- n_thinking_depth_over_speed
+  n_gun_to_rocket_launcher --- n_career_wealth_and_motivation
+  n_automation_vs_augmentation --- n_source_aiase_2026_w7_agentic_stack
+  n_automation_vs_augmentation --- n_tacit_knowledge
+  n_automation_vs_augmentation --- n_spec_driven_development
+  n_automation_vs_augmentation --- n_ai_dependence_skill_erosion
+  n_automation_vs_augmentation --- n_task_vs_job
+  n_automation_vs_augmentation --- n_ai_layoff_trap
+  n_automation_vs_augmentation --- n_career_wealth_and_motivation
+  n_transactional_mindset --- n_source_ktchuang_transactional_mindset
+  n_transactional_mindset --- n_taking_on_responsibility
+  n_transactional_mindset --- n_positive_cycle
+  n_transactional_mindset --- n_explorer_vs_follower
+  n_transactional_mindset --- n_from_code_to_human_problems
+  n_transactional_mindset --- n_team_of_excellence
+  n_transactional_mindset --- n_ai_job_ladder_collapse
+  n_transactional_mindset --- n_meta_skill
+  n_transactional_mindset --- n_opportunity_adhesion
+  n_transactional_mindset --- n_find_your_benefactor
+  n_transactional_mindset --- n_ai_era_student_playbook
+  n_harness_over_model --- n_source_fable5_system_prompt_harness
+  n_harness_over_model --- n_agent_harness
+  n_harness_over_model --- n_harness_five_subsystems
+  n_harness_over_model --- n_agent_memory
+  n_harness_over_model --- n_context_engineering
+  n_harness_over_model --- n_tool_engineering
+  n_harness_over_model --- n_mechanism_over_prompt
+  n_harness_over_model --- n_eval_driven_development
+  n_harness_over_model --- n_loop_engineering
+  n_harness_over_model --- n_verifiability_mindset
+  n_harness_over_model --- n_harness_engineering
+  n_harness_over_model --- n_is_grep_all_you_need
+  n_harness_over_model --- n_six_layer_ai_engineering
+  n_harness_over_model --- n_model_fusion
+  n_harness_over_model --- n_prompt_engineering
+  n_ai_amplifier_effect --- n_sega_cheng
+  n_ai_amplifier_effect --- n_source_ikala_sega_ai_agent_era_2026
+  n_ai_amplifier_effect --- n_jensen_huang
+  n_ai_amplifier_effect --- n_tacit_knowledge
+  n_ai_amplifier_effect --- n_run_towards_hardest_problems
+  n_ai_amplifier_effect --- n_cs_education_ai_agents
+  n_ai_amplifier_effect --- n_thinking_depth_over_speed
+  n_ai_amplifier_effect --- n_automation_vs_augmentation
+  n_ai_amplifier_effect --- n_task_vs_job
+  n_ai_amplifier_effect --- n_meta_skill
+  n_ai_amplifier_effect --- n_high_win_rate_people
+  n_ai_amplifier_effect --- n_agentic_engineering
+  n_become_a_giver --- n_source_ktchuang_passion_attracts_benefactors
+  n_become_a_giver --- n_transactional_mindset
+  n_become_a_giver --- n_trust_and_eq
+  n_become_a_giver --- n_from_code_to_human_problems
+  n_become_a_giver --- n_how_you_work_not_what_you_can_do
+  n_become_a_giver --- n_source_ktchuang_grade_adjustment_letter
+  n_become_a_giver --- n_taste_resists_verification
+  n_become_a_giver --- n_generosity_over_genius
+  n_become_a_giver --- n_find_your_benefactor
+  n_become_a_giver --- n_leadership_wishing_others_success
+  n_become_a_giver --- n_taking_on_responsibility
+  n_become_a_giver --- n_worth_nurturing
+  n_become_a_giver --- n_positive_cycle
+  n_become_a_giver --- n_service_before_leadership
+  n_become_a_giver --- n_value_transfer_vs_value_creation
+  n_become_a_giver --- n_ai_native_learning_attitude
+  n_become_a_giver --- n_jensen_huang
+  n_become_a_giver --- n_ai_era_student_playbook
+  n_become_a_giver --- n_career_wealth_and_motivation
+  n_agent_skill_security --- n_source_skillspector
+  n_agent_skill_security --- n_claude_code_config_primitives
+  n_agent_skill_security --- n_mechanism_over_prompt
+  n_agent_skill_security --- n_trustworthy_systems_with_agents
+  n_agent_skill_security --- n_verifiability_mindset
+  n_agent_skill_security --- n_agent_harness
+  n_agent_skill_security --- n_harness_five_subsystems
+  n_agent_skill_security --- n_cognitive_surrender
+  n_agent_skill_security --- n_agent_skills_for_context_engineering
+  n_agent_skill_security --- n_skillspector
+  n_agent_skill_security --- n_mcp
+  n_agent_skill_security --- n_harness_engineering
+  n_lack_of_urgency --- n_source_bnext_chien_lack_of_urgency
+  n_lack_of_urgency --- n_chien_lee_feng
+  n_lack_of_urgency --- n_ai_native_service_companies
+  n_lack_of_urgency --- n_business_development_is_the_moat
+  n_lack_of_urgency --- n_improve_human_tasks_not_faster_code
+  n_lack_of_urgency --- n_software_valuation_reset
+  n_lack_of_urgency --- n_go_to_sea
+  n_lack_of_urgency --- n_educate_not_ban
+  n_lack_of_urgency --- n_directing_ai_not_executing
+  n_lack_of_urgency --- n_prepared_for_upheaval
+  n_lack_of_urgency --- n_employer_absolute_market
+  n_lack_of_urgency --- n_ai_layoff_trap
+  n_lack_of_urgency --- n_career_wealth_and_motivation
+  n_lack_of_urgency --- n_ai_era_student_playbook
+  n_positional_ai_leverage --- n_wisely_chen
+  n_positional_ai_leverage --- n_source_wiselychen_ai_worker_position
+  n_positional_ai_leverage --- n_ai_layoff_trap
+  n_positional_ai_leverage --- n_transactional_mindset
+  n_positional_ai_leverage --- n_explorer_vs_follower
+  n_positional_ai_leverage --- n_trial_and_error_velocity
+  n_positional_ai_leverage --- n_ownership_and_autonomy
+  n_positional_ai_leverage --- n_recursive_self_improvement
+  n_positional_ai_leverage --- n_ai_era_product_development
+  n_positional_ai_leverage --- n_credit_as_future_resource
+  n_positional_ai_leverage --- n_team_of_excellence
+  n_positional_ai_leverage --- n_task_vs_job
+  n_positional_ai_leverage --- n_career_wealth_and_motivation
+  n_positional_ai_leverage --- n_ai_era_student_playbook
+  n_verifiability_mindset --- n_source_aiase_2026_w8_token_economy
+  n_verifiability_mindset --- n_token_economics
+  n_verifiability_mindset --- n_structured_cot
+  n_verifiability_mindset --- n_llm_routing
+  n_verifiability_mindset --- n_is_grep_all_you_need
+  n_verifiability_mindset --- n_eval_driven_development
+  n_verifiability_mindset --- n_deterministic_vs_foundation_model
+  n_verifiability_mindset --- n_taste_resists_verification
+  n_verifiability_mindset --- n_tacit_knowledge
+  n_verifiability_mindset --- n_cost_stack
+  n_verifiability_mindset --- n_spec_driven_development
+  n_verifiability_mindset --- n_harness_engineering
+  n_pursuit_of_excellence --- n_source_ktchuang_pursuit_of_excellence
+  n_pursuit_of_excellence --- n_combination_scarcity
+  n_pursuit_of_excellence --- n_find_your_benefactor
+  n_pursuit_of_excellence --- n_leadership_wishing_others_success
+  n_pursuit_of_excellence --- n_taking_on_responsibility
+  n_pursuit_of_excellence --- n_worth_nurturing
+  n_pursuit_of_excellence --- n_positive_cycle
+  n_pursuit_of_excellence --- n_ai_dependence_skill_erosion
+  n_pursuit_of_excellence --- n_ai_era_student_playbook
+  n_pursuit_of_excellence --- n_career_wealth_and_motivation
+  n_pursuit_of_excellence --- n_jensen_huang
+  n_spec_driven_development --- n_source_aiase_2026_w8_token_economy
+  n_spec_driven_development --- n_token_economics
+  n_spec_driven_development --- n_structured_cot
+  n_spec_driven_development --- n_cost_stack
+  n_spec_driven_development --- n_eval_driven_development
+  n_spec_driven_development --- n_harness_engineering
+  n_hr_pillars_collapse --- n_source_mckinsey_hr_monitor_2026
+  n_hr_pillars_collapse --- n_agentic_software_delivery
+  n_hr_pillars_collapse --- n_problem_first_not_tech_first
+  n_hr_pillars_collapse --- n_strategy_over_tactics
+  n_hr_pillars_collapse --- n_directing_ai_not_executing
+  n_hr_pillars_collapse --- n_trustworthy_systems_with_agents
+  n_hr_pillars_collapse --- n_meta_skill
+  n_hr_pillars_collapse --- n_shallow_trendy_trap
+  n_hr_pillars_collapse --- n_ai_job_ladder_collapse
+  n_hr_pillars_collapse --- n_employer_absolute_market
+  n_hr_pillars_collapse --- n_ai_amplifier_effect
+  n_hr_pillars_collapse --- n_cognitive_surrender
+  n_hr_pillars_collapse --- n_verifiability_mindset
+  n_hr_pillars_collapse --- n_improve_human_tasks_not_faster_code
+  n_hr_pillars_collapse --- n_career_wealth_and_motivation
+  n_hr_pillars_collapse --- n_ai_era_student_playbook
+  n_tacit_knowledge --- n_source_aiase_2026_w7_agentic_stack
+  n_tacit_knowledge --- n_task_vs_job
+  n_tacit_knowledge --- n_credit_as_future_resource
+  n_tacit_knowledge --- n_five_types_of_wealth
+  n_tacit_knowledge --- n_run_towards_hardest_problems
+  n_tacit_knowledge --- n_career_wealth_and_motivation
+  n_educate_not_ban --- n_source_ktchuang_educate_not_ban
+  n_educate_not_ban --- n_ai_dependence_skill_erosion
+  n_educate_not_ban --- n_credentialing_erosion
+  n_educate_not_ban --- n_source_berkeley_cs_ai_failing_grades
+  n_educate_not_ban --- n_directing_ai_not_executing
+  n_educate_not_ban --- n_verifiability_mindset
+  n_educate_not_ban --- n_cs_education_ai_agents
+  n_educate_not_ban --- n_ai_era_student_playbook
+  n_token_economics --- n_source_aiase_2026_w8_token_economy
+  n_token_economics --- n_source_microsoft_suleyman_anthropic_too_expensive
+  n_token_economics --- n_microsoft
+  n_token_economics --- n_mustafa_suleyman
+  n_token_economics --- n_anthropic
+  n_token_economics --- n_cost_stack
+  n_token_economics --- n_structured_cot
+  n_token_economics --- n_llm_routing
+  n_token_economics --- n_multi_agent_cost
+  n_token_economics --- n_jevons_paradox
+  n_token_economics --- n_context_engineering
+  n_token_economics --- n_context_window_management
+  n_token_economics --- n_retrieval_plus_orchestration
+  n_token_economics --- n_is_grep_all_you_need
+  n_token_economics --- n_task_vs_job
+  n_token_economics --- n_ai_native_service_companies
+  n_token_economics --- n_green_ai_computing
+  n_token_economics --- n_ai_compute_as_dispatchable_load
+  n_token_economics --- n_agentopt
+  n_token_economics --- n_headroom
+  n_token_economics --- n_eval_driven_development
+  n_token_economics --- n_harness_engineering
+  n_generosity_over_genius --- n_source_jensen_generosity_summit
+  n_generosity_over_genius --- n_jensen_huang
+  n_generosity_over_genius --- n_meta_skill
+  n_generosity_over_genius --- n_trust_and_eq
+  n_generosity_over_genius --- n_team_of_excellence
+  n_generosity_over_genius --- n_leadership_wishing_others_success
+  n_generosity_over_genius --- n_value_transfer_vs_value_creation
+  n_generosity_over_genius --- n_service_before_leadership
+  n_generosity_over_genius --- n_positive_cycle
+  n_generosity_over_genius --- n_worth_nurturing
+  n_generosity_over_genius --- n_opportunity_adhesion
+  n_generosity_over_genius --- n_transactional_mindset
+  n_generosity_over_genius --- n_career_wealth_and_motivation
+  n_generosity_over_genius --- n_ai_era_student_playbook
+  n_pc_dual_track --- n_source_computex_2026_nvidia_amd
+  n_pc_dual_track --- n_nvidia
+  n_pc_dual_track --- n_amd
+  n_pc_dual_track --- n_agentic_engineering
+  n_pc_dual_track --- n_deterministic_vs_foundation_model
+  n_pc_dual_track --- n_computex_2026_nvidia_amd
+  n_tool_engineering --- n_source_six_layer_ai_engineering
+  n_tool_engineering --- n_cognitive_surrender
+  n_tool_engineering --- n_mcp
+  n_tool_engineering --- n_mechanism_over_prompt
+  n_tool_engineering --- n_agent_skill_security
+  n_tool_engineering --- n_skillspector
+  n_tool_engineering --- n_skill_vs_subagent
+  n_tool_engineering --- n_agentic_stack
+  n_tool_engineering --- n_six_layer_ai_engineering
+  n_tool_engineering --- n_agent_harness
+  n_deterministic_vs_foundation_model --- n_source_aiase_deterministic_vs_foundation_model
+  n_deterministic_vs_foundation_model --- n_timesfm
+  n_deterministic_vs_foundation_model --- n_source_ktchuang_genai_course_reflection
+  n_deterministic_vs_foundation_model --- n_software_1_2_3
+  n_deterministic_vs_foundation_model --- n_claude_code
+  n_deterministic_vs_foundation_model --- n_agentic_engineering
+  n_deterministic_vs_foundation_model --- n_llm_jaggedness
+  n_deterministic_vs_foundation_model --- n_gemma_4
+  n_programming_as_friction_tax --- n_source_musk_programming_as_friction
+  n_programming_as_friction_tax --- n_elon_musk
+  n_programming_as_friction_tax --- n_directing_ai_not_executing
+  n_programming_as_friction_tax --- n_coding_as_proxy_for_thinking
+  n_programming_as_friction_tax --- n_agentic_software_delivery
+  n_programming_as_friction_tax --- n_gun_to_rocket_launcher
+  n_programming_as_friction_tax --- n_ai_job_ladder_collapse
+  n_programming_as_friction_tax --- n_verifiability_mindset
+  n_programming_as_friction_tax --- n_problem_first_not_tech_first
+  n_programming_as_friction_tax --- n_improve_human_tasks_not_faster_code
+  n_programming_as_friction_tax --- n_jensen_huang
+  n_programming_as_friction_tax --- n_ai_era_student_playbook
+  n_programming_as_friction_tax --- n_harness_engineering
+  n_value_flow_window --- n_source_ktchuang_value_flow_window
+  n_value_flow_window --- n_recursive_self_improvement
+  n_value_flow_window --- n_ai_layoff_trap
+  n_value_flow_window --- n_find_your_benefactor
+  n_value_flow_window --- n_high_win_rate_people
+  n_value_flow_window --- n_positional_ai_leverage
+  n_value_flow_window --- n_team_of_excellence
+  n_value_flow_window --- n_employer_absolute_market
+  n_value_flow_window --- n_transactional_mindset
+  n_value_flow_window --- n_opportunity_adhesion
+  n_value_flow_window --- n_ai_era_student_playbook
+  n_explorer_vs_follower --- n_source_ktchuang_explorer_vs_follower
+  n_explorer_vs_follower --- n_task_vs_job
+  n_explorer_vs_follower --- n_run_towards_hardest_problems
+  n_explorer_vs_follower --- n_tacit_knowledge
+  n_explorer_vs_follower --- n_ai_amplifier_effect
+  n_explorer_vs_follower --- n_ai_native_org_structure
+  n_explorer_vs_follower --- n_autoresearch
+  n_explorer_vs_follower --- n_token_economics
+  n_explorer_vs_follower --- n_meta_skill
+  n_explorer_vs_follower --- n_service_before_leadership
+  n_explorer_vs_follower --- n_go_to_sea
+  n_explorer_vs_follower --- n_high_win_rate_people
+  n_explorer_vs_follower --- n_trial_and_error_velocity
+  n_explorer_vs_follower --- n_ownership_and_autonomy
+  n_explorer_vs_follower --- n_automation_vs_augmentation
+  n_explorer_vs_follower --- n_thinking_depth_over_speed
+  n_explorer_vs_follower --- n_ben_mann
+  n_explorer_vs_follower --- n_career_wealth_and_motivation
+  n_prompt_engineering --- n_source_six_layer_ai_engineering
+  n_prompt_engineering --- n_eval_driven_development
+  n_prompt_engineering --- n_six_layer_ai_engineering
+  n_prompt_engineering --- n_context_engineering
+  n_prompt_engineering --- n_source_bnext_context_engineering
+  n_prompt_engineering --- n_mechanism_over_prompt
+  n_prompt_engineering --- n_structured_cot
+  n_prompt_engineering --- n_directing_ai_not_executing
+  n_leadership_wishing_others_success --- n_jensen_huang
+  n_leadership_wishing_others_success --- n_source_jensen_huang_leadership_summit
+  n_leadership_wishing_others_success --- n_executive_burnout
+  n_leadership_wishing_others_success --- n_five_types_of_wealth
+  n_leadership_wishing_others_success --- n_ai_agent_saas_disruption
+  n_leadership_wishing_others_success --- n_task_vs_job
+  n_leadership_wishing_others_success --- n_service_before_leadership
+  n_leadership_wishing_others_success --- n_meta_skill
+  n_leadership_wishing_others_success --- n_career_wealth_and_motivation
+  n_value_transfer_vs_value_creation --- n_source_ktchuang_value_transfer_vs_creation
+  n_value_transfer_vs_value_creation --- n_sega_cheng
+  n_value_transfer_vs_value_creation --- n_find_your_benefactor
+  n_value_transfer_vs_value_creation --- n_worth_nurturing
+  n_value_transfer_vs_value_creation --- n_opportunity_adhesion
+  n_value_transfer_vs_value_creation --- n_service_before_leadership
+  n_value_transfer_vs_value_creation --- n_positive_cycle
+  n_value_transfer_vs_value_creation --- n_trial_and_error_velocity
+  n_value_transfer_vs_value_creation --- n_value_flow_window
+  n_value_transfer_vs_value_creation --- n_transactional_mindset
+  n_value_transfer_vs_value_creation --- n_source_wanweigang_scarce_abilities
+  n_value_transfer_vs_value_creation --- n_taking_on_responsibility
+  n_value_transfer_vs_value_creation --- n_directing_ai_not_executing
+  n_value_transfer_vs_value_creation --- n_task_vs_job
+  n_value_transfer_vs_value_creation --- n_explorer_vs_follower
+  n_value_transfer_vs_value_creation --- n_how_you_work_not_what_you_can_do
+  n_value_transfer_vs_value_creation --- n_credit_as_future_resource
+  n_value_transfer_vs_value_creation --- n_recursive_self_improvement
+  n_value_transfer_vs_value_creation --- n_career_wealth_and_motivation
+  n_value_transfer_vs_value_creation --- n_ai_era_student_playbook
+  n_llm_routing --- n_cost_stack
+  n_llm_routing --- n_source_aiase_2026_w8_token_economy
+  n_llm_routing --- n_agentopt
+  n_llm_routing --- n_multi_agent_cost
+  n_llm_routing --- n_harness_engineering
+  n_ai_operating_layer --- n_source_kenny_su_ai_os
+  n_ai_operating_layer --- n_ai_operating_leverage
+  n_ai_operating_layer --- n_ai_amplifier_effect
+  n_ai_operating_layer --- n_positional_ai_leverage
+  n_ai_operating_layer --- n_agent_memory
+  n_ai_operating_layer --- n_context_engineering
+  n_ai_operating_layer --- n_harness_five_subsystems
+  n_ai_operating_layer --- n_directing_ai_not_executing
+  n_ai_operating_layer --- n_karpathy_llm_wiki
+  n_ai_operating_layer --- n_harness_engineering
+  n_ai_operating_layer --- n_ai_era_student_playbook
+  n_ai_layoff_trap --- n_source_ai_layoff_trap_paper
+  n_ai_layoff_trap --- n_source_ktchuang_snap_ai_layoff_confession
+  n_ai_layoff_trap --- n_team_of_excellence
+  n_ai_layoff_trap --- n_recursive_self_improvement
+  n_ai_layoff_trap --- n_gun_to_rocket_launcher
+  n_ai_layoff_trap --- n_credit_as_future_resource
+  n_ai_layoff_trap --- n_ai_native_org_structure
+  n_ai_layoff_trap --- n_jevons_paradox
+  n_ai_layoff_trap --- n_ai_amplifier_effect
+  n_ai_layoff_trap --- n_task_vs_job
+  n_ai_layoff_trap --- n_ai_agent_saas_disruption
+  n_ai_layoff_trap --- n_employer_absolute_market
+  n_ai_layoff_trap --- n_career_wealth_and_motivation
+  n_ai_era_product_development --- n_cat_wu
+  n_ai_era_product_development --- n_claude_code
+  n_ai_era_product_development --- n_source_catwu_claude_code_pm_9_truths
+  n_ai_era_product_development --- n_mechanism_over_prompt
+  n_ai_era_product_development --- n_recursive_self_improvement
+  n_ai_era_product_development --- n_verifiability_mindset
+  n_ai_era_product_development --- n_eval_driven_development
+  n_ai_era_product_development --- n_task_vs_job
+  n_ai_era_product_development --- n_thinking_depth_over_speed
+  n_ai_era_product_development --- n_gun_to_rocket_launcher
+  n_ai_era_product_development --- n_spec_driven_development
+  n_ai_era_product_development --- n_team_of_excellence
+  n_ai_era_product_development --- n_transactional_mindset
+  n_ai_era_product_development --- n_anthropic
+  n_skill_vs_subagent --- n_source_aiase_2026_w7_agentic_stack
+  n_skill_vs_subagent --- n_source_aiase_2026_w8_token_economy
+  n_skill_vs_subagent --- n_agentic_stack
+  n_skill_vs_subagent --- n_spec_driven_development
+  n_skill_vs_subagent --- n_gstack
+  n_skill_vs_subagent --- n_multi_agent_cost
+  n_skill_vs_subagent --- n_token_economics
+  n_skill_vs_subagent --- n_karpathy_llm_wiki
+  n_skill_vs_subagent --- n_pi_framework
+  n_ai_native_engineering_management --- n_source_lenny_fiona_fung_ai_native_eng
+  n_ai_native_engineering_management --- n_fiona_fung
+  n_ai_native_engineering_management --- n_loop_engineering
+  n_ai_native_engineering_management --- n_six_layer_ai_engineering
+  n_ai_native_engineering_management --- n_multi_agent_cost
+  n_ai_native_engineering_management --- n_combination_scarcity
+  n_ai_native_engineering_management --- n_team_of_excellence
+  n_ai_native_engineering_management --- n_domain_knowledge_leverage
+  n_ai_native_engineering_management --- n_how_you_work_not_what_you_can_do
+  n_ai_native_engineering_management --- n_ownership_and_autonomy
+  n_ai_native_engineering_management --- n_mass_production_vs_inheritance
+  n_ai_native_engineering_management --- n_learning_to_learn
+  n_ai_native_engineering_management --- n_trial_and_error_velocity
+  n_ai_native_engineering_management --- n_prepared_for_upheaval
+  n_ai_native_engineering_management --- n_adaptability_restlessness
+  n_ai_native_engineering_management --- n_ai_dependence_skill_erosion
+  n_ai_native_engineering_management --- n_trust_and_eq
+  n_ai_native_engineering_management --- n_service_before_leadership
+  n_ai_native_engineering_management --- n_ai_native_learning_attitude
+  n_ai_native_engineering_management --- n_cs_education_ai_agents
+  n_ai_native_engineering_management --- n_verification_is_the_new_bottleneck
+  n_ai_native_engineering_management --- n_ai_native_org_structure
+  n_ai_native_engineering_management --- n_harness_engineering
+  n_ai_native_engineering_management --- n_career_wealth_and_motivation
+  n_verification_is_the_new_bottleneck --- n_source_lenny_fiona_fung_ai_native_eng
+  n_verification_is_the_new_bottleneck --- n_fiona_fung
+  n_verification_is_the_new_bottleneck --- n_boris_cherny
+  n_verification_is_the_new_bottleneck --- n_domain_knowledge_leverage
+  n_verification_is_the_new_bottleneck --- n_directing_ai_not_executing
+  n_verification_is_the_new_bottleneck --- n_token_economics
+  n_verification_is_the_new_bottleneck --- n_cost_stack
+  n_verification_is_the_new_bottleneck --- n_verifiability_mindset
+  n_verification_is_the_new_bottleneck --- n_multi_agent_cost
+  n_verification_is_the_new_bottleneck --- n_spec_driven_development
+  n_verification_is_the_new_bottleneck --- n_eval_driven_development
+  n_verification_is_the_new_bottleneck --- n_mechanism_over_prompt
+  n_verification_is_the_new_bottleneck --- n_harness_over_model
+  n_verification_is_the_new_bottleneck --- n_taste_resists_verification
+  n_verification_is_the_new_bottleneck --- n_ai_era_product_development
+  n_verification_is_the_new_bottleneck --- n_improve_human_tasks_not_faster_code
+  n_verification_is_the_new_bottleneck --- n_harness_engineering
+  n_verification_is_the_new_bottleneck --- n_six_layer_ai_engineering
+  n_verification_is_the_new_bottleneck --- n_source_ktchuang_fiona_verification_note
+  n_software_1_2_3 --- n_andrej_karpathy
+  n_software_1_2_3 --- n_source_karpathy_sequoia_ascent_2026
+  n_software_1_2_3 --- n_source_ktchuang_genai_course_reflection
+  n_software_1_2_3 --- n_agentic_engineering
+  n_executive_burnout --- n_source_executive_career_burnout
+  n_executive_burnout --- n_task_vs_job
+  n_executive_burnout --- n_atomic_habits
+  n_executive_burnout --- n_career_wealth_and_motivation
+  n_zero_to_one_vs_one_to_hundred --- n_source_ktchuang_zero_to_one_talent
+  n_zero_to_one_vs_one_to_hundred --- n_ai_agent_saas_disruption
+  n_zero_to_one_vs_one_to_hundred --- n_explorer_vs_follower
+  n_zero_to_one_vs_one_to_hundred --- n_ai_native_org_structure
+  n_zero_to_one_vs_one_to_hundred --- n_ai_job_ladder_collapse
+  n_zero_to_one_vs_one_to_hundred --- n_task_vs_job
+  n_zero_to_one_vs_one_to_hundred --- n_ai_native_service_companies
+  n_zero_to_one_vs_one_to_hundred --- n_go_to_sea
+  n_zero_to_one_vs_one_to_hundred --- n_career_wealth_and_motivation
+  n_fda_style_ai_oversight --- n_gary_marcus
+  n_fda_style_ai_oversight --- n_source_gary_marcus_llm_toothpaste_2026
+  n_fda_style_ai_oversight --- n_trustworthy_systems_with_agents
+  n_fda_style_ai_oversight --- n_agent_skill_security
+  n_fda_style_ai_oversight --- n_over_attribution_of_intelligence
+  n_multi_agent_cost --- n_cost_stack
+  n_multi_agent_cost --- n_source_aiase_2026_w8_token_economy
+  n_multi_agent_cost --- n_claude_code
+  n_multi_agent_cost --- n_agentopt
+  n_multi_agent_cost --- n_agent_harness
+  n_multi_agent_cost --- n_agentic_engineering
+  n_multi_agent_cost --- n_harness_engineering
+  n_how_you_work_not_what_you_can_do --- n_source_ktchuang_how_you_work_water_amd
+  n_how_you_work_not_what_you_can_do --- n_team_of_excellence
+  n_how_you_work_not_what_you_can_do --- n_gun_to_rocket_launcher
+  n_how_you_work_not_what_you_can_do --- n_recursive_self_improvement
+  n_how_you_work_not_what_you_can_do --- n_credit_as_future_resource
+  n_how_you_work_not_what_you_can_do --- n_positional_ai_leverage
+  n_how_you_work_not_what_you_can_do --- n_mass_production_vs_inheritance
+  n_how_you_work_not_what_you_can_do --- n_worth_nurturing
+  n_how_you_work_not_what_you_can_do --- n_learning_to_learn
+  n_how_you_work_not_what_you_can_do --- n_high_win_rate_people
+  n_how_you_work_not_what_you_can_do --- n_find_your_benefactor
+  n_how_you_work_not_what_you_can_do --- n_taking_on_responsibility
+  n_how_you_work_not_what_you_can_do --- n_trial_and_error_velocity
+  n_how_you_work_not_what_you_can_do --- n_ai_era_student_playbook
+  n_ai_dependence_skill_erosion --- n_source_berkeley_cs_ai_failing_grades
+  n_ai_dependence_skill_erosion --- n_dan_garcia
+  n_ai_dependence_skill_erosion --- n_run_towards_hardest_problems
+  n_ai_dependence_skill_erosion --- n_lisa_su
+  n_ai_dependence_skill_erosion --- n_cs_education_ai_agents
+  n_ai_dependence_skill_erosion --- n_nathan_chiu
+  n_ai_dependence_skill_erosion --- n_task_vs_job
+  n_ai_dependence_skill_erosion --- n_source_jevons_coding_task_vs_job
+  n_ai_dependence_skill_erosion --- n_source_ktchuang_cs_education_all_in_ai
+  n_ai_dependence_skill_erosion --- n_coding_as_proxy_for_thinking
+  n_ai_dependence_skill_erosion --- n_agentic_engineering
+  n_recursive_self_improvement --- n_anthropic
+  n_recursive_self_improvement --- n_sega_cheng
+  n_recursive_self_improvement --- n_source_sega_cheng_rsi_ai_writes_itself
+  n_recursive_self_improvement --- n_ai_agent_saas_disruption
+  n_recursive_self_improvement --- n_claude_code
+  n_recursive_self_improvement --- n_task_vs_job
+  n_recursive_self_improvement --- n_thinking_depth_over_speed
+  n_recursive_self_improvement --- n_run_towards_hardest_problems
+  n_recursive_self_improvement --- n_gun_to_rocket_launcher
+  n_recursive_self_improvement --- n_mechanism_over_prompt
+  n_recursive_self_improvement --- n_verifiability_mindset
+  n_recursive_self_improvement --- n_source_ktchuang_ai_compiler_of_compiler
+  n_recursive_self_improvement --- n_agentic_engineering
+  n_shallow_trendy_trap --- n_source_ktchuang_shallow_trendy_trap
+  n_shallow_trendy_trap --- n_coding_as_proxy_for_thinking
+  n_shallow_trendy_trap --- n_combination_scarcity
+  n_shallow_trendy_trap --- n_pursuit_of_excellence
+  n_shallow_trendy_trap --- n_transactional_mindset
+  n_shallow_trendy_trap --- n_gun_to_rocket_launcher
+  n_shallow_trendy_trap --- n_explorer_vs_follower
+  n_shallow_trendy_trap --- n_ai_era_student_playbook
+  n_high_win_rate_people --- n_source_ktchuang_rocket_launcher_win_rate
+  n_high_win_rate_people --- n_service_before_leadership
+  n_high_win_rate_people --- n_meta_skill
+  n_high_win_rate_people --- n_credit_as_future_resource
+  n_high_win_rate_people --- n_ai_native_org_structure
+  n_high_win_rate_people --- n_from_code_to_human_problems
+  n_high_win_rate_people --- n_find_your_benefactor
+  n_high_win_rate_people --- n_positive_cycle
+  n_high_win_rate_people --- n_career_wealth_and_motivation
+  n_ai_native_org_structure --- n_source_ktchuang_explorer_vs_follower
+  n_ai_native_org_structure --- n_ai_native_service_companies
+  n_ai_native_org_structure --- n_charlie_warren
+  n_ai_native_org_structure --- n_ai_operating_leverage
+  n_ai_native_org_structure --- n_ai_amplifier_effect
+  n_ai_native_org_structure --- n_task_vs_job
+  n_ai_native_org_structure --- n_credit_as_future_resource
+  n_ai_native_org_structure --- n_career_wealth_and_motivation
+  n_structured_cot --- n_cost_stack
+  n_structured_cot --- n_source_aiase_2026_w8_token_economy
+  n_structured_cot --- n_harness_engineering
+  n_meta_skill --- n_source_ktchuang_service_before_leadership
+  n_meta_skill --- n_source_ktchuang_meta_skill_rabbit
+  n_meta_skill --- n_source_ktchuang_do_what_moves_you
+  n_meta_skill --- n_run_towards_hardest_problems
+  n_meta_skill --- n_source_ktchuang_altruism_undistillable
+  n_meta_skill --- n_service_before_leadership
+  n_meta_skill --- n_task_vs_job
+  n_meta_skill --- n_tacit_knowledge
+  n_meta_skill --- n_thinking_depth_over_speed
+  n_meta_skill --- n_credit_as_future_resource
+  n_meta_skill --- n_career_wealth_and_motivation
+  n_opportunity_adhesion --- n_source_ktchuang_transactional_mindset
+  n_opportunity_adhesion --- n_high_win_rate_people
+  n_opportunity_adhesion --- n_find_your_benefactor
+  n_opportunity_adhesion --- n_positive_cycle
+  n_opportunity_adhesion --- n_meta_skill
+  n_opportunity_adhesion --- n_ai_era_student_playbook
+  n_ai_compute_as_dispatchable_load --- n_source_nstc_iown_green_ai_proposal
+  n_ai_compute_as_dispatchable_load --- n_green_ai_computing
+  n_ai_compute_as_dispatchable_load --- n_iown
+  n_ai_compute_as_dispatchable_load --- n_incentive_guided_energy
+  n_ai_compute_as_dispatchable_load --- n_llm_routing
+  n_ai_compute_as_dispatchable_load --- n_deterministic_vs_foundation_model
+  n_ai_compute_as_dispatchable_load --- n_cost_stack
+  n_ai_compute_as_dispatchable_load --- n_virtual_power_plant
+  n_ai_compute_as_dispatchable_load --- n_jevons_paradox
+  n_ai_compute_as_dispatchable_load --- n_compute_as_throttle
+  n_eval_driven_development --- n_source_aiase_2026_w8_token_economy
+  n_eval_driven_development --- n_structured_cot
+  n_eval_driven_development --- n_agentopt
+  n_eval_driven_development --- n_cost_stack
+  n_eval_driven_development --- n_harness_engineering
+  n_problem_first_not_tech_first --- n_source_shenrobin_problem_first
+  n_problem_first_not_tech_first --- n_improve_human_tasks_not_faster_code
+  n_problem_first_not_tech_first --- n_task_vs_job
+  n_problem_first_not_tech_first --- n_strategy_over_tactics
+  n_problem_first_not_tech_first --- n_from_code_to_human_problems
+  n_problem_first_not_tech_first --- n_ai_era_product_development
+  n_problem_first_not_tech_first --- n_career_wealth_and_motivation
+  n_problem_first_not_tech_first --- n_ai_era_student_playbook
+  n_open_source_as_strategy --- n_source_bnext_taiwan_ai_open_source
+  n_open_source_as_strategy --- n_tsai_chi_yen
+  n_open_source_as_strategy --- n_justin_mclean
+  n_open_source_as_strategy --- n_tsai_chia_ping
+  n_open_source_as_strategy --- n_business_development_is_the_moat
+  n_open_source_as_strategy --- n_become_a_giver
+  n_open_source_as_strategy --- n_gary_marcus
+  n_open_source_as_strategy --- n_llm_commoditization_no_moat
+  n_open_source_as_strategy --- n_green_ai_computing
+  n_virtual_power_plant --- n_source_nstc_iown_green_ai_proposal
+  n_virtual_power_plant --- n_source_nstc_energyai_proposal
+  n_virtual_power_plant --- n_green_ai_computing
+  n_virtual_power_plant --- n_incentive_guided_energy
+  n_virtual_power_plant --- n_energyai
+  n_virtual_power_plant --- n_mtms_coordination_distillation
+  n_virtual_power_plant --- n_jevons_paradox
+  n_virtual_power_plant --- n_token_economics
+  n_virtual_power_plant --- n_iown
+  n_train_vs_ocean_american_dream --- n_jack_c_sung
+  n_train_vs_ocean_american_dream --- n_source_jack_sung_american_dream
+  n_train_vs_ocean_american_dream --- n_ai_agent_saas_disruption
+  n_train_vs_ocean_american_dream --- n_agentic_engineering
+  n_train_vs_ocean_american_dream --- n_task_vs_job
+  n_software_valuation_reset --- n_source_ktchuang_software_valuation_reset
+  n_software_valuation_reset --- n_source_ktchuang_ben_thompson_saas
+  n_software_valuation_reset --- n_ai_native_service_companies
+  n_software_valuation_reset --- n_token_economics
+  n_software_valuation_reset --- n_compute_as_throttle
+  n_software_valuation_reset --- n_value_flow_window
+  n_software_valuation_reset --- n_positional_ai_leverage
+  n_software_valuation_reset --- n_employer_absolute_market
+  n_software_valuation_reset --- n_transactional_mindset
+  n_software_valuation_reset --- n_ai_agent_saas_disruption
+  n_software_valuation_reset --- n_ai_operating_leverage
+  n_software_valuation_reset --- n_ai_layoff_trap
+  n_software_valuation_reset --- n_microsoft
+  n_software_valuation_reset --- n_career_wealth_and_motivation
+  n_software_valuation_reset --- n_ai_era_student_playbook
+  n_coding_as_proxy_for_thinking --- n_source_ktchuang_cs_education_all_in_ai
+  n_coding_as_proxy_for_thinking --- n_cs_education_ai_agents
+  n_coding_as_proxy_for_thinking --- n_task_vs_job
+  n_coding_as_proxy_for_thinking --- n_explorer_vs_follower
+  n_coding_as_proxy_for_thinking --- n_agentic_engineering
+  n_tree_sitter_llm_hybrid_analysis --- n_understand_anything
+  n_tree_sitter_llm_hybrid_analysis --- n_ai_second_opinion
+  n_tree_sitter_llm_hybrid_analysis --- n_graphify
+  n_tree_sitter_llm_hybrid_analysis --- n_skillspector
+  n_tree_sitter_llm_hybrid_analysis --- n_source_understand_anything_readme
+  n_find_your_benefactor --- n_source_ktchuang_find_your_benefactor
+  n_find_your_benefactor --- n_meta_skill
+  n_find_your_benefactor --- n_positive_cycle
+  n_find_your_benefactor --- n_explorer_vs_follower
+  n_find_your_benefactor --- n_mass_production_vs_inheritance
+  n_find_your_benefactor --- n_source_ktchuang_wang_wenhan_be_ready
+  n_find_your_benefactor --- n_ai_era_student_playbook
+  n_find_your_benefactor --- n_career_wealth_and_motivation
+  n_harness_five_subsystems --- n_learn_harness_engineering
+  n_harness_five_subsystems --- n_agent_harness
+  n_harness_five_subsystems --- n_code_as_agent_harness
+  n_harness_five_subsystems --- n_agent_memory
+  n_harness_five_subsystems --- n_harness_engineering
+  n_harness_five_subsystems --- n_source_learn_harness_engineering
+  n_context_degradation --- n_context_engineering
+  n_context_degradation --- n_agent_skills_for_context_engineering
+  n_context_degradation --- n_retrieval_plus_orchestration
+  n_context_degradation --- n_agent_memory
+  n_context_degradation --- n_source_agent_skills_for_context_engineering
+  n_run_towards_hardest_problems --- n_lisa_su
+  n_run_towards_hardest_problems --- n_source_lisa_su_mit_commencement_2026
+  n_run_towards_hardest_problems --- n_task_vs_job
+  n_run_towards_hardest_problems --- n_source_ktchuang_genai_course_reflection
+  n_run_towards_hardest_problems --- n_leadership_wishing_others_success
+  n_run_towards_hardest_problems --- n_jensen_huang
+  n_run_towards_hardest_problems --- n_harvard_llm_clinical_reasoning_study
+  n_run_towards_hardest_problems --- n_ai_second_opinion
+  n_run_towards_hardest_problems --- n_agentic_engineering
+  n_run_towards_hardest_problems --- n_career_wealth_and_motivation
+  n_llm_commoditization_no_moat --- n_gary_marcus
+  n_llm_commoditization_no_moat --- n_source_gary_marcus_llm_toothpaste_2026
+  n_llm_commoditization_no_moat --- n_software_valuation_reset
+  n_llm_commoditization_no_moat --- n_business_development_is_the_moat
+  n_llm_commoditization_no_moat --- n_token_economics
+  n_llm_commoditization_no_moat --- n_multi_agent_cost
+  n_llm_commoditization_no_moat --- n_compute_as_throttle
+  n_llm_commoditization_no_moat --- n_deterministic_vs_foundation_model
+  n_llm_commoditization_no_moat --- n_harness_over_model
+  n_llm_commoditization_no_moat --- n_ai_agent_saas_disruption
+  n_domain_knowledge_leverage --- n_source_bnext_anthropic_vibe_coding
+  n_domain_knowledge_leverage --- n_task_vs_job
+  n_domain_knowledge_leverage --- n_problem_first_not_tech_first
+  n_domain_knowledge_leverage --- n_improve_human_tasks_not_faster_code
+  n_domain_knowledge_leverage --- n_agent_amplifies_taste
+  n_domain_knowledge_leverage --- n_combination_scarcity
+  n_domain_knowledge_leverage --- n_cs_education_ai_agents
+  n_domain_knowledge_leverage --- n_credentialing_erosion
+  n_domain_knowledge_leverage --- n_ai_era_product_development
+  n_domain_knowledge_leverage --- n_meta_skill
+  n_domain_knowledge_leverage --- n_fiona_fung
+  n_domain_knowledge_leverage --- n_anthropic
+  n_domain_knowledge_leverage --- n_claude_code
+  n_domain_knowledge_leverage --- n_ai_era_student_playbook
+  n_retrieval_plus_orchestration --- n_is_grep_all_you_need
+  n_retrieval_plus_orchestration --- n_code_as_agent_harness
+  n_retrieval_plus_orchestration --- n_harness_five_subsystems
+  n_retrieval_plus_orchestration --- n_context_window_management
+  n_retrieval_plus_orchestration --- n_agent_memory
+  n_retrieval_plus_orchestration --- n_harness_engineering
+  n_retrieval_plus_orchestration --- n_agent_harness
+  n_retrieval_plus_orchestration --- n_source_wiselychen_is_grep_all_you_need
+  n_second_opinion_cheatsheet --- n_ai_second_opinion
+  n_second_opinion_cheatsheet --- n_harvard_llm_clinical_reasoning_study
+  n_second_opinion_cheatsheet --- n_cognitive_bias
+  n_second_opinion_cheatsheet --- n_adam_rodman
+  n_second_opinion_cheatsheet --- n_source_ai_second_opinion_prompt
+  n_cost_stack --- n_source_aiase_2026_w8_token_economy
+  n_cost_stack --- n_cloudflare
+  n_cost_stack --- n_agentopt
+  n_cost_stack --- n_lmcache
+  n_cost_stack --- n_headroom
+  n_cost_stack --- n_harness_engineering
+  n_cost_stack --- n_context_engineering
+  n_cost_stack --- n_context_window_management
+  n_cost_stack --- n_retrieval_plus_orchestration
+  n_task_vs_job --- n_benedict_evans
+  n_task_vs_job --- n_source_jevons_coding_task_vs_job
+  n_task_vs_job --- n_cs_education_ai_agents
+  n_task_vs_job --- n_source_ktchuang_genai_course_reflection
+  n_task_vs_job --- n_ai_agent_saas_disruption
+  n_task_vs_job --- n_credit_as_future_resource
+  n_task_vs_job --- n_llm_jaggedness
+  n_task_vs_job --- n_agent_harness
+  n_task_vs_job --- n_career_wealth_and_motivation
+  n_task_vs_job --- n_thinking_depth_over_speed
+  n_task_vs_job --- n_ai_native_service_companies
+  n_incentive_guided_energy --- n_source_nstc_iown_green_ai_proposal
+  n_incentive_guided_energy --- n_energyai
+  n_incentive_guided_energy --- n_transactional_mindset
+  n_incentive_guided_energy --- n_self_education_attention_compounding
+  n_incentive_guided_energy --- n_green_ai_computing
+  n_incentive_guided_energy --- n_source_nstc_energyai_proposal
+  n_ownership_and_autonomy --- n_source_ktchuang_ownership_and_autonomy
+  n_ownership_and_autonomy --- n_meta_skill
+  n_ownership_and_autonomy --- n_trust_and_eq
+  n_ownership_and_autonomy --- n_team_of_excellence
+  n_ownership_and_autonomy --- n_opportunity_adhesion
+  n_ownership_and_autonomy --- n_worth_nurturing
+  n_ownership_and_autonomy --- n_self_education_attention_compounding
+  n_ownership_and_autonomy --- n_high_win_rate_people
+  n_ownership_and_autonomy --- n_ai_era_student_playbook
+  n_ownership_and_autonomy --- n_career_wealth_and_motivation
+  n_mtms_coordination_distillation --- n_source_nstc_iown_green_ai_proposal
+  n_mtms_coordination_distillation --- n_ai_compute_as_dispatchable_load
+  n_mtms_coordination_distillation --- n_multi_agent_cost
+  n_mtms_coordination_distillation --- n_deterministic_vs_foundation_model
+  n_mtms_coordination_distillation --- n_structured_cot
+  n_mtms_coordination_distillation --- n_green_ai_computing
+  n_mtms_coordination_distillation --- n_agent_memory
+  n_mtms_coordination_distillation --- n_six_layer_ai_engineering
+  n_thinking_depth_over_speed --- n_source_taiwan_ai_academy_dev_day_reflection
+  n_thinking_depth_over_speed --- n_claude_code
+  n_thinking_depth_over_speed --- n_mcp
+  n_thinking_depth_over_speed --- n_jevons_paradox
+  n_thinking_depth_over_speed --- n_run_towards_hardest_problems
+  n_thinking_depth_over_speed --- n_ai_agent_saas_disruption
+  n_thinking_depth_over_speed --- n_ai_job_ladder_collapse
+  n_thinking_depth_over_speed --- n_automation_vs_augmentation
+  n_thinking_depth_over_speed --- n_ai_dependence_skill_erosion
+  n_thinking_depth_over_speed --- n_ben_mann
+  n_thinking_depth_over_speed --- n_career_wealth_and_motivation
+  n_self_education_attention_compounding --- n_source_self_education_lifelong_learning_video
+  n_self_education_attention_compounding --- n_ai_dependence_skill_erosion
+  n_self_education_attention_compounding --- n_cognitive_surrender
+  n_self_education_attention_compounding --- n_atomic_habits
+  n_self_education_attention_compounding --- n_thinking_depth_over_speed
+  n_self_education_attention_compounding --- n_trial_and_error_velocity
+  n_self_education_attention_compounding --- n_five_types_of_wealth
+  n_self_education_attention_compounding --- n_transactional_mindset
+  n_self_education_attention_compounding --- n_positive_cycle
+  n_self_education_attention_compounding --- n_meta_skill
+  n_self_education_attention_compounding --- n_ai_era_student_playbook
+  n_self_education_attention_compounding --- n_career_wealth_and_motivation
+  n_iterations_not_hours --- n_source_naval_iterations_not_hours
+  n_iterations_not_hours --- n_trial_and_error_velocity
+  n_iterations_not_hours --- n_loop_engineering
+  n_iterations_not_hours --- n_eval_driven_development
+  n_iterations_not_hours --- n_self_education_attention_compounding
+  n_iterations_not_hours --- n_learning_to_learn
+  n_iterations_not_hours --- n_from_code_to_human_problems
+  n_iterations_not_hours --- n_recursive_self_improvement
+  n_iterations_not_hours --- n_ai_era_student_playbook
+  n_iterations_not_hours --- n_career_wealth_and_motivation
+  n_workflow_engineering --- n_source_six_layer_ai_engineering
+  n_workflow_engineering --- n_agentic_software_delivery
+  n_workflow_engineering --- n_multi_agent_cost
+  n_workflow_engineering --- n_agentopt
+  n_workflow_engineering --- n_harness_five_subsystems
+  n_workflow_engineering --- n_mechanism_over_prompt
+  n_workflow_engineering --- n_task_vs_job
+  n_workflow_engineering --- n_improve_human_tasks_not_faster_code
+  n_workflow_engineering --- n_six_layer_ai_engineering
+  n_workflow_engineering --- n_loop_engineering
+  n_workflow_engineering --- n_harness_engineering
+  n_llm_jaggedness --- n_andrej_karpathy
+  n_llm_jaggedness --- n_source_ktchuang_genai_course_reflection
+  n_llm_jaggedness --- n_agent_harness
+  n_llm_jaggedness --- n_source_karpathy_sequoia_ascent_2026
+  n_go_to_sea --- n_source_ktchuang_go_to_sea
+  n_go_to_sea --- n_chien_lee_feng
+  n_go_to_sea --- n_source_ai_exploration_sailors_anthropic
+  n_go_to_sea --- n_anthropic
+  n_go_to_sea --- n_andrej_karpathy
+  n_go_to_sea --- n_train_vs_ocean_american_dream
+  n_go_to_sea --- n_run_towards_hardest_problems
+  n_go_to_sea --- n_ai_job_ladder_collapse
+  n_go_to_sea --- n_task_vs_job
+  n_go_to_sea --- n_meta_skill
+  n_go_to_sea --- n_career_wealth_and_motivation
+  n_taste_resists_verification --- n_source_ktchuang_grade_adjustment_letter
+  n_taste_resists_verification --- n_harness_over_model
+  n_taste_resists_verification --- n_token_economics
+  n_taste_resists_verification --- n_agent_skill_security
+  n_taste_resists_verification --- n_context_window_management
+  n_taste_resists_verification --- n_eval_driven_development
+  n_taste_resists_verification --- n_model_fusion
+  n_taste_resists_verification --- n_llm_jaggedness
+  n_taste_resists_verification --- n_tacit_knowledge
+  n_taste_resists_verification --- n_deterministic_vs_foundation_model
+  n_taste_resists_verification --- n_agent_amplifies_taste
+  n_taste_resists_verification --- n_credentialing_erosion
+  n_taste_resists_verification --- n_ai_native_learning_attitude
+  n_taste_resists_verification --- n_generosity_over_genius
+  n_taste_resists_verification --- n_harness_engineering
+  n_taste_resists_verification --- n_ai_era_student_playbook
+  n_service_before_leadership --- n_source_ktchuang_service_before_leadership
+  n_service_before_leadership --- n_source_ktchuang_meta_skill_rabbit
+  n_service_before_leadership --- n_source_ktchuang_altruism_undistillable
+  n_service_before_leadership --- n_ai_native_org_structure
+  n_service_before_leadership --- n_credit_as_future_resource
+  n_service_before_leadership --- n_five_types_of_wealth
+  n_service_before_leadership --- n_tacit_knowledge
+  n_service_before_leadership --- n_career_wealth_and_motivation
+  n_service_before_leadership --- n_source_ktchuang_ship_and_share
+  n_agent_memory --- n_code_as_agent_harness
+  n_agent_memory --- n_evolvemem
+  n_agent_memory --- n_everything_claude_code
+  n_agent_memory --- n_context_window_management
+  n_agent_memory --- n_is_grep_all_you_need
+  n_agent_memory --- n_agent_harness
+  n_agent_memory --- n_agent_skills_for_context_engineering
+  n_agent_memory --- n_context_engineering
+  n_agent_memory --- n_source_evolvemem
+  n_agent_memory --- n_source_code_as_agent_harness
+  n_positive_cycle --- n_source_ktchuang_positive_cycle_final_words
+  n_positive_cycle --- n_service_before_leadership
+  n_positive_cycle --- n_meta_skill
+  n_positive_cycle --- n_tacit_knowledge
+  n_positive_cycle --- n_five_types_of_wealth
+  n_positive_cycle --- n_ai_era_student_playbook
+  n_positive_cycle --- n_career_wealth_and_motivation
+  n_employer_absolute_market --- n_source_ktchuang_employer_absolute_market
+  n_employer_absolute_market --- n_ai_amplifier_effect
+  n_employer_absolute_market --- n_gun_to_rocket_launcher
+  n_employer_absolute_market --- n_team_of_excellence
+  n_employer_absolute_market --- n_worth_nurturing
+  n_employer_absolute_market --- n_high_win_rate_people
+  n_employer_absolute_market --- n_opportunity_adhesion
+  n_employer_absolute_market --- n_find_your_benefactor
+  n_employer_absolute_market --- n_transactional_mindset
+  n_employer_absolute_market --- n_taking_on_responsibility
+  n_employer_absolute_market --- n_trial_and_error_velocity
+  n_employer_absolute_market --- n_ai_job_ladder_collapse
+  n_employer_absolute_market --- n_career_wealth_and_motivation
+  n_employer_absolute_market --- n_ai_era_student_playbook
+  n_context_engineering --- n_agent_skills_for_context_engineering
+  n_context_engineering --- n_source_bnext_context_engineering
+  n_context_engineering --- n_mechanism_over_prompt
+  n_context_engineering --- n_agent_harness
+  n_context_engineering --- n_harness_engineering
+  n_context_engineering --- n_retrieval_plus_orchestration
+  n_context_engineering --- n_six_layer_ai_engineering
+  n_context_engineering --- n_tool_engineering
+  n_context_engineering --- n_source_agent_skills_for_context_engineering
+  n_trial_and_error_velocity --- n_source_ktchuang_trial_and_error_velocity
+  n_trial_and_error_velocity --- n_trust_and_eq
+  n_trial_and_error_velocity --- n_ai_amplifier_effect
+  n_trial_and_error_velocity --- n_gun_to_rocket_launcher
+  n_trial_and_error_velocity --- n_transactional_mindset
+  n_trial_and_error_velocity --- n_run_towards_hardest_problems
+  n_trial_and_error_velocity --- n_learning_to_learn
+  n_trial_and_error_velocity --- n_from_code_to_human_problems
+  n_trial_and_error_velocity --- n_thinking_depth_over_speed
+  n_trial_and_error_velocity --- n_worth_nurturing
+  n_trial_and_error_velocity --- n_ai_era_student_playbook
+  n_improve_human_tasks_not_faster_code --- n_source_ktchuang_software_value_japan_manufacturing
+  n_improve_human_tasks_not_faster_code --- n_task_vs_job
+  n_improve_human_tasks_not_faster_code --- n_from_code_to_human_problems
+  n_improve_human_tasks_not_faster_code --- n_positional_ai_leverage
+  n_improve_human_tasks_not_faster_code --- n_gun_to_rocket_launcher
+  n_improve_human_tasks_not_faster_code --- n_compute_as_throttle
+  n_improve_human_tasks_not_faster_code --- n_ai_layoff_trap
+  n_improve_human_tasks_not_faster_code --- n_team_of_excellence
+  n_improve_human_tasks_not_faster_code --- n_trust_and_eq
+  n_improve_human_tasks_not_faster_code --- n_mass_production_vs_inheritance
+  n_improve_human_tasks_not_faster_code --- n_ai_era_student_playbook
+  n_combination_scarcity --- n_source_wiselychen_jack_of_all_trades
+  n_combination_scarcity --- n_ai_job_ladder_collapse
+  n_combination_scarcity --- n_coding_as_proxy_for_thinking
+  n_combination_scarcity --- n_ai_native_service_companies
+  n_combination_scarcity --- n_meta_skill
+  n_combination_scarcity --- n_task_vs_job
+  n_combination_scarcity --- n_gun_to_rocket_launcher
+  n_combination_scarcity --- n_wisely_chen
+  n_combination_scarcity --- n_explorer_vs_follower
+  n_combination_scarcity --- n_tacit_knowledge
+  n_combination_scarcity --- n_career_wealth_and_motivation
+  n_agent_harness --- n_code_as_agent_harness
+  n_agent_harness --- n_source_ktchuang_genai_course_reflection
+  n_agent_harness --- n_learn_harness_engineering
+  n_agent_harness --- n_harness_engineering
+  n_agent_harness --- n_context_window_management
+  n_agent_harness --- n_evolvemem
+  n_agent_harness --- n_source_code_as_agent_harness
+  n_loop_engineering --- n_source_six_layer_ai_engineering
+  n_loop_engineering --- n_eval_driven_development
+  n_loop_engineering --- n_verifiability_mindset
+  n_loop_engineering --- n_token_economics
+  n_loop_engineering --- n_recursive_self_improvement
+  n_loop_engineering --- n_agentic_engineering
+  n_loop_engineering --- n_autoresearch
+  n_loop_engineering --- n_six_layer_ai_engineering
+  n_loop_engineering --- n_trustworthy_systems_with_agents
+  n_mechanism_over_prompt --- n_source_wiselychen_mechanism_not_prompt
+  n_mechanism_over_prompt --- n_agent_harness
+  n_mechanism_over_prompt --- n_harness_five_subsystems
+  n_mechanism_over_prompt --- n_claude_code_config_primitives
+  n_mechanism_over_prompt --- n_harness_engineering
+  n_mechanism_over_prompt --- n_is_grep_all_you_need
+  n_mechanism_over_prompt --- n_verifiability_mindset
+  n_mechanism_over_prompt --- n_skill_vs_subagent
+  n_mechanism_over_prompt --- n_agentic_stack
+  n_mechanism_over_prompt --- n_pi_framework
+  n_mechanism_over_prompt --- n_token_economics
+  n_mechanism_over_prompt --- n_structured_cot
+  n_mechanism_over_prompt --- n_skillspector
+  n_mechanism_over_prompt --- n_wisely_chen
+  n_tsai_chi_yen --- n_source_bnext_taiwan_ai_open_source
+  n_tsai_chi_yen --- n_business_development_is_the_moat
+  n_tsai_chi_yen --- n_justin_mclean
+  n_tsai_chi_yen --- n_tsai_chia_ping
+  n_affaan_m --- n_everything_claude_code
+  n_affaan_m --- n_claude_code
+  n_affaan_m --- n_anthropic
+  n_affaan_m --- n_source_everything_claude_code_readme
+  n_elon_musk --- n_source_musk_programming_as_friction
+  n_elon_musk --- n_source_ceo_relentless_first_principles
+  n_elon_musk --- n_directing_ai_not_executing
+  n_elon_musk --- n_jensen_huang
+  n_adam_rodman --- n_harvard_llm_clinical_reasoning_study
+  n_adam_rodman --- n_ai_second_opinion
+  n_adam_rodman --- n_source_ai_second_opinion_prompt
+  n_anthropic --- n_claude_code
+  n_anthropic --- n_ben_mann
+  n_anthropic --- n_cat_wu
+  n_anthropic --- n_source_microsoft_suleyman_anthropic_too_expensive
+  n_anthropic --- n_microsoft
+  n_anthropic --- n_mustafa_suleyman
+  n_anthropic --- n_boris_cherny
+  n_anthropic --- n_ai_agent_saas_disruption
+  n_anthropic --- n_source_boris_cherny_ai_agent_saas
+  n_claude_code --- n_boris_cherny
+  n_claude_code --- n_ai_agent_saas_disruption
+  n_claude_code --- n_cs_education_ai_agents
+  n_claude_code --- n_everything_claude_code
+  n_claude_code --- n_understand_anything
+  n_claude_code --- n_source_boris_cherny_ai_agent_saas
+  n_wang_poda --- n_sahil_bloom
+  n_wang_poda --- n_source_wang_poda_five_types_wealth
+  n_evolvemem --- n_code_as_agent_harness
+  n_evolvemem --- n_source_ktchuang_genai_course_reflection
+  n_evolvemem --- n_harness_engineering
+  n_evolvemem --- n_evoembedding
+  n_evolvemem --- n_source_evolvemem
+  n_evoembedding --- n_agent_memory
+  n_evoembedding --- n_retrieval_plus_orchestration
+  n_evoembedding --- n_context_engineering
+  n_evoembedding --- n_source_evoembedding
+  n_harvard_llm_clinical_reasoning_study --- n_ai_second_opinion
+  n_harvard_llm_clinical_reasoning_study --- n_source_ai_second_opinion_prompt
+  n_learn_harness_engineering --- n_code_as_agent_harness
+  n_learn_harness_engineering --- n_claude_code_config_primitives
+  n_learn_harness_engineering --- n_karpathy_llm_wiki
+  n_learn_harness_engineering --- n_harness_engineering
+  n_learn_harness_engineering --- n_source_learn_harness_engineering
+  n_jack_c_sung --- n_source_jack_sung_american_dream
+  n_lmcache --- n_token_economics
+  n_lmcache --- n_headroom
+  n_lmcache --- n_context_engineering
+  n_lmcache --- n_context_window_management
+  n_lmcache --- n_agent_memory
+  n_lmcache --- n_green_ai_computing
+  n_lmcache --- n_ai_compute_as_dispatchable_load
+  n_lmcache --- n_skillspector
+  n_lmcache --- n_graphify
+  n_lmcache --- n_openmed
+  n_lmcache --- n_source_lmcache
+  n_amd --- n_lisa_su
+  n_amd --- n_source_computex_2026_nvidia_amd
+  n_amd --- n_nvidia
+  n_amd --- n_computex_2026_nvidia_amd
+  n_amd --- n_source_lisa_su_mit_commencement_2026
+  n_gstack --- n_claude_code
+  n_gstack --- n_source_aiase_2026_w7_agentic_stack
+  n_gstack --- n_autoresearch
+  n_gstack --- n_agentic_stack
+  n_gstack --- n_context_engineering
+  n_pi_framework --- n_source_aiase_2026_w7_agentic_stack
+  n_pi_framework --- n_context_engineering
+  n_pi_framework --- n_claude_code
+  n_pi_framework --- n_agentic_stack
+  n_pi_framework --- n_verifiability_mindset
+  n_pi_framework --- n_gemma_4
+  n_pi_framework --- n_agent_harness
+  n_openmed --- n_ai_second_opinion
+  n_openmed --- n_harvard_llm_clinical_reasoning_study
+  n_openmed --- n_adam_rodman
+  n_openmed --- n_deterministic_vs_foundation_model
+  n_openmed --- n_directing_ai_not_executing
+  n_openmed --- n_source_openmed
+  n_stanford_sdel_canaries --- n_source_aiase_2026_w7_agentic_stack
+  n_stanford_sdel_canaries --- n_tacit_knowledge
+  n_stanford_sdel_canaries --- n_automation_vs_augmentation
+  n_stanford_sdel_canaries --- n_career_wealth_and_motivation
+  n_stanford_sdel_canaries --- n_task_vs_job
+  n_atomic_habits --- n_source_executive_career_burnout
+  n_nathan_chiu --- n_cs_education_ai_agents
+  n_nathan_chiu --- n_source_nathan_chiu_cs_education_ai
+  n_tsai_chia_ping --- n_source_bnext_taiwan_ai_open_source
+  n_tsai_chia_ping --- n_justin_mclean
+  n_chien_lee_feng --- n_source_bnext_chien_lack_of_urgency
+  n_iown --- n_source_nstc_iown_green_ai_proposal
+  n_iown --- n_green_ai_computing
+  n_iown --- n_compute_as_throttle
+  n_iown --- n_token_economics
+  n_skillspector --- n_nvidia
+  n_skillspector --- n_trustworthy_systems_with_agents
+  n_skillspector --- n_verifiability_mindset
+  n_skillspector --- n_mcp
+  n_skillspector --- n_claude_code_config_primitives
+  n_skillspector --- n_graphify
+  n_skillspector --- n_headroom
+  n_skillspector --- n_source_skillspector
+  n_jensen_huang --- n_nvidia
+  n_jensen_huang --- n_source_jensen_huang_leadership_summit
+  n_jensen_huang --- n_source_computex_2026_nvidia_amd
+  n_jensen_huang --- n_source_jensen_generosity_summit
+  n_jensen_huang --- n_source_ceo_relentless_first_principles
+  n_jensen_huang --- n_sega_cheng
+  n_jensen_huang --- n_lisa_su
+  n_jensen_huang --- n_ai_agent_saas_disruption
+  n_jensen_huang --- n_computex_2026_nvidia_amd
+  n_boris_cherny --- n_ai_agent_saas_disruption
+  n_boris_cherny --- n_source_boris_cherny_ai_agent_saas
+  n_sahil_bloom --- n_source_wang_poda_five_types_wealth
+  n_gary_marcus --- n_nvidia
+  n_gary_marcus --- n_source_gary_marcus_llm_toothpaste_2026
+  n_gary_marcus --- n_llm_jaggedness
+  n_gary_marcus --- n_deterministic_vs_foundation_model
+  n_gary_marcus --- n_software_valuation_reset
+  n_gary_marcus --- n_business_development_is_the_moat
+  n_gary_marcus --- n_cognitive_surrender
+  n_gary_marcus --- n_cognitive_bias
+  n_gary_marcus --- n_mustafa_suleyman
+  n_gary_marcus --- n_harness_over_model
+  n_gary_marcus --- n_model_fusion
+  n_gary_marcus --- n_multi_agent_cost
+  n_muratcan_koylan --- n_agent_skills_for_context_engineering
+  n_muratcan_koylan --- n_context_engineering
+  n_muratcan_koylan --- n_source_agent_skills_for_context_engineering
+  n_sega_cheng --- n_source_ikala_sega_ai_agent_era_2026
+  n_sega_cheng --- n_ai_agent_saas_disruption
+  n_sega_cheng --- n_cs_education_ai_agents
+  n_sega_cheng --- n_source_sega_cheng_rsi_ai_writes_itself
+  n_sega_cheng --- n_task_vs_job
+  n_sega_cheng --- n_anthropic
+  n_agent_skills_for_context_engineering --- n_agent_harness
+  n_agent_skills_for_context_engineering --- n_claude_code_config_primitives
+  n_agent_skills_for_context_engineering --- n_everything_claude_code
+  n_agent_skills_for_context_engineering --- n_learn_harness_engineering
+  n_agent_skills_for_context_engineering --- n_harness_engineering
+  n_agent_skills_for_context_engineering --- n_code_as_agent_harness
+  n_agent_skills_for_context_engineering --- n_source_agent_skills_for_context_engineering
+  n_timesfm --- n_gemma_4
+  n_timesfm --- n_source_aiase_deterministic_vs_foundation_model
+  n_wikita --- n_automation_vs_augmentation
+  n_wikita --- n_task_vs_job
+  n_wikita --- n_ai_dependence_skill_erosion
+  n_wikita --- n_cognitive_surrender
+  n_wikita --- n_dan_garcia
+  n_wikita --- n_educate_not_ban
+  n_wikita --- n_mass_production_vs_inheritance
+  n_wikita --- n_pursuit_of_excellence
+  n_wikita --- n_learning_to_learn
+  n_wikita --- n_karpathy_llm_wiki
+  n_wikita --- n_agent_amplifies_taste
+  n_wikita --- n_cs_education_ai_agents
+  n_wikita --- n_ai_era_student_playbook
+  n_is_grep_all_you_need --- n_claude_code
+  n_is_grep_all_you_need --- n_wisely_chen
+  n_is_grep_all_you_need --- n_source_wiselychen_is_grep_all_you_need
+  n_is_grep_all_you_need --- n_code_as_agent_harness
+  n_is_grep_all_you_need --- n_evolvemem
+  n_is_grep_all_you_need --- n_context_window_management
+  n_is_grep_all_you_need --- n_agent_harness
+  n_justin_mclean --- n_source_bnext_taiwan_ai_open_source
+  n_mustafa_suleyman --- n_microsoft
+  n_mustafa_suleyman --- n_source_microsoft_suleyman_anthropic_too_expensive
+  n_mustafa_suleyman --- n_source_gary_marcus_llm_toothpaste_2026
+  n_mustafa_suleyman --- n_over_attribution_of_intelligence
+  n_headroom --- n_context_engineering
+  n_headroom --- n_context_window_management
+  n_headroom --- n_context_degradation
+  n_headroom --- n_jevons_paradox
+  n_headroom --- n_mcp
+  n_headroom --- n_graphify
+  n_headroom --- n_source_headroom
+  n_benedict_evans --- n_source_jevons_coding_task_vs_job
+  n_everything_claude_code --- n_agentic_engineering
+  n_everything_claude_code --- n_understand_anything
+  n_everything_claude_code --- n_source_everything_claude_code_readme
+  n_wisely_chen --- n_retrieval_plus_orchestration
+  n_wisely_chen --- n_source_wiselychen_is_grep_all_you_need
+  n_wisely_chen --- n_source_wiselychen_mechanism_not_prompt
+  n_wisely_chen --- n_source_wiselychen_jack_of_all_trades
+  n_wisely_chen --- n_source_wiselychen_ai_worker_position
+  n_wisely_chen --- n_harness_engineering
+  n_microsoft --- n_source_microsoft_suleyman_anthropic_too_expensive
+  n_nvidia --- n_source_computex_2026_nvidia_amd
+  n_nvidia --- n_source_jensen_huang_leadership_summit
+  n_nvidia --- n_computex_2026_nvidia_amd
+  n_fiona_fung --- n_anthropic
+  n_fiona_fung --- n_source_lenny_fiona_fung_ai_native_eng
+  n_fiona_fung --- n_ai_dependence_skill_erosion
+  n_fiona_fung --- n_boris_cherny
+  n_fiona_fung --- n_cat_wu
+  n_fiona_fung --- n_ai_era_product_development
+  n_charlie_warren --- n_ai_native_service_companies
+  n_charlie_warren --- n_source_yc_ai_native_services_playbook
+  n_charlie_warren --- n_ai_agent_saas_disruption
+  n_cloudflare --- n_source_cloudflare_bots_surpass_humans
+  n_cloudflare --- n_source_aiase_2026_w8_token_economy
+  n_cloudflare --- n_token_economics
+  n_cloudflare --- n_agentic_engineering
+  n_cloudflare --- n_ai_agent_saas_disruption
+  n_cat_wu --- n_claude_code
+  n_cat_wu --- n_source_catwu_claude_code_pm_9_truths
+  n_cat_wu --- n_spec_driven_development
+  n_cat_wu --- n_mechanism_over_prompt
+  n_cat_wu --- n_boris_cherny
+  n_understand_anything --- n_lum1104
+  n_understand_anything --- n_graphify
+  n_understand_anything --- n_claude_code_config_primitives
+  n_understand_anything --- n_source_understand_anything_readme
+  n_dan_garcia --- n_source_berkeley_cs_ai_failing_grades
+  n_dan_garcia --- n_cs_education_ai_agents
+  n_graphify --- n_karpathy_llm_wiki
+  n_graphify --- n_agent_memory
+  n_graphify --- n_agentic_software_delivery
+  n_graphify --- n_token_economics
+  n_graphify --- n_retrieval_plus_orchestration
+  n_graphify --- n_source_graphify
+  n_graphify --- n_mcp
+  n_agentopt --- n_source_aiase_2026_w8_token_economy
+  n_agentopt --- n_verifiability_mindset
+  n_agentopt --- n_harness_engineering
+  n_agentopt --- n_claude_code
+  n_ben_mann --- n_source_taiwan_ai_academy_dev_day_reflection
+  n_ben_mann --- n_ai_job_ladder_collapse
+  n_ben_mann --- n_source_ktchuang_explorer_vs_follower
+  n_ben_mann --- n_ai_native_org_structure
+  n_ben_mann --- n_claude_code
+  n_vincent_cw_yu --- n_source_vincent_yu_credit_future_resources
+  n_lum1104 --- n_source_understand_anything_readme
+  n_code_as_agent_harness --- n_source_ktchuang_genai_course_reflection
+  n_code_as_agent_harness --- n_agentic_engineering
+  n_code_as_agent_harness --- n_claude_code
+  n_code_as_agent_harness --- n_claude_code_config_primitives
+  n_code_as_agent_harness --- n_harness_engineering
+  n_code_as_agent_harness --- n_source_code_as_agent_harness
+  n_lisa_su --- n_source_lisa_su_mit_commencement_2026
+  n_lisa_su --- n_source_computex_2026_nvidia_amd
+  n_lisa_su --- n_task_vs_job
+  n_lisa_su --- n_computex_2026_nvidia_amd
+  n_autoresearch --- n_andrej_karpathy
+  n_autoresearch --- n_source_aiase_2026_w7_agentic_stack
+  n_autoresearch --- n_agent_harness
+  n_autoresearch --- n_spec_driven_development
+  n_autoresearch --- n_verifiability_mindset
+  n_autoresearch --- n_agentic_stack
+  n_autoresearch --- n_eval_driven_development
+  n_gemma_4 --- n_agentic_engineering
+  n_gemma_4 --- n_agent_harness
+  n_gemma_4 --- n_agent_skills_for_context_engineering
+  n_gemma_4 --- n_source_aiase_2026_w7_agentic_stack
+  n_gemma_4 --- n_agentic_stack
+  n_gemma_4 --- n_source_rar_gemma_4
+  n_andrej_karpathy --- n_source_karpathy_sequoia_ascent_2026
+  n_andrej_karpathy --- n_source_aiase_2026_w7_agentic_stack
+  n_andrej_karpathy --- n_agentic_stack
+  n_andrej_karpathy --- n_source_ai_exploration_sailors_anthropic
+  n_andrej_karpathy --- n_anthropic
+  n_harness_engineering --- n_source_ktchuang_genai_course_reflection
+  n_harness_engineering --- n_claude_code_config_primitives
+  n_harness_engineering --- n_everything_claude_code
+  n_harness_engineering --- n_is_grep_all_you_need
+  n_harness_engineering --- n_agent_memory
+  n_harness_engineering --- n_context_degradation
+  n_harness_engineering --- n_agentic_engineering
+  n_harness_engineering --- n_source_karpathy_sequoia_ascent_2026
+  n_harness_engineering --- n_karpathy_llm_wiki
+  n_harness_engineering --- n_source_aiase_2026_w8_token_economy
+  n_harness_engineering --- n_six_layer_ai_engineering
+  n_harness_engineering --- n_tool_engineering
+  n_harness_engineering --- n_loop_engineering
+  n_harness_engineering --- n_context_window_management
+  n_harness_engineering --- n_ai_agent_saas_disruption
+  n_lab_onboarding_backend_edge --- n_learning_to_learn
+  n_lab_onboarding_backend_edge --- n_energyai
+  n_lab_onboarding_backend_edge --- n_green_ai_computing
+  n_lab_onboarding_backend_edge --- n_mtms_coordination_distillation
+  n_lab_onboarding_backend_edge --- n_ai_compute_as_dispatchable_load
+  n_lab_onboarding_backend_edge --- n_trial_and_error_velocity
+  n_lab_onboarding_backend_edge --- n_from_code_to_human_problems
+  n_lab_onboarding_backend_edge --- n_agent_amplifies_taste
+  n_lab_onboarding_backend_edge --- n_cognitive_surrender
+  n_lab_onboarding_backend_edge --- n_directing_ai_not_executing
+  n_lab_onboarding_backend_edge --- n_tool_engineering
+  n_lab_onboarding_backend_edge --- n_problem_first_not_tech_first
+  n_lab_onboarding_backend_edge --- n_research_meeting_communication
+  n_lab_onboarding_backend_edge --- n_service_before_leadership
+  n_lab_onboarding_backend_edge --- n_high_win_rate_people
+  n_lab_onboarding_backend_edge --- n_incentive_guided_energy
+  n_lab_onboarding_backend_edge --- n_wikita
+  n_lab_onboarding_backend_edge --- n_self_education_attention_compounding
+  n_lab_onboarding_backend_edge --- n_six_layer_ai_engineering
+  n_lab_onboarding_backend_edge --- n_taking_on_responsibility
+  n_lab_onboarding_backend_edge --- n_source_nstc_energyai_proposal
+  n_lab_onboarding_backend_edge --- n_source_nstc_iown_green_ai_proposal
+  n_career_wealth_and_motivation --- n_harness_engineering
+  n_career_wealth_and_motivation --- n_jevons_paradox
+  n_career_wealth_and_motivation --- n_train_vs_ocean_american_dream
+  n_career_wealth_and_motivation --- n_jack_c_sung
+  n_career_wealth_and_motivation --- n_vincent_cw_yu
+  n_career_wealth_and_motivation --- n_sahil_bloom
+  n_career_wealth_and_motivation --- n_wang_poda
+  n_career_wealth_and_motivation --- n_jensen_huang
+  n_career_wealth_and_motivation --- n_lisa_su
+  n_career_wealth_and_motivation --- n_agentic_engineering
+  n_career_wealth_and_motivation --- n_ai_agent_saas_disruption
+  n_career_wealth_and_motivation --- n_cs_education_ai_agents
+  n_career_wealth_and_motivation --- n_source_ktchuang_genai_course_reflection
+  n_career_wealth_and_motivation --- n_benedict_evans
+  n_career_wealth_and_motivation --- n_atomic_habits
+  n_career_wealth_and_motivation --- n_ai_era_student_playbook
+  n_career_wealth_and_motivation --- n_agentic_stack
+  n_career_wealth_and_motivation --- n_ai_native_service_companies
+  n_ai_agent_saas_disruption --- n_source_taiwan_ai_academy_dev_day_reflection
+  n_ai_agent_saas_disruption --- n_mcp
+  n_ai_agent_saas_disruption --- n_ai_native_service_companies
+  n_ai_agent_saas_disruption --- n_ai_operating_leverage
+  n_ai_agent_saas_disruption --- n_source_cloudflare_bots_surpass_humans
+  n_ai_agent_saas_disruption --- n_source_ikala_sega_ai_agent_era_2026
+  n_ai_agent_saas_disruption --- n_cs_education_ai_agents
+  n_ai_agent_saas_disruption --- n_ben_mann
+  n_ai_agent_saas_disruption --- n_ai_amplifier_effect
+  n_ai_agent_saas_disruption --- n_source_boris_cherny_ai_agent_saas
+  n_ai_agent_saas_disruption --- n_source_yc_ai_native_services_playbook
+  n_ai_era_student_playbook --- n_harness_engineering
+  n_ai_era_student_playbook --- n_token_economics
+  n_ai_era_student_playbook --- n_agentic_stack
+  n_ai_era_student_playbook --- n_gun_to_rocket_launcher
+  n_ai_era_student_playbook --- n_coding_as_proxy_for_thinking
+  n_ai_era_student_playbook --- n_ai_job_ladder_collapse
+  n_ai_era_student_playbook --- n_zero_to_one_vs_one_to_hundred
+  n_ai_era_student_playbook --- n_explorer_vs_follower
+  n_ai_era_student_playbook --- n_go_to_sea
+  n_ai_era_student_playbook --- n_combination_scarcity
+  n_ai_era_student_playbook --- n_ai_native_org_structure
+  n_ai_era_student_playbook --- n_meta_skill
+  n_ai_era_student_playbook --- n_tacit_knowledge
+  n_ai_era_student_playbook --- n_worth_nurturing
+  n_ai_era_student_playbook --- n_service_before_leadership
+  n_ai_era_student_playbook --- n_high_win_rate_people
+  n_ai_era_student_playbook --- n_from_code_to_human_problems
+  n_ai_era_student_playbook --- n_cs_education_ai_agents
+  n_ai_era_student_playbook --- n_nathan_chiu
+  n_ai_era_student_playbook --- n_ai_dependence_skill_erosion
+  n_ai_era_student_playbook --- n_mass_production_vs_inheritance
+  n_ai_era_student_playbook --- n_llm_routing
+  n_ai_era_student_playbook --- n_agent_memory
+  n_ai_era_student_playbook --- n_mechanism_over_prompt
+  n_ai_era_student_playbook --- n_task_vs_job
+  n_ai_era_student_playbook --- n_jevons_paradox
+  n_ai_era_student_playbook --- n_thinking_depth_over_speed
+  n_ai_era_student_playbook --- n_leadership_wishing_others_success
+  n_ai_era_student_playbook --- n_ai_agent_saas_disruption
+  n_ai_era_student_playbook --- n_ai_native_service_companies
+  n_computex_2026_nvidia_amd --- n_source_computex_2026_nvidia_amd
+  n_computex_2026_nvidia_amd --- n_agentic_engineering
+  n_computex_2026_nvidia_amd --- n_deterministic_vs_foundation_model
+  n_computex_2026_nvidia_amd --- n_leadership_wishing_others_success
+  n_computex_2026_nvidia_amd --- n_run_towards_hardest_problems
+  n_ai_second_opinion --- n_source_ai_second_opinion_prompt
+  n_cs_education_ai_agents --- n_source_ktchuang_cs_education_all_in_ai
+  n_cs_education_ai_agents --- n_anthropic
+  n_cs_education_ai_agents --- n_source_berkeley_cs_ai_failing_grades
+  n_cs_education_ai_agents --- n_source_ikala_sega_ai_agent_era_2026
+  n_cs_education_ai_agents --- n_explorer_vs_follower
+  n_cs_education_ai_agents --- n_source_nathan_chiu_cs_education_ai
+  n_six_layer_ai_engineering --- n_source_six_layer_ai_engineering
+  n_six_layer_ai_engineering --- n_context_window_management
+  n_six_layer_ai_engineering --- n_context_degradation
+  n_six_layer_ai_engineering --- n_agent_memory
+  n_six_layer_ai_engineering --- n_mcp
+  n_six_layer_ai_engineering --- n_agent_harness
+  n_six_layer_ai_engineering --- n_harness_five_subsystems
+  n_six_layer_ai_engineering --- n_mechanism_over_prompt
+  n_six_layer_ai_engineering --- n_verifiability_mindset
+  n_six_layer_ai_engineering --- n_eval_driven_development
+  n_six_layer_ai_engineering --- n_trustworthy_systems_with_agents
+  n_six_layer_ai_engineering --- n_token_economics
+  n_six_layer_ai_engineering --- n_cost_stack
+  n_six_layer_ai_engineering --- n_agentic_stack
+  n_six_layer_ai_engineering --- n_agentic_software_delivery
+  n_six_layer_ai_engineering --- n_cs_education_ai_agents
+  n_six_layer_ai_engineering --- n_ai_era_student_playbook
+  n_energyai --- n_source_nstc_energyai_proposal
+  n_energyai --- n_green_ai_computing
+  n_energyai --- n_iown
+  n_green_ai_computing --- n_source_nstc_iown_green_ai_proposal
+  n_green_ai_computing --- n_llm_routing
+  n_green_ai_computing --- n_multi_agent_cost
+  n_green_ai_computing --- n_structured_cot
+  n_green_ai_computing --- n_deterministic_vs_foundation_model
+  n_green_ai_computing --- n_cost_stack
+  n_green_ai_computing --- n_jevons_paradox
+  n_green_ai_computing --- n_compute_as_throttle
+  n_green_ai_computing --- n_recursive_self_improvement
+  n_green_ai_computing --- n_harness_engineering
+  n_agentic_stack --- n_source_aiase_2026_w7_agentic_stack
+  n_agentic_stack --- n_harness_engineering
+  n_agentic_stack --- n_context_engineering
+  n_agentic_stack --- n_agent_harness
+  n_agentic_stack --- n_verifiability_mindset
+  n_agentic_stack --- n_claude_code
+  n_agentic_stack --- n_spec_driven_development
+  n_agentic_stack --- n_eval_driven_development
+  n_ai_native_service_companies --- n_source_yc_ai_native_services_playbook
+  n_ai_native_service_companies --- n_automation_vs_augmentation
+  n_ai_native_service_companies --- n_thinking_depth_over_speed
+  n_ai_native_service_companies --- n_source_ktchuang_think_big_service_as_software
+  n_ai_native_service_companies --- n_explorer_vs_follower
+  n_ai_native_service_companies --- n_jevons_paradox
+  classDef concept fill:#4C9AFF,stroke:#333,color:#fff;
+  classDef entity fill:#F5A623,stroke:#333,color:#000;
+  classDef topic fill:#7ED321,stroke:#333,color:#000;
+  classDef source fill:#B8B8B8,stroke:#333,color:#000;
+  classDef missing fill:#C0392B,stroke:#333,color:#fff,stroke-dasharray: 4 4;
+```
